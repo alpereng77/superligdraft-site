@@ -1,0 +1,217 @@
+{
+    "roomCode": "VJRZVX",
+    "maxPlayers": 2,
+    "status": "finished",
+    "players": [
+        {
+            "username": "O\u00e7alperen",
+            "ready": true,
+            "rating": 83,
+            "formation": "5-3-2",
+            "squad": [
+                {
+                    "name": "Dominik Livakovic",
+                    "position": "GK",
+                    "market_value": "11.00 mil. \u20ac",
+                    "market_value_numeric": 11000000,
+                    "rating": 86
+                },
+                {
+                    "name": "Sabri Sar\u0131o\u011flu",
+                    "position": "DF",
+                    "market_value": "5.40 mil. \u20ac",
+                    "market_value_numeric": 5400000,
+                    "rating": 85
+                },
+                {
+                    "name": "Roman Kratochv\u00edl",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 77
+                },
+                {
+                    "name": "Rigobert Song",
+                    "position": "DF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 85
+                },
+                {
+                    "name": "Noah Sonko Sundberg",
+                    "position": "DF",
+                    "market_value": "1.10 mil. \u20ac",
+                    "market_value_numeric": 1100000,
+                    "rating": 72
+                },
+                {
+                    "name": "Caner Erkin",
+                    "position": "DF",
+                    "market_value": "13.00 mil. \u20ac",
+                    "market_value_numeric": 13000000,
+                    "rating": 90
+                },
+                {
+                    "name": "Yusuf \u015eim\u015fek",
+                    "position": "MF",
+                    "market_value": "2.80 mil. \u20ac",
+                    "market_value_numeric": 2800000,
+                    "rating": 81
+                },
+                {
+                    "name": "\u0130rfan Can Kahveci",
+                    "position": "MF",
+                    "market_value": "11.00 mil. \u20ac",
+                    "market_value_numeric": 11000000,
+                    "rating": 90
+                },
+                {
+                    "name": "Maicon Bolt",
+                    "position": "MF",
+                    "market_value": "2.75 mil. \u20ac",
+                    "market_value_numeric": 2750000,
+                    "rating": 82
+                },
+                {
+                    "name": "Ariza Makukula",
+                    "position": "FW",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Ayoub El Kaabi",
+                    "position": "FW",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 80
+                }
+            ]
+        },
+        {
+            "username": "Cantonacan",
+            "ready": true,
+            "rating": 81,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Serkan K\u0131r\u0131nt\u0131l\u0131",
+                    "position": "GK",
+                    "market_value": "1.60 mil. \u20ac",
+                    "market_value_numeric": 1600000,
+                    "rating": 75
+                },
+                {
+                    "name": "Salih Dursun",
+                    "position": "DF",
+                    "market_value": "3.20 mil. \u20ac",
+                    "market_value_numeric": 3200000,
+                    "rating": 79
+                },
+                {
+                    "name": "Yasin \u00d6zcan",
+                    "position": "DF",
+                    "market_value": "7.50 mil. \u20ac",
+                    "market_value_numeric": 7500000,
+                    "rating": 83
+                },
+                {
+                    "name": "Adem Arous",
+                    "position": "DF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 77
+                },
+                {
+                    "name": "Yal\u00e7\u0131n Ayhan",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 76
+                },
+                {
+                    "name": "Max Gradel",
+                    "position": "MF",
+                    "market_value": "3.60 mil. \u20ac",
+                    "market_value_numeric": 3600000,
+                    "rating": 82
+                },
+                {
+                    "name": "Alexandru Maxim",
+                    "position": "MF",
+                    "market_value": "2.80 mil. \u20ac",
+                    "market_value_numeric": 2800000,
+                    "rating": 78
+                },
+                {
+                    "name": "Josip Skoko",
+                    "position": "MF",
+                    "market_value": "2.60 mil. \u20ac",
+                    "market_value_numeric": 2600000,
+                    "rating": 81
+                },
+                {
+                    "name": "\u0130lhan Parlak",
+                    "position": "FW",
+                    "market_value": "3.80 mil. \u20ac",
+                    "market_value_numeric": 3800000,
+                    "rating": 81
+                },
+                {
+                    "name": "Mario G\u00f3mez",
+                    "position": "FW",
+                    "market_value": "12.00 mil. \u20ac",
+                    "market_value_numeric": 12000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Bob\u00f4",
+                    "position": "FW",
+                    "market_value": "9.50 mil. \u20ac",
+                    "market_value_numeric": 9500000,
+                    "rating": 88
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1781387159,
+    "leagueResults": {
+        "standings": [
+            {
+                "username": "O\u00e7alperen",
+                "formation": "5-3-2",
+                "rating": 83,
+                "played": 1,
+                "won": 0,
+                "drawn": 1,
+                "lost": 0,
+                "goalsFor": 0,
+                "goalsAgainst": 0,
+                "points": 1
+            },
+            {
+                "username": "Cantonacan",
+                "formation": "4-3-3",
+                "rating": 81,
+                "played": 1,
+                "won": 0,
+                "drawn": 1,
+                "lost": 0,
+                "goalsFor": 0,
+                "goalsAgainst": 0,
+                "points": 1
+            }
+        ],
+        "matches": [
+            {
+                "home": "O\u00e7alperen",
+                "homeRating": 83,
+                "away": "Cantonacan",
+                "awayRating": 81,
+                "homeScore": 0,
+                "awayScore": 0
+            }
+        ],
+        "champion": "O\u00e7alperen"
+    }
+}

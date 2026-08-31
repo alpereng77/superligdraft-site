@@ -1,0 +1,217 @@
+{
+    "roomCode": "LP8P3Z",
+    "maxPlayers": 2,
+    "status": "finished",
+    "players": [
+        {
+            "username": "AG",
+            "ready": true,
+            "rating": 81,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "Ricardo Velho",
+                    "position": "GK",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 76
+                },
+                {
+                    "name": "U\u011fur \u00c7ift\u00e7i",
+                    "position": "DF",
+                    "market_value": "1.75 mil. \u20ac",
+                    "market_value_numeric": 1750000,
+                    "rating": 78
+                },
+                {
+                    "name": "Larrys Mabiala",
+                    "position": "DF",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 74
+                },
+                {
+                    "name": "Ziya Erdal",
+                    "position": "DF",
+                    "market_value": "2.20 mil. \u20ac",
+                    "market_value_numeric": 2200000,
+                    "rating": 76
+                },
+                {
+                    "name": "Fatih Aksoy",
+                    "position": "DF",
+                    "market_value": "3.20 mil. \u20ac",
+                    "market_value_numeric": 3200000,
+                    "rating": 79
+                },
+                {
+                    "name": "Aleksandar Aleksandrov",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Samuel Johnson",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Abd\u00fclkadir \u00d6m\u00fcr",
+                    "position": "MF",
+                    "market_value": "15.00 mil. \u20ac",
+                    "market_value_numeric": 15000000,
+                    "rating": 92
+                },
+                {
+                    "name": "Anastasios Bakasetas",
+                    "position": "MF",
+                    "market_value": "7.00 mil. \u20ac",
+                    "market_value_numeric": 7000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Sercan Y\u0131ld\u0131r\u0131m",
+                    "position": "MF",
+                    "market_value": "6.50 mil. \u20ac",
+                    "market_value_numeric": 6500000,
+                    "rating": 85
+                },
+                {
+                    "name": "Haji Wright",
+                    "position": "FW",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 77
+                }
+            ]
+        },
+        {
+            "username": "CSK",
+            "ready": true,
+            "rating": 79,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Dominik Livakovic",
+                    "position": "GK",
+                    "market_value": "11.00 mil. \u20ac",
+                    "market_value_numeric": 11000000,
+                    "rating": 86
+                },
+                {
+                    "name": "Rick van Drongelen",
+                    "position": "DF",
+                    "market_value": "1.40 mil. \u20ac",
+                    "market_value_numeric": 1400000,
+                    "rating": 74
+                },
+                {
+                    "name": "Fatih Aksoy",
+                    "position": "DF",
+                    "market_value": "1.60 mil. \u20ac",
+                    "market_value_numeric": 1600000,
+                    "rating": 74
+                },
+                {
+                    "name": "Diego Lugano",
+                    "position": "DF",
+                    "market_value": "12.50 mil. \u20ac",
+                    "market_value_numeric": 12500000,
+                    "rating": 91
+                },
+                {
+                    "name": "Kenneth Paal",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 74
+                },
+                {
+                    "name": "Bartu\u011f Elmaz",
+                    "position": "MF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 73
+                },
+                {
+                    "name": "Chiquinho",
+                    "position": "MF",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Tamer Tuna",
+                    "position": "MF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Anderson",
+                    "position": "FW",
+                    "market_value": "1.30 mil. \u20ac",
+                    "market_value_numeric": 1300000,
+                    "rating": 73
+                },
+                {
+                    "name": "Adam Buksa",
+                    "position": "FW",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 83
+                },
+                {
+                    "name": "Gerson Rodrigues",
+                    "position": "FW",
+                    "market_value": "1.40 mil. \u20ac",
+                    "market_value_numeric": 1400000,
+                    "rating": 78
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1782816818,
+    "leagueResults": {
+        "standings": [
+            {
+                "username": "CSK",
+                "formation": "4-3-3",
+                "rating": 79,
+                "played": 1,
+                "won": 1,
+                "drawn": 0,
+                "lost": 0,
+                "goalsFor": 4,
+                "goalsAgainst": 0,
+                "points": 3
+            },
+            {
+                "username": "AG",
+                "formation": "4-2-3-1",
+                "rating": 81,
+                "played": 1,
+                "won": 0,
+                "drawn": 0,
+                "lost": 1,
+                "goalsFor": 0,
+                "goalsAgainst": 4,
+                "points": 0
+            }
+        ],
+        "matches": [
+            {
+                "home": "AG",
+                "homeRating": 81,
+                "away": "CSK",
+                "awayRating": 79,
+                "homeScore": 0,
+                "awayScore": 4
+            }
+        ],
+        "champion": "CSK"
+    }
+}

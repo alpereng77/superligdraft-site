@@ -1,0 +1,32 @@
+{
+    "roomCode": "S8ULVC",
+    "maxPlayers": 4,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Efe",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Sert",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "youngblackgooner",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "r\u00fcw",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785002308
+}

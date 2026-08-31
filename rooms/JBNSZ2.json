@@ -1,0 +1,217 @@
+{
+    "roomCode": "JBNSZ2",
+    "maxPlayers": 2,
+    "status": "finished",
+    "players": [
+        {
+            "username": "ilia",
+            "ready": true,
+            "rating": 81,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Dominik Livakovic",
+                    "position": "GK",
+                    "market_value": "9.00 mil. \u20ac",
+                    "market_value_numeric": 9000000,
+                    "rating": 83
+                },
+                {
+                    "name": "Ousmane Viera",
+                    "position": "DF",
+                    "market_value": "1.00 mil. \u20ac",
+                    "market_value_numeric": 1000000,
+                    "rating": 73
+                },
+                {
+                    "name": "Yassine Meriah",
+                    "position": "DF",
+                    "market_value": "2.40 mil. \u20ac",
+                    "market_value_numeric": 2400000,
+                    "rating": 81
+                },
+                {
+                    "name": "\u0130brahim Toraman",
+                    "position": "DF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 87
+                },
+                {
+                    "name": "G\u00fcray Vural",
+                    "position": "DF",
+                    "market_value": "1.00 mil. \u20ac",
+                    "market_value_numeric": 1000000,
+                    "rating": 72
+                },
+                {
+                    "name": "Isaac Promise",
+                    "position": "MF",
+                    "market_value": "3.60 mil. \u20ac",
+                    "market_value_numeric": 3600000,
+                    "rating": 80
+                },
+                {
+                    "name": "Gedson Fernandes",
+                    "position": "MF",
+                    "market_value": "6.50 mil. \u20ac",
+                    "market_value_numeric": 6500000,
+                    "rating": 85
+                },
+                {
+                    "name": "\u00c1ngelo Sagal",
+                    "position": "MF",
+                    "market_value": "1.30 mil. \u20ac",
+                    "market_value_numeric": 1300000,
+                    "rating": 75
+                },
+                {
+                    "name": "Mustafa Pektemek",
+                    "position": "FW",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Mbaye Diagne",
+                    "position": "FW",
+                    "market_value": "9.00 mil. \u20ac",
+                    "market_value_numeric": 9000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Moussa Sow",
+                    "position": "FW",
+                    "market_value": "15.50 mil. \u20ac",
+                    "market_value_numeric": 15500000,
+                    "rating": 91
+                }
+            ]
+        },
+        {
+            "username": "Emrehan",
+            "ready": true,
+            "rating": 82,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "Fernando Muslera",
+                    "position": "GK",
+                    "market_value": "17.00 mil. \u20ac",
+                    "market_value_numeric": 17000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Caner Erkin",
+                    "position": "DF",
+                    "market_value": "13.00 mil. \u20ac",
+                    "market_value_numeric": 13000000,
+                    "rating": 90
+                },
+                {
+                    "name": "Filip Novak",
+                    "position": "DF",
+                    "market_value": "2.75 mil. \u20ac",
+                    "market_value_numeric": 2750000,
+                    "rating": 82
+                },
+                {
+                    "name": "\u00d6mer Ali \u015eahiner",
+                    "position": "DF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 80
+                },
+                {
+                    "name": "Emmanuel Ebou\u00e9",
+                    "position": "DF",
+                    "market_value": "7.00 mil. \u20ac",
+                    "market_value_numeric": 7000000,
+                    "rating": 84
+                },
+                {
+                    "name": "Giani Kiri\u021b\u0103",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Vitolo",
+                    "position": "MF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 76
+                },
+                {
+                    "name": "Musa Ayd\u0131n",
+                    "position": "MF",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 76
+                },
+                {
+                    "name": "Emre K\u0131l\u0131n\u00e7",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 81
+                },
+                {
+                    "name": "O\u011fuz Ayd\u0131n",
+                    "position": "MF",
+                    "market_value": "4.30 mil. \u20ac",
+                    "market_value_numeric": 4300000,
+                    "rating": 82
+                },
+                {
+                    "name": "Welliton",
+                    "position": "FW",
+                    "market_value": "2.80 mil. \u20ac",
+                    "market_value_numeric": 2800000,
+                    "rating": 77
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1781519227,
+    "leagueResults": {
+        "standings": [
+            {
+                "username": "ilia",
+                "formation": "4-3-3",
+                "rating": 81,
+                "played": 1,
+                "won": 1,
+                "drawn": 0,
+                "lost": 0,
+                "goalsFor": 1,
+                "goalsAgainst": 0,
+                "points": 3
+            },
+            {
+                "username": "Emrehan",
+                "formation": "4-2-3-1",
+                "rating": 82,
+                "played": 1,
+                "won": 0,
+                "drawn": 0,
+                "lost": 1,
+                "goalsFor": 0,
+                "goalsAgainst": 1,
+                "points": 0
+            }
+        ],
+        "matches": [
+            {
+                "home": "ilia",
+                "homeRating": 81,
+                "away": "Emrehan",
+                "awayRating": 82,
+                "homeScore": 1,
+                "awayScore": 0
+            }
+        ],
+        "champion": "ilia"
+    }
+}

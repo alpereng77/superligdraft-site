@@ -1,0 +1,20 @@
+{
+    "roomCode": "V2JCVS",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "BATU",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "KEREM",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785847418
+}

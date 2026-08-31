@@ -1,0 +1,217 @@
+{
+    "roomCode": "YEDBST",
+    "maxPlayers": 2,
+    "status": "finished",
+    "players": [
+        {
+            "username": "emr",
+            "ready": true,
+            "rating": 78,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Volkan Babacan",
+                    "position": "GK",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 86
+                },
+                {
+                    "name": "Rafael",
+                    "position": "DF",
+                    "market_value": "2.70 mil. \u20ac",
+                    "market_value_numeric": 2700000,
+                    "rating": 80
+                },
+                {
+                    "name": "Niyazi G\u00fcney",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 73
+                },
+                {
+                    "name": "Wederson",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Kenneth Omeruo",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 77
+                },
+                {
+                    "name": "Mehmet Topuz",
+                    "position": "MF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 83
+                },
+                {
+                    "name": "Do\u011fukan Sinik",
+                    "position": "MF",
+                    "market_value": "1.80 mil. \u20ac",
+                    "market_value_numeric": 1800000,
+                    "rating": 80
+                },
+                {
+                    "name": "Ayman Abdelaziz",
+                    "position": "MF",
+                    "market_value": "1.00 mil. \u20ac",
+                    "market_value_numeric": 1000000,
+                    "rating": 74
+                },
+                {
+                    "name": "Reinaldo",
+                    "position": "FW",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 76
+                },
+                {
+                    "name": "Caner Alt\u0131n",
+                    "position": "FW",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 76
+                },
+                {
+                    "name": "Yusuf Baras\u0131",
+                    "position": "FW",
+                    "market_value": "1.40 mil. \u20ac",
+                    "market_value_numeric": 1400000,
+                    "rating": 74
+                }
+            ]
+        },
+        {
+            "username": "Aksoy",
+            "ready": true,
+            "rating": 82,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "Volkan Demirel",
+                    "position": "GK",
+                    "market_value": "9.00 mil. \u20ac",
+                    "market_value_numeric": 9000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Aziz Behich",
+                    "position": "DF",
+                    "market_value": "2.75 mil. \u20ac",
+                    "market_value_numeric": 2750000,
+                    "rating": 81
+                },
+                {
+                    "name": "Furkan Bay\u0131r",
+                    "position": "DF",
+                    "market_value": "2.30 mil. \u20ac",
+                    "market_value_numeric": 2300000,
+                    "rating": 78
+                },
+                {
+                    "name": "Syam Ben Youssef",
+                    "position": "DF",
+                    "market_value": "725 bin \u20ac",
+                    "market_value_numeric": 725000,
+                    "rating": 74
+                },
+                {
+                    "name": "Dimitrios Goutas",
+                    "position": "DF",
+                    "market_value": "2.70 mil. \u20ac",
+                    "market_value_numeric": 2700000,
+                    "rating": 77
+                },
+                {
+                    "name": "Neca",
+                    "position": "MF",
+                    "market_value": "2.60 mil. \u20ac",
+                    "market_value_numeric": 2600000,
+                    "rating": 80
+                },
+                {
+                    "name": "Franco C\u00e1ngele",
+                    "position": "MF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 84
+                },
+                {
+                    "name": "Gedson Fernandes",
+                    "position": "MF",
+                    "market_value": "12.50 mil. \u20ac",
+                    "market_value_numeric": 12500000,
+                    "rating": 92
+                },
+                {
+                    "name": "Samuel Holm\u00e9n",
+                    "position": "MF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Serdar G\u00fcrler",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 83
+                },
+                {
+                    "name": "Aaron Boupendza",
+                    "position": "FW",
+                    "market_value": "8.50 mil. \u20ac",
+                    "market_value_numeric": 8500000,
+                    "rating": 88
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1785853062,
+    "leagueResults": {
+        "standings": [
+            {
+                "username": "emr",
+                "formation": "4-3-3",
+                "rating": 78,
+                "played": 1,
+                "won": 1,
+                "drawn": 0,
+                "lost": 0,
+                "goalsFor": 3,
+                "goalsAgainst": 1,
+                "points": 3
+            },
+            {
+                "username": "Aksoy",
+                "formation": "4-2-3-1",
+                "rating": 82,
+                "played": 1,
+                "won": 0,
+                "drawn": 0,
+                "lost": 1,
+                "goalsFor": 1,
+                "goalsAgainst": 3,
+                "points": 0
+            }
+        ],
+        "matches": [
+            {
+                "home": "emr",
+                "homeRating": 78,
+                "away": "Aksoy",
+                "awayRating": 82,
+                "homeScore": 3,
+                "awayScore": 1
+            }
+        ],
+        "champion": "emr"
+    }
+}

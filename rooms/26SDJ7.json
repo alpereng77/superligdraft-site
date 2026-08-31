@@ -1,0 +1,217 @@
+{
+    "roomCode": "26SDJ7",
+    "maxPlayers": 2,
+    "status": "finished",
+    "players": [
+        {
+            "username": "Deha",
+            "ready": true,
+            "rating": 80,
+            "formation": "4-4-2",
+            "squad": [
+                {
+                    "name": "Souleymanou Hamidou",
+                    "position": "GK",
+                    "market_value": "1.30 mil. \u20ac",
+                    "market_value_numeric": 1300000,
+                    "rating": 73
+                },
+                {
+                    "name": "B\u00fcnyamin Balc\u0131",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 80
+                },
+                {
+                    "name": "Erdin\u00e7 Yavuz",
+                    "position": "DF",
+                    "market_value": "2.60 mil. \u20ac",
+                    "market_value_numeric": 2600000,
+                    "rating": 81
+                },
+                {
+                    "name": "Marc\u00e3o",
+                    "position": "DF",
+                    "market_value": "12.00 mil. \u20ac",
+                    "market_value_numeric": 12000000,
+                    "rating": 90
+                },
+                {
+                    "name": "Bogdan Butko",
+                    "position": "DF",
+                    "market_value": "675 bin \u20ac",
+                    "market_value_numeric": 675000,
+                    "rating": 71
+                },
+                {
+                    "name": "Recep Niyaz",
+                    "position": "MF",
+                    "market_value": "1.40 mil. \u20ac",
+                    "market_value_numeric": 1400000,
+                    "rating": 76
+                },
+                {
+                    "name": "Maestro",
+                    "position": "MF",
+                    "market_value": "7.00 mil. \u20ac",
+                    "market_value_numeric": 7000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Deni Milosevic",
+                    "position": "MF",
+                    "market_value": "1.80 mil. \u20ac",
+                    "market_value_numeric": 1800000,
+                    "rating": 80
+                },
+                {
+                    "name": "Deniz T\u00fcr\u00fc\u00e7",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 83
+                },
+                {
+                    "name": "Moussa Sow",
+                    "position": "FW",
+                    "market_value": "12.00 mil. \u20ac",
+                    "market_value_numeric": 12000000,
+                    "rating": 88
+                },
+                {
+                    "name": "Victor Agali",
+                    "position": "FW",
+                    "market_value": "2.25 mil. \u20ac",
+                    "market_value_numeric": 2250000,
+                    "rating": 80
+                }
+            ]
+        },
+        {
+            "username": "Kartal",
+            "ready": true,
+            "rating": 78,
+            "formation": "4-4-2",
+            "squad": [
+                {
+                    "name": "Goran Karacic",
+                    "position": "GK",
+                    "market_value": "900 bin \u20ac",
+                    "market_value_numeric": 900000,
+                    "rating": 71
+                },
+                {
+                    "name": "Roman Kratochv\u00edl",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 76
+                },
+                {
+                    "name": "Hasan Ali Kald\u0131r\u0131m",
+                    "position": "DF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Majid Hosseini",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Rick van Drongelen",
+                    "position": "DF",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Maicon Bolt",
+                    "position": "MF",
+                    "market_value": "2.75 mil. \u20ac",
+                    "market_value_numeric": 2750000,
+                    "rating": 82
+                },
+                {
+                    "name": "Samuel Moutoussamy",
+                    "position": "MF",
+                    "market_value": "1.60 mil. \u20ac",
+                    "market_value_numeric": 1600000,
+                    "rating": 75
+                },
+                {
+                    "name": "Njitap Geremi",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 79
+                },
+                {
+                    "name": "Emrah Ba\u015fsan",
+                    "position": "MF",
+                    "market_value": "1.40 mil. \u20ac",
+                    "market_value_numeric": 1400000,
+                    "rating": 75
+                },
+                {
+                    "name": "Gerson Rodrigues",
+                    "position": "FW",
+                    "market_value": "1.40 mil. \u20ac",
+                    "market_value_numeric": 1400000,
+                    "rating": 78
+                },
+                {
+                    "name": "Hyeon-gyu Oh",
+                    "position": "FW",
+                    "market_value": "15.00 mil. \u20ac",
+                    "market_value_numeric": 15000000,
+                    "rating": 85
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1781266683,
+    "leagueResults": {
+        "standings": [
+            {
+                "username": "Deha",
+                "formation": "4-4-2",
+                "rating": 80,
+                "played": 1,
+                "won": 1,
+                "drawn": 0,
+                "lost": 0,
+                "goalsFor": 1,
+                "goalsAgainst": 0,
+                "points": 3
+            },
+            {
+                "username": "Kartal",
+                "formation": "4-4-2",
+                "rating": 78,
+                "played": 1,
+                "won": 0,
+                "drawn": 0,
+                "lost": 1,
+                "goalsFor": 0,
+                "goalsAgainst": 1,
+                "points": 0
+            }
+        ],
+        "matches": [
+            {
+                "home": "Deha",
+                "homeRating": 80,
+                "away": "Kartal",
+                "awayRating": 78,
+                "homeScore": 1,
+                "awayScore": 0
+            }
+        ],
+        "champion": "Deha"
+    }
+}

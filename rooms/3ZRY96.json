@@ -1,0 +1,14 @@
+{
+    "roomCode": "3ZRY96",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "sdsadas",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1786575308
+}

@@ -1,0 +1,217 @@
+{
+    "roomCode": "TDEUEW",
+    "maxPlayers": 2,
+    "status": "finished",
+    "players": [
+        {
+            "username": "OKAN",
+            "ready": true,
+            "rating": 82,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "\u0130rfan Can E\u011fribayat",
+                    "position": "GK",
+                    "market_value": "3.30 mil. \u20ac",
+                    "market_value_numeric": 3300000,
+                    "rating": 81
+                },
+                {
+                    "name": "Eren Elmal\u0131",
+                    "position": "DF",
+                    "market_value": "3.20 mil. \u20ac",
+                    "market_value_numeric": 3200000,
+                    "rating": 79
+                },
+                {
+                    "name": "Abdurrahman Dereli",
+                    "position": "DF",
+                    "market_value": "2.20 mil. \u20ac",
+                    "market_value_numeric": 2200000,
+                    "rating": 77
+                },
+                {
+                    "name": "Nejc Skubic",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Aykut Demir",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 77
+                },
+                {
+                    "name": "O\u011fuzhan \u00d6zyakup",
+                    "position": "MF",
+                    "market_value": "14.00 mil. \u20ac",
+                    "market_value_numeric": 14000000,
+                    "rating": 89
+                },
+                {
+                    "name": "Matt\u00e9o Guendouzi",
+                    "position": "MF",
+                    "market_value": "27.00 mil. \u20ac",
+                    "market_value_numeric": 27000000,
+                    "rating": 90
+                },
+                {
+                    "name": "Tita",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Emre Akbaba",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Marcel Mbayo",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 79
+                },
+                {
+                    "name": "Youssef En-Nesyri",
+                    "position": "FW",
+                    "market_value": "24.00 mil. \u20ac",
+                    "market_value_numeric": 24000000,
+                    "rating": 91
+                }
+            ]
+        },
+        {
+            "username": "GGKUS",
+            "ready": true,
+            "rating": 78,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Dimitar Ivankov",
+                    "position": "GK",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 77
+                },
+                {
+                    "name": "Mithat Pala",
+                    "position": "DF",
+                    "market_value": "1.40 mil. \u20ac",
+                    "market_value_numeric": 1400000,
+                    "rating": 73
+                },
+                {
+                    "name": "Mar\u00e7al",
+                    "position": "DF",
+                    "market_value": "2.60 mil. \u20ac",
+                    "market_value_numeric": 2600000,
+                    "rating": 77
+                },
+                {
+                    "name": "Fernando Varela",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 75
+                },
+                {
+                    "name": "Razundara Tjikuzu",
+                    "position": "DF",
+                    "market_value": "850 bin \u20ac",
+                    "market_value_numeric": 850000,
+                    "rating": 73
+                },
+                {
+                    "name": "Kamil Grosicki",
+                    "position": "MF",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Alex",
+                    "position": "MF",
+                    "market_value": "12.50 mil. \u20ac",
+                    "market_value_numeric": 12500000,
+                    "rating": 92
+                },
+                {
+                    "name": "Florent Hadergjonaj",
+                    "position": "MF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 81
+                },
+                {
+                    "name": "V\u00e1gner Love",
+                    "position": "FW",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 79
+                },
+                {
+                    "name": "Mame Thiam",
+                    "position": "FW",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 75
+                },
+                {
+                    "name": "Steve Mouni\u00e9",
+                    "position": "FW",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 72
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1781272348,
+    "leagueResults": {
+        "standings": [
+            {
+                "username": "OKAN",
+                "formation": "4-2-3-1",
+                "rating": 82,
+                "played": 1,
+                "won": 1,
+                "drawn": 0,
+                "lost": 0,
+                "goalsFor": 3,
+                "goalsAgainst": 1,
+                "points": 3
+            },
+            {
+                "username": "GGKUS",
+                "formation": "4-3-3",
+                "rating": 78,
+                "played": 1,
+                "won": 0,
+                "drawn": 0,
+                "lost": 1,
+                "goalsFor": 1,
+                "goalsAgainst": 3,
+                "points": 0
+            }
+        ],
+        "matches": [
+            {
+                "home": "OKAN",
+                "homeRating": 82,
+                "away": "GGKUS",
+                "awayRating": 78,
+                "homeScore": 3,
+                "awayScore": 1
+            }
+        ],
+        "champion": "OKAN"
+    }
+}

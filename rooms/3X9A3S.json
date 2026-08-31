@@ -1,0 +1,217 @@
+{
+    "roomCode": "3X9A3S",
+    "maxPlayers": 2,
+    "status": "finished",
+    "players": [
+        {
+            "username": "Ceren2266",
+            "ready": true,
+            "rating": 76,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Hakan Ar\u0131kan",
+                    "position": "GK",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 75
+                },
+                {
+                    "name": "Orhan Ak",
+                    "position": "DF",
+                    "market_value": "1.00 mil. \u20ac",
+                    "market_value_numeric": 1000000,
+                    "rating": 73
+                },
+                {
+                    "name": "Marquinhos Pedroso",
+                    "position": "DF",
+                    "market_value": "1.00 mil. \u20ac",
+                    "market_value_numeric": 1000000,
+                    "rating": 73
+                },
+                {
+                    "name": "Kemal Tokak",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 76
+                },
+                {
+                    "name": "J\u00falio C\u00e9sar",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 78
+                },
+                {
+                    "name": "\u00c9dson Ara\u00fajo",
+                    "position": "MF",
+                    "market_value": "1.25 mil. \u20ac",
+                    "market_value_numeric": 1250000,
+                    "rating": 75
+                },
+                {
+                    "name": "Obinna Nwobodo",
+                    "position": "MF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 75
+                },
+                {
+                    "name": "Fernando Boldrin",
+                    "position": "MF",
+                    "market_value": "1.25 mil. \u20ac",
+                    "market_value_numeric": 1250000,
+                    "rating": 77
+                },
+                {
+                    "name": "Bruno Mezenga",
+                    "position": "FW",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 75
+                },
+                {
+                    "name": "Herv\u00e9 Tum",
+                    "position": "FW",
+                    "market_value": "2.20 mil. \u20ac",
+                    "market_value_numeric": 2200000,
+                    "rating": 79
+                },
+                {
+                    "name": "Adis Jahovic",
+                    "position": "FW",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                }
+            ]
+        },
+        {
+            "username": "\u0130rem su",
+            "ready": true,
+            "rating": 80,
+            "formation": "4-4-2",
+            "squad": [
+                {
+                    "name": "Silviu Lung Jr.",
+                    "position": "GK",
+                    "market_value": "1.20 mil. \u20ac",
+                    "market_value_numeric": 1200000,
+                    "rating": 76
+                },
+                {
+                    "name": "Giray Ka\u00e7ar",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Calegari",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 76
+                },
+                {
+                    "name": "Servet \u00c7etin",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Ivan",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 78
+                },
+                {
+                    "name": "Castro",
+                    "position": "MF",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Bernard Mensah",
+                    "position": "MF",
+                    "market_value": "2.40 mil. \u20ac",
+                    "market_value_numeric": 2400000,
+                    "rating": 81
+                },
+                {
+                    "name": "Aatif Chahechouhe",
+                    "position": "MF",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Andr\u00e9 Poko",
+                    "position": "MF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 80
+                },
+                {
+                    "name": "Umut Bulut",
+                    "position": "FW",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 83
+                },
+                {
+                    "name": "Mustafa Pektemek",
+                    "position": "FW",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 79
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1781885434,
+    "leagueResults": {
+        "standings": [
+            {
+                "username": "\u0130rem su",
+                "formation": "4-4-2",
+                "rating": 80,
+                "played": 1,
+                "won": 1,
+                "drawn": 0,
+                "lost": 0,
+                "goalsFor": 2,
+                "goalsAgainst": 0,
+                "points": 3
+            },
+            {
+                "username": "Ceren2266",
+                "formation": "4-3-3",
+                "rating": 76,
+                "played": 1,
+                "won": 0,
+                "drawn": 0,
+                "lost": 1,
+                "goalsFor": 0,
+                "goalsAgainst": 2,
+                "points": 0
+            }
+        ],
+        "matches": [
+            {
+                "home": "Ceren2266",
+                "homeRating": 76,
+                "away": "\u0130rem su",
+                "awayRating": 80,
+                "homeScore": 0,
+                "awayScore": 2
+            }
+        ],
+        "champion": "\u0130rem su"
+    }
+}

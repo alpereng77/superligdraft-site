@@ -1,0 +1,217 @@
+{
+    "roomCode": "QKPHDM",
+    "maxPlayers": 2,
+    "status": "finished",
+    "players": [
+        {
+            "username": "KAYRA",
+            "ready": true,
+            "rating": 81,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Mert G\u00fcnok",
+                    "position": "GK",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Abdurrahman Dereli",
+                    "position": "DF",
+                    "market_value": "2.20 mil. \u20ac",
+                    "market_value_numeric": 2200000,
+                    "rating": 77
+                },
+                {
+                    "name": "Jayden Oosterwolde",
+                    "position": "DF",
+                    "market_value": "20.00 mil. \u20ac",
+                    "market_value_numeric": 20000000,
+                    "rating": 86
+                },
+                {
+                    "name": "Egemen Korkmaz",
+                    "position": "DF",
+                    "market_value": "2.80 mil. \u20ac",
+                    "market_value_numeric": 2800000,
+                    "rating": 81
+                },
+                {
+                    "name": "Giray Ka\u00e7ar",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Giuliano",
+                    "position": "MF",
+                    "market_value": "12.00 mil. \u20ac",
+                    "market_value_numeric": 12000000,
+                    "rating": 89
+                },
+                {
+                    "name": "Yann Karamoh",
+                    "position": "MF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Samir Nasri",
+                    "position": "MF",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 86
+                },
+                {
+                    "name": "Fedor Chalov",
+                    "position": "FW",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 77
+                },
+                {
+                    "name": "Ersen Martin",
+                    "position": "FW",
+                    "market_value": "2.60 mil. \u20ac",
+                    "market_value_numeric": 2600000,
+                    "rating": 79
+                },
+                {
+                    "name": "Cenk \u0130\u015fler",
+                    "position": "FW",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 77
+                }
+            ]
+        },
+        {
+            "username": "\u0130rem su",
+            "ready": true,
+            "rating": 83,
+            "formation": "5-3-2",
+            "squad": [
+                {
+                    "name": "Serdar Kulbilge",
+                    "position": "GK",
+                    "market_value": "1.30 mil. \u20ac",
+                    "market_value_numeric": 1300000,
+                    "rating": 75
+                },
+                {
+                    "name": "Chico",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 75
+                },
+                {
+                    "name": "\u00dcmit Akda\u011f",
+                    "position": "DF",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 79
+                },
+                {
+                    "name": "U\u011fur \u00c7ift\u00e7i",
+                    "position": "DF",
+                    "market_value": "1.75 mil. \u20ac",
+                    "market_value_numeric": 1750000,
+                    "rating": 78
+                },
+                {
+                    "name": "Selim Ay",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Ryan Donk",
+                    "position": "DF",
+                    "market_value": "4.20 mil. \u20ac",
+                    "market_value_numeric": 4200000,
+                    "rating": 82
+                },
+                {
+                    "name": "Berat \u00d6zdemir",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Olcan Ad\u0131n",
+                    "position": "MF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 83
+                },
+                {
+                    "name": "Nicol\u00f2 Zaniolo",
+                    "position": "MF",
+                    "market_value": "20.00 mil. \u20ac",
+                    "market_value_numeric": 20000000,
+                    "rating": 92
+                },
+                {
+                    "name": "Youssef En-Nesyri",
+                    "position": "FW",
+                    "market_value": "24.00 mil. \u20ac",
+                    "market_value_numeric": 24000000,
+                    "rating": 91
+                },
+                {
+                    "name": "Nicolas Anelka",
+                    "position": "FW",
+                    "market_value": "12.50 mil. \u20ac",
+                    "market_value_numeric": 12500000,
+                    "rating": 93
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1781885808,
+    "leagueResults": {
+        "standings": [
+            {
+                "username": "KAYRA",
+                "formation": "4-3-3",
+                "rating": 81,
+                "played": 1,
+                "won": 1,
+                "drawn": 0,
+                "lost": 0,
+                "goalsFor": 2,
+                "goalsAgainst": 1,
+                "points": 3
+            },
+            {
+                "username": "\u0130rem su",
+                "formation": "5-3-2",
+                "rating": 83,
+                "played": 1,
+                "won": 0,
+                "drawn": 0,
+                "lost": 1,
+                "goalsFor": 1,
+                "goalsAgainst": 2,
+                "points": 0
+            }
+        ],
+        "matches": [
+            {
+                "home": "KAYRA",
+                "homeRating": 81,
+                "away": "\u0130rem su",
+                "awayRating": 83,
+                "homeScore": 2,
+                "awayScore": 1
+            }
+        ],
+        "champion": "KAYRA"
+    }
+}

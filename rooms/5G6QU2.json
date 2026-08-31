@@ -1,0 +1,217 @@
+{
+    "roomCode": "5G6QU2",
+    "maxPlayers": 2,
+    "status": "finished",
+    "players": [
+        {
+            "username": "Ecrin demiro\u011flu",
+            "ready": true,
+            "rating": 80,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Stefan Senecky",
+                    "position": "GK",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Mehmet Ye\u015fil",
+                    "position": "DF",
+                    "market_value": "750 bin \u20ac",
+                    "market_value_numeric": 750000,
+                    "rating": 70
+                },
+                {
+                    "name": "Ahmet \u00c7al\u0131k",
+                    "position": "DF",
+                    "market_value": "3.75 mil. \u20ac",
+                    "market_value_numeric": 3750000,
+                    "rating": 82
+                },
+                {
+                    "name": "J\u00falio C\u00e9sar",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Stephen Baidoo",
+                    "position": "DF",
+                    "market_value": "1.80 mil. \u20ac",
+                    "market_value_numeric": 1800000,
+                    "rating": 74
+                },
+                {
+                    "name": "Gedson Fernandes",
+                    "position": "MF",
+                    "market_value": "6.50 mil. \u20ac",
+                    "market_value_numeric": 6500000,
+                    "rating": 85
+                },
+                {
+                    "name": "Yusuf Sar\u0131",
+                    "position": "MF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Alper Potuk",
+                    "position": "MF",
+                    "market_value": "6.50 mil. \u20ac",
+                    "market_value_numeric": 6500000,
+                    "rating": 85
+                },
+                {
+                    "name": "Marius Mouandilmadji",
+                    "position": "FW",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 78
+                },
+                {
+                    "name": "Juan",
+                    "position": "FW",
+                    "market_value": "12.00 mil. \u20ac",
+                    "market_value_numeric": 12000000,
+                    "rating": 83
+                },
+                {
+                    "name": "Pr\u00e9juce Nakoulma",
+                    "position": "FW",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 77
+                }
+            ]
+        },
+        {
+            "username": "\u00c7ak\u0131n",
+            "ready": true,
+            "rating": 80,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "G\u00f6khan Akkan",
+                    "position": "GK",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 81
+                },
+                {
+                    "name": "G\u00fcray Vural",
+                    "position": "DF",
+                    "market_value": "3.75 mil. \u20ac",
+                    "market_value_numeric": 3750000,
+                    "rating": 79
+                },
+                {
+                    "name": "Pape Diakhat\u00e9",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Naz\u0131m Sangar\u00e9",
+                    "position": "DF",
+                    "market_value": "1.60 mil. \u20ac",
+                    "market_value_numeric": 1600000,
+                    "rating": 79
+                },
+                {
+                    "name": "Nihad Mujakic",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 77
+                },
+                {
+                    "name": "Franco C\u00e1ngele",
+                    "position": "MF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 84
+                },
+                {
+                    "name": "Bartu\u011f Elmaz",
+                    "position": "MF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 73
+                },
+                {
+                    "name": "Christian Cueva",
+                    "position": "MF",
+                    "market_value": "2.70 mil. \u20ac",
+                    "market_value_numeric": 2700000,
+                    "rating": 80
+                },
+                {
+                    "name": "Florent Hadergjonaj",
+                    "position": "MF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 84
+                },
+                {
+                    "name": "Amir Hadziahmetovic",
+                    "position": "MF",
+                    "market_value": "7.50 mil. \u20ac",
+                    "market_value_numeric": 7500000,
+                    "rating": 85
+                },
+                {
+                    "name": "Antonio de Nigris",
+                    "position": "FW",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 82
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1781941287,
+    "leagueResults": {
+        "standings": [
+            {
+                "username": "Ecrin demiro\u011flu",
+                "formation": "4-3-3",
+                "rating": 80,
+                "played": 1,
+                "won": 0,
+                "drawn": 1,
+                "lost": 0,
+                "goalsFor": 0,
+                "goalsAgainst": 0,
+                "points": 1
+            },
+            {
+                "username": "\u00c7ak\u0131n",
+                "formation": "4-2-3-1",
+                "rating": 80,
+                "played": 1,
+                "won": 0,
+                "drawn": 1,
+                "lost": 0,
+                "goalsFor": 0,
+                "goalsAgainst": 0,
+                "points": 1
+            }
+        ],
+        "matches": [
+            {
+                "home": "Ecrin demiro\u011flu",
+                "homeRating": 80,
+                "away": "\u00c7ak\u0131n",
+                "awayRating": 80,
+                "homeScore": 0,
+                "awayScore": 0
+            }
+        ],
+        "champion": "Ecrin demiro\u011flu"
+    }
+}

@@ -1,0 +1,217 @@
+{
+    "roomCode": "YPXJ9Y",
+    "maxPlayers": 2,
+    "status": "finished",
+    "players": [
+        {
+            "username": "72Batman",
+            "ready": true,
+            "rating": 79,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Fernando Muslera",
+                    "position": "GK",
+                    "market_value": "13.00 mil. \u20ac",
+                    "market_value_numeric": 13000000,
+                    "rating": 91
+                },
+                {
+                    "name": "Alexandru Epureanu",
+                    "position": "DF",
+                    "market_value": "1.40 mil. \u20ac",
+                    "market_value_numeric": 1400000,
+                    "rating": 78
+                },
+                {
+                    "name": "Ahmet \u00c7al\u0131k",
+                    "position": "DF",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Ognjen Vranjes",
+                    "position": "DF",
+                    "market_value": "700 bin \u20ac",
+                    "market_value_numeric": 700000,
+                    "rating": 69
+                },
+                {
+                    "name": "Jaroslaw Bieniuk",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 77
+                },
+                {
+                    "name": "Murat Y\u0131ld\u0131r\u0131m",
+                    "position": "MF",
+                    "market_value": "2.20 mil. \u20ac",
+                    "market_value_numeric": 2200000,
+                    "rating": 76
+                },
+                {
+                    "name": "Ricardo Quaresma",
+                    "position": "MF",
+                    "market_value": "13.00 mil. \u20ac",
+                    "market_value_numeric": 13000000,
+                    "rating": 92
+                },
+                {
+                    "name": "Florin Cernat",
+                    "position": "MF",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 76
+                },
+                {
+                    "name": "Fredrik Gulbrandsen",
+                    "position": "FW",
+                    "market_value": "2.80 mil. \u20ac",
+                    "market_value_numeric": 2800000,
+                    "rating": 80
+                },
+                {
+                    "name": "Junior Fernandes",
+                    "position": "FW",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Amr Zaki",
+                    "position": "FW",
+                    "market_value": "800 bin \u20ac",
+                    "market_value_numeric": 800000,
+                    "rating": 70
+                }
+            ]
+        },
+        {
+            "username": "474747",
+            "ready": true,
+            "rating": 82,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Erce Karde\u015fler",
+                    "position": "GK",
+                    "market_value": "425 bin \u20ac",
+                    "market_value_numeric": 425000,
+                    "rating": 68
+                },
+                {
+                    "name": "Marcelo",
+                    "position": "DF",
+                    "market_value": "6.50 mil. \u20ac",
+                    "market_value_numeric": 6500000,
+                    "rating": 87
+                },
+                {
+                    "name": "Emirhan Top\u00e7u",
+                    "position": "DF",
+                    "market_value": "4.30 mil. \u20ac",
+                    "market_value_numeric": 4300000,
+                    "rating": 82
+                },
+                {
+                    "name": "Mustafa Eskihella\u00e7",
+                    "position": "DF",
+                    "market_value": "1.40 mil. \u20ac",
+                    "market_value_numeric": 1400000,
+                    "rating": 74
+                },
+                {
+                    "name": "Beno\u00eet Poulain",
+                    "position": "DF",
+                    "market_value": "800 bin \u20ac",
+                    "market_value_numeric": 800000,
+                    "rating": 74
+                },
+                {
+                    "name": "Sercan Y\u0131ld\u0131r\u0131m",
+                    "position": "MF",
+                    "market_value": "6.50 mil. \u20ac",
+                    "market_value_numeric": 6500000,
+                    "rating": 85
+                },
+                {
+                    "name": "G\u00f6kdeniz Karadeniz",
+                    "position": "MF",
+                    "market_value": "7.50 mil. \u20ac",
+                    "market_value_numeric": 7500000,
+                    "rating": 90
+                },
+                {
+                    "name": "Nani",
+                    "position": "MF",
+                    "market_value": "16.00 mil. \u20ac",
+                    "market_value_numeric": 16000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Andr\u00e9s Mendoza",
+                    "position": "FW",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Mustafa Pektemek",
+                    "position": "FW",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 82
+                },
+                {
+                    "name": "John Carew",
+                    "position": "FW",
+                    "market_value": "7.00 mil. \u20ac",
+                    "market_value_numeric": 7000000,
+                    "rating": 87
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1785838280,
+    "leagueResults": {
+        "standings": [
+            {
+                "username": "72Batman",
+                "formation": "4-3-3",
+                "rating": 79,
+                "played": 1,
+                "won": 1,
+                "drawn": 0,
+                "lost": 0,
+                "goalsFor": 1,
+                "goalsAgainst": 0,
+                "points": 3
+            },
+            {
+                "username": "474747",
+                "formation": "4-3-3",
+                "rating": 82,
+                "played": 1,
+                "won": 0,
+                "drawn": 0,
+                "lost": 1,
+                "goalsFor": 0,
+                "goalsAgainst": 1,
+                "points": 0
+            }
+        ],
+        "matches": [
+            {
+                "home": "72Batman",
+                "homeRating": 79,
+                "away": "474747",
+                "awayRating": 82,
+                "homeScore": 1,
+                "awayScore": 0
+            }
+        ],
+        "champion": "72Batman"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "roomCode": "Z42UN3",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "ydryrd",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785940470
+}

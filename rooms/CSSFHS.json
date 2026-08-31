@@ -1,0 +1,217 @@
+{
+    "roomCode": "CSSFHS",
+    "maxPlayers": 2,
+    "status": "finished",
+    "players": [
+        {
+            "username": "s1k1lm4t1q",
+            "ready": true,
+            "rating": 67,
+            "formation": "4-4-2",
+            "squad": [
+                {
+                    "name": "Serdar Kulbilge",
+                    "position": "GK",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 77
+                },
+                {
+                    "name": "Ziya Erdal",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Yi\u011fit Efe Demir",
+                    "position": "DF",
+                    "market_value": "-",
+                    "market_value_numeric": 0,
+                    "rating": 62
+                },
+                {
+                    "name": "Egemen Korkmaz",
+                    "position": "DF",
+                    "market_value": "50 bin \u20ac",
+                    "market_value_numeric": 50000,
+                    "rating": 60
+                },
+                {
+                    "name": "Arif Bo\u015fluk",
+                    "position": "DF",
+                    "market_value": "450 bin \u20ac",
+                    "market_value_numeric": 450000,
+                    "rating": 67
+                },
+                {
+                    "name": "Boran Ba\u015fkan",
+                    "position": "MF",
+                    "market_value": "-",
+                    "market_value_numeric": 0,
+                    "rating": 62
+                },
+                {
+                    "name": "Mert Hakan Yanda\u015f",
+                    "position": "MF",
+                    "market_value": "-",
+                    "market_value_numeric": 0,
+                    "rating": 62
+                },
+                {
+                    "name": "Eslem \u00d6zt\u00fcrk",
+                    "position": "MF",
+                    "market_value": "200 bin \u20ac",
+                    "market_value_numeric": 200000,
+                    "rating": 62
+                },
+                {
+                    "name": "Emre Mor",
+                    "position": "MF",
+                    "market_value": "500 bin \u20ac",
+                    "market_value_numeric": 500000,
+                    "rating": 65
+                },
+                {
+                    "name": "Mehmet Batdal",
+                    "position": "FW",
+                    "market_value": "850 bin \u20ac",
+                    "market_value_numeric": 850000,
+                    "rating": 71
+                },
+                {
+                    "name": "Pawel Brozek",
+                    "position": "FW",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 75
+                }
+            ]
+        },
+        {
+            "username": "SH\u0130M\u0130ZU3169",
+            "ready": true,
+            "rating": 63,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "\u0130smail \u00c7ipe",
+                    "position": "GK",
+                    "market_value": "50 bin \u20ac",
+                    "market_value_numeric": 50000,
+                    "rating": 57
+                },
+                {
+                    "name": "\u00d6m\u00fcrcan Artan",
+                    "position": "DF",
+                    "market_value": "200 bin \u20ac",
+                    "market_value_numeric": 200000,
+                    "rating": 64
+                },
+                {
+                    "name": "Baki Mercimek",
+                    "position": "DF",
+                    "market_value": "500 bin \u20ac",
+                    "market_value_numeric": 500000,
+                    "rating": 68
+                },
+                {
+                    "name": "F\u00e1bio Bilica",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 76
+                },
+                {
+                    "name": "\u00d6m\u00fcrcan Artan",
+                    "position": "DF",
+                    "market_value": "200 bin \u20ac",
+                    "market_value_numeric": 200000,
+                    "rating": 64
+                },
+                {
+                    "name": "Cumali Bi\u015fi",
+                    "position": "MF",
+                    "market_value": "450 bin \u20ac",
+                    "market_value_numeric": 450000,
+                    "rating": 64
+                },
+                {
+                    "name": "\u0130brahim Da\u011fa\u015fan",
+                    "position": "MF",
+                    "market_value": "1.00 mil. \u20ac",
+                    "market_value_numeric": 1000000,
+                    "rating": 72
+                },
+                {
+                    "name": "Kaan Akyaz\u0131",
+                    "position": "MF",
+                    "market_value": "50 bin \u20ac",
+                    "market_value_numeric": 50000,
+                    "rating": 55
+                },
+                {
+                    "name": "Bilal K\u0131sa",
+                    "position": "MF",
+                    "market_value": "50 bin \u20ac",
+                    "market_value_numeric": 50000,
+                    "rating": 61
+                },
+                {
+                    "name": "Burhan E\u015fer",
+                    "position": "MF",
+                    "market_value": "100 bin \u20ac",
+                    "market_value_numeric": 100000,
+                    "rating": 58
+                },
+                {
+                    "name": "Ali Akman",
+                    "position": "FW",
+                    "market_value": "50 bin \u20ac",
+                    "market_value_numeric": 50000,
+                    "rating": 57
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1781280838,
+    "leagueResults": {
+        "standings": [
+            {
+                "username": "SH\u0130M\u0130ZU3169",
+                "formation": "4-2-3-1",
+                "rating": 63,
+                "played": 1,
+                "won": 1,
+                "drawn": 0,
+                "lost": 0,
+                "goalsFor": 2,
+                "goalsAgainst": 1,
+                "points": 3
+            },
+            {
+                "username": "s1k1lm4t1q",
+                "formation": "4-4-2",
+                "rating": 67,
+                "played": 1,
+                "won": 0,
+                "drawn": 0,
+                "lost": 1,
+                "goalsFor": 1,
+                "goalsAgainst": 2,
+                "points": 0
+            }
+        ],
+        "matches": [
+            {
+                "home": "s1k1lm4t1q",
+                "homeRating": 67,
+                "away": "SH\u0130M\u0130ZU3169",
+                "awayRating": 63,
+                "homeScore": 1,
+                "awayScore": 2
+            }
+        ],
+        "champion": "SH\u0130M\u0130ZU3169"
+    }
+}

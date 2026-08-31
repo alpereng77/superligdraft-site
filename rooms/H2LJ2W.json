@@ -1,0 +1,99 @@
+{
+    "roomCode": "H2LJ2W",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Baraniko",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "schon",
+            "ready": true,
+            "rating": 80,
+            "formation": "4-4-2",
+            "squad": [
+                {
+                    "name": "O\u011fuz Da\u011flaro\u011flu",
+                    "position": "GK",
+                    "market_value": "300 bin \u20ac",
+                    "market_value_numeric": 300000,
+                    "rating": 64
+                },
+                {
+                    "name": "Radosav Petrovic",
+                    "position": "DF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Kemal Tokak",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 76
+                },
+                {
+                    "name": "Youssouf Ndayishimiye",
+                    "position": "DF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Rigobert Song",
+                    "position": "DF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 85
+                },
+                {
+                    "name": "Trezeguet",
+                    "position": "MF",
+                    "market_value": "10.00 mil. \u20ac",
+                    "market_value_numeric": 10000000,
+                    "rating": 87
+                },
+                {
+                    "name": "\u00d6zer Hurmac\u0131",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Guilherme",
+                    "position": "MF",
+                    "market_value": "3.20 mil. \u20ac",
+                    "market_value_numeric": 3200000,
+                    "rating": 83
+                },
+                {
+                    "name": "G\u00f6khan T\u00f6re",
+                    "position": "MF",
+                    "market_value": "12.00 mil. \u20ac",
+                    "market_value_numeric": 12000000,
+                    "rating": 88
+                },
+                {
+                    "name": "Andr\u00e9s Mendoza",
+                    "position": "FW",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Umut Nayir",
+                    "position": "FW",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 74
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1786223208
+}

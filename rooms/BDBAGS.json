@@ -1,0 +1,14 @@
+{
+    "roomCode": "BDBAGS",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Dhdhd",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1786389580
+}

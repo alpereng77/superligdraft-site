@@ -1,0 +1,14 @@
+{
+    "roomCode": "N96J8H",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "132",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1786194051
+}

@@ -1,0 +1,217 @@
+{
+    "roomCode": "N9GCWB",
+    "maxPlayers": 2,
+    "status": "finished",
+    "players": [
+        {
+            "username": "\u00c7\u00fck\u00fcbik",
+            "ready": true,
+            "rating": 79,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "Munir El Kajoui",
+                    "position": "GK",
+                    "market_value": "1.20 mil. \u20ac",
+                    "market_value_numeric": 1200000,
+                    "rating": 75
+                },
+                {
+                    "name": "Jens Berthel Askou",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 75
+                },
+                {
+                    "name": "L\u00e9o Dubois",
+                    "position": "DF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Salih Dursun",
+                    "position": "DF",
+                    "market_value": "3.20 mil. \u20ac",
+                    "market_value_numeric": 3200000,
+                    "rating": 79
+                },
+                {
+                    "name": "Julien Faubert",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 74
+                },
+                {
+                    "name": "Yann Karamoh",
+                    "position": "MF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Kl\u00e9berson",
+                    "position": "MF",
+                    "market_value": "6.35 mil. \u20ac",
+                    "market_value_numeric": 6350000,
+                    "rating": 87
+                },
+                {
+                    "name": "Neca",
+                    "position": "MF",
+                    "market_value": "2.60 mil. \u20ac",
+                    "market_value_numeric": 2600000,
+                    "rating": 80
+                },
+                {
+                    "name": "Franco C\u00e1ngele",
+                    "position": "MF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 84
+                },
+                {
+                    "name": "Valon Ethemi",
+                    "position": "MF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 75
+                },
+                {
+                    "name": "Mame Thiam",
+                    "position": "FW",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 80
+                }
+            ]
+        },
+        {
+            "username": "Baban\u0131zEgemen",
+            "ready": true,
+            "rating": 82,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Serdar Kulbilge",
+                    "position": "GK",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 77
+                },
+                {
+                    "name": "U\u011fur \u00c7ift\u00e7i",
+                    "position": "DF",
+                    "market_value": "1.75 mil. \u20ac",
+                    "market_value_numeric": 1750000,
+                    "rating": 78
+                },
+                {
+                    "name": "Tolga Seyhan",
+                    "position": "DF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Ozan Kabak",
+                    "position": "DF",
+                    "market_value": "15.00 mil. \u20ac",
+                    "market_value_numeric": 15000000,
+                    "rating": 91
+                },
+                {
+                    "name": "Abdelzaher El Saka",
+                    "position": "DF",
+                    "market_value": "1.80 mil. \u20ac",
+                    "market_value_numeric": 1800000,
+                    "rating": 76
+                },
+                {
+                    "name": "Ermin Zec",
+                    "position": "MF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Loret Sadiku",
+                    "position": "MF",
+                    "market_value": "2.40 mil. \u20ac",
+                    "market_value_numeric": 2400000,
+                    "rating": 76
+                },
+                {
+                    "name": "Ender Alkan",
+                    "position": "MF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 76
+                },
+                {
+                    "name": "Mbaye Diagne",
+                    "position": "FW",
+                    "market_value": "9.00 mil. \u20ac",
+                    "market_value_numeric": 9000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Fatih Tekke",
+                    "position": "FW",
+                    "market_value": "7.60 mil. \u20ac",
+                    "market_value_numeric": 7600000,
+                    "rating": 91
+                },
+                {
+                    "name": "Nicolas Anelka",
+                    "position": "FW",
+                    "market_value": "12.50 mil. \u20ac",
+                    "market_value_numeric": 12500000,
+                    "rating": 93
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1784500277,
+    "leagueResults": {
+        "standings": [
+            {
+                "username": "Baban\u0131zEgemen",
+                "formation": "4-3-3",
+                "rating": 82,
+                "played": 1,
+                "won": 1,
+                "drawn": 0,
+                "lost": 0,
+                "goalsFor": 2,
+                "goalsAgainst": 0,
+                "points": 3
+            },
+            {
+                "username": "\u00c7\u00fck\u00fcbik",
+                "formation": "4-2-3-1",
+                "rating": 79,
+                "played": 1,
+                "won": 0,
+                "drawn": 0,
+                "lost": 1,
+                "goalsFor": 0,
+                "goalsAgainst": 2,
+                "points": 0
+            }
+        ],
+        "matches": [
+            {
+                "home": "\u00c7\u00fck\u00fcbik",
+                "homeRating": 79,
+                "away": "Baban\u0131zEgemen",
+                "awayRating": 82,
+                "homeScore": 0,
+                "awayScore": 2
+            }
+        ],
+        "champion": "Baban\u0131zEgemen"
+    }
+}

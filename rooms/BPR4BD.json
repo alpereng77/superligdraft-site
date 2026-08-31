@@ -1,0 +1,14 @@
+{
+    "roomCode": "BPR4BD",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Berkcan 2026",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781699107
+}

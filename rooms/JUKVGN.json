@@ -1,0 +1,20 @@
+{
+    "roomCode": "JUKVGN",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "emr",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Aksoy",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785852899
+}

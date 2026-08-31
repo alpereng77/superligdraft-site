@@ -1,0 +1,217 @@
+{
+    "roomCode": "B3UHKF",
+    "maxPlayers": 2,
+    "status": "finished",
+    "players": [
+        {
+            "username": "H\u00fcsamc\u0131k",
+            "ready": true,
+            "rating": 82,
+            "formation": "4-4-2",
+            "squad": [
+                {
+                    "name": "Harun Tekin",
+                    "position": "GK",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Edgar I\u00e9",
+                    "position": "DF",
+                    "market_value": "6.50 mil. \u20ac",
+                    "market_value_numeric": 6500000,
+                    "rating": 85
+                },
+                {
+                    "name": "Nejc Skubic",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Hasan Yurt",
+                    "position": "DF",
+                    "market_value": "2.75 mil. \u20ac",
+                    "market_value_numeric": 2750000,
+                    "rating": 82
+                },
+                {
+                    "name": "Lumor Agbenyenu",
+                    "position": "DF",
+                    "market_value": "1.40 mil. \u20ac",
+                    "market_value_numeric": 1400000,
+                    "rating": 77
+                },
+                {
+                    "name": "\u0130brahim Yattara",
+                    "position": "MF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 76
+                },
+                {
+                    "name": "Orkun K\u00f6k\u00e7\u00fc",
+                    "position": "MF",
+                    "market_value": "25.00 mil. \u20ac",
+                    "market_value_numeric": 25000000,
+                    "rating": 88
+                },
+                {
+                    "name": "Felipe Melo",
+                    "position": "MF",
+                    "market_value": "14.00 mil. \u20ac",
+                    "market_value_numeric": 14000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Tita",
+                    "position": "MF",
+                    "market_value": "2.80 mil. \u20ac",
+                    "market_value_numeric": 2800000,
+                    "rating": 78
+                },
+                {
+                    "name": "Mehmet \u00c7ak\u0131r",
+                    "position": "FW",
+                    "market_value": "2.70 mil. \u20ac",
+                    "market_value_numeric": 2700000,
+                    "rating": 81
+                },
+                {
+                    "name": "Mame Thiam",
+                    "position": "FW",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 80
+                }
+            ]
+        },
+        {
+            "username": "Sekompulpal",
+            "ready": true,
+            "rating": 80,
+            "formation": "4-4-2",
+            "squad": [
+                {
+                    "name": "G\u00f6khan Akkan",
+                    "position": "GK",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 81
+                },
+                {
+                    "name": "G\u00fcray Vural",
+                    "position": "DF",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 75
+                },
+                {
+                    "name": "Wallace",
+                    "position": "DF",
+                    "market_value": "2.80 mil. \u20ac",
+                    "market_value_numeric": 2800000,
+                    "rating": 80
+                },
+                {
+                    "name": "Egemen Korkmaz",
+                    "position": "DF",
+                    "market_value": "2.25 mil. \u20ac",
+                    "market_value_numeric": 2250000,
+                    "rating": 78
+                },
+                {
+                    "name": "Botond Balogh",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 75
+                },
+                {
+                    "name": "Matt\u00e9o Guendouzi",
+                    "position": "MF",
+                    "market_value": "27.00 mil. \u20ac",
+                    "market_value_numeric": 27000000,
+                    "rating": 90
+                },
+                {
+                    "name": "\u0130brahim Ak\u0131n",
+                    "position": "MF",
+                    "market_value": "2.60 mil. \u20ac",
+                    "market_value_numeric": 2600000,
+                    "rating": 81
+                },
+                {
+                    "name": "Andr\u00e9 Moritz",
+                    "position": "MF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Abdou Traor\u00e9",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 79
+                },
+                {
+                    "name": "Mehmet Y\u0131ld\u0131z",
+                    "position": "FW",
+                    "market_value": "4.20 mil. \u20ac",
+                    "market_value_numeric": 4200000,
+                    "rating": 82
+                },
+                {
+                    "name": "Bertu\u011f Y\u0131ld\u0131r\u0131m",
+                    "position": "FW",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 80
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1782939497,
+    "leagueResults": {
+        "standings": [
+            {
+                "username": "H\u00fcsamc\u0131k",
+                "formation": "4-4-2",
+                "rating": 82,
+                "played": 1,
+                "won": 1,
+                "drawn": 0,
+                "lost": 0,
+                "goalsFor": 2,
+                "goalsAgainst": 1,
+                "points": 3
+            },
+            {
+                "username": "Sekompulpal",
+                "formation": "4-4-2",
+                "rating": 80,
+                "played": 1,
+                "won": 0,
+                "drawn": 0,
+                "lost": 1,
+                "goalsFor": 1,
+                "goalsAgainst": 2,
+                "points": 0
+            }
+        ],
+        "matches": [
+            {
+                "home": "H\u00fcsamc\u0131k",
+                "homeRating": 82,
+                "away": "Sekompulpal",
+                "awayRating": 80,
+                "homeScore": 2,
+                "awayScore": 1
+            }
+        ],
+        "champion": "H\u00fcsamc\u0131k"
+    }
+}

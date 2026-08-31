@@ -1,0 +1,14 @@
+{
+    "roomCode": "J38QLG",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "emnnfw",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1782423279
+}

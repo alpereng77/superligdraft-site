@@ -1,0 +1,451 @@
+{
+    "roomCode": "5L59LM",
+    "maxPlayers": 4,
+    "status": "finished",
+    "players": [
+        {
+            "username": "MARD\u0130NSPOR",
+            "ready": true,
+            "rating": 83,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "Helton Leite",
+                    "position": "GK",
+                    "market_value": "1.00 mil. \u20ac",
+                    "market_value_numeric": 1000000,
+                    "rating": 73
+                },
+                {
+                    "name": "Ferdi Kad\u0131o\u011flu",
+                    "position": "DF",
+                    "market_value": "25.00 mil. \u20ac",
+                    "market_value_numeric": 25000000,
+                    "rating": 92
+                },
+                {
+                    "name": "Kamil Zayatte",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 78
+                },
+                {
+                    "name": "Egemen Korkmaz",
+                    "position": "DF",
+                    "market_value": "2.80 mil. \u20ac",
+                    "market_value_numeric": 2800000,
+                    "rating": 81
+                },
+                {
+                    "name": "\u00d6mer Ali \u015eahiner",
+                    "position": "DF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 80
+                },
+                {
+                    "name": "Matt\u00e9o Guendouzi",
+                    "position": "MF",
+                    "market_value": "27.00 mil. \u20ac",
+                    "market_value_numeric": 27000000,
+                    "rating": 90
+                },
+                {
+                    "name": "Amir Hadziahmetovic",
+                    "position": "MF",
+                    "market_value": "2.20 mil. \u20ac",
+                    "market_value_numeric": 2200000,
+                    "rating": 78
+                },
+                {
+                    "name": "Samuel Johnson",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Max Gradel",
+                    "position": "MF",
+                    "market_value": "3.60 mil. \u20ac",
+                    "market_value_numeric": 3600000,
+                    "rating": 82
+                },
+                {
+                    "name": "Rachid Ghezzal",
+                    "position": "MF",
+                    "market_value": "12.00 mil. \u20ac",
+                    "market_value_numeric": 12000000,
+                    "rating": 91
+                },
+                {
+                    "name": "Riad Bajic",
+                    "position": "FW",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 86
+                }
+            ]
+        },
+        {
+            "username": "hopesex",
+            "ready": true,
+            "rating": 82,
+            "formation": "3-5-2",
+            "squad": [
+                {
+                    "name": "Harun Tekin",
+                    "position": "GK",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Ozan Kabak",
+                    "position": "DF",
+                    "market_value": "15.00 mil. \u20ac",
+                    "market_value_numeric": 15000000,
+                    "rating": 91
+                },
+                {
+                    "name": "Jerry Akaminko",
+                    "position": "DF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 80
+                },
+                {
+                    "name": "G\u00fcray Vural",
+                    "position": "DF",
+                    "market_value": "1.00 mil. \u20ac",
+                    "market_value_numeric": 1000000,
+                    "rating": 72
+                },
+                {
+                    "name": "Florent Hadergjonaj",
+                    "position": "MF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Ali Bilgin",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Rodrigo Tabata",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 81
+                },
+                {
+                    "name": "G\u00f6kdeniz Bayrakdar",
+                    "position": "MF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 83
+                },
+                {
+                    "name": "Mehmet Topal",
+                    "position": "MF",
+                    "market_value": "12.00 mil. \u20ac",
+                    "market_value_numeric": 12000000,
+                    "rating": 89
+                },
+                {
+                    "name": "C\u00e9dric Bakambu",
+                    "position": "FW",
+                    "market_value": "12.00 mil. \u20ac",
+                    "market_value_numeric": 12000000,
+                    "rating": 88
+                },
+                {
+                    "name": "Jonathan T\u00e9hou\u00e9",
+                    "position": "FW",
+                    "market_value": "1.90 mil. \u20ac",
+                    "market_value_numeric": 1900000,
+                    "rating": 77
+                }
+            ]
+        },
+        {
+            "username": "PORNO",
+            "ready": true,
+            "rating": 84,
+            "formation": "3-5-2",
+            "squad": [
+                {
+                    "name": "Onur K\u0131vrak",
+                    "position": "GK",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Caner Erkin",
+                    "position": "DF",
+                    "market_value": "13.00 mil. \u20ac",
+                    "market_value_numeric": 13000000,
+                    "rating": 90
+                },
+                {
+                    "name": "Abdelzaher El Saka",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Alin To\u0219ca",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Alper Potuk",
+                    "position": "MF",
+                    "market_value": "6.50 mil. \u20ac",
+                    "market_value_numeric": 6500000,
+                    "rating": 85
+                },
+                {
+                    "name": "Tjaronn Chery",
+                    "position": "MF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Marcel Mbayo",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 79
+                },
+                {
+                    "name": "Yusuf Yaz\u0131c\u0131",
+                    "position": "MF",
+                    "market_value": "12.00 mil. \u20ac",
+                    "market_value_numeric": 12000000,
+                    "rating": 90
+                },
+                {
+                    "name": "Badou Ndiaye",
+                    "position": "MF",
+                    "market_value": "15.00 mil. \u20ac",
+                    "market_value_numeric": 15000000,
+                    "rating": 91
+                },
+                {
+                    "name": "Cenk Tosun",
+                    "position": "FW",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 85
+                },
+                {
+                    "name": "Georgi Ivanov",
+                    "position": "FW",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 78
+                }
+            ]
+        },
+        {
+            "username": "Mahir",
+            "ready": true,
+            "rating": 83,
+            "formation": "3-5-2",
+            "squad": [
+                {
+                    "name": "Ruud Boffin",
+                    "position": "GK",
+                    "market_value": "3.75 mil. \u20ac",
+                    "market_value_numeric": 3750000,
+                    "rating": 80
+                },
+                {
+                    "name": "Bubacarr Sanneh",
+                    "position": "DF",
+                    "market_value": "1.40 mil. \u20ac",
+                    "market_value_numeric": 1400000,
+                    "rating": 78
+                },
+                {
+                    "name": "Ozan Kabak",
+                    "position": "DF",
+                    "market_value": "15.00 mil. \u20ac",
+                    "market_value_numeric": 15000000,
+                    "rating": 91
+                },
+                {
+                    "name": "Wederson",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Samuel Johnson",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Pablo Batalla",
+                    "position": "MF",
+                    "market_value": "7.50 mil. \u20ac",
+                    "market_value_numeric": 7500000,
+                    "rating": 87
+                },
+                {
+                    "name": "Marcel Mbayo",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 79
+                },
+                {
+                    "name": "P\u00eap\u00ea",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Mehmet Topuz",
+                    "position": "MF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 83
+                },
+                {
+                    "name": "Victor Osimhen",
+                    "position": "FW",
+                    "market_value": "70.00 mil. \u20ac",
+                    "market_value_numeric": 70000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Necati Ate\u015f",
+                    "position": "FW",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 84
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1781811587,
+    "leagueResults": {
+        "standings": [
+            {
+                "username": "PORNO",
+                "formation": "3-5-2",
+                "rating": 84,
+                "played": 3,
+                "won": 3,
+                "drawn": 0,
+                "lost": 0,
+                "goalsFor": 6,
+                "goalsAgainst": 0,
+                "points": 9
+            },
+            {
+                "username": "Mahir",
+                "formation": "3-5-2",
+                "rating": 83,
+                "played": 3,
+                "won": 2,
+                "drawn": 0,
+                "lost": 1,
+                "goalsFor": 4,
+                "goalsAgainst": 4,
+                "points": 6
+            },
+            {
+                "username": "hopesex",
+                "formation": "3-5-2",
+                "rating": 82,
+                "played": 3,
+                "won": 0,
+                "drawn": 1,
+                "lost": 2,
+                "goalsFor": 2,
+                "goalsAgainst": 5,
+                "points": 1
+            },
+            {
+                "username": "MARD\u0130NSPOR",
+                "formation": "4-2-3-1",
+                "rating": 83,
+                "played": 3,
+                "won": 0,
+                "drawn": 1,
+                "lost": 2,
+                "goalsFor": 1,
+                "goalsAgainst": 4,
+                "points": 1
+            }
+        ],
+        "matches": [
+            {
+                "home": "MARD\u0130NSPOR",
+                "homeRating": 83,
+                "away": "hopesex",
+                "awayRating": 82,
+                "homeScore": 1,
+                "awayScore": 1
+            },
+            {
+                "home": "MARD\u0130NSPOR",
+                "homeRating": 83,
+                "away": "PORNO",
+                "awayRating": 84,
+                "homeScore": 0,
+                "awayScore": 1
+            },
+            {
+                "home": "MARD\u0130NSPOR",
+                "homeRating": 83,
+                "away": "Mahir",
+                "awayRating": 83,
+                "homeScore": 0,
+                "awayScore": 2
+            },
+            {
+                "home": "hopesex",
+                "homeRating": 82,
+                "away": "PORNO",
+                "awayRating": 84,
+                "homeScore": 0,
+                "awayScore": 2
+            },
+            {
+                "home": "hopesex",
+                "homeRating": 82,
+                "away": "Mahir",
+                "awayRating": 83,
+                "homeScore": 1,
+                "awayScore": 2
+            },
+            {
+                "home": "PORNO",
+                "homeRating": 84,
+                "away": "Mahir",
+                "awayRating": 83,
+                "homeScore": 3,
+                "awayScore": 0
+            }
+        ],
+        "champion": "PORNO"
+    }
+}

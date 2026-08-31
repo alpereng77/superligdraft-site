@@ -1,0 +1,14 @@
+{
+    "roomCode": "44DLVH",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "uthret",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781475630
+}

@@ -1,0 +1,14 @@
+{
+    "roomCode": "BJQ83J",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "T\u00fcrkiye",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781796181
+}

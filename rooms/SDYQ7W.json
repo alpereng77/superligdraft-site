@@ -1,0 +1,14 @@
+{
+    "roomCode": "SDYQ7W",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Samedayz",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1786364947
+}

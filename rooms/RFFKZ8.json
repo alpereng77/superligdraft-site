@@ -1,0 +1,14 @@
+{
+    "roomCode": "RFFKZ8",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Esnafb\u00fcnyo",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781826485
+}

@@ -1,0 +1,217 @@
+{
+    "roomCode": "WLPJR4",
+    "maxPlayers": 2,
+    "status": "finished",
+    "players": [
+        {
+            "username": "skes",
+            "ready": true,
+            "rating": 80,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "\u0130rfan Can E\u011fribayat",
+                    "position": "GK",
+                    "market_value": "3.30 mil. \u20ac",
+                    "market_value_numeric": 3300000,
+                    "rating": 81
+                },
+                {
+                    "name": "Alper Ak\u0131c\u0131",
+                    "position": "DF",
+                    "market_value": "1.55 mil. \u20ac",
+                    "market_value_numeric": 1550000,
+                    "rating": 73
+                },
+                {
+                    "name": "Serdar Aziz",
+                    "position": "DF",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Alexis P\u00e9rez",
+                    "position": "DF",
+                    "market_value": "1.30 mil. \u20ac",
+                    "market_value_numeric": 1300000,
+                    "rating": 73
+                },
+                {
+                    "name": "Volkan Yaman",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Ayman Abdelaziz",
+                    "position": "MF",
+                    "market_value": "1.00 mil. \u20ac",
+                    "market_value_numeric": 1000000,
+                    "rating": 74
+                },
+                {
+                    "name": "Andr\u00e9 Moritz",
+                    "position": "MF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Trezeguet",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 83
+                },
+                {
+                    "name": "Kl\u00e9berson",
+                    "position": "MF",
+                    "market_value": "6.80 mil. \u20ac",
+                    "market_value_numeric": 6800000,
+                    "rating": 87
+                },
+                {
+                    "name": "Senijad Ibricic",
+                    "position": "MF",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Moussa Sow",
+                    "position": "FW",
+                    "market_value": "15.50 mil. \u20ac",
+                    "market_value_numeric": 15500000,
+                    "rating": 91
+                }
+            ]
+        },
+        {
+            "username": "porno",
+            "ready": true,
+            "rating": 83,
+            "formation": "5-3-2",
+            "squad": [
+                {
+                    "name": "Onur K\u0131vrak",
+                    "position": "GK",
+                    "market_value": "11.00 mil. \u20ac",
+                    "market_value_numeric": 11000000,
+                    "rating": 88
+                },
+                {
+                    "name": "Nejc Skubic",
+                    "position": "DF",
+                    "market_value": "1.60 mil. \u20ac",
+                    "market_value_numeric": 1600000,
+                    "rating": 79
+                },
+                {
+                    "name": "Abd\u00fclkerim Bardakc\u0131",
+                    "position": "DF",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 77
+                },
+                {
+                    "name": "Merih Demiral",
+                    "position": "DF",
+                    "market_value": "15.00 mil. \u20ac",
+                    "market_value_numeric": 15000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Egemen Korkmaz",
+                    "position": "DF",
+                    "market_value": "2.80 mil. \u20ac",
+                    "market_value_numeric": 2800000,
+                    "rating": 81
+                },
+                {
+                    "name": "Giray Ka\u00e7ar",
+                    "position": "DF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Serdar G\u00fcrler",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 83
+                },
+                {
+                    "name": "Gustavo Colman",
+                    "position": "MF",
+                    "market_value": "6.50 mil. \u20ac",
+                    "market_value_numeric": 6500000,
+                    "rating": 85
+                },
+                {
+                    "name": "Mounir Chouiar",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Emmanuel Emenike",
+                    "position": "FW",
+                    "market_value": "2.70 mil. \u20ac",
+                    "market_value_numeric": 2700000,
+                    "rating": 78
+                },
+                {
+                    "name": "Vincent Aboubakar",
+                    "position": "FW",
+                    "market_value": "10.00 mil. \u20ac",
+                    "market_value_numeric": 10000000,
+                    "rating": 88
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1781534035,
+    "leagueResults": {
+        "standings": [
+            {
+                "username": "porno",
+                "formation": "5-3-2",
+                "rating": 83,
+                "played": 1,
+                "won": 1,
+                "drawn": 0,
+                "lost": 0,
+                "goalsFor": 3,
+                "goalsAgainst": 1,
+                "points": 3
+            },
+            {
+                "username": "skes",
+                "formation": "4-2-3-1",
+                "rating": 80,
+                "played": 1,
+                "won": 0,
+                "drawn": 0,
+                "lost": 1,
+                "goalsFor": 1,
+                "goalsAgainst": 3,
+                "points": 0
+            }
+        ],
+        "matches": [
+            {
+                "home": "skes",
+                "homeRating": 80,
+                "away": "porno",
+                "awayRating": 83,
+                "homeScore": 1,
+                "awayScore": 3
+            }
+        ],
+        "champion": "porno"
+    }
+}

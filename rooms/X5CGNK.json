@@ -1,0 +1,26 @@
+{
+    "roomCode": "X5CGNK",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Siken",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Halim",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Amc\u0131k",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785084701
+}

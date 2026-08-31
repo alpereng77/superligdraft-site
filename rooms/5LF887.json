@@ -1,0 +1,14 @@
+{
+    "roomCode": "5LF887",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "2.MAN\u0130TA",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781646847
+}

@@ -1,0 +1,99 @@
+{
+    "roomCode": "JXJ3J9",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "ALEV\u0130K\u00dcRTE\u015eC\u0130NS",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "ozyy",
+            "ready": true,
+            "rating": 83,
+            "formation": "4-4-2",
+            "squad": [
+                {
+                    "name": "Fevzi Tuncay",
+                    "position": "GK",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 72
+                },
+                {
+                    "name": "Nejc Skubic",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Furkan Bay\u0131r",
+                    "position": "DF",
+                    "market_value": "2.30 mil. \u20ac",
+                    "market_value_numeric": 2300000,
+                    "rating": 78
+                },
+                {
+                    "name": "\u015eener \u00d6zbayrakl\u0131",
+                    "position": "DF",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 83
+                },
+                {
+                    "name": "Caner Erkin",
+                    "position": "DF",
+                    "market_value": "9.00 mil. \u20ac",
+                    "market_value_numeric": 9000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Wesley Sneijder",
+                    "position": "MF",
+                    "market_value": "17.00 mil. \u20ac",
+                    "market_value_numeric": 17000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Orkun K\u00f6k\u00e7\u00fc",
+                    "position": "MF",
+                    "market_value": "25.00 mil. \u20ac",
+                    "market_value_numeric": 25000000,
+                    "rating": 88
+                },
+                {
+                    "name": "Rodrigo Tabata",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Amir Hadziahmetovic",
+                    "position": "MF",
+                    "market_value": "2.20 mil. \u20ac",
+                    "market_value_numeric": 2200000,
+                    "rating": 78
+                },
+                {
+                    "name": "Rey Manaj",
+                    "position": "FW",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Mauro Icardi",
+                    "position": "FW",
+                    "market_value": "19.00 mil. \u20ac",
+                    "market_value_numeric": 19000000,
+                    "rating": 92
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1782911765
+}

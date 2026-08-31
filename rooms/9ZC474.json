@@ -1,0 +1,26 @@
+{
+    "roomCode": "9ZC474",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "mert",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "lzrd",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Tokmakci",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781641526
+}

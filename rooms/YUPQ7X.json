@@ -1,0 +1,32 @@
+{
+    "roomCode": "YUPQ7X",
+    "maxPlayers": 4,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "SEKS\u0130PORSUK",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Masperising",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Rdect",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "sexiboy3169",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1786192079
+}

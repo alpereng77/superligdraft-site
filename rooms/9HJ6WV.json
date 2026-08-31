@@ -1,0 +1,26 @@
+{
+    "roomCode": "9HJ6WV",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Poyraz",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Ekselans",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "474747",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785837978
+}

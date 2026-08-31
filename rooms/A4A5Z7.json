@@ -1,0 +1,14 @@
+{
+    "roomCode": "A4A5Z7",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Kutay",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1786060899
+}

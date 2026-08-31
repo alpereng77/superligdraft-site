@@ -1,0 +1,14 @@
+{
+    "roomCode": "2H7JEC",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Harun",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781266370
+}

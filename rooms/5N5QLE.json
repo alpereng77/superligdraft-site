@@ -1,0 +1,14 @@
+{
+    "roomCode": "5N5QLE",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "caglar",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781270760
+}

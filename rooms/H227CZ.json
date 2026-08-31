@@ -1,0 +1,217 @@
+{
+    "roomCode": "H227CZ",
+    "maxPlayers": 2,
+    "status": "finished",
+    "players": [
+        {
+            "username": "hhhh",
+            "ready": true,
+            "rating": 79,
+            "formation": "5-3-2",
+            "squad": [
+                {
+                    "name": "G\u00fcnay G\u00fcven\u00e7",
+                    "position": "GK",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 76
+                },
+                {
+                    "name": "Marcus Vin\u00edcius",
+                    "position": "DF",
+                    "market_value": "1.80 mil. \u20ac",
+                    "market_value_numeric": 1800000,
+                    "rating": 77
+                },
+                {
+                    "name": "Majid Hosseini",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Larrys Mabiala",
+                    "position": "DF",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 74
+                },
+                {
+                    "name": "Dimitrios Goutas",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Fabiano",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Luton Shelton",
+                    "position": "MF",
+                    "market_value": "2.40 mil. \u20ac",
+                    "market_value_numeric": 2400000,
+                    "rating": 77
+                },
+                {
+                    "name": "Volkan \u015een",
+                    "position": "MF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 84
+                },
+                {
+                    "name": "G\u00f6khan Emreciksin",
+                    "position": "MF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Souleymane Youla",
+                    "position": "FW",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 86
+                },
+                {
+                    "name": "G\u00f6khan \u00dcnal",
+                    "position": "FW",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 83
+                }
+            ]
+        },
+        {
+            "username": "dgd",
+            "ready": true,
+            "rating": 77,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "R\u00e9my Riou",
+                    "position": "GK",
+                    "market_value": "600 bin \u20ac",
+                    "market_value_numeric": 600000,
+                    "rating": 70
+                },
+                {
+                    "name": "Caner Osmanpa\u015fa",
+                    "position": "DF",
+                    "market_value": "600 bin \u20ac",
+                    "market_value_numeric": 600000,
+                    "rating": 72
+                },
+                {
+                    "name": "Javi Montero",
+                    "position": "DF",
+                    "market_value": "2.70 mil. \u20ac",
+                    "market_value_numeric": 2700000,
+                    "rating": 78
+                },
+                {
+                    "name": "Emirhan Top\u00e7u",
+                    "position": "DF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Stelios Kitsiou",
+                    "position": "DF",
+                    "market_value": "900 bin \u20ac",
+                    "market_value_numeric": 900000,
+                    "rating": 71
+                },
+                {
+                    "name": "Raman Chibsah",
+                    "position": "MF",
+                    "market_value": "900 bin \u20ac",
+                    "market_value_numeric": 900000,
+                    "rating": 75
+                },
+                {
+                    "name": "Stjepan Poljak",
+                    "position": "MF",
+                    "market_value": "1.20 mil. \u20ac",
+                    "market_value_numeric": 1200000,
+                    "rating": 74
+                },
+                {
+                    "name": "Sefa Y\u0131lmaz",
+                    "position": "MF",
+                    "market_value": "3.30 mil. \u20ac",
+                    "market_value_numeric": 3300000,
+                    "rating": 80
+                },
+                {
+                    "name": "Necati Ate\u015f",
+                    "position": "FW",
+                    "market_value": "2.70 mil. \u20ac",
+                    "market_value_numeric": 2700000,
+                    "rating": 80
+                },
+                {
+                    "name": "Paul Onuachu",
+                    "position": "FW",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 79
+                },
+                {
+                    "name": "R\u00f4mulo",
+                    "position": "FW",
+                    "market_value": "11.00 mil. \u20ac",
+                    "market_value_numeric": 11000000,
+                    "rating": 86
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1781271673,
+    "leagueResults": {
+        "standings": [
+            {
+                "username": "dgd",
+                "formation": "4-3-3",
+                "rating": 77,
+                "played": 1,
+                "won": 1,
+                "drawn": 0,
+                "lost": 0,
+                "goalsFor": 1,
+                "goalsAgainst": 0,
+                "points": 3
+            },
+            {
+                "username": "hhhh",
+                "formation": "5-3-2",
+                "rating": 79,
+                "played": 1,
+                "won": 0,
+                "drawn": 0,
+                "lost": 1,
+                "goalsFor": 0,
+                "goalsAgainst": 1,
+                "points": 0
+            }
+        ],
+        "matches": [
+            {
+                "home": "hhhh",
+                "homeRating": 79,
+                "away": "dgd",
+                "awayRating": 77,
+                "homeScore": 0,
+                "awayScore": 1
+            }
+        ],
+        "champion": "dgd"
+    }
+}

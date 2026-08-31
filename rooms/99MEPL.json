@@ -1,0 +1,20 @@
+{
+    "roomCode": "99MEPL",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "zaza",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "ada",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781438179
+}

@@ -1,0 +1,451 @@
+{
+    "roomCode": "4FHM4R",
+    "maxPlayers": 4,
+    "status": "finished",
+    "players": [
+        {
+            "username": "Silifke United",
+            "ready": true,
+            "rating": 84,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "Altay Bay\u0131nd\u0131r",
+                    "position": "GK",
+                    "market_value": "14.00 mil. \u20ac",
+                    "market_value_numeric": 14000000,
+                    "rating": 93
+                },
+                {
+                    "name": "L\u00e9o Dubois",
+                    "position": "DF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Diego Lugano",
+                    "position": "DF",
+                    "market_value": "12.50 mil. \u20ac",
+                    "market_value_numeric": 12500000,
+                    "rating": 91
+                },
+                {
+                    "name": "Fatih Aksoy",
+                    "position": "DF",
+                    "market_value": "3.20 mil. \u20ac",
+                    "market_value_numeric": 3200000,
+                    "rating": 79
+                },
+                {
+                    "name": "Roman Kratochv\u00edl",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Ismail Aissati",
+                    "position": "MF",
+                    "market_value": "3.80 mil. \u20ac",
+                    "market_value_numeric": 3800000,
+                    "rating": 80
+                },
+                {
+                    "name": "Mustafa Sarp",
+                    "position": "MF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Ebrima Colley",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Jos\u00e9 Sosa",
+                    "position": "MF",
+                    "market_value": "7.00 mil. \u20ac",
+                    "market_value_numeric": 7000000,
+                    "rating": 85
+                },
+                {
+                    "name": "G\u00f6kdeniz Karadeniz",
+                    "position": "MF",
+                    "market_value": "6.80 mil. \u20ac",
+                    "market_value_numeric": 6800000,
+                    "rating": 88
+                },
+                {
+                    "name": "Moussa Sow",
+                    "position": "FW",
+                    "market_value": "13.00 mil. \u20ac",
+                    "market_value_numeric": 13000000,
+                    "rating": 91
+                }
+            ]
+        },
+        {
+            "username": "Gsserhat",
+            "ready": true,
+            "rating": 81,
+            "formation": "3-5-2",
+            "squad": [
+                {
+                    "name": "Serkan K\u0131r\u0131nt\u0131l\u0131",
+                    "position": "GK",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "\u00dcmit \u00d6zat",
+                    "position": "DF",
+                    "market_value": "2.75 mil. \u20ac",
+                    "market_value_numeric": 2750000,
+                    "rating": 82
+                },
+                {
+                    "name": "Aykut Demir",
+                    "position": "DF",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 83
+                },
+                {
+                    "name": "Youssouf Ndayishimiye",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Okan Ko\u00e7",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 78
+                },
+                {
+                    "name": "Anastasios Bakasetas",
+                    "position": "MF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 80
+                },
+                {
+                    "name": "Fredrik Midtsj\u00f8",
+                    "position": "MF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 77
+                },
+                {
+                    "name": "Franco C\u00e1ngele",
+                    "position": "MF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 84
+                },
+                {
+                    "name": "Youness Mokhtar",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Souleymane Youla",
+                    "position": "FW",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 86
+                },
+                {
+                    "name": "Souleymane Youla",
+                    "position": "FW",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 86
+                }
+            ]
+        },
+        {
+            "username": "Hay\u0131n y\u00f6r\u00fck",
+            "ready": true,
+            "rating": 82,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "Souleymanou Hamidou",
+                    "position": "GK",
+                    "market_value": "1.30 mil. \u20ac",
+                    "market_value_numeric": 1300000,
+                    "rating": 75
+                },
+                {
+                    "name": "Furkan Bay\u0131r",
+                    "position": "DF",
+                    "market_value": "2.80 mil. \u20ac",
+                    "market_value_numeric": 2800000,
+                    "rating": 78
+                },
+                {
+                    "name": "Fredrik Risp",
+                    "position": "DF",
+                    "market_value": "2.10 mil. \u20ac",
+                    "market_value_numeric": 2100000,
+                    "rating": 77
+                },
+                {
+                    "name": "Victor Nelsson",
+                    "position": "DF",
+                    "market_value": "12.00 mil. \u20ac",
+                    "market_value_numeric": 12000000,
+                    "rating": 88
+                },
+                {
+                    "name": "Razundara Tjikuzu",
+                    "position": "DF",
+                    "market_value": "850 bin \u20ac",
+                    "market_value_numeric": 850000,
+                    "rating": 73
+                },
+                {
+                    "name": "Sandro",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Stephen Appiah",
+                    "position": "MF",
+                    "market_value": "8.50 mil. \u20ac",
+                    "market_value_numeric": 8500000,
+                    "rating": 91
+                },
+                {
+                    "name": "Deniz T\u00fcr\u00fc\u00e7",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Wesley Sneijder",
+                    "position": "MF",
+                    "market_value": "17.00 mil. \u20ac",
+                    "market_value_numeric": 17000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Max Gradel",
+                    "position": "MF",
+                    "market_value": "3.60 mil. \u20ac",
+                    "market_value_numeric": 3600000,
+                    "rating": 82
+                },
+                {
+                    "name": "Zied Jaziri",
+                    "position": "FW",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 84
+                }
+            ]
+        },
+        {
+            "username": "Snsjsjs",
+            "ready": true,
+            "rating": 83,
+            "formation": "4-4-2",
+            "squad": [
+                {
+                    "name": "Ricardo Velho",
+                    "position": "GK",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 76
+                },
+                {
+                    "name": "Ferdi Kad\u0131o\u011flu",
+                    "position": "DF",
+                    "market_value": "17.00 mil. \u20ac",
+                    "market_value_numeric": 17000000,
+                    "rating": 91
+                },
+                {
+                    "name": "Diego Lugano",
+                    "position": "DF",
+                    "market_value": "12.50 mil. \u20ac",
+                    "market_value_numeric": 12500000,
+                    "rating": 91
+                },
+                {
+                    "name": "J\u00falio C\u00e9sar",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Serdar Aziz",
+                    "position": "DF",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Arbnor Muja",
+                    "position": "MF",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Amir Hadziahmetovic",
+                    "position": "MF",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Adama Traor\u00e9",
+                    "position": "MF",
+                    "market_value": "3.80 mil. \u20ac",
+                    "market_value_numeric": 3800000,
+                    "rating": 82
+                },
+                {
+                    "name": "Emre Akbaba",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Juan",
+                    "position": "FW",
+                    "market_value": "12.00 mil. \u20ac",
+                    "market_value_numeric": 12000000,
+                    "rating": 83
+                },
+                {
+                    "name": "Rey Manaj",
+                    "position": "FW",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 78
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1781296881,
+    "leagueResults": {
+        "standings": [
+            {
+                "username": "Snsjsjs",
+                "formation": "4-4-2",
+                "rating": 83,
+                "played": 3,
+                "won": 2,
+                "drawn": 0,
+                "lost": 1,
+                "goalsFor": 8,
+                "goalsAgainst": 5,
+                "points": 6
+            },
+            {
+                "username": "Silifke United",
+                "formation": "4-2-3-1",
+                "rating": 84,
+                "played": 3,
+                "won": 1,
+                "drawn": 2,
+                "lost": 0,
+                "goalsFor": 5,
+                "goalsAgainst": 2,
+                "points": 5
+            },
+            {
+                "username": "Gsserhat",
+                "formation": "3-5-2",
+                "rating": 81,
+                "played": 3,
+                "won": 0,
+                "drawn": 2,
+                "lost": 1,
+                "goalsFor": 2,
+                "goalsAgainst": 4,
+                "points": 2
+            },
+            {
+                "username": "Hay\u0131n y\u00f6r\u00fck",
+                "formation": "4-2-3-1",
+                "rating": 82,
+                "played": 3,
+                "won": 0,
+                "drawn": 2,
+                "lost": 1,
+                "goalsFor": 2,
+                "goalsAgainst": 6,
+                "points": 2
+            }
+        ],
+        "matches": [
+            {
+                "home": "Silifke United",
+                "homeRating": 84,
+                "away": "Gsserhat",
+                "awayRating": 81,
+                "homeScore": 0,
+                "awayScore": 0
+            },
+            {
+                "home": "Silifke United",
+                "homeRating": 84,
+                "away": "Hay\u0131n y\u00f6r\u00fck",
+                "awayRating": 82,
+                "homeScore": 1,
+                "awayScore": 1
+            },
+            {
+                "home": "Silifke United",
+                "homeRating": 84,
+                "away": "Snsjsjs",
+                "awayRating": 83,
+                "homeScore": 4,
+                "awayScore": 1
+            },
+            {
+                "home": "Gsserhat",
+                "homeRating": 81,
+                "away": "Hay\u0131n y\u00f6r\u00fck",
+                "awayRating": 82,
+                "homeScore": 1,
+                "awayScore": 1
+            },
+            {
+                "home": "Gsserhat",
+                "homeRating": 81,
+                "away": "Snsjsjs",
+                "awayRating": 83,
+                "homeScore": 1,
+                "awayScore": 3
+            },
+            {
+                "home": "Hay\u0131n y\u00f6r\u00fck",
+                "homeRating": 82,
+                "away": "Snsjsjs",
+                "awayRating": 83,
+                "homeScore": 0,
+                "awayScore": 4
+            }
+        ],
+        "champion": "Snsjsjs"
+    }
+}

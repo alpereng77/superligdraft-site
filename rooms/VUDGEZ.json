@@ -1,0 +1,14 @@
+{
+    "roomCode": "VUDGEZ",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "OKAN",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781271871
+}

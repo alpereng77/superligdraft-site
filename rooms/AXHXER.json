@@ -1,0 +1,14 @@
+{
+    "roomCode": "AXHXER",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Se\u00e7kin Kartal",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1783724622
+}

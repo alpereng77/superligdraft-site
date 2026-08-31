@@ -1,0 +1,14 @@
+{
+    "roomCode": "8N3V7N",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Ronaldo",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781461090
+}

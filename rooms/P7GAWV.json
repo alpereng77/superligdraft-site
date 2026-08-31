@@ -1,0 +1,20 @@
+{
+    "roomCode": "P7GAWV",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "icarda",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Medusa0653",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781282688
+}

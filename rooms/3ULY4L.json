@@ -1,0 +1,217 @@
+{
+    "roomCode": "3ULY4L",
+    "maxPlayers": 2,
+    "status": "finished",
+    "players": [
+        {
+            "username": "Emir",
+            "ready": true,
+            "rating": 80,
+            "formation": "4-4-2",
+            "squad": [
+                {
+                    "name": "Boy Waterman",
+                    "position": "GK",
+                    "market_value": "2.20 mil. \u20ac",
+                    "market_value_numeric": 2200000,
+                    "rating": 76
+                },
+                {
+                    "name": "\u00c1lvaro Mej\u00eda",
+                    "position": "DF",
+                    "market_value": "900 bin \u20ac",
+                    "market_value_numeric": 900000,
+                    "rating": 71
+                },
+                {
+                    "name": "\u0130brahim Toraman",
+                    "position": "DF",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 84
+                },
+                {
+                    "name": "\u00d6mer Ali \u015eahiner",
+                    "position": "DF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 80
+                },
+                {
+                    "name": "Guy-Marcelin Kilama",
+                    "position": "DF",
+                    "market_value": "1.30 mil. \u20ac",
+                    "market_value_numeric": 1300000,
+                    "rating": 74
+                },
+                {
+                    "name": "Fernando Belluschi",
+                    "position": "MF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 84
+                },
+                {
+                    "name": "Volkan \u015een",
+                    "position": "MF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 84
+                },
+                {
+                    "name": "Orkun K\u00f6k\u00e7\u00fc",
+                    "position": "MF",
+                    "market_value": "25.00 mil. \u20ac",
+                    "market_value_numeric": 25000000,
+                    "rating": 88
+                },
+                {
+                    "name": "Anastasios Bakasetas",
+                    "position": "MF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 80
+                },
+                {
+                    "name": "John Carew",
+                    "position": "FW",
+                    "market_value": "7.00 mil. \u20ac",
+                    "market_value_numeric": 7000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Elvis Manu",
+                    "position": "FW",
+                    "market_value": "1.00 mil. \u20ac",
+                    "market_value_numeric": 1000000,
+                    "rating": 76
+                }
+            ]
+        },
+        {
+            "username": "saplaaaa",
+            "ready": true,
+            "rating": 79,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Ali \u015ea\u015fal Vural",
+                    "position": "GK",
+                    "market_value": "350 bin \u20ac",
+                    "market_value_numeric": 350000,
+                    "rating": 69
+                },
+                {
+                    "name": "Alper Ak\u0131c\u0131",
+                    "position": "DF",
+                    "market_value": "1.55 mil. \u20ac",
+                    "market_value_numeric": 1550000,
+                    "rating": 73
+                },
+                {
+                    "name": "Joseph Boum",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 74
+                },
+                {
+                    "name": "Syam Ben Youssef",
+                    "position": "DF",
+                    "market_value": "725 bin \u20ac",
+                    "market_value_numeric": 725000,
+                    "rating": 74
+                },
+                {
+                    "name": "Miguel Garcia",
+                    "position": "DF",
+                    "market_value": "2.40 mil. \u20ac",
+                    "market_value_numeric": 2400000,
+                    "rating": 76
+                },
+                {
+                    "name": "Ebrima Colley",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Franco C\u00e1ngele",
+                    "position": "MF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 84
+                },
+                {
+                    "name": "Amir Hadziahmetovic",
+                    "position": "MF",
+                    "market_value": "7.50 mil. \u20ac",
+                    "market_value_numeric": 7500000,
+                    "rating": 85
+                },
+                {
+                    "name": "Vincent Aboubakar",
+                    "position": "FW",
+                    "market_value": "10.00 mil. \u20ac",
+                    "market_value_numeric": 10000000,
+                    "rating": 88
+                },
+                {
+                    "name": "Mehmet Y\u0131ld\u0131z",
+                    "position": "FW",
+                    "market_value": "4.20 mil. \u20ac",
+                    "market_value_numeric": 4200000,
+                    "rating": 82
+                },
+                {
+                    "name": "Olarenwaju Kayode",
+                    "position": "FW",
+                    "market_value": "2.40 mil. \u20ac",
+                    "market_value_numeric": 2400000,
+                    "rating": 81
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1785004139,
+    "leagueResults": {
+        "standings": [
+            {
+                "username": "Emir",
+                "formation": "4-4-2",
+                "rating": 80,
+                "played": 1,
+                "won": 0,
+                "drawn": 1,
+                "lost": 0,
+                "goalsFor": 3,
+                "goalsAgainst": 3,
+                "points": 1
+            },
+            {
+                "username": "saplaaaa",
+                "formation": "4-3-3",
+                "rating": 79,
+                "played": 1,
+                "won": 0,
+                "drawn": 1,
+                "lost": 0,
+                "goalsFor": 3,
+                "goalsAgainst": 3,
+                "points": 1
+            }
+        ],
+        "matches": [
+            {
+                "home": "Emir",
+                "homeRating": 80,
+                "away": "saplaaaa",
+                "awayRating": 79,
+                "homeScore": 3,
+                "awayScore": 3
+            }
+        ],
+        "champion": "Emir"
+    }
+}

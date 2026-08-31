@@ -1,0 +1,20 @@
+{
+    "roomCode": "GX3KWG",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Eserbaba",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Salih buba",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1786204881
+}

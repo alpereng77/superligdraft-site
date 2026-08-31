@@ -1,0 +1,14 @@
+{
+    "roomCode": "GHVJVP",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Mami",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1782338795
+}

@@ -1,0 +1,217 @@
+{
+    "roomCode": "5HKGFY",
+    "maxPlayers": 2,
+    "status": "finished",
+    "players": [
+        {
+            "username": "\u0130domaki",
+            "ready": true,
+            "rating": 85,
+            "formation": "5-3-2",
+            "squad": [
+                {
+                    "name": "Volkan Babacan",
+                    "position": "GK",
+                    "market_value": "8.00 mil. \u20ac",
+                    "market_value_numeric": 8000000,
+                    "rating": 86
+                },
+                {
+                    "name": "Delio Toledo",
+                    "position": "DF",
+                    "market_value": "2.70 mil. \u20ac",
+                    "market_value_numeric": 2700000,
+                    "rating": 81
+                },
+                {
+                    "name": "Simon Kjaer",
+                    "position": "DF",
+                    "market_value": "11.00 mil. \u20ac",
+                    "market_value_numeric": 11000000,
+                    "rating": 88
+                },
+                {
+                    "name": "G\u00f6khan Zan",
+                    "position": "DF",
+                    "market_value": "5.80 mil. \u20ac",
+                    "market_value_numeric": 5800000,
+                    "rating": 86
+                },
+                {
+                    "name": "Emirhan Top\u00e7u",
+                    "position": "DF",
+                    "market_value": "4.30 mil. \u20ac",
+                    "market_value_numeric": 4300000,
+                    "rating": 82
+                },
+                {
+                    "name": "Diego Lugano",
+                    "position": "DF",
+                    "market_value": "7.50 mil. \u20ac",
+                    "market_value_numeric": 7500000,
+                    "rating": 88
+                },
+                {
+                    "name": "Alex",
+                    "position": "MF",
+                    "market_value": "9.90 mil. \u20ac",
+                    "market_value_numeric": 9900000,
+                    "rating": 93
+                },
+                {
+                    "name": "Bernard Mensah",
+                    "position": "MF",
+                    "market_value": "2.30 mil. \u20ac",
+                    "market_value_numeric": 2300000,
+                    "rating": 81
+                },
+                {
+                    "name": "G\u00f6kdeniz Karadeniz",
+                    "position": "MF",
+                    "market_value": "7.50 mil. \u20ac",
+                    "market_value_numeric": 7500000,
+                    "rating": 90
+                },
+                {
+                    "name": "Pierre Web\u00f3",
+                    "position": "FW",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Serkan Aykut",
+                    "position": "FW",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 78
+                }
+            ]
+        },
+        {
+            "username": "Tacticalgeniusss",
+            "ready": true,
+            "rating": 72,
+            "formation": "5-3-2",
+            "squad": [
+                {
+                    "name": "Atilla Koca",
+                    "position": "GK",
+                    "market_value": "200 bin \u20ac",
+                    "market_value_numeric": 200000,
+                    "rating": 63
+                },
+                {
+                    "name": "Francisco Calvo",
+                    "position": "DF",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 75
+                },
+                {
+                    "name": "Hakan Aslantas",
+                    "position": "DF",
+                    "market_value": "1.00 mil. \u20ac",
+                    "market_value_numeric": 1000000,
+                    "rating": 70
+                },
+                {
+                    "name": "Elyasa S\u00fcme",
+                    "position": "DF",
+                    "market_value": "1.20 mil. \u20ac",
+                    "market_value_numeric": 1200000,
+                    "rating": 72
+                },
+                {
+                    "name": "\u00d6mer Erdo\u011fan",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 74
+                },
+                {
+                    "name": "\u015eenol Can",
+                    "position": "DF",
+                    "market_value": "1.00 mil. \u20ac",
+                    "market_value_numeric": 1000000,
+                    "rating": 69
+                },
+                {
+                    "name": "Maurice Edu",
+                    "position": "MF",
+                    "market_value": "2.30 mil. \u20ac",
+                    "market_value_numeric": 2300000,
+                    "rating": 76
+                },
+                {
+                    "name": "Thievy Bifouma",
+                    "position": "MF",
+                    "market_value": "1.75 mil. \u20ac",
+                    "market_value_numeric": 1750000,
+                    "rating": 76
+                },
+                {
+                    "name": "Tunahan Ta\u015f\u00e7\u0131",
+                    "position": "MF",
+                    "market_value": "800 bin \u20ac",
+                    "market_value_numeric": 800000,
+                    "rating": 70
+                },
+                {
+                    "name": "Bruce Djite",
+                    "position": "FW",
+                    "market_value": "600 bin \u20ac",
+                    "market_value_numeric": 600000,
+                    "rating": 70
+                },
+                {
+                    "name": "Adem B\u00fcy\u00fck",
+                    "position": "FW",
+                    "market_value": "1.00 mil. \u20ac",
+                    "market_value_numeric": 1000000,
+                    "rating": 75
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1785399189,
+    "leagueResults": {
+        "standings": [
+            {
+                "username": "\u0130domaki",
+                "formation": "5-3-2",
+                "rating": 85,
+                "played": 1,
+                "won": 1,
+                "drawn": 0,
+                "lost": 0,
+                "goalsFor": 2,
+                "goalsAgainst": 0,
+                "points": 3
+            },
+            {
+                "username": "Tacticalgeniusss",
+                "formation": "5-3-2",
+                "rating": 72,
+                "played": 1,
+                "won": 0,
+                "drawn": 0,
+                "lost": 1,
+                "goalsFor": 0,
+                "goalsAgainst": 2,
+                "points": 0
+            }
+        ],
+        "matches": [
+            {
+                "home": "\u0130domaki",
+                "homeRating": 85,
+                "away": "Tacticalgeniusss",
+                "awayRating": 72,
+                "homeScore": 2,
+                "awayScore": 0
+            }
+        ],
+        "champion": "\u0130domaki"
+    }
+}

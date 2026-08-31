@@ -1,0 +1,14 @@
+{
+    "roomCode": "WF9XXU",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Jzjxjzjz",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1784334836
+}

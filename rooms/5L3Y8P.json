@@ -1,0 +1,217 @@
+{
+    "roomCode": "5L3Y8P",
+    "maxPlayers": 2,
+    "status": "finished",
+    "players": [
+        {
+            "username": "eren",
+            "ready": true,
+            "rating": 80,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Ivo Grbic",
+                    "position": "GK",
+                    "market_value": "1.00 mil. \u20ac",
+                    "market_value_numeric": 1000000,
+                    "rating": 70
+                },
+                {
+                    "name": "Gustavo Victoria",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 73
+                },
+                {
+                    "name": "Aykut Demir",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Riechedly Bazoer",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Yassine Meriah",
+                    "position": "DF",
+                    "market_value": "2.40 mil. \u20ac",
+                    "market_value_numeric": 2400000,
+                    "rating": 81
+                },
+                {
+                    "name": "Kerem Akt\u00fcrko\u011flu",
+                    "position": "MF",
+                    "market_value": "16.50 mil. \u20ac",
+                    "market_value_numeric": 16500000,
+                    "rating": 92
+                },
+                {
+                    "name": "J\u00e9r\u00f4me Rothen",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Alper Potuk",
+                    "position": "MF",
+                    "market_value": "6.50 mil. \u20ac",
+                    "market_value_numeric": 6500000,
+                    "rating": 85
+                },
+                {
+                    "name": "Riad Bajic",
+                    "position": "FW",
+                    "market_value": "1.40 mil. \u20ac",
+                    "market_value_numeric": 1400000,
+                    "rating": 78
+                },
+                {
+                    "name": "Juan",
+                    "position": "FW",
+                    "market_value": "12.00 mil. \u20ac",
+                    "market_value_numeric": 12000000,
+                    "rating": 83
+                },
+                {
+                    "name": "Souleymane Youla",
+                    "position": "FW",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 78
+                }
+            ]
+        },
+        {
+            "username": "Eray",
+            "ready": true,
+            "rating": 79,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "Volkan Babacan",
+                    "position": "GK",
+                    "market_value": "7.00 mil. \u20ac",
+                    "market_value_numeric": 7000000,
+                    "rating": 85
+                },
+                {
+                    "name": "Alexandru Epureanu",
+                    "position": "DF",
+                    "market_value": "3.75 mil. \u20ac",
+                    "market_value_numeric": 3750000,
+                    "rating": 82
+                },
+                {
+                    "name": "Yasin \u00d6zcan",
+                    "position": "DF",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Matheus D\u00f3ria",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Bogdan Butko",
+                    "position": "DF",
+                    "market_value": "675 bin \u20ac",
+                    "market_value_numeric": 675000,
+                    "rating": 71
+                },
+                {
+                    "name": "G\u00f6kdeniz Bayrakdar",
+                    "position": "MF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 83
+                },
+                {
+                    "name": "L\u00e1szl\u00f3 B\u00e9nes",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 75
+                },
+                {
+                    "name": "Pablo Batalla",
+                    "position": "MF",
+                    "market_value": "7.50 mil. \u20ac",
+                    "market_value_numeric": 7500000,
+                    "rating": 87
+                },
+                {
+                    "name": "Enis Bardhi",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Engin Baytar",
+                    "position": "MF",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 78
+                },
+                {
+                    "name": "Yusuf Baras\u0131",
+                    "position": "FW",
+                    "market_value": "1.40 mil. \u20ac",
+                    "market_value_numeric": 1400000,
+                    "rating": 74
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1782039797,
+    "leagueResults": {
+        "standings": [
+            {
+                "username": "eren",
+                "formation": "4-3-3",
+                "rating": 80,
+                "played": 1,
+                "won": 0,
+                "drawn": 1,
+                "lost": 0,
+                "goalsFor": 1,
+                "goalsAgainst": 1,
+                "points": 1
+            },
+            {
+                "username": "Eray",
+                "formation": "4-2-3-1",
+                "rating": 79,
+                "played": 1,
+                "won": 0,
+                "drawn": 1,
+                "lost": 0,
+                "goalsFor": 1,
+                "goalsAgainst": 1,
+                "points": 1
+            }
+        ],
+        "matches": [
+            {
+                "home": "eren",
+                "homeRating": 80,
+                "away": "Eray",
+                "awayRating": 79,
+                "homeScore": 1,
+                "awayScore": 1
+            }
+        ],
+        "champion": "eren"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "roomCode": "PD4Q7Y",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Batu123",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781701869
+}

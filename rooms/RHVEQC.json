@@ -1,0 +1,14 @@
+{
+    "roomCode": "RHVEQC",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Sol kanat transf",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1786564381
+}

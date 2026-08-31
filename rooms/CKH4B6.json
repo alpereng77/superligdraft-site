@@ -1,0 +1,14 @@
+{
+    "roomCode": "CKH4B6",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "BJK",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785764402
+}

@@ -1,0 +1,217 @@
+{
+    "roomCode": "6GCHDF",
+    "maxPlayers": 2,
+    "status": "finished",
+    "players": [
+        {
+            "username": "batten",
+            "ready": true,
+            "rating": 82,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "G\u00fcnay G\u00fcven\u00e7",
+                    "position": "GK",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Joe Mendes",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 75
+                },
+                {
+                    "name": "Simon Kjaer",
+                    "position": "DF",
+                    "market_value": "8.50 mil. \u20ac",
+                    "market_value_numeric": 8500000,
+                    "rating": 86
+                },
+                {
+                    "name": "Roman Kratochv\u00edl",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Ersan G\u00fcl\u00fcm",
+                    "position": "DF",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Abdou Traor\u00e9",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 79
+                },
+                {
+                    "name": "Andr\u00e9 Moritz",
+                    "position": "MF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Jeremain Lens",
+                    "position": "MF",
+                    "market_value": "11.00 mil. \u20ac",
+                    "market_value_numeric": 11000000,
+                    "rating": 89
+                },
+                {
+                    "name": "Giuliano",
+                    "position": "MF",
+                    "market_value": "12.00 mil. \u20ac",
+                    "market_value_numeric": 12000000,
+                    "rating": 89
+                },
+                {
+                    "name": "Edin Visca",
+                    "position": "MF",
+                    "market_value": "12.00 mil. \u20ac",
+                    "market_value_numeric": 12000000,
+                    "rating": 88
+                },
+                {
+                    "name": "Serkan Aykut",
+                    "position": "FW",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 78
+                }
+            ]
+        },
+        {
+            "username": "patlaQ",
+            "ready": true,
+            "rating": 68,
+            "formation": "4-4-2",
+            "squad": [
+                {
+                    "name": "\u0130smail \u00c7ipe",
+                    "position": "GK",
+                    "market_value": "50 bin \u20ac",
+                    "market_value_numeric": 50000,
+                    "rating": 57
+                },
+                {
+                    "name": "Orhan \u015eam",
+                    "position": "DF",
+                    "market_value": "1.80 mil. \u20ac",
+                    "market_value_numeric": 1800000,
+                    "rating": 76
+                },
+                {
+                    "name": "Simon Falette",
+                    "position": "DF",
+                    "market_value": "100 bin \u20ac",
+                    "market_value_numeric": 100000,
+                    "rating": 60
+                },
+                {
+                    "name": "Yal\u00e7\u0131n Ayhan",
+                    "position": "DF",
+                    "market_value": "750 bin \u20ac",
+                    "market_value_numeric": 750000,
+                    "rating": 70
+                },
+                {
+                    "name": "G\u00f6khan Sazda\u011f\u0131",
+                    "position": "DF",
+                    "market_value": "1.20 mil. \u20ac",
+                    "market_value_numeric": 1200000,
+                    "rating": 73
+                },
+                {
+                    "name": "Tayfur Bing\u00f6l",
+                    "position": "MF",
+                    "market_value": "100 bin \u20ac",
+                    "market_value_numeric": 100000,
+                    "rating": 59
+                },
+                {
+                    "name": "Metincan Cici",
+                    "position": "MF",
+                    "market_value": "50 bin \u20ac",
+                    "market_value_numeric": 50000,
+                    "rating": 56
+                },
+                {
+                    "name": "Soner Dikmen",
+                    "position": "MF",
+                    "market_value": "550 bin \u20ac",
+                    "market_value_numeric": 550000,
+                    "rating": 70
+                },
+                {
+                    "name": "Serhat Ak\u0131n",
+                    "position": "MF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Cenk \u0130\u015fler",
+                    "position": "FW",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 76
+                },
+                {
+                    "name": "G\u00fcven Yal\u00e7\u0131n",
+                    "position": "FW",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 78
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1781268964,
+    "leagueResults": {
+        "standings": [
+            {
+                "username": "patlaQ",
+                "formation": "4-4-2",
+                "rating": 68,
+                "played": 1,
+                "won": 1,
+                "drawn": 0,
+                "lost": 0,
+                "goalsFor": 2,
+                "goalsAgainst": 1,
+                "points": 3
+            },
+            {
+                "username": "batten",
+                "formation": "4-2-3-1",
+                "rating": 82,
+                "played": 1,
+                "won": 0,
+                "drawn": 0,
+                "lost": 1,
+                "goalsFor": 1,
+                "goalsAgainst": 2,
+                "points": 0
+            }
+        ],
+        "matches": [
+            {
+                "home": "batten",
+                "homeRating": 82,
+                "away": "patlaQ",
+                "awayRating": 68,
+                "homeScore": 1,
+                "awayScore": 2
+            }
+        ],
+        "champion": "patlaQ"
+    }
+}

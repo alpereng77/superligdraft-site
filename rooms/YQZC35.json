@@ -1,0 +1,451 @@
+{
+    "roomCode": "YQZC35",
+    "maxPlayers": 4,
+    "status": "finished",
+    "players": [
+        {
+            "username": "Bertan",
+            "ready": true,
+            "rating": 80,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "Alioum Boukar",
+                    "position": "GK",
+                    "market_value": "1.00 mil. \u20ac",
+                    "market_value_numeric": 1000000,
+                    "rating": 67
+                },
+                {
+                    "name": "Fabiano",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Niyazi G\u00fcney",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 73
+                },
+                {
+                    "name": "Chidozie Awaziem",
+                    "position": "DF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Larrys Mabiala",
+                    "position": "DF",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 74
+                },
+                {
+                    "name": "Amir Hadziahmetovic",
+                    "position": "MF",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Doka Madureira",
+                    "position": "MF",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 83
+                },
+                {
+                    "name": "Erhan Albayrak",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 78
+                },
+                {
+                    "name": "Emrah Ba\u015fsan",
+                    "position": "MF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 78
+                },
+                {
+                    "name": "G\u00f6khan T\u00f6re",
+                    "position": "MF",
+                    "market_value": "15.00 mil. \u20ac",
+                    "market_value_numeric": 15000000,
+                    "rating": 91
+                },
+                {
+                    "name": "Cenk Tosun",
+                    "position": "FW",
+                    "market_value": "23.00 mil. \u20ac",
+                    "market_value_numeric": 23000000,
+                    "rating": 93
+                }
+            ]
+        },
+        {
+            "username": "Erkan",
+            "ready": true,
+            "rating": 80,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "Scott Carson",
+                    "position": "GK",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Ali Turan",
+                    "position": "DF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Emrah Eren",
+                    "position": "DF",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 76
+                },
+                {
+                    "name": "Jerome Opoku",
+                    "position": "DF",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Hayrettin Yerlikaya",
+                    "position": "DF",
+                    "market_value": "2.90 mil. \u20ac",
+                    "market_value_numeric": 2900000,
+                    "rating": 81
+                },
+                {
+                    "name": "Anthony Dennis",
+                    "position": "MF",
+                    "market_value": "8.00 mil. \u20ac",
+                    "market_value_numeric": 8000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Vitolo",
+                    "position": "MF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 76
+                },
+                {
+                    "name": "Florin Cernat",
+                    "position": "MF",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 76
+                },
+                {
+                    "name": "Nicol\u00f2 Zaniolo",
+                    "position": "MF",
+                    "market_value": "27.00 mil. \u20ac",
+                    "market_value_numeric": 27000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Fisayo Dele-Bashiru",
+                    "position": "MF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 77
+                },
+                {
+                    "name": "Mame Thiam",
+                    "position": "FW",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 80
+                }
+            ]
+        },
+        {
+            "username": "Ugur",
+            "ready": true,
+            "rating": 80,
+            "formation": "4-4-2",
+            "squad": [
+                {
+                    "name": "Mahmut Bezgin",
+                    "position": "GK",
+                    "market_value": "600 bin \u20ac",
+                    "market_value_numeric": 600000,
+                    "rating": 69
+                },
+                {
+                    "name": "Veysel Sar\u0131",
+                    "position": "DF",
+                    "market_value": "5.75 mil. \u20ac",
+                    "market_value_numeric": 5750000,
+                    "rating": 85
+                },
+                {
+                    "name": "Diego \u00c2ngelo",
+                    "position": "DF",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Emirhan Top\u00e7u",
+                    "position": "DF",
+                    "market_value": "4.30 mil. \u20ac",
+                    "market_value_numeric": 4300000,
+                    "rating": 82
+                },
+                {
+                    "name": "\u00d6mer Ali \u015eahiner",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Bar\u0131\u015f Kalayc\u0131",
+                    "position": "MF",
+                    "market_value": "1.80 mil. \u20ac",
+                    "market_value_numeric": 1800000,
+                    "rating": 73
+                },
+                {
+                    "name": "Alex",
+                    "position": "MF",
+                    "market_value": "13.00 mil. \u20ac",
+                    "market_value_numeric": 13000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Samuel Johnson",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 82
+                },
+                {
+                    "name": "G\u00f6kdeniz Bayrakdar",
+                    "position": "MF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 83
+                },
+                {
+                    "name": "Adem B\u00fcy\u00fck",
+                    "position": "FW",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Michael Eneramo",
+                    "position": "FW",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 80
+                }
+            ]
+        },
+        {
+            "username": "Huseyin",
+            "ready": true,
+            "rating": 81,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Deniz Erta\u015f",
+                    "position": "GK",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Diego \u00c2ngelo",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 78
+                },
+                {
+                    "name": "Nuno Andr\u00e9 Coelho",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 76
+                },
+                {
+                    "name": "Majid Hosseini",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Kau\u00ea",
+                    "position": "DF",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 78
+                },
+                {
+                    "name": "Souza",
+                    "position": "MF",
+                    "market_value": "9.00 mil. \u20ac",
+                    "market_value_numeric": 9000000,
+                    "rating": 88
+                },
+                {
+                    "name": "Gedson Fernandes",
+                    "position": "MF",
+                    "market_value": "12.50 mil. \u20ac",
+                    "market_value_numeric": 12500000,
+                    "rating": 92
+                },
+                {
+                    "name": "Ceyhun Eri\u015f",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 83
+                },
+                {
+                    "name": "Fernand\u00e3o",
+                    "position": "FW",
+                    "market_value": "6.50 mil. \u20ac",
+                    "market_value_numeric": 6500000,
+                    "rating": 84
+                },
+                {
+                    "name": "Radamel Falcao",
+                    "position": "FW",
+                    "market_value": "4.80 mil. \u20ac",
+                    "market_value_numeric": 4800000,
+                    "rating": 84
+                },
+                {
+                    "name": "Rafik Djebbour",
+                    "position": "FW",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 77
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1784124226,
+    "leagueResults": {
+        "standings": [
+            {
+                "username": "Bertan",
+                "formation": "4-2-3-1",
+                "rating": 80,
+                "played": 3,
+                "won": 3,
+                "drawn": 0,
+                "lost": 0,
+                "goalsFor": 11,
+                "goalsAgainst": 5,
+                "points": 9
+            },
+            {
+                "username": "Erkan",
+                "formation": "4-2-3-1",
+                "rating": 80,
+                "played": 3,
+                "won": 1,
+                "drawn": 1,
+                "lost": 1,
+                "goalsFor": 5,
+                "goalsAgainst": 4,
+                "points": 4
+            },
+            {
+                "username": "Huseyin",
+                "formation": "4-3-3",
+                "rating": 81,
+                "played": 3,
+                "won": 0,
+                "drawn": 2,
+                "lost": 1,
+                "goalsFor": 2,
+                "goalsAgainst": 5,
+                "points": 2
+            },
+            {
+                "username": "Ugur",
+                "formation": "4-4-2",
+                "rating": 80,
+                "played": 3,
+                "won": 0,
+                "drawn": 1,
+                "lost": 2,
+                "goalsFor": 2,
+                "goalsAgainst": 6,
+                "points": 1
+            }
+        ],
+        "matches": [
+            {
+                "home": "Bertan",
+                "homeRating": 80,
+                "away": "Erkan",
+                "awayRating": 80,
+                "homeScore": 3,
+                "awayScore": 2
+            },
+            {
+                "home": "Bertan",
+                "homeRating": 80,
+                "away": "Ugur",
+                "awayRating": 80,
+                "homeScore": 4,
+                "awayScore": 2
+            },
+            {
+                "home": "Bertan",
+                "homeRating": 80,
+                "away": "Huseyin",
+                "awayRating": 81,
+                "homeScore": 4,
+                "awayScore": 1
+            },
+            {
+                "home": "Erkan",
+                "homeRating": 80,
+                "away": "Ugur",
+                "awayRating": 80,
+                "homeScore": 2,
+                "awayScore": 0
+            },
+            {
+                "home": "Erkan",
+                "homeRating": 80,
+                "away": "Huseyin",
+                "awayRating": 81,
+                "homeScore": 1,
+                "awayScore": 1
+            },
+            {
+                "home": "Ugur",
+                "homeRating": 80,
+                "away": "Huseyin",
+                "awayRating": 81,
+                "homeScore": 0,
+                "awayScore": 0
+            }
+        ],
+        "champion": "Bertan"
+    }
+}

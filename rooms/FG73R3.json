@@ -1,0 +1,14 @@
+{
+    "roomCode": "FG73R3",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Abidin",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1786178524
+}

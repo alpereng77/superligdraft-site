@@ -1,0 +1,14 @@
+{
+    "roomCode": "NBRYVM",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "\u00d6\u00e7 Eray",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1782469357
+}

@@ -1,0 +1,20 @@
+{
+    "roomCode": "9N4ZZ9",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Yusuf",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "\u00d6mer",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785600957
+}

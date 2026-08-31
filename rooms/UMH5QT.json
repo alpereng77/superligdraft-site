@@ -1,0 +1,451 @@
+{
+    "roomCode": "UMH5QT",
+    "maxPlayers": 4,
+    "status": "finished",
+    "players": [
+        {
+            "username": "orkun k\u00f6kleyici",
+            "ready": true,
+            "rating": 83,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "Onur K\u0131vrak",
+                    "position": "GK",
+                    "market_value": "10.00 mil. \u20ac",
+                    "market_value_numeric": 10000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Fatih Aksoy",
+                    "position": "DF",
+                    "market_value": "3.20 mil. \u20ac",
+                    "market_value_numeric": 3200000,
+                    "rating": 79
+                },
+                {
+                    "name": "Yasin \u00d6zcan",
+                    "position": "DF",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 82
+                },
+                {
+                    "name": "\u00d6mer Bayram",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 79
+                },
+                {
+                    "name": "\u00d6mer Ali \u015eahiner",
+                    "position": "DF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 80
+                },
+                {
+                    "name": "Okechukwu Azubuike",
+                    "position": "MF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Sercan Y\u0131ld\u0131r\u0131m",
+                    "position": "MF",
+                    "market_value": "6.50 mil. \u20ac",
+                    "market_value_numeric": 6500000,
+                    "rating": 85
+                },
+                {
+                    "name": "Henry Onyekuru",
+                    "position": "MF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Alex",
+                    "position": "MF",
+                    "market_value": "13.00 mil. \u20ac",
+                    "market_value_numeric": 13000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Olcan Ad\u0131n",
+                    "position": "MF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 83
+                },
+                {
+                    "name": "John Carew",
+                    "position": "FW",
+                    "market_value": "7.00 mil. \u20ac",
+                    "market_value_numeric": 7000000,
+                    "rating": 87
+                }
+            ]
+        },
+        {
+            "username": "MEM\u0130NJANES",
+            "ready": true,
+            "rating": 84,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Fernando Muslera",
+                    "position": "GK",
+                    "market_value": "11.00 mil. \u20ac",
+                    "market_value_numeric": 11000000,
+                    "rating": 89
+                },
+                {
+                    "name": "Marc\u00e3o",
+                    "position": "DF",
+                    "market_value": "14.00 mil. \u20ac",
+                    "market_value_numeric": 14000000,
+                    "rating": 90
+                },
+                {
+                    "name": "Hakan Balta",
+                    "position": "DF",
+                    "market_value": "3.20 mil. \u20ac",
+                    "market_value_numeric": 3200000,
+                    "rating": 82
+                },
+                {
+                    "name": "Fatih Aksoy",
+                    "position": "DF",
+                    "market_value": "3.20 mil. \u20ac",
+                    "market_value_numeric": 3200000,
+                    "rating": 79
+                },
+                {
+                    "name": "Sacha Boey",
+                    "position": "DF",
+                    "market_value": "18.00 mil. \u20ac",
+                    "market_value_numeric": 18000000,
+                    "rating": 91
+                },
+                {
+                    "name": "Okan Ko\u00e7",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 78
+                },
+                {
+                    "name": "Manolis Siopis",
+                    "position": "MF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 83
+                },
+                {
+                    "name": "O\u011fuz Ayd\u0131n",
+                    "position": "MF",
+                    "market_value": "4.30 mil. \u20ac",
+                    "market_value_numeric": 4300000,
+                    "rating": 82
+                },
+                {
+                    "name": "\u00dcmit Karan",
+                    "position": "FW",
+                    "market_value": "6.60 mil. \u20ac",
+                    "market_value_numeric": 6600000,
+                    "rating": 87
+                },
+                {
+                    "name": "John Carew",
+                    "position": "FW",
+                    "market_value": "7.00 mil. \u20ac",
+                    "market_value_numeric": 7000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Cenk Tosun",
+                    "position": "FW",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 78
+                }
+            ]
+        },
+        {
+            "username": "Filiz",
+            "ready": true,
+            "rating": 80,
+            "formation": "4-4-2",
+            "squad": [
+                {
+                    "name": "Volkan Demirel",
+                    "position": "GK",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 83
+                },
+                {
+                    "name": "\u00d6mer Ali \u015eahiner",
+                    "position": "DF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 80
+                },
+                {
+                    "name": "G\u00fcray Vural",
+                    "position": "DF",
+                    "market_value": "1.00 mil. \u20ac",
+                    "market_value_numeric": 1000000,
+                    "rating": 72
+                },
+                {
+                    "name": "Matteo Ferrari",
+                    "position": "DF",
+                    "market_value": "8.00 mil. \u20ac",
+                    "market_value_numeric": 8000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Levent Mercan",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Devran Ayhan",
+                    "position": "MF",
+                    "market_value": "1.75 mil. \u20ac",
+                    "market_value_numeric": 1750000,
+                    "rating": 77
+                },
+                {
+                    "name": "Emmanuel Culio",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Bertrand Traor\u00e9",
+                    "position": "MF",
+                    "market_value": "12.00 mil. \u20ac",
+                    "market_value_numeric": 12000000,
+                    "rating": 88
+                },
+                {
+                    "name": "Murat Ceylan",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Umut Nayir",
+                    "position": "FW",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 74
+                },
+                {
+                    "name": "R\u00f4mulo",
+                    "position": "FW",
+                    "market_value": "11.00 mil. \u20ac",
+                    "market_value_numeric": 11000000,
+                    "rating": 86
+                }
+            ]
+        },
+        {
+            "username": "Eneskey",
+            "ready": true,
+            "rating": 83,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Jefferson",
+                    "position": "GK",
+                    "market_value": "900 bin \u20ac",
+                    "market_value_numeric": 900000,
+                    "rating": 71
+                },
+                {
+                    "name": "G\u00f6khan Zan",
+                    "position": "DF",
+                    "market_value": "5.80 mil. \u20ac",
+                    "market_value_numeric": 5800000,
+                    "rating": 86
+                },
+                {
+                    "name": "B\u00fcnyamin Balc\u0131",
+                    "position": "DF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Aziz Behich",
+                    "position": "DF",
+                    "market_value": "2.75 mil. \u20ac",
+                    "market_value_numeric": 2750000,
+                    "rating": 81
+                },
+                {
+                    "name": "Emmanuel Agbadou",
+                    "position": "DF",
+                    "market_value": "16.00 mil. \u20ac",
+                    "market_value_numeric": 16000000,
+                    "rating": 85
+                },
+                {
+                    "name": "Kacper Kozlowski",
+                    "position": "MF",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Luton Shelton",
+                    "position": "MF",
+                    "market_value": "2.40 mil. \u20ac",
+                    "market_value_numeric": 2400000,
+                    "rating": 77
+                },
+                {
+                    "name": "Florent Hadergjonaj",
+                    "position": "MF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Mario G\u00f3mez",
+                    "position": "FW",
+                    "market_value": "12.00 mil. \u20ac",
+                    "market_value_numeric": 12000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Victor Osimhen",
+                    "position": "FW",
+                    "market_value": "70.00 mil. \u20ac",
+                    "market_value_numeric": 70000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Bob\u00f4",
+                    "position": "FW",
+                    "market_value": "6.50 mil. \u20ac",
+                    "market_value_numeric": 6500000,
+                    "rating": 87
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1785702765,
+    "leagueResults": {
+        "standings": [
+            {
+                "username": "MEM\u0130NJANES",
+                "formation": "4-3-3",
+                "rating": 84,
+                "played": 3,
+                "won": 2,
+                "drawn": 1,
+                "lost": 0,
+                "goalsFor": 4,
+                "goalsAgainst": 1,
+                "points": 7
+            },
+            {
+                "username": "Filiz",
+                "formation": "4-4-2",
+                "rating": 80,
+                "played": 3,
+                "won": 1,
+                "drawn": 1,
+                "lost": 1,
+                "goalsFor": 4,
+                "goalsAgainst": 5,
+                "points": 4
+            },
+            {
+                "username": "orkun k\u00f6kleyici",
+                "formation": "4-2-3-1",
+                "rating": 83,
+                "played": 3,
+                "won": 0,
+                "drawn": 2,
+                "lost": 1,
+                "goalsFor": 1,
+                "goalsAgainst": 2,
+                "points": 2
+            },
+            {
+                "username": "Eneskey",
+                "formation": "4-3-3",
+                "rating": 83,
+                "played": 3,
+                "won": 0,
+                "drawn": 2,
+                "lost": 1,
+                "goalsFor": 1,
+                "goalsAgainst": 2,
+                "points": 2
+            }
+        ],
+        "matches": [
+            {
+                "home": "orkun k\u00f6kleyici",
+                "homeRating": 83,
+                "away": "MEM\u0130NJANES",
+                "awayRating": 84,
+                "homeScore": 0,
+                "awayScore": 0
+            },
+            {
+                "home": "orkun k\u00f6kleyici",
+                "homeRating": 83,
+                "away": "Filiz",
+                "awayRating": 80,
+                "homeScore": 1,
+                "awayScore": 2
+            },
+            {
+                "home": "orkun k\u00f6kleyici",
+                "homeRating": 83,
+                "away": "Eneskey",
+                "awayRating": 83,
+                "homeScore": 0,
+                "awayScore": 0
+            },
+            {
+                "home": "MEM\u0130NJANES",
+                "homeRating": 84,
+                "away": "Filiz",
+                "awayRating": 80,
+                "homeScore": 3,
+                "awayScore": 1
+            },
+            {
+                "home": "MEM\u0130NJANES",
+                "homeRating": 84,
+                "away": "Eneskey",
+                "awayRating": 83,
+                "homeScore": 1,
+                "awayScore": 0
+            },
+            {
+                "home": "Filiz",
+                "homeRating": 80,
+                "away": "Eneskey",
+                "awayRating": 83,
+                "homeScore": 1,
+                "awayScore": 1
+            }
+        ],
+        "champion": "MEM\u0130NJANES"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "roomCode": "LUE924",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Ene",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785703167
+}

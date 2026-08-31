@@ -1,0 +1,14 @@
+{
+    "roomCode": "Y5QKB6",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "SH\u0130M\u0130ZU",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781279595
+}

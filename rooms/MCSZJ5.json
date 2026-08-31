@@ -1,0 +1,14 @@
+{
+    "roomCode": "MCSZJ5",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "B\u0131v\u0131",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785076434
+}

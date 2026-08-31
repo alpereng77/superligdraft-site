@@ -1,0 +1,14 @@
+{
+    "roomCode": "TBF43R",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "GAYKAZ\u0130S\u0130KEN6464",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1786018174
+}

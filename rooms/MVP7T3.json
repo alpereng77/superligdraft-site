@@ -1,0 +1,14 @@
+{
+    "roomCode": "MVP7T3",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "baha",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1784294814
+}

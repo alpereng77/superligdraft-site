@@ -1,0 +1,14 @@
+{
+    "roomCode": "B7PGNX",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Bebek YUSUF",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785613477
+}

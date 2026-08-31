@@ -1,0 +1,14 @@
+{
+    "roomCode": "4E9NMC",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "ababa",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785923525
+}

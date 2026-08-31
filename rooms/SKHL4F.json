@@ -1,0 +1,14 @@
+{
+    "roomCode": "SKHL4F",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Davudo",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781281521
+}

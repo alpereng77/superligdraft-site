@@ -1,0 +1,20 @@
+{
+    "roomCode": "KFZ3CN",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "bulutunkoca",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Bulut",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785662274
+}

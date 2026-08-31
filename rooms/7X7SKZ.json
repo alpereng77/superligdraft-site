@@ -1,0 +1,26 @@
+{
+    "roomCode": "7X7SKZ",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Arda",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Kalafatspor",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "FB",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785526054
+}

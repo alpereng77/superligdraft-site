@@ -1,0 +1,217 @@
+{
+    "roomCode": "79PK4V",
+    "maxPlayers": 2,
+    "status": "finished",
+    "players": [
+        {
+            "username": "s1k1lm4t1q",
+            "ready": true,
+            "rating": 58,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "F\u0131rat Kocao\u011flu",
+                    "position": "GK",
+                    "market_value": "100 bin \u20ac",
+                    "market_value_numeric": 100000,
+                    "rating": 59
+                },
+                {
+                    "name": "O\u011fuzhan Malc\u0131",
+                    "position": "DF",
+                    "market_value": "-",
+                    "market_value_numeric": 0,
+                    "rating": 62
+                },
+                {
+                    "name": "Ya\u011f\u0131z Dilek",
+                    "position": "DF",
+                    "market_value": "50 bin \u20ac",
+                    "market_value_numeric": 50000,
+                    "rating": 56
+                },
+                {
+                    "name": "Taha Can Velio\u011flu",
+                    "position": "DF",
+                    "market_value": "50 bin \u20ac",
+                    "market_value_numeric": 50000,
+                    "rating": 56
+                },
+                {
+                    "name": "Mehmet Bezircio\u011flu",
+                    "position": "DF",
+                    "market_value": "50 bin \u20ac",
+                    "market_value_numeric": 50000,
+                    "rating": 56
+                },
+                {
+                    "name": "Bilal K\u0131sa",
+                    "position": "MF",
+                    "market_value": "50 bin \u20ac",
+                    "market_value_numeric": 50000,
+                    "rating": 55
+                },
+                {
+                    "name": "\u00d6zg\u00fcr Y\u0131ld\u0131r\u0131m",
+                    "position": "MF",
+                    "market_value": "100 bin \u20ac",
+                    "market_value_numeric": 100000,
+                    "rating": 56
+                },
+                {
+                    "name": "Onur Erg\u00fcn",
+                    "position": "MF",
+                    "market_value": "150 bin \u20ac",
+                    "market_value_numeric": 150000,
+                    "rating": 59
+                },
+                {
+                    "name": "Ali Bilgin",
+                    "position": "MF",
+                    "market_value": "250 bin \u20ac",
+                    "market_value_numeric": 250000,
+                    "rating": 62
+                },
+                {
+                    "name": "Abdurrahman Kuyucu",
+                    "position": "MF",
+                    "market_value": "50 bin \u20ac",
+                    "market_value_numeric": 50000,
+                    "rating": 57
+                },
+                {
+                    "name": "Tayyib Kanarya",
+                    "position": "FW",
+                    "market_value": "50 bin \u20ac",
+                    "market_value_numeric": 50000,
+                    "rating": 57
+                }
+            ]
+        },
+        {
+            "username": "SH\u0130M\u0130ZU",
+            "ready": true,
+            "rating": 63,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "Vedat Karaku\u015f",
+                    "position": "GK",
+                    "market_value": "50 bin \u20ac",
+                    "market_value_numeric": 50000,
+                    "rating": 56
+                },
+                {
+                    "name": "\u00d6zg\u00fcr \u00c7ek",
+                    "position": "DF",
+                    "market_value": "300 bin \u20ac",
+                    "market_value_numeric": 300000,
+                    "rating": 66
+                },
+                {
+                    "name": "Soner G\u00f6n\u00fcl",
+                    "position": "DF",
+                    "market_value": "50 bin \u20ac",
+                    "market_value_numeric": 50000,
+                    "rating": 56
+                },
+                {
+                    "name": "Serdar Kesimal",
+                    "position": "DF",
+                    "market_value": "300 bin \u20ac",
+                    "market_value_numeric": 300000,
+                    "rating": 61
+                },
+                {
+                    "name": "Ziya Erdal",
+                    "position": "DF",
+                    "market_value": "125 bin \u20ac",
+                    "market_value_numeric": 125000,
+                    "rating": 62
+                },
+                {
+                    "name": "Mahmut Tekdemir",
+                    "position": "MF",
+                    "market_value": "100 bin \u20ac",
+                    "market_value_numeric": 100000,
+                    "rating": 58
+                },
+                {
+                    "name": "\u0130smail K\u00f6yba\u015f\u0131",
+                    "position": "MF",
+                    "market_value": "200 bin \u20ac",
+                    "market_value_numeric": 200000,
+                    "rating": 64
+                },
+                {
+                    "name": "Ayd\u0131n Y\u0131lmaz",
+                    "position": "MF",
+                    "market_value": "400 bin \u20ac",
+                    "market_value_numeric": 400000,
+                    "rating": 65
+                },
+                {
+                    "name": "Bar\u0131\u015f Memi\u015f",
+                    "position": "MF",
+                    "market_value": "400 bin \u20ac",
+                    "market_value_numeric": 400000,
+                    "rating": 66
+                },
+                {
+                    "name": "Ceyhun Eri\u015f",
+                    "position": "MF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Sinan Kalo\u011flu",
+                    "position": "FW",
+                    "market_value": "400 bin \u20ac",
+                    "market_value_numeric": 400000,
+                    "rating": 66
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1781279862,
+    "leagueResults": {
+        "standings": [
+            {
+                "username": "SH\u0130M\u0130ZU",
+                "formation": "4-2-3-1",
+                "rating": 63,
+                "played": 1,
+                "won": 1,
+                "drawn": 0,
+                "lost": 0,
+                "goalsFor": 5,
+                "goalsAgainst": 2,
+                "points": 3
+            },
+            {
+                "username": "s1k1lm4t1q",
+                "formation": "4-2-3-1",
+                "rating": 58,
+                "played": 1,
+                "won": 0,
+                "drawn": 0,
+                "lost": 1,
+                "goalsFor": 2,
+                "goalsAgainst": 5,
+                "points": 0
+            }
+        ],
+        "matches": [
+            {
+                "home": "s1k1lm4t1q",
+                "homeRating": 58,
+                "away": "SH\u0130M\u0130ZU",
+                "awayRating": 63,
+                "homeScore": 2,
+                "awayScore": 5
+            }
+        ],
+        "champion": "SH\u0130M\u0130ZU"
+    }
+}

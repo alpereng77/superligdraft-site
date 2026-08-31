@@ -1,0 +1,14 @@
+{
+    "roomCode": "JEN5UM",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "dsa",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785180130
+}

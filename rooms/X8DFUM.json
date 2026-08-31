@@ -1,0 +1,14 @@
+{
+    "roomCode": "X8DFUM",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Mert m\u00fcld\u00fcr",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781940973
+}

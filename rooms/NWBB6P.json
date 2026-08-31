@@ -1,0 +1,14 @@
+{
+    "roomCode": "NWBB6P",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "batten",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781268690
+}

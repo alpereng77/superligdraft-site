@@ -1,0 +1,14 @@
+{
+    "roomCode": "3RNAME",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "candios",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1782423336
+}

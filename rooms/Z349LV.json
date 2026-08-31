@@ -1,0 +1,14 @@
+{
+    "roomCode": "Z349LV",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Eaekinci",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1786185301
+}

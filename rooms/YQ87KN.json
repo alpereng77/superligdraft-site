@@ -1,0 +1,14 @@
+{
+    "roomCode": "YQ87KN",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "meminjanes",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785703126
+}

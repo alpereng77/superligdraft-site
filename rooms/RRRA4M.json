@@ -1,0 +1,14 @@
+{
+    "roomCode": "RRRA4M",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Serta\u00e7",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781661300
+}

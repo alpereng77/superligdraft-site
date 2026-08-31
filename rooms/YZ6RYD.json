@@ -1,0 +1,14 @@
+{
+    "roomCode": "YZ6RYD",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "dorukinho",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785196130
+}

@@ -1,0 +1,14 @@
+{
+    "roomCode": "DAH3MC",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Tell",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1782647142
+}

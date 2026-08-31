@@ -1,0 +1,20 @@
+{
+    "roomCode": "4H74M6",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "ahmet",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Ramazan",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1783362061
+}

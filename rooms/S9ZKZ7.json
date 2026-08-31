@@ -1,0 +1,14 @@
+{
+    "roomCode": "S9ZKZ7",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Silva",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785685093
+}

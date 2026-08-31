@@ -1,0 +1,14 @@
+{
+    "roomCode": "N3RA4S",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Zenci",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1786129208
+}

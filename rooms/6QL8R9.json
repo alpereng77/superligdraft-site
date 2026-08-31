@@ -1,0 +1,20 @@
+{
+    "roomCode": "6QL8R9",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "KutuKolaVeren",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Masperising",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1786192396
+}

@@ -1,0 +1,14 @@
+{
+    "roomCode": "74TTGB",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Mal \u00f6mer",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785611518
+}

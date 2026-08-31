@@ -1,0 +1,14 @@
+{
+    "roomCode": "PQ2NFM",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Messi",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1784969788
+}

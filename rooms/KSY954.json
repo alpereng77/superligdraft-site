@@ -1,0 +1,14 @@
+{
+    "roomCode": "KSY954",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Samedayz",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1786364652
+}

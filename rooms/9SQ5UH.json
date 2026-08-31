@@ -1,0 +1,26 @@
+{
+    "roomCode": "9SQ5UH",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "sametbaba",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "allahuteala",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "9SQ5UH",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785304191
+}

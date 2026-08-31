@@ -1,0 +1,223 @@
+{
+    "roomCode": "NVE6GZ",
+    "maxPlayers": 4,
+    "status": "finished",
+    "players": [
+        {
+            "username": "testsetest",
+            "ready": true,
+            "rating": 81,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "Fernando Muslera",
+                    "position": "GK",
+                    "market_value": "16.00 mil. \u20ac",
+                    "market_value_numeric": 16000000,
+                    "rating": 91
+                },
+                {
+                    "name": "Delio Toledo",
+                    "position": "DF",
+                    "market_value": "2.70 mil. \u20ac",
+                    "market_value_numeric": 2700000,
+                    "rating": 81
+                },
+                {
+                    "name": "Domagoj Vida",
+                    "position": "DF",
+                    "market_value": "10.00 mil. \u20ac",
+                    "market_value_numeric": 10000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Alpaslan \u00d6zt\u00fcrk",
+                    "position": "DF",
+                    "market_value": "300 bin \u20ac",
+                    "market_value_numeric": 300000,
+                    "rating": 66
+                },
+                {
+                    "name": "G\u00f6kmen Bar\u0131\u015f",
+                    "position": "DF",
+                    "market_value": "800 bin \u20ac",
+                    "market_value_numeric": 800000,
+                    "rating": 66
+                },
+                {
+                    "name": "Youness Mokhtar",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Manolis Siopis",
+                    "position": "MF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 83
+                },
+                {
+                    "name": "Zdravko Lazarov",
+                    "position": "MF",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 84
+                },
+                {
+                    "name": "Nordin Amrabat",
+                    "position": "MF",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 84
+                },
+                {
+                    "name": "Emre Akbaba",
+                    "position": "MF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 85
+                },
+                {
+                    "name": "Milan Baros",
+                    "position": "FW",
+                    "market_value": "9.50 mil. \u20ac",
+                    "market_value_numeric": 9500000,
+                    "rating": 88
+                }
+            ]
+        },
+        {
+            "username": "Efsane FB (2007-08)",
+            "ready": true,
+            "rating": 82,
+            "formation": "4-3-3",
+            "isBot": true
+        },
+        {
+            "username": "Efsane GS (2000)",
+            "ready": true,
+            "rating": 83,
+            "formation": "4-2-3-1",
+            "isBot": true
+        },
+        {
+            "username": "Efsane BJK (2016-17)",
+            "ready": true,
+            "rating": 81,
+            "formation": "3-5-2",
+            "isBot": true
+        }
+    ],
+    "lastActivity": 1785936683,
+    "leagueResults": {
+        "standings": [
+            {
+                "username": "Efsane BJK (2016-17)",
+                "formation": "3-5-2",
+                "rating": 81,
+                "played": 3,
+                "won": 2,
+                "drawn": 0,
+                "lost": 1,
+                "goalsFor": 6,
+                "goalsAgainst": 3,
+                "points": 6
+            },
+            {
+                "username": "testsetest",
+                "formation": "4-2-3-1",
+                "rating": 81,
+                "played": 3,
+                "won": 2,
+                "drawn": 0,
+                "lost": 1,
+                "goalsFor": 4,
+                "goalsAgainst": 2,
+                "points": 6
+            },
+            {
+                "username": "Efsane GS (2000)",
+                "formation": "4-2-3-1",
+                "rating": 83,
+                "played": 3,
+                "won": 1,
+                "drawn": 0,
+                "lost": 2,
+                "goalsFor": 3,
+                "goalsAgainst": 5,
+                "points": 3
+            },
+            {
+                "username": "Efsane FB (2007-08)",
+                "formation": "4-3-3",
+                "rating": 82,
+                "played": 3,
+                "won": 1,
+                "drawn": 0,
+                "lost": 2,
+                "goalsFor": 2,
+                "goalsAgainst": 5,
+                "points": 3
+            }
+        ],
+        "matches": [
+            {
+                "round": 1,
+                "home": "testsetest",
+                "homeRating": 81,
+                "away": "Efsane FB (2007-08)",
+                "awayRating": 82,
+                "homeScore": 2,
+                "awayScore": 0
+            },
+            {
+                "round": 1,
+                "home": "Efsane GS (2000)",
+                "homeRating": 83,
+                "away": "Efsane BJK (2016-17)",
+                "awayRating": 81,
+                "homeScore": 1,
+                "awayScore": 3
+            },
+            {
+                "round": 2,
+                "home": "testsetest",
+                "homeRating": 81,
+                "away": "Efsane GS (2000)",
+                "awayRating": 83,
+                "homeScore": 0,
+                "awayScore": 1
+            },
+            {
+                "round": 2,
+                "home": "Efsane FB (2007-08)",
+                "homeRating": 82,
+                "away": "Efsane BJK (2016-17)",
+                "awayRating": 81,
+                "homeScore": 0,
+                "awayScore": 2
+            },
+            {
+                "round": 3,
+                "home": "testsetest",
+                "homeRating": 81,
+                "away": "Efsane BJK (2016-17)",
+                "awayRating": 81,
+                "homeScore": 2,
+                "awayScore": 1
+            },
+            {
+                "round": 3,
+                "home": "Efsane FB (2007-08)",
+                "homeRating": 82,
+                "away": "Efsane GS (2000)",
+                "awayRating": 83,
+                "homeScore": 2,
+                "awayScore": 1
+            }
+        ],
+        "champion": "Efsane BJK (2016-17)"
+    }
+}

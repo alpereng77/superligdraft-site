@@ -1,0 +1,32 @@
+{
+    "roomCode": "U4UME4",
+    "maxPlayers": 4,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "salix",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "sefa baba",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "cry",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "sefa baba 2",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781303543
+}

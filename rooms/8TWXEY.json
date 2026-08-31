@@ -1,0 +1,14 @@
+{
+    "roomCode": "8TWXEY",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "yurt",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1784182837
+}

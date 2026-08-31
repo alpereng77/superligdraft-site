@@ -1,0 +1,14 @@
+{
+    "roomCode": "BZ69QP",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "3131",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781274086
+}

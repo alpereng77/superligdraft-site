@@ -1,0 +1,99 @@
+{
+    "roomCode": "Y3ZL4D",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Ka\u015far eren",
+            "ready": true,
+            "rating": 58,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "Ertu\u011frul \u00c7etin",
+                    "position": "GK",
+                    "market_value": "50 bin \u20ac",
+                    "market_value_numeric": 50000,
+                    "rating": 55
+                },
+                {
+                    "name": "Paul Papp",
+                    "position": "DF",
+                    "market_value": "300 bin \u20ac",
+                    "market_value_numeric": 300000,
+                    "rating": 68
+                },
+                {
+                    "name": "Rashad Sadyqov",
+                    "position": "DF",
+                    "market_value": "250 bin \u20ac",
+                    "market_value_numeric": 250000,
+                    "rating": 60
+                },
+                {
+                    "name": "At\u0131n\u00e7 Nukan",
+                    "position": "DF",
+                    "market_value": "350 bin \u20ac",
+                    "market_value_numeric": 350000,
+                    "rating": 64
+                },
+                {
+                    "name": "Egemen Zengin",
+                    "position": "DF",
+                    "market_value": "50 bin \u20ac",
+                    "market_value_numeric": 50000,
+                    "rating": 55
+                },
+                {
+                    "name": "Emre Vezir",
+                    "position": "MF",
+                    "market_value": "25 bin \u20ac",
+                    "market_value_numeric": 25000,
+                    "rating": 55
+                },
+                {
+                    "name": "G\u00f6rkem \u00d6zkul",
+                    "position": "MF",
+                    "market_value": "50 bin \u20ac",
+                    "market_value_numeric": 50000,
+                    "rating": 55
+                },
+                {
+                    "name": "Mohamed Hassan Fofana",
+                    "position": "MF",
+                    "market_value": "50 bin \u20ac",
+                    "market_value_numeric": 50000,
+                    "rating": 56
+                },
+                {
+                    "name": "Hakan Balc\u0131k",
+                    "position": "MF",
+                    "market_value": "25 bin \u20ac",
+                    "market_value_numeric": 25000,
+                    "rating": 55
+                },
+                {
+                    "name": "Zafer \u015eakar",
+                    "position": "MF",
+                    "market_value": "500 bin \u20ac",
+                    "market_value_numeric": 500000,
+                    "rating": 61
+                },
+                {
+                    "name": "Koray K\u0131l\u0131n\u00e7",
+                    "position": "FW",
+                    "market_value": "50 bin \u20ac",
+                    "market_value_numeric": 50000,
+                    "rating": 56
+                }
+            ]
+        },
+        {
+            "username": "Eren",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1786118829
+}

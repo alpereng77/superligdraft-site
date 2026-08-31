@@ -1,0 +1,14 @@
+{
+    "roomCode": "ZS5LM8",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Yasin",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781693374
+}

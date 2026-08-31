@@ -1,0 +1,14 @@
+{
+    "roomCode": "7NHKEN",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "dursununamcigi",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785521950
+}

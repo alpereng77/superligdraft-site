@@ -1,0 +1,26 @@
+{
+    "roomCode": "V8DEWV",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Ulu\u00f6nder FK",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Angaral\u0131",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "KRAL EGE",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785855701
+}

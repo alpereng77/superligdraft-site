@@ -1,0 +1,33 @@
+{
+    "roomCode": "V4R5Z7",
+    "maxPlayers": 4,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Penaldo",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Eses",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Ayan",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Efsane FB (2007-08)",
+            "ready": true,
+            "rating": 80,
+            "formation": "4-3-3",
+            "isBot": true
+        }
+    ],
+    "lastActivity": 1786127985
+}

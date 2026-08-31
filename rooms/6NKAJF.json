@@ -1,0 +1,14 @@
+{
+    "roomCode": "6NKAJF",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Ddfgedddd",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1784706729
+}

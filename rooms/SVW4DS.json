@@ -1,0 +1,14 @@
+{
+    "roomCode": "SVW4DS",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Soner",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781824116
+}

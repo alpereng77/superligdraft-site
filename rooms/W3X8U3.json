@@ -1,0 +1,14 @@
+{
+    "roomCode": "W3X8U3",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Dalya Rak",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785526025
+}

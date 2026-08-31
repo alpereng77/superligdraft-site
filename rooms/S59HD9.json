@@ -1,0 +1,14 @@
+{
+    "roomCode": "S59HD9",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Emre",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1784999784
+}

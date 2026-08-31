@@ -1,0 +1,14 @@
+{
+    "roomCode": "L6QHSE",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "jj",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1784998569
+}

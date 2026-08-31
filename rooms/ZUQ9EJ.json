@@ -1,0 +1,14 @@
+{
+    "roomCode": "ZUQ9EJ",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Fernebah\u00e7e",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781828065
+}

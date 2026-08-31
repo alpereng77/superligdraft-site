@@ -1,0 +1,26 @@
+{
+    "roomCode": "QEXUR6",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "BERAT",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "kobrA",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Ferhat",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785513727
+}

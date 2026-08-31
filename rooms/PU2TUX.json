@@ -1,0 +1,14 @@
+{
+    "roomCode": "PU2TUX",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "\u00d6mer",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785611492
+}

@@ -1,0 +1,14 @@
+{
+    "roomCode": "QKT7J5",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "ata",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781472246
+}

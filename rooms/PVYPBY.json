@@ -1,0 +1,14 @@
+{
+    "roomCode": "PVYPBY",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Arda guler",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1783269926
+}

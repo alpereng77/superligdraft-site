@@ -1,0 +1,20 @@
+{
+    "roomCode": "HT7QBG",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "\u00d6mer",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Yusuf",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785600795
+}

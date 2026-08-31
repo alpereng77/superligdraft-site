@@ -1,0 +1,20 @@
+{
+    "roomCode": "5BPQPZ",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Adolf",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Alanya",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781693281
+}

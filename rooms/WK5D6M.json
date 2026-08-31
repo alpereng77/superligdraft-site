@@ -1,0 +1,14 @@
+{
+    "roomCode": "WK5D6M",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Eymen",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785008837
+}

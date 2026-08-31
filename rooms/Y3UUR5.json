@@ -1,0 +1,35 @@
+{
+    "roomCode": "Y3UUR5",
+    "maxPlayers": 4,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Jnnh",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Efsane FB (2007-08)",
+            "ready": true,
+            "rating": 78,
+            "formation": "4-3-3",
+            "isBot": true
+        },
+        {
+            "username": "Efsane GS (2000)",
+            "ready": true,
+            "rating": 84,
+            "formation": "4-2-3-1",
+            "isBot": true
+        },
+        {
+            "username": "Efsane BJK (2016-17)",
+            "ready": true,
+            "rating": 79,
+            "formation": "3-5-2",
+            "isBot": true
+        }
+    ],
+    "lastActivity": 1786132671
+}

@@ -1,0 +1,20 @@
+{
+    "roomCode": "XRD4AR",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "c1vandemir",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "c\u0131vantokatlayan",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781814120
+}

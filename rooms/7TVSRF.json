@@ -1,0 +1,20 @@
+{
+    "roomCode": "7TVSRF",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "csk",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "AG",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1782816596
+}

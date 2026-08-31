@@ -1,0 +1,14 @@
+{
+    "roomCode": "8G5K25",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "sdfsdf",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785007603
+}

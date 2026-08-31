@@ -1,0 +1,20 @@
+{
+    "roomCode": "7B7RXL",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Yusuf",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Recep",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1784987307
+}

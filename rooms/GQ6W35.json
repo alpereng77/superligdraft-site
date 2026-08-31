@@ -1,0 +1,14 @@
+{
+    "roomCode": "GQ6W35",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Sansisalvador",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1786017438
+}

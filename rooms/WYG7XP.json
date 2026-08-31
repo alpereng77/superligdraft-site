@@ -1,0 +1,14 @@
+{
+    "roomCode": "WYG7XP",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "DENO",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781798423
+}

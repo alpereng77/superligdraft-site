@@ -1,0 +1,14 @@
+{
+    "roomCode": "HZ5P78",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "OnSrm",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1782325606
+}

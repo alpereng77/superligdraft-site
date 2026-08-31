@@ -1,0 +1,14 @@
+{
+    "roomCode": "6N2NZX",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Eneske",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785703187
+}

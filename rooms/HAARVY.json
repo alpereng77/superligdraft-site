@@ -1,0 +1,32 @@
+{
+    "roomCode": "HAARVY",
+    "maxPlayers": 4,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "OMAR ELLABDELAD\u0130",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "MALAFAT",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Emrah",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "kkkk",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781903416
+}

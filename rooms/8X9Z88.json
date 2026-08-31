@@ -1,0 +1,14 @@
+{
+    "roomCode": "8X9Z88",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "eren",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1782039923
+}

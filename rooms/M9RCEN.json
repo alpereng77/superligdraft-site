@@ -1,0 +1,14 @@
+{
+    "roomCode": "M9RCEN",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "aaaa",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781771646
+}

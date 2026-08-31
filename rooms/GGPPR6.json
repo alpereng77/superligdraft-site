@@ -1,0 +1,14 @@
+{
+    "roomCode": "GGPPR6",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "hoksi",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781298284
+}

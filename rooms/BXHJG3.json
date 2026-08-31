@@ -1,0 +1,14 @@
+{
+    "roomCode": "BXHJG3",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "emir",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781646154
+}

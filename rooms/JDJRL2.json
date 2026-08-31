@@ -1,0 +1,14 @@
+{
+    "roomCode": "JDJRL2",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "RTE",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781826197
+}

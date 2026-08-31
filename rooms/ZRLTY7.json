@@ -1,0 +1,14 @@
+{
+    "roomCode": "ZRLTY7",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "darwin",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785099891
+}

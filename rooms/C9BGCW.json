@@ -1,0 +1,217 @@
+{
+    "roomCode": "C9BGCW",
+    "maxPlayers": 2,
+    "status": "finished",
+    "players": [
+        {
+            "username": "batten",
+            "ready": true,
+            "rating": 79,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "Ferhat Odaba\u015f\u0131",
+                    "position": "GK",
+                    "market_value": "700 bin \u20ac",
+                    "market_value_numeric": 700000,
+                    "rating": 68
+                },
+                {
+                    "name": "Hakan Aslantas",
+                    "position": "DF",
+                    "market_value": "1.20 mil. \u20ac",
+                    "market_value_numeric": 1200000,
+                    "rating": 73
+                },
+                {
+                    "name": "\u00dcmit Bozkurt",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 80
+                },
+                {
+                    "name": "U\u011fur Demirok",
+                    "position": "DF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 78
+                },
+                {
+                    "name": "Musa B\u00fcy\u00fck",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 78
+                },
+                {
+                    "name": "Pablo Batalla",
+                    "position": "MF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Cristian Riveros",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 80
+                },
+                {
+                    "name": "\u0130lyas Kahraman",
+                    "position": "MF",
+                    "market_value": "1.35 mil. \u20ac",
+                    "market_value_numeric": 1350000,
+                    "rating": 75
+                },
+                {
+                    "name": "Didier Zokora",
+                    "position": "MF",
+                    "market_value": "8.00 mil. \u20ac",
+                    "market_value_numeric": 8000000,
+                    "rating": 86
+                },
+                {
+                    "name": "Cengiz \u00dcnder",
+                    "position": "MF",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 85
+                },
+                {
+                    "name": "G\u00f6khan \u00dcnal",
+                    "position": "FW",
+                    "market_value": "2.75 mil. \u20ac",
+                    "market_value_numeric": 2750000,
+                    "rating": 82
+                }
+            ]
+        },
+        {
+            "username": "patlaQ",
+            "ready": true,
+            "rating": 70,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "\u00d6mer \u00c7atk\u0131\u00e7",
+                    "position": "GK",
+                    "market_value": "500 bin \u20ac",
+                    "market_value_numeric": 500000,
+                    "rating": 67
+                },
+                {
+                    "name": "Mehmet Sedef",
+                    "position": "DF",
+                    "market_value": "1.00 mil. \u20ac",
+                    "market_value_numeric": 1000000,
+                    "rating": 71
+                },
+                {
+                    "name": "Yal\u00e7\u0131n Ayhan",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Servet \u00c7etin",
+                    "position": "DF",
+                    "market_value": "500 bin \u20ac",
+                    "market_value_numeric": 500000,
+                    "rating": 66
+                },
+                {
+                    "name": "Caner Erkin",
+                    "position": "DF",
+                    "market_value": "375 bin \u20ac",
+                    "market_value_numeric": 375000,
+                    "rating": 66
+                },
+                {
+                    "name": "Anastasios Bakasetas",
+                    "position": "MF",
+                    "market_value": "7.00 mil. \u20ac",
+                    "market_value_numeric": 7000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Bilal Boutobba",
+                    "position": "MF",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 75
+                },
+                {
+                    "name": "Cumali Bi\u015fi",
+                    "position": "MF",
+                    "market_value": "100 bin \u20ac",
+                    "market_value_numeric": 100000,
+                    "rating": 60
+                },
+                {
+                    "name": "Arif Erdem",
+                    "position": "FW",
+                    "market_value": "1.00 mil. \u20ac",
+                    "market_value_numeric": 1000000,
+                    "rating": 67
+                },
+                {
+                    "name": "Veysel Cihan",
+                    "position": "FW",
+                    "market_value": "1.20 mil. \u20ac",
+                    "market_value_numeric": 1200000,
+                    "rating": 74
+                },
+                {
+                    "name": "Mustapha Yatabar\u00e9",
+                    "position": "FW",
+                    "market_value": "150 bin \u20ac",
+                    "market_value_numeric": 150000,
+                    "rating": 62
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1781268597,
+    "leagueResults": {
+        "standings": [
+            {
+                "username": "batten",
+                "formation": "4-2-3-1",
+                "rating": 79,
+                "played": 1,
+                "won": 1,
+                "drawn": 0,
+                "lost": 0,
+                "goalsFor": 3,
+                "goalsAgainst": 2,
+                "points": 3
+            },
+            {
+                "username": "patlaQ",
+                "formation": "4-3-3",
+                "rating": 70,
+                "played": 1,
+                "won": 0,
+                "drawn": 0,
+                "lost": 1,
+                "goalsFor": 2,
+                "goalsAgainst": 3,
+                "points": 0
+            }
+        ],
+        "matches": [
+            {
+                "home": "batten",
+                "homeRating": 79,
+                "away": "patlaQ",
+                "awayRating": 70,
+                "homeScore": 3,
+                "awayScore": 2
+            }
+        ],
+        "champion": "batten"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "roomCode": "7EZBAF",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Gobeller",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "S\u0130K\u0130C\u0130",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Dulsiken",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785776811
+}

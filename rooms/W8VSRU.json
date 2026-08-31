@@ -1,0 +1,14 @@
+{
+    "roomCode": "W8VSRU",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Kad\u0131nd\u00f6ven31",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781814034
+}

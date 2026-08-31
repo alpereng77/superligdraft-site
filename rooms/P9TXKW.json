@@ -1,0 +1,14 @@
+{
+    "roomCode": "P9TXKW",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "abucuk",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785065660
+}

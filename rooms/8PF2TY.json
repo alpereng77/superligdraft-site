@@ -1,0 +1,14 @@
+{
+    "roomCode": "8PF2TY",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "A",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781734663
+}

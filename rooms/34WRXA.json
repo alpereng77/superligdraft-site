@@ -1,0 +1,14 @@
+{
+    "roomCode": "34WRXA",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "abababa",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785247331
+}

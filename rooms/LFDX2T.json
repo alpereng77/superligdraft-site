@@ -1,0 +1,14 @@
+{
+    "roomCode": "LFDX2T",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "abcdefg",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785329338
+}

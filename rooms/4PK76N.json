@@ -1,0 +1,14 @@
+{
+    "roomCode": "4PK76N",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "dxfsr",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781513899
+}

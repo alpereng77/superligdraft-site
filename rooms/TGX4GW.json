@@ -1,0 +1,14 @@
+{
+    "roomCode": "TGX4GW",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Romelu Lukaku",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1786546714
+}

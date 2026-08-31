@@ -1,0 +1,217 @@
+{
+    "roomCode": "K3ZTYP",
+    "maxPlayers": 2,
+    "status": "finished",
+    "players": [
+        {
+            "username": "batten",
+            "ready": true,
+            "rating": 65,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "Volkan Babacan",
+                    "position": "GK",
+                    "market_value": "300 bin \u20ac",
+                    "market_value_numeric": 300000,
+                    "rating": 63
+                },
+                {
+                    "name": "Umut Mera\u015f",
+                    "position": "DF",
+                    "market_value": "800 bin \u20ac",
+                    "market_value_numeric": 800000,
+                    "rating": 73
+                },
+                {
+                    "name": "\u00d6m\u00fcrcan Artan",
+                    "position": "DF",
+                    "market_value": "125 bin \u20ac",
+                    "market_value_numeric": 125000,
+                    "rating": 62
+                },
+                {
+                    "name": "Emir Ortakaya",
+                    "position": "DF",
+                    "market_value": "-",
+                    "market_value_numeric": 0,
+                    "rating": 62
+                },
+                {
+                    "name": "Emrah Eren",
+                    "position": "DF",
+                    "market_value": "200 bin \u20ac",
+                    "market_value_numeric": 200000,
+                    "rating": 64
+                },
+                {
+                    "name": "Sel\u00e7uk \u0130nan",
+                    "position": "MF",
+                    "market_value": "50 bin \u20ac",
+                    "market_value_numeric": 50000,
+                    "rating": 56
+                },
+                {
+                    "name": "Beykan \u015eim\u015fek",
+                    "position": "MF",
+                    "market_value": "250 bin \u20ac",
+                    "market_value_numeric": 250000,
+                    "rating": 66
+                },
+                {
+                    "name": "Yal\u00e7\u0131n Kayan",
+                    "position": "MF",
+                    "market_value": "100 bin \u20ac",
+                    "market_value_numeric": 100000,
+                    "rating": 64
+                },
+                {
+                    "name": "Sezer \u00d6zt\u00fcrk",
+                    "position": "MF",
+                    "market_value": "500 bin \u20ac",
+                    "market_value_numeric": 500000,
+                    "rating": 63
+                },
+                {
+                    "name": "Dorukhan Tok\u00f6z",
+                    "position": "MF",
+                    "market_value": "700 bin \u20ac",
+                    "market_value_numeric": 700000,
+                    "rating": 67
+                },
+                {
+                    "name": "Lomana LuaLua",
+                    "position": "FW",
+                    "market_value": "800 bin \u20ac",
+                    "market_value_numeric": 800000,
+                    "rating": 70
+                }
+            ]
+        },
+        {
+            "username": "patlaQ",
+            "ready": true,
+            "rating": 71,
+            "formation": "4-4-2",
+            "squad": [
+                {
+                    "name": "Souleymanou Hamidou",
+                    "position": "GK",
+                    "market_value": "1.20 mil. \u20ac",
+                    "market_value_numeric": 1200000,
+                    "rating": 74
+                },
+                {
+                    "name": "Erkan Ka\u015f",
+                    "position": "DF",
+                    "market_value": "1.20 mil. \u20ac",
+                    "market_value_numeric": 1200000,
+                    "rating": 72
+                },
+                {
+                    "name": "Mustafa Yumlu",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 75
+                },
+                {
+                    "name": "Serdar Kesimal",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 76
+                },
+                {
+                    "name": "Tolga Do\u011fantez",
+                    "position": "DF",
+                    "market_value": "600 bin \u20ac",
+                    "market_value_numeric": 600000,
+                    "rating": 66
+                },
+                {
+                    "name": "Tayfur Bing\u00f6l",
+                    "position": "MF",
+                    "market_value": "850 bin \u20ac",
+                    "market_value_numeric": 850000,
+                    "rating": 72
+                },
+                {
+                    "name": "Tolga Ci\u011ferci",
+                    "position": "MF",
+                    "market_value": "600 bin \u20ac",
+                    "market_value_numeric": 600000,
+                    "rating": 72
+                },
+                {
+                    "name": "Hamza Akman",
+                    "position": "MF",
+                    "market_value": "300 bin \u20ac",
+                    "market_value_numeric": 300000,
+                    "rating": 65
+                },
+                {
+                    "name": "Sercan Y\u0131ld\u0131r\u0131m",
+                    "position": "MF",
+                    "market_value": "1.80 mil. \u20ac",
+                    "market_value_numeric": 1800000,
+                    "rating": 74
+                },
+                {
+                    "name": "Umut Bulut",
+                    "position": "FW",
+                    "market_value": "150 bin \u20ac",
+                    "market_value_numeric": 150000,
+                    "rating": 64
+                },
+                {
+                    "name": "\u0130lhan Parlak",
+                    "position": "FW",
+                    "market_value": "600 bin \u20ac",
+                    "market_value_numeric": 600000,
+                    "rating": 68
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1781269293,
+    "leagueResults": {
+        "standings": [
+            {
+                "username": "batten",
+                "formation": "4-2-3-1",
+                "rating": 65,
+                "played": 1,
+                "won": 1,
+                "drawn": 0,
+                "lost": 0,
+                "goalsFor": 3,
+                "goalsAgainst": 1,
+                "points": 3
+            },
+            {
+                "username": "patlaQ",
+                "formation": "4-4-2",
+                "rating": 71,
+                "played": 1,
+                "won": 0,
+                "drawn": 0,
+                "lost": 1,
+                "goalsFor": 1,
+                "goalsAgainst": 3,
+                "points": 0
+            }
+        ],
+        "matches": [
+            {
+                "home": "batten",
+                "homeRating": 65,
+                "away": "patlaQ",
+                "awayRating": 71,
+                "homeScore": 3,
+                "awayScore": 1
+            }
+        ],
+        "champion": "batten"
+    }
+}

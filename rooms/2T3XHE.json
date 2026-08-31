@@ -1,0 +1,26 @@
+{
+    "roomCode": "2T3XHE",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "asdf",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "2T3",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Vaz\u0131latansk",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785242052
+}

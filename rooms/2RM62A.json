@@ -1,0 +1,20 @@
+{
+    "roomCode": "2RM62A",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "\u0130domaki",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Tacticalgeniusss",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785398888
+}

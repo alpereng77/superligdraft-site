@@ -1,0 +1,14 @@
+{
+    "roomCode": "MN8RDW",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Eczac\u0131",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781824574
+}

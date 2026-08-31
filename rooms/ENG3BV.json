@@ -1,0 +1,14 @@
+{
+    "roomCode": "ENG3BV",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "BNFJG9",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1786206210
+}

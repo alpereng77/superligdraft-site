@@ -1,0 +1,14 @@
+{
+    "roomCode": "P5L5Q5",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Yasart",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781714955
+}

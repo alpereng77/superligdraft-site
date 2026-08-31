@@ -1,0 +1,14 @@
+{
+    "roomCode": "YAZB2K",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Zenci siken",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785777583
+}

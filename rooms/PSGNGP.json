@@ -1,0 +1,14 @@
+{
+    "roomCode": "PSGNGP",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "anan",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781279221
+}

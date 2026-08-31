@@ -1,0 +1,20 @@
+{
+    "roomCode": "F7BWQT",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "kalkanspor",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "FuckerSports",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781371363
+}

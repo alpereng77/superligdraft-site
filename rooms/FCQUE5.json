@@ -1,0 +1,14 @@
+{
+    "roomCode": "FCQUE5",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Ffff",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1786181353
+}

@@ -1,0 +1,14 @@
+{
+    "roomCode": "6D3CCZ",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "ERDAL",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1782645080
+}

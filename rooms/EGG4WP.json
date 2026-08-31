@@ -1,0 +1,14 @@
+{
+    "roomCode": "EGG4WP",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Ebu",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1784997256
+}

@@ -1,0 +1,14 @@
+{
+    "roomCode": "9MREJA",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Halil ibo",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1782937951
+}

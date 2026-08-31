@@ -1,0 +1,14 @@
+{
+    "roomCode": "ADW7VE",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "jh",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1784182469
+}

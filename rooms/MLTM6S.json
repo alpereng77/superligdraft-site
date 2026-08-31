@@ -1,0 +1,14 @@
+{
+    "roomCode": "MLTM6S",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "K\u00f6k",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785079059
+}

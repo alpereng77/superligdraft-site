@@ -1,0 +1,14 @@
+{
+    "roomCode": "TGEADH",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "ben10",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1784816161
+}

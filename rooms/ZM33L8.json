@@ -1,0 +1,14 @@
+{
+    "roomCode": "ZM33L8",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Yunuss",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785063864
+}

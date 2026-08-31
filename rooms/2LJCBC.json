@@ -1,0 +1,26 @@
+{
+    "roomCode": "2LJCBC",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "bok samer",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Tamer",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Samo",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785694285
+}

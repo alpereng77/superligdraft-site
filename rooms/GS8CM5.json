@@ -1,0 +1,14 @@
+{
+    "roomCode": "GS8CM5",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Viran\u015fehir31",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781824927
+}

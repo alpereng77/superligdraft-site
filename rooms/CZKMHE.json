@@ -1,0 +1,14 @@
+{
+    "roomCode": "CZKMHE",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "bedo",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785765805
+}

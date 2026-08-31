@@ -1,0 +1,20 @@
+{
+    "roomCode": "SFD9S9",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Bugra",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "FURKAN",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785501817
+}

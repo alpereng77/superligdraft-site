@@ -1,0 +1,26 @@
+{
+    "roomCode": "FZKXRD",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Haktan",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Emre",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "omererdogan",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785782111
+}

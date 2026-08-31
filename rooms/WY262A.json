@@ -1,0 +1,14 @@
+{
+    "roomCode": "WY262A",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Gojira",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781293993
+}

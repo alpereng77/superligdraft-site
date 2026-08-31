@@ -1,0 +1,14 @@
+{
+    "roomCode": "FVR5MS",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Derdo",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1786444089
+}

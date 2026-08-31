@@ -1,0 +1,14 @@
+{
+    "roomCode": "A7SECH",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Galatasaray",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1784313521
+}

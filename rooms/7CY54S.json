@@ -1,0 +1,14 @@
+{
+    "roomCode": "7CY54S",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "ofuedo",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781903295
+}

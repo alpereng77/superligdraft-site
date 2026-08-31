@@ -1,0 +1,14 @@
+{
+    "roomCode": "64UR8A",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "montella",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781524212
+}

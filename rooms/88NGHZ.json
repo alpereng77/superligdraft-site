@@ -1,0 +1,14 @@
+{
+    "roomCode": "88NGHZ",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Eneskake",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785703151
+}

@@ -1,0 +1,14 @@
+{
+    "roomCode": "QVLUQV",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Passat",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781827749
+}

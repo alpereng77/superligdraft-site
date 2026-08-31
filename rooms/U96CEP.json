@@ -1,0 +1,14 @@
+{
+    "roomCode": "U96CEP",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "test1",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785937618
+}

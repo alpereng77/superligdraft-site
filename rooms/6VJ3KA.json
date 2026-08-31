@@ -1,0 +1,14 @@
+{
+    "roomCode": "6VJ3KA",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Ulu\u00f6nder FK",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785855850
+}

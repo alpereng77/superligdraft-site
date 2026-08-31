@@ -1,0 +1,14 @@
+{
+    "roomCode": "WD7X6S",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "\u00e7\u0131lg\u0131nserseri",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781297725
+}

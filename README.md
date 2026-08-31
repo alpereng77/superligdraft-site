@@ -122,8 +122,8 @@ Projeyi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları t
 
 ### 1. Projeyi Klonlayın
 ```bash
-git clone https://github.com/AlperenGundogdu/draftsite.git
-cd draftsite
+git clone https://github.com/alpereng77/superligdraft-site.git
+cd superligdraft-site
 ```
 
 ### 2. İzinleri Ayarlayın (Linux / macOS)

@@ -1,0 +1,26 @@
+{
+    "roomCode": "AZ8NCB",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Sokucu",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Ebu",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Siki\u015fgen",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1784996836
+}

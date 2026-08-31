@@ -1,0 +1,14 @@
+{
+    "roomCode": "QC5D2Y",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Ewewew",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781524430
+}

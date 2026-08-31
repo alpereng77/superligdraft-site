@@ -1,0 +1,20 @@
+{
+    "roomCode": "4JNVR6",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "sik k\u0131r\u0131\u011f\u0131",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "s2\u015f",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781927841
+}

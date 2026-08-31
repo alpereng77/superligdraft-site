@@ -1,0 +1,35 @@
+{
+    "roomCode": "JVXFWE",
+    "maxPlayers": 4,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Umtiti",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Efsane FB (2007-08)",
+            "ready": true,
+            "rating": 83,
+            "formation": "4-3-3",
+            "isBot": true
+        },
+        {
+            "username": "Efsane GS (2000)",
+            "ready": true,
+            "rating": 86,
+            "formation": "4-2-3-1",
+            "isBot": true
+        },
+        {
+            "username": "Efsane BJK (2016-17)",
+            "ready": true,
+            "rating": 82,
+            "formation": "3-5-2",
+            "isBot": true
+        }
+    ],
+    "lastActivity": 1786569233
+}

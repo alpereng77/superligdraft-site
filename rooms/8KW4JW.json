@@ -1,0 +1,14 @@
+{
+    "roomCode": "8KW4JW",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Yasinn",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1786116229
+}

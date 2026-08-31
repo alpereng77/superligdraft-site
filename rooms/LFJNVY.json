@@ -1,0 +1,26 @@
+{
+    "roomCode": "LFJNVY",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "O\u011fuzhan",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Fatih terim",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Selimbabba",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785763647
+}

@@ -1,0 +1,20 @@
+{
+    "roomCode": "5SSN7J",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Sikiciiii",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "bykatleden",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785099814
+}

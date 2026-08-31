@@ -1,0 +1,14 @@
+{
+    "roomCode": "MGXWLP",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Salih",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1786132612
+}

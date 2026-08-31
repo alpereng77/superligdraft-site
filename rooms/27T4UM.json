@@ -1,0 +1,20 @@
+{
+    "roomCode": "27T4UM",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "mami",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Aryar",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781332450
+}

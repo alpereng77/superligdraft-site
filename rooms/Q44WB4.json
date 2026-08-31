@@ -1,0 +1,14 @@
+{
+    "roomCode": "Q44WB4",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Messi D\u00fcnya",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1786304418
+}

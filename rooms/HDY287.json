@@ -1,0 +1,14 @@
+{
+    "roomCode": "HDY287",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Cristiano Ronald",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785707089
+}

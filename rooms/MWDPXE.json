@@ -1,0 +1,14 @@
+{
+    "roomCode": "MWDPXE",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "wdSahin10",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1786371928
+}

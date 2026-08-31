@@ -1,0 +1,14 @@
+{
+    "roomCode": "9FZ8UV",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Hhhh",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781651020
+}

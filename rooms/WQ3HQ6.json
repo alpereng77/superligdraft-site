@@ -1,0 +1,20 @@
+{
+    "roomCode": "WQ3HQ6",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "c1vandemir",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "KADIND\u00d6VEN31",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781814069
+}

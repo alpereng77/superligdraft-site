@@ -1,0 +1,14 @@
+{
+    "roomCode": "NDWHYC",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "L\u0130H FK",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781730227
+}

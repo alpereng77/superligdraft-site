@@ -1,0 +1,20 @@
+{
+    "roomCode": "Z6F9P5",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Alpovski",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Alp2",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1782325591
+}

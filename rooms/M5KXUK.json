@@ -1,0 +1,26 @@
+{
+    "roomCode": "M5KXUK",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Z\u0131plat\u0131c\u0131",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Deniz_Messi",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "zaxdxd",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1785404670
+}

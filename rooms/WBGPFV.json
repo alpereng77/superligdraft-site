@@ -1,0 +1,14 @@
+{
+    "roomCode": "WBGPFV",
+    "maxPlayers": 4,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Gojiberry",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1781295573
+}
