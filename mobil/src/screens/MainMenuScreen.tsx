@@ -15,7 +15,9 @@ interface MainMenuScreenProps {
   navigation: any;
 }
 
-export const MainMenuScreen: React.FC<MainMenuScreenProps> = ({ navigation }) => {
+export const MainMenuScreen: React.FC<MainMenuScreenProps> = ({
+  navigation,
+}) => {
   const insets = useSafeAreaInsets();
   const topPadding = Math.max(insets.top, Platform.OS === 'android' ? 24 : 12);
   const bottomPadding = Math.max(insets.bottom, 16);
@@ -72,7 +74,8 @@ export const MainMenuScreen: React.FC<MainMenuScreenProps> = ({ navigation }) =>
                 <View style={styles.cardInfo}>
                   <Text style={styles.cardTitle}>KLASİK MOD (TURNUVA)</Text>
                   <Text style={styles.cardDesc}>
-                    Tek başına oyna. Kadronu kur, efsanevi rakiplerine karşı kupayı kaldır!
+                    Tek başına oyna. Kadronu kur, efsanevi rakiplerine karşı
+                    kupayı kaldır!
                   </Text>
                 </View>
 
@@ -98,7 +101,8 @@ export const MainMenuScreen: React.FC<MainMenuScreenProps> = ({ navigation }) =>
                 <View style={styles.cardInfo}>
                   <Text style={styles.cardTitle}>2 OYUNCULU DERBİ</Text>
                   <Text style={styles.cardDesc}>
-                    Arkadaşını davet et! Karşılıklı kadro kurun, teke tek derbi heyecanını yaşayın.
+                    Arkadaşını davet et! Karşılıklı kadro kurun, teke tek derbi
+                    heyecanını yaşayın.
                   </Text>
                 </View>
 
@@ -122,9 +126,12 @@ export const MainMenuScreen: React.FC<MainMenuScreenProps> = ({ navigation }) =>
                 </View>
 
                 <View style={styles.cardInfo}>
-                  <Text style={styles.cardTitle}>KUPA MÜZESİ & İSTATİSTİKLER</Text>
+                  <Text style={styles.cardTitle}>
+                    KUPA MÜZESİ & İSTATİSTİKLER
+                  </Text>
                   <Text style={styles.cardDesc}>
-                    Kazandığın kupaları, efsane kadrolarını ve kariyer istatistiklerini incele.
+                    Kazandığın kupaları, efsane kadrolarını ve kariyer
+                    istatistiklerini incele.
                   </Text>
                 </View>
 
@@ -136,7 +143,9 @@ export const MainMenuScreen: React.FC<MainMenuScreenProps> = ({ navigation }) =>
           {/* Retro Menu Footer */}
           <View style={styles.menuFooter}>
             <Text style={styles.footerMono}>SERİ No: #SL-2004-2026</Text>
-            <Text style={styles.footerMono}>* Developer By AlperenGundogdu</Text>
+            <Text style={styles.footerMono}>
+              * Developer By AlperenGundogdu
+            </Text>
           </View>
         </View>
 
@@ -340,7 +349,7 @@ const styles = StyleSheet.create({
     gap: 8,
     paddingVertical: 12,
     paddingHorizontal: 22,
-    borderRadius: 28,
+    borderRadius: 24,
     borderWidth: 1.5,
     borderColor: '#1a1a1a',
     shadowColor: '#1a1a1a',
