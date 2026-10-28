@@ -1,0 +1,14 @@
+{
+    "roomCode": "ERW4Z7",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "pipiaras\u0131popo",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789756455
+}

@@ -1,0 +1,20 @@
+{
+    "roomCode": "948H9K",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "bilgecan\u0131nku\u015fu\u00f6t",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "dogus",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790598619
+}

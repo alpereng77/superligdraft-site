@@ -1,0 +1,99 @@
+{
+    "roomCode": "VVHBUY",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Delgadoo",
+            "ready": true,
+            "rating": 79,
+            "formation": "3-5-2",
+            "squad": [
+                {
+                    "name": "Mariusz Pawelek",
+                    "position": "GK",
+                    "market_value": "1.10 mil. \u20ac",
+                    "market_value_numeric": 1100000,
+                    "rating": 73
+                },
+                {
+                    "name": "Botond Balogh",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 75
+                },
+                {
+                    "name": "Tomas Sivok",
+                    "position": "DF",
+                    "market_value": "7.00 mil. \u20ac",
+                    "market_value_numeric": 7000000,
+                    "rating": 86
+                },
+                {
+                    "name": "\u00d6mer Ali \u015eahiner",
+                    "position": "DF",
+                    "market_value": "1.30 mil. \u20ac",
+                    "market_value_numeric": 1300000,
+                    "rating": 73
+                },
+                {
+                    "name": "Maicon Bolt",
+                    "position": "MF",
+                    "market_value": "2.75 mil. \u20ac",
+                    "market_value_numeric": 2750000,
+                    "rating": 82
+                },
+                {
+                    "name": "Kamil Grosicki",
+                    "position": "MF",
+                    "market_value": "1.60 mil. \u20ac",
+                    "market_value_numeric": 1600000,
+                    "rating": 75
+                },
+                {
+                    "name": "Souza",
+                    "position": "MF",
+                    "market_value": "9.00 mil. \u20ac",
+                    "market_value_numeric": 9000000,
+                    "rating": 88
+                },
+                {
+                    "name": "Yaw Ackah",
+                    "position": "MF",
+                    "market_value": "500 bin \u20ac",
+                    "market_value_numeric": 500000,
+                    "rating": 70
+                },
+                {
+                    "name": "O\u011fulcan \u00c7a\u011flayan",
+                    "position": "MF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 76
+                },
+                {
+                    "name": "Mauro Icardi",
+                    "position": "FW",
+                    "market_value": "19.00 mil. \u20ac",
+                    "market_value_numeric": 19000000,
+                    "rating": 92
+                },
+                {
+                    "name": "Bogdan Stancu",
+                    "position": "FW",
+                    "market_value": "4.20 mil. \u20ac",
+                    "market_value_numeric": 4200000,
+                    "rating": 81
+                }
+            ]
+        },
+        {
+            "username": "emre",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790535961
+}

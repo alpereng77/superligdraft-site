@@ -1,0 +1,99 @@
+{
+    "roomCode": "AU7D4W",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "umutcan",
+            "ready": true,
+            "rating": 78,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "Ruud Boffin",
+                    "position": "GK",
+                    "market_value": "3.75 mil. \u20ac",
+                    "market_value_numeric": 3750000,
+                    "rating": 80
+                },
+                {
+                    "name": "Botond Balogh",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 75
+                },
+                {
+                    "name": "Veysel Sar\u0131",
+                    "position": "DF",
+                    "market_value": "5.75 mil. \u20ac",
+                    "market_value_numeric": 5750000,
+                    "rating": 85
+                },
+                {
+                    "name": "Nejc Skubic",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Matheus D\u00f3ria",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Amir Hadziahmetovic",
+                    "position": "MF",
+                    "market_value": "2.20 mil. \u20ac",
+                    "market_value_numeric": 2200000,
+                    "rating": 78
+                },
+                {
+                    "name": "Campanharo",
+                    "position": "MF",
+                    "market_value": "1.40 mil. \u20ac",
+                    "market_value_numeric": 1400000,
+                    "rating": 75
+                },
+                {
+                    "name": "Randall Azofeifa",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Recep Niyaz",
+                    "position": "MF",
+                    "market_value": "1.40 mil. \u20ac",
+                    "market_value_numeric": 1400000,
+                    "rating": 76
+                },
+                {
+                    "name": "\u0130brahim Yattara",
+                    "position": "MF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 76
+                },
+                {
+                    "name": "Souleymane Youla",
+                    "position": "FW",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                }
+            ]
+        },
+        {
+            "username": "ege",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1792280634
+}

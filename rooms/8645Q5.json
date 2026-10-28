@@ -1,0 +1,99 @@
+{
+    "roomCode": "8645Q5",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "efe12",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "cagribabag",
+            "ready": true,
+            "rating": 80,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Beto",
+                    "position": "GK",
+                    "market_value": "750 bin \u20ac",
+                    "market_value_numeric": 750000,
+                    "rating": 73
+                },
+                {
+                    "name": "Serdar Aziz",
+                    "position": "DF",
+                    "market_value": "3.80 mil. \u20ac",
+                    "market_value_numeric": 3800000,
+                    "rating": 80
+                },
+                {
+                    "name": "Neven Subotic",
+                    "position": "DF",
+                    "market_value": "600 bin \u20ac",
+                    "market_value_numeric": 600000,
+                    "rating": 71
+                },
+                {
+                    "name": "Emre G\u00fcng\u00f6r",
+                    "position": "DF",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 74
+                },
+                {
+                    "name": "Jure Balkovec",
+                    "position": "DF",
+                    "market_value": "2.30 mil. \u20ac",
+                    "market_value_numeric": 2300000,
+                    "rating": 77
+                },
+                {
+                    "name": "Arbnor Muja",
+                    "position": "MF",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Christ Inao Oula\u00ef",
+                    "position": "MF",
+                    "market_value": "23.00 mil. \u20ac",
+                    "market_value_numeric": 23000000,
+                    "rating": 88
+                },
+                {
+                    "name": "Edin Visca",
+                    "position": "MF",
+                    "market_value": "12.00 mil. \u20ac",
+                    "market_value_numeric": 12000000,
+                    "rating": 88
+                },
+                {
+                    "name": "Demba Ba",
+                    "position": "FW",
+                    "market_value": "12.00 mil. \u20ac",
+                    "market_value_numeric": 12000000,
+                    "rating": 88
+                },
+                {
+                    "name": "Simon Banza",
+                    "position": "FW",
+                    "market_value": "14.00 mil. \u20ac",
+                    "market_value_numeric": 14000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Theofanis Gekas",
+                    "position": "FW",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 76
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1790585433
+}

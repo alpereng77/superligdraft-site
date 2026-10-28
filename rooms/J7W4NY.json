@@ -1,0 +1,99 @@
+{
+    "roomCode": "J7W4NY",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "EVREN",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "\ud83e\uddad",
+            "ready": true,
+            "rating": 82,
+            "formation": "4-4-2",
+            "squad": [
+                {
+                    "name": "Morgan De Sanctis",
+                    "position": "GK",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 84
+                },
+                {
+                    "name": "Fatih Aksoy",
+                    "position": "DF",
+                    "market_value": "3.20 mil. \u20ac",
+                    "market_value_numeric": 3200000,
+                    "rating": 79
+                },
+                {
+                    "name": "\u00d6mer Bayram",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 79
+                },
+                {
+                    "name": "B\u00fcnyamin Balc\u0131",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 80
+                },
+                {
+                    "name": "B\u00fcnyamin Balc\u0131",
+                    "position": "DF",
+                    "market_value": "2.20 mil. \u20ac",
+                    "market_value_numeric": 2200000,
+                    "rating": 77
+                },
+                {
+                    "name": "Nani",
+                    "position": "MF",
+                    "market_value": "16.00 mil. \u20ac",
+                    "market_value_numeric": 16000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Castro",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Bernard Mensah",
+                    "position": "MF",
+                    "market_value": "2.40 mil. \u20ac",
+                    "market_value_numeric": 2400000,
+                    "rating": 81
+                },
+                {
+                    "name": "Kamil Grosicki",
+                    "position": "MF",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Mustafa Pektemek",
+                    "position": "FW",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Necati Ate\u015f",
+                    "position": "FW",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 84
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1790969743
+}

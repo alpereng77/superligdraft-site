@@ -1,0 +1,14 @@
+{
+    "roomCode": "V8JDXJ",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "oguz",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789756643
+}

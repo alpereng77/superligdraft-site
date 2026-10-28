@@ -1,0 +1,99 @@
+{
+    "roomCode": "ERW3X9",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "ISMYSN",
+            "ready": true,
+            "rating": 79,
+            "formation": "4-4-2",
+            "squad": [
+                {
+                    "name": "Fernando Muslera",
+                    "position": "GK",
+                    "market_value": "17.00 mil. \u20ac",
+                    "market_value_numeric": 17000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Veysel Sar\u0131",
+                    "position": "DF",
+                    "market_value": "5.75 mil. \u20ac",
+                    "market_value_numeric": 5750000,
+                    "rating": 85
+                },
+                {
+                    "name": "Igor Lichnovsky",
+                    "position": "DF",
+                    "market_value": "800 bin \u20ac",
+                    "market_value_numeric": 800000,
+                    "rating": 68
+                },
+                {
+                    "name": "Fredrik Risp",
+                    "position": "DF",
+                    "market_value": "1.80 mil. \u20ac",
+                    "market_value_numeric": 1800000,
+                    "rating": 77
+                },
+                {
+                    "name": "Ali Adnan",
+                    "position": "DF",
+                    "market_value": "1.80 mil. \u20ac",
+                    "market_value_numeric": 1800000,
+                    "rating": 75
+                },
+                {
+                    "name": "Chiquinho",
+                    "position": "MF",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Andr\u00e9 Poko",
+                    "position": "MF",
+                    "market_value": "1.00 mil. \u20ac",
+                    "market_value_numeric": 1000000,
+                    "rating": 76
+                },
+                {
+                    "name": "Mat\u00edas Delgado",
+                    "position": "MF",
+                    "market_value": "7.00 mil. \u20ac",
+                    "market_value_numeric": 7000000,
+                    "rating": 88
+                },
+                {
+                    "name": "Burhan E\u015fer",
+                    "position": "MF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 74
+                },
+                {
+                    "name": "Mohamed Bayo",
+                    "position": "FW",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Mert Nobre",
+                    "position": "FW",
+                    "market_value": "1.80 mil. \u20ac",
+                    "market_value_numeric": 1800000,
+                    "rating": 75
+                }
+            ]
+        },
+        {
+            "username": "furkan",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789505329
+}

@@ -1,0 +1,99 @@
+{
+    "roomCode": "9GE2PY",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "bartu",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Tuna",
+            "ready": true,
+            "rating": 82,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Fernando Muslera",
+                    "position": "GK",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 83
+                },
+                {
+                    "name": "G\u00fcray Vural",
+                    "position": "DF",
+                    "market_value": "3.75 mil. \u20ac",
+                    "market_value_numeric": 3750000,
+                    "rating": 79
+                },
+                {
+                    "name": "Mustafa Eskihella\u00e7",
+                    "position": "DF",
+                    "market_value": "2.40 mil. \u20ac",
+                    "market_value_numeric": 2400000,
+                    "rating": 77
+                },
+                {
+                    "name": "Merih Demiral",
+                    "position": "DF",
+                    "market_value": "15.00 mil. \u20ac",
+                    "market_value_numeric": 15000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Emre G\u00fcng\u00f6r",
+                    "position": "DF",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 74
+                },
+                {
+                    "name": "Samir Nasri",
+                    "position": "MF",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 86
+                },
+                {
+                    "name": "\u0130brahim Ak\u0131n",
+                    "position": "MF",
+                    "market_value": "2.60 mil. \u20ac",
+                    "market_value_numeric": 2600000,
+                    "rating": 81
+                },
+                {
+                    "name": "Alexis Flips",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Milan Purovic",
+                    "position": "FW",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 78
+                },
+                {
+                    "name": "Moussa Sow",
+                    "position": "FW",
+                    "market_value": "14.00 mil. \u20ac",
+                    "market_value_numeric": 14000000,
+                    "rating": 89
+                },
+                {
+                    "name": "Moussa Sow",
+                    "position": "FW",
+                    "market_value": "12.00 mil. \u20ac",
+                    "market_value_numeric": 12000000,
+                    "rating": 88
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1790518021
+}

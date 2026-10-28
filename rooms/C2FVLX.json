@@ -1,0 +1,20 @@
+{
+    "roomCode": "C2FVLX",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Minguizzi",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Bjk",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1791128374
+}

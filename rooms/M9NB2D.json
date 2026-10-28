@@ -1,0 +1,99 @@
+{
+    "roomCode": "M9NB2D",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "yigit",
+            "ready": true,
+            "rating": 83,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Fernando Muslera",
+                    "position": "GK",
+                    "market_value": "13.00 mil. \u20ac",
+                    "market_value_numeric": 13000000,
+                    "rating": 91
+                },
+                {
+                    "name": "Merih Demiral",
+                    "position": "DF",
+                    "market_value": "15.00 mil. \u20ac",
+                    "market_value_numeric": 15000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Giray Ka\u00e7ar",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 77
+                },
+                {
+                    "name": "Nuno Andr\u00e9 Coelho",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 76
+                },
+                {
+                    "name": "Giray Ka\u00e7ar",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 77
+                },
+                {
+                    "name": "Arda G\u00fcler",
+                    "position": "MF",
+                    "market_value": "15.00 mil. \u20ac",
+                    "market_value_numeric": 15000000,
+                    "rating": 89
+                },
+                {
+                    "name": "Filip Holosko",
+                    "position": "MF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 86
+                },
+                {
+                    "name": "Yusuf \u015eim\u015fek",
+                    "position": "MF",
+                    "market_value": "2.80 mil. \u20ac",
+                    "market_value_numeric": 2800000,
+                    "rating": 81
+                },
+                {
+                    "name": "Bruno Mezenga",
+                    "position": "FW",
+                    "market_value": "2.30 mil. \u20ac",
+                    "market_value_numeric": 2300000,
+                    "rating": 76
+                },
+                {
+                    "name": "Daniel Pancu",
+                    "position": "FW",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Zafer Biryol",
+                    "position": "FW",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 85
+                }
+            ]
+        },
+        {
+            "username": "emir",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790353956
+}

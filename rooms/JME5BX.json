@@ -1,0 +1,99 @@
+{
+    "roomCode": "JME5BX",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "ismayil12",
+            "ready": true,
+            "rating": 78,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Silviu Lung Jr.",
+                    "position": "GK",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Riechedly Bazoer",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 78
+                },
+                {
+                    "name": "F\u00e1bio Bilica",
+                    "position": "DF",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Koray Arslan",
+                    "position": "DF",
+                    "market_value": "1.20 mil. \u20ac",
+                    "market_value_numeric": 1200000,
+                    "rating": 72
+                },
+                {
+                    "name": "\u0130brahim \u00d6zt\u00fcrk",
+                    "position": "DF",
+                    "market_value": "2.70 mil. \u20ac",
+                    "market_value_numeric": 2700000,
+                    "rating": 77
+                },
+                {
+                    "name": "Tita",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Florent Hadergjonaj",
+                    "position": "MF",
+                    "market_value": "3.10 mil. \u20ac",
+                    "market_value_numeric": 3100000,
+                    "rating": 79
+                },
+                {
+                    "name": "Bartu\u011f Elmaz",
+                    "position": "MF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 73
+                },
+                {
+                    "name": "Gerson Rodrigues",
+                    "position": "FW",
+                    "market_value": "1.40 mil. \u20ac",
+                    "market_value_numeric": 1400000,
+                    "rating": 78
+                },
+                {
+                    "name": "Pr\u00e9juce Nakoulma",
+                    "position": "FW",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 79
+                },
+                {
+                    "name": "Mehmet Y\u0131ld\u0131z",
+                    "position": "FW",
+                    "market_value": "2.20 mil. \u20ac",
+                    "market_value_numeric": 2200000,
+                    "rating": 76
+                }
+            ]
+        },
+        {
+            "username": "kerem",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1791183701
+}

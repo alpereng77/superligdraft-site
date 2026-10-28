@@ -1,0 +1,99 @@
+{
+    "roomCode": "E93LM5",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "sado nazocu",
+            "ready": true,
+            "rating": 79,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Ibrahim Sehic",
+                    "position": "GK",
+                    "market_value": "1.20 mil. \u20ac",
+                    "market_value_numeric": 1200000,
+                    "rating": 72
+                },
+                {
+                    "name": "B\u00fcnyamin Balc\u0131",
+                    "position": "DF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Orhan \u015eam",
+                    "position": "DF",
+                    "market_value": "2.70 mil. \u20ac",
+                    "market_value_numeric": 2700000,
+                    "rating": 78
+                },
+                {
+                    "name": "Niyazi G\u00fcney",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 73
+                },
+                {
+                    "name": "Kemal Tokak",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Franco Tongya",
+                    "position": "MF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 74
+                },
+                {
+                    "name": "Fernando Andrade",
+                    "position": "MF",
+                    "market_value": "3.20 mil. \u20ac",
+                    "market_value_numeric": 3200000,
+                    "rating": 83
+                },
+                {
+                    "name": "Kartal Y\u0131lmaz",
+                    "position": "MF",
+                    "market_value": "2.70 mil. \u20ac",
+                    "market_value_numeric": 2700000,
+                    "rating": 78
+                },
+                {
+                    "name": "Muhammet Demir",
+                    "position": "FW",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Hugo Almeida",
+                    "position": "FW",
+                    "market_value": "7.75 mil. \u20ac",
+                    "market_value_numeric": 7750000,
+                    "rating": 86
+                },
+                {
+                    "name": "Beto",
+                    "position": "FW",
+                    "market_value": "2.70 mil. \u20ac",
+                    "market_value_numeric": 2700000,
+                    "rating": 80
+                }
+            ]
+        },
+        {
+            "username": "ANALCI",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1791303414
+}

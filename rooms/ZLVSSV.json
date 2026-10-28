@@ -1,0 +1,20 @@
+{
+    "roomCode": "ZLVSSV",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "ramo",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "sexustas\u0131",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790585072
+}

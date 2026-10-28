@@ -1,0 +1,99 @@
+{
+    "roomCode": "D29FYM",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "oguz",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "anilpopo",
+            "ready": true,
+            "rating": 79,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Mariusz Pawelek",
+                    "position": "GK",
+                    "market_value": "1.10 mil. \u20ac",
+                    "market_value_numeric": 1100000,
+                    "rating": 73
+                },
+                {
+                    "name": "Fabiano",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Julien Faubert",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 74
+                },
+                {
+                    "name": "Hasan Yurt",
+                    "position": "DF",
+                    "market_value": "2.75 mil. \u20ac",
+                    "market_value_numeric": 2750000,
+                    "rating": 82
+                },
+                {
+                    "name": "Wederson",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Carlo Holse",
+                    "position": "MF",
+                    "market_value": "3.80 mil. \u20ac",
+                    "market_value_numeric": 3800000,
+                    "rating": 79
+                },
+                {
+                    "name": "Zdravko Lazarov",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Pablo Batalla",
+                    "position": "MF",
+                    "market_value": "6.50 mil. \u20ac",
+                    "market_value_numeric": 6500000,
+                    "rating": 84
+                },
+                {
+                    "name": "Famara Di\u00e9dhiou",
+                    "position": "FW",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Giovanni Sio",
+                    "position": "FW",
+                    "market_value": "1.40 mil. \u20ac",
+                    "market_value_numeric": 1400000,
+                    "rating": 78
+                },
+                {
+                    "name": "Serkan Aykut",
+                    "position": "FW",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 78
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1789755944
+}

@@ -1,0 +1,99 @@
+{
+    "roomCode": "HS6QDG",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "EVREN VE HAM\u0130T",
+            "ready": true,
+            "rating": 81,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "U\u011furcan \u00c7ak\u0131r",
+                    "position": "GK",
+                    "market_value": "18.00 mil. \u20ac",
+                    "market_value_numeric": 18000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Volkan Yaman",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Valentin Rosier",
+                    "position": "DF",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 84
+                },
+                {
+                    "name": "Vitor Hugo",
+                    "position": "DF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 85
+                },
+                {
+                    "name": "Roman Kratochv\u00edl",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 76
+                },
+                {
+                    "name": "Musa Ayd\u0131n",
+                    "position": "MF",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 76
+                },
+                {
+                    "name": "Tita",
+                    "position": "MF",
+                    "market_value": "2.80 mil. \u20ac",
+                    "market_value_numeric": 2800000,
+                    "rating": 78
+                },
+                {
+                    "name": "Ermin Zec",
+                    "position": "MF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Do\u011fukan Sinik",
+                    "position": "MF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Okan Ko\u00e7",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 78
+                },
+                {
+                    "name": "\u0130lhan Parlak",
+                    "position": "FW",
+                    "market_value": "3.80 mil. \u20ac",
+                    "market_value_numeric": 3800000,
+                    "rating": 81
+                }
+            ]
+        },
+        {
+            "username": "\ud83c\uddec\ud83c\uddf7",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790969525
+}

@@ -1,0 +1,20 @@
+{
+    "roomCode": "S5GH4U",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "siken",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "or",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790685444
+}

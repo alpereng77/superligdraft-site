@@ -1,0 +1,20 @@
+{
+    "roomCode": "SKPD7Z",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "emirhan",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Bahadir",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790169413
+}

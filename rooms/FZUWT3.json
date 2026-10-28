@@ -1,0 +1,14 @@
+{
+    "roomCode": "FZUWT3",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "ram",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790585822
+}

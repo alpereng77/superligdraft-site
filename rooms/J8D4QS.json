@@ -1,0 +1,14 @@
+{
+    "roomCode": "J8D4QS",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "allahbaba",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789909692
+}

@@ -1,0 +1,14 @@
+{
+    "roomCode": "DS4P2R",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "jbsasu\u0131a",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789472142
+}

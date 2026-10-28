@@ -1,0 +1,99 @@
+{
+    "roomCode": "NPPTV9",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "nevopro",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "sdrurfu",
+            "ready": true,
+            "rating": 84,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "U\u011furcan \u00c7ak\u0131r",
+                    "position": "GK",
+                    "market_value": "18.00 mil. \u20ac",
+                    "market_value_numeric": 18000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Matteo Ferrari",
+                    "position": "DF",
+                    "market_value": "8.00 mil. \u20ac",
+                    "market_value_numeric": 8000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Ali Turan",
+                    "position": "DF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Diego \u00c2ngelo",
+                    "position": "DF",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 83
+                },
+                {
+                    "name": "Egemen Korkmaz",
+                    "position": "DF",
+                    "market_value": "2.80 mil. \u20ac",
+                    "market_value_numeric": 2800000,
+                    "rating": 81
+                },
+                {
+                    "name": "Amir Hadziahmetovic",
+                    "position": "MF",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 80
+                },
+                {
+                    "name": "O\u011fuz Ayd\u0131n",
+                    "position": "MF",
+                    "market_value": "4.30 mil. \u20ac",
+                    "market_value_numeric": 4300000,
+                    "rating": 82
+                },
+                {
+                    "name": "G\u00f6kdeniz Bayrakdar",
+                    "position": "MF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 83
+                },
+                {
+                    "name": "Manuel Fernandes",
+                    "position": "MF",
+                    "market_value": "14.00 mil. \u20ac",
+                    "market_value_numeric": 14000000,
+                    "rating": 90
+                },
+                {
+                    "name": "Mehmet Ekici",
+                    "position": "MF",
+                    "market_value": "7.50 mil. \u20ac",
+                    "market_value_numeric": 7500000,
+                    "rating": 86
+                },
+                {
+                    "name": "Georgi Ivanov",
+                    "position": "FW",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 81
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1789472273
+}

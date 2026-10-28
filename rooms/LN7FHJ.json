@@ -1,0 +1,99 @@
+{
+    "roomCode": "LN7FHJ",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Bjk",
+            "ready": true,
+            "rating": 80,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Vanja Ivesa",
+                    "position": "GK",
+                    "market_value": "1.00 mil. \u20ac",
+                    "market_value_numeric": 1000000,
+                    "rating": 73
+                },
+                {
+                    "name": "Larrys Mabiala",
+                    "position": "DF",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 74
+                },
+                {
+                    "name": "Kamil Zayatte",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 78
+                },
+                {
+                    "name": "Ryan Donk",
+                    "position": "DF",
+                    "market_value": "4.20 mil. \u20ac",
+                    "market_value_numeric": 4200000,
+                    "rating": 82
+                },
+                {
+                    "name": "Kemal Tokak",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Ryan Babel",
+                    "position": "MF",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 82
+                },
+                {
+                    "name": "L\u00e1szl\u00f3 B\u00e9nes",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 75
+                },
+                {
+                    "name": "Mehmet Topuz",
+                    "position": "MF",
+                    "market_value": "5.70 mil. \u20ac",
+                    "market_value_numeric": 5700000,
+                    "rating": 85
+                },
+                {
+                    "name": "Fabio Borini",
+                    "position": "FW",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 83
+                },
+                {
+                    "name": "Mostafa Mohamed",
+                    "position": "FW",
+                    "market_value": "6.50 mil. \u20ac",
+                    "market_value_numeric": 6500000,
+                    "rating": 86
+                },
+                {
+                    "name": "Muhammet Demir",
+                    "position": "FW",
+                    "market_value": "4.75 mil. \u20ac",
+                    "market_value_numeric": 4750000,
+                    "rating": 82
+                }
+            ]
+        },
+        {
+            "username": "Minguizzi",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1791309198
+}

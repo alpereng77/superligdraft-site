@@ -1,0 +1,20 @@
+{
+    "roomCode": "RHP3VX",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "nevos",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "ramos",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790598723
+}

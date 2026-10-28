@@ -1,0 +1,99 @@
+{
+    "roomCode": "J3FM39",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "BERKAY",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "EM\u0130R",
+            "ready": true,
+            "rating": 78,
+            "formation": "3-5-2",
+            "squad": [
+                {
+                    "name": "Alican Candemir",
+                    "position": "GK",
+                    "market_value": "50 bin \u20ac",
+                    "market_value_numeric": 50000,
+                    "rating": 58
+                },
+                {
+                    "name": "Yassine Meriah",
+                    "position": "DF",
+                    "market_value": "2.40 mil. \u20ac",
+                    "market_value_numeric": 2400000,
+                    "rating": 81
+                },
+                {
+                    "name": "Ayila Yussuf",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 76
+                },
+                {
+                    "name": "Tomas Sivok",
+                    "position": "DF",
+                    "market_value": "7.50 mil. \u20ac",
+                    "market_value_numeric": 7500000,
+                    "rating": 86
+                },
+                {
+                    "name": "Manuel Fernandes",
+                    "position": "MF",
+                    "market_value": "14.00 mil. \u20ac",
+                    "market_value_numeric": 14000000,
+                    "rating": 90
+                },
+                {
+                    "name": "\u0130brahim Ak\u0131n",
+                    "position": "MF",
+                    "market_value": "2.60 mil. \u20ac",
+                    "market_value_numeric": 2600000,
+                    "rating": 81
+                },
+                {
+                    "name": "Trezeguet",
+                    "position": "MF",
+                    "market_value": "10.00 mil. \u20ac",
+                    "market_value_numeric": 10000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Alexandru Cic\u00e2ld\u0103u",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Emmanuel Culio",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Adolfo Gaich",
+                    "position": "FW",
+                    "market_value": "1.40 mil. \u20ac",
+                    "market_value_numeric": 1400000,
+                    "rating": 74
+                },
+                {
+                    "name": "Umut Nayir",
+                    "position": "FW",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 74
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1790847224
+}

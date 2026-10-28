@@ -1,0 +1,14 @@
+{
+    "roomCode": "DW8C7K",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Apo",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1791909305
+}

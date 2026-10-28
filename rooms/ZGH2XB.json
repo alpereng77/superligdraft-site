@@ -1,0 +1,99 @@
+{
+    "roomCode": "ZGH2XB",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "4",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "2",
+            "ready": true,
+            "rating": 79,
+            "formation": "4-4-2",
+            "squad": [
+                {
+                    "name": "\u0130lker Avc\u0131bay",
+                    "position": "GK",
+                    "market_value": "600 bin \u20ac",
+                    "market_value_numeric": 600000,
+                    "rating": 70
+                },
+                {
+                    "name": "U\u011fur \u00c7ift\u00e7i",
+                    "position": "DF",
+                    "market_value": "1.75 mil. \u20ac",
+                    "market_value_numeric": 1750000,
+                    "rating": 78
+                },
+                {
+                    "name": "Orhan \u015eam",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Larrys Mabiala",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Levent Mercan",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Abdou Traor\u00e9",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Alex",
+                    "position": "MF",
+                    "market_value": "9.90 mil. \u20ac",
+                    "market_value_numeric": 9900000,
+                    "rating": 93
+                },
+                {
+                    "name": "Do\u011fukan Sinik",
+                    "position": "MF",
+                    "market_value": "1.80 mil. \u20ac",
+                    "market_value_numeric": 1800000,
+                    "rating": 80
+                },
+                {
+                    "name": "Valon Ethemi",
+                    "position": "MF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 75
+                },
+                {
+                    "name": "Krzysztof Piatek",
+                    "position": "FW",
+                    "market_value": "8.50 mil. \u20ac",
+                    "market_value_numeric": 8500000,
+                    "rating": 83
+                },
+                {
+                    "name": "Ariza Makukula",
+                    "position": "FW",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 81
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1789781278
+}

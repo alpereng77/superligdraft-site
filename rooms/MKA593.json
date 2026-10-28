@@ -1,0 +1,99 @@
+{
+    "roomCode": "MKA593",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "ALPER DAMDELEN",
+            "ready": true,
+            "rating": 80,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Berke \u00d6zer",
+                    "position": "GK",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Wederson",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Eren Elmal\u0131",
+                    "position": "DF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Petr Johana",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 76
+                },
+                {
+                    "name": "Ousmane Viera",
+                    "position": "DF",
+                    "market_value": "1.00 mil. \u20ac",
+                    "market_value_numeric": 1000000,
+                    "rating": 73
+                },
+                {
+                    "name": "Borja Sainz",
+                    "position": "MF",
+                    "market_value": "2.20 mil. \u20ac",
+                    "market_value_numeric": 2200000,
+                    "rating": 76
+                },
+                {
+                    "name": "John Chibuike",
+                    "position": "MF",
+                    "market_value": "3.60 mil. \u20ac",
+                    "market_value_numeric": 3600000,
+                    "rating": 79
+                },
+                {
+                    "name": "Kartal Y\u0131lmaz",
+                    "position": "MF",
+                    "market_value": "1.20 mil. \u20ac",
+                    "market_value_numeric": 1200000,
+                    "rating": 73
+                },
+                {
+                    "name": "Andr\u00e9 Ayew",
+                    "position": "FW",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 85
+                },
+                {
+                    "name": "Burak Y\u0131lmaz",
+                    "position": "FW",
+                    "market_value": "12.00 mil. \u20ac",
+                    "market_value_numeric": 12000000,
+                    "rating": 88
+                },
+                {
+                    "name": "Mbaye Diagne",
+                    "position": "FW",
+                    "market_value": "9.00 mil. \u20ac",
+                    "market_value_numeric": 9000000,
+                    "rating": 87
+                }
+            ]
+        },
+        {
+            "username": "Evren",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790969907
+}

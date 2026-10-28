@@ -1,0 +1,99 @@
+{
+    "roomCode": "HVECBU",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Qarisma",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Q7",
+            "ready": true,
+            "rating": 84,
+            "formation": "3-5-2",
+            "squad": [
+                {
+                    "name": "Harun Tekin",
+                    "position": "GK",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 83
+                },
+                {
+                    "name": "Ferdi Kad\u0131o\u011flu",
+                    "position": "DF",
+                    "market_value": "25.00 mil. \u20ac",
+                    "market_value_numeric": 25000000,
+                    "rating": 92
+                },
+                {
+                    "name": "U\u011fur \u00c7ift\u00e7i",
+                    "position": "DF",
+                    "market_value": "1.75 mil. \u20ac",
+                    "market_value_numeric": 1750000,
+                    "rating": 78
+                },
+                {
+                    "name": "Hakan Balta",
+                    "position": "DF",
+                    "market_value": "3.20 mil. \u20ac",
+                    "market_value_numeric": 3200000,
+                    "rating": 82
+                },
+                {
+                    "name": "Deniz T\u00fcr\u00fc\u00e7",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Adem Ljajic",
+                    "position": "MF",
+                    "market_value": "12.00 mil. \u20ac",
+                    "market_value_numeric": 12000000,
+                    "rating": 88
+                },
+                {
+                    "name": "Kl\u00e9berson",
+                    "position": "MF",
+                    "market_value": "6.35 mil. \u20ac",
+                    "market_value_numeric": 6350000,
+                    "rating": 87
+                },
+                {
+                    "name": "Vitolo",
+                    "position": "MF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 76
+                },
+                {
+                    "name": "Edin Visca",
+                    "position": "MF",
+                    "market_value": "10.50 mil. \u20ac",
+                    "market_value_numeric": 10500000,
+                    "rating": 90
+                },
+                {
+                    "name": "Riad Bajic",
+                    "position": "FW",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 86
+                },
+                {
+                    "name": "Muhammet Demir",
+                    "position": "FW",
+                    "market_value": "4.75 mil. \u20ac",
+                    "market_value_numeric": 4750000,
+                    "rating": 82
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1789916484
+}

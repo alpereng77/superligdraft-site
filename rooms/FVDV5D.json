@@ -1,0 +1,99 @@
+{
+    "roomCode": "FVDV5D",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "yigido",
+            "ready": true,
+            "rating": 80,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Ibrahim Sehic",
+                    "position": "GK",
+                    "market_value": "1.00 mil. \u20ac",
+                    "market_value_numeric": 1000000,
+                    "rating": 76
+                },
+                {
+                    "name": "Domagoj Vida",
+                    "position": "DF",
+                    "market_value": "10.00 mil. \u20ac",
+                    "market_value_numeric": 10000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Malcom Bokele",
+                    "position": "DF",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Abdurrahman Dereli",
+                    "position": "DF",
+                    "market_value": "2.20 mil. \u20ac",
+                    "market_value_numeric": 2200000,
+                    "rating": 77
+                },
+                {
+                    "name": "Ali Turan",
+                    "position": "DF",
+                    "market_value": "2.20 mil. \u20ac",
+                    "market_value_numeric": 2200000,
+                    "rating": 79
+                },
+                {
+                    "name": "Emrah Ba\u015fsan",
+                    "position": "MF",
+                    "market_value": "4.60 mil. \u20ac",
+                    "market_value_numeric": 4600000,
+                    "rating": 81
+                },
+                {
+                    "name": "Emmanuel Culio",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Nordin Amrabat",
+                    "position": "MF",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 84
+                },
+                {
+                    "name": "\u0130lhan Parlak",
+                    "position": "FW",
+                    "market_value": "3.80 mil. \u20ac",
+                    "market_value_numeric": 3800000,
+                    "rating": 81
+                },
+                {
+                    "name": "Oumar Niasse",
+                    "position": "FW",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Krzysztof Piatek",
+                    "position": "FW",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 83
+                }
+            ]
+        },
+        {
+            "username": "dugan",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1792481398
+}

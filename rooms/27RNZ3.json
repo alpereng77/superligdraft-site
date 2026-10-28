@@ -1,0 +1,99 @@
+{
+    "roomCode": "27RNZ3",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "MESSI",
+            "ready": true,
+            "rating": 82,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Onur K\u0131vrak",
+                    "position": "GK",
+                    "market_value": "7.00 mil. \u20ac",
+                    "market_value_numeric": 7000000,
+                    "rating": 86
+                },
+                {
+                    "name": "Stelios Kitsiou",
+                    "position": "DF",
+                    "market_value": "800 bin \u20ac",
+                    "market_value_numeric": 800000,
+                    "rating": 75
+                },
+                {
+                    "name": "Majid Hosseini",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Yasin \u00d6zcan",
+                    "position": "DF",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Kenneth Paal",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 74
+                },
+                {
+                    "name": "Mehmet Ekici",
+                    "position": "MF",
+                    "market_value": "7.50 mil. \u20ac",
+                    "market_value_numeric": 7500000,
+                    "rating": 86
+                },
+                {
+                    "name": "\u0130rfan Can Kahveci",
+                    "position": "MF",
+                    "market_value": "11.00 mil. \u20ac",
+                    "market_value_numeric": 11000000,
+                    "rating": 90
+                },
+                {
+                    "name": "Amir Hadziahmetovic",
+                    "position": "MF",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 84
+                },
+                {
+                    "name": "Michy Batshuayi",
+                    "position": "FW",
+                    "market_value": "10.00 mil. \u20ac",
+                    "market_value_numeric": 10000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Necati Ate\u015f",
+                    "position": "FW",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 84
+                },
+                {
+                    "name": "Stefano Napoleoni",
+                    "position": "FW",
+                    "market_value": "1.00 mil. \u20ac",
+                    "market_value_numeric": 1000000,
+                    "rating": 72
+                }
+            ]
+        },
+        {
+            "username": "1",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1792131694
+}

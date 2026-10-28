@@ -1,0 +1,99 @@
+{
+    "roomCode": "Z8XT5C",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "AMYALAYICI",
+            "ready": true,
+            "rating": 83,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "Onur K\u0131vrak",
+                    "position": "GK",
+                    "market_value": "10.00 mil. \u20ac",
+                    "market_value_numeric": 10000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Abdelzaher El Saka",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Veysel Sar\u0131",
+                    "position": "DF",
+                    "market_value": "5.75 mil. \u20ac",
+                    "market_value_numeric": 5750000,
+                    "rating": 85
+                },
+                {
+                    "name": "B\u00fcnyamin Balc\u0131",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 80
+                },
+                {
+                    "name": "Alexis P\u00e9rez",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 76
+                },
+                {
+                    "name": "Wagner",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 79
+                },
+                {
+                    "name": "\u0130rfan Can Kahveci",
+                    "position": "MF",
+                    "market_value": "11.00 mil. \u20ac",
+                    "market_value_numeric": 11000000,
+                    "rating": 90
+                },
+                {
+                    "name": "Alexandru Maxim",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Alex",
+                    "position": "MF",
+                    "market_value": "13.00 mil. \u20ac",
+                    "market_value_numeric": 13000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Luton Shelton",
+                    "position": "MF",
+                    "market_value": "2.40 mil. \u20ac",
+                    "market_value_numeric": 2400000,
+                    "rating": 77
+                },
+                {
+                    "name": "Bob\u00f4",
+                    "position": "FW",
+                    "market_value": "6.50 mil. \u20ac",
+                    "market_value_numeric": 6500000,
+                    "rating": 87
+                }
+            ]
+        },
+        {
+            "username": "Fati",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790335609
+}

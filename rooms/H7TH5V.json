@@ -1,0 +1,20 @@
+{
+    "roomCode": "H7TH5V",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "rtryteyh",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "nhgfyjzg",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789472566
+}

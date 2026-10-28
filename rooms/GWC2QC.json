@@ -1,0 +1,20 @@
+{
+    "roomCode": "GWC2QC",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "ramo",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "ramo2",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790599097
+}

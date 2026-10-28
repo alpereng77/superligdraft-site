@@ -1,0 +1,14 @@
+{
+    "roomCode": "2WDUAV",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "31",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790271337
+}

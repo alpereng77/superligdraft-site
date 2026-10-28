@@ -1,0 +1,14 @@
+{
+    "roomCode": "ZKAFHY",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Amsikenamca",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790503156
+}

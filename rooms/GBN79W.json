@@ -1,0 +1,99 @@
+{
+    "roomCode": "GBN79W",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Yunus",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "ahmetinyo",
+            "ready": true,
+            "rating": 82,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "Fernando Muslera",
+                    "position": "GK",
+                    "market_value": "17.00 mil. \u20ac",
+                    "market_value_numeric": 17000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Jacques Faty",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 75
+                },
+                {
+                    "name": "U\u011fur Demirok",
+                    "position": "DF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 79
+                },
+                {
+                    "name": "Emrah Eren",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Ferdi Kad\u0131o\u011flu",
+                    "position": "DF",
+                    "market_value": "25.00 mil. \u20ac",
+                    "market_value_numeric": 25000000,
+                    "rating": 92
+                },
+                {
+                    "name": "Trezeguet",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 83
+                },
+                {
+                    "name": "John Chibuike",
+                    "position": "MF",
+                    "market_value": "3.60 mil. \u20ac",
+                    "market_value_numeric": 3600000,
+                    "rating": 79
+                },
+                {
+                    "name": "Emrah Ba\u015fsan",
+                    "position": "MF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 77
+                },
+                {
+                    "name": "Badou Ndiaye",
+                    "position": "MF",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 85
+                },
+                {
+                    "name": "Gabriel Torje",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 79
+                },
+                {
+                    "name": "Mame Thiam",
+                    "position": "FW",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 80
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1790257419
+}

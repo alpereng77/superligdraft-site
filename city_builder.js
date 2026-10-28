@@ -47,17 +47,17 @@
 
     // Renk Paleti - Doğal Futbol Çimi & Modern Tycoon Diorama
     const THEME = {
-        grassLight:     '#7ca836',
-        grassDark:      '#719b2e',
+        grassLight:     '#9fba89',
+        grassDark:      '#9bb585',
         grassAccent:    '#689028',
         grassMowed1:    '#7ea336',
         grassMowed2:    '#75992f',
 
         // 3D Toprak / Uçurum Derinliği
-        cliffGrass:     '#4e7a22',
-        cliffTopSoil:   '#5d4037',
-        cliffDarkSoil:  '#3e2723',
-        cliffRock:      '#271a16',
+        cliffGrass:     '#71905e',
+        cliffTopSoil:   '#aa987b',
+        cliffDarkSoil:  '#8a7c66',
+        cliffRock:      '#756b58',
         cliffStone:     '#4e342e',
 
         // Grid & Seçim
@@ -108,6 +108,7 @@
     let animFrameId = null;
     let initialized = false;
     let decorations = [];
+    let pedestrians = [];
 
     // Etkileşim
     let pointerDown = false;
@@ -363,6 +364,7 @@
     // 6. GÖRSEL ÖN YÜKLEME & PEYZAJ
     // ============================================================
     function preloadImages() {
+        if (window.TycoonCareer) return;
         getImage('icon-assets/ground.png');
         getImage('icon-assets/tree-oak.png');
         getImage('icon-assets/tree-pine.png');
@@ -482,6 +484,10 @@
         drawActiveSelection();
 
         ctx.restore();
+
+        if (selectedBuildingId && mode === 'select') {
+            updateBuildingPopupPosition(selectedBuildingId);
+        }
     }
 
     function drawTileDiamond(col, row, fillColor, strokeColor, lineWidth = 0.5) {
@@ -536,7 +542,7 @@
                     const grad = ctx.createLinearGradient(rightX, rightY, rightX, rightY + cliffHeight);
                     grad.addColorStop(0, THEME.cliffDarkSoil);
                     grad.addColorStop(0.4, THEME.cliffRock);
-                    grad.addColorStop(1, '#1b120f');
+                    grad.addColorStop(1, '#756b58');
                     ctx.fillStyle = grad;
 
                     ctx.beginPath();
@@ -598,8 +604,13 @@
                 if (owned) {
                     const stripe = Math.floor((c + r) / 2) % 2 === 0;
                     const grassCol = stripe ? THEME.grassLight : THEME.grassDark;
-                    drawTileDiamond(c, r, grassCol, THEME.gridLine, 0.4);
-                } else if (unownedParcel) {
+                    drawTileDiamond(c, r, grassCol, window.TycoonCareer?.active() && mode === 'select' ? grassCol : THEME.gridLine, 0.4);
+                    if (window.TycoonCareer?.active() && !getRoadAt(c,r) && (c*7+r*11)%5===0) {
+                        const q=gridToScreen(c+.4,r+.6),z=camera.zoom;
+                        ctx.strokeStyle='#6d965c44';ctx.lineWidth=.7*z;
+                        ctx.beginPath();ctx.moveTo(q.x-2*z,q.y);ctx.lineTo(q.x-3*z,q.y-2*z);ctx.moveTo(q.x,q.y);ctx.lineTo(q.x+z,q.y-3*z);ctx.stroke();
+                    }
+                } else if (unownedParcel && (!window.TycoonCareer?.active() || mode === 'land')) {
                     drawTileDiamond(c, r, THEME.unownedLand, THEME.unownedBorder, 0.6);
                 }
             }
@@ -609,6 +620,26 @@
     // Yollar ve Taş Kaldırımlar Çizimi (Doğru İzometrik Eksen Hizalaması)
     function drawRoads() {
         const roads = getCityData().roads || [];
+
+        if (window.TycoonCareer?.active()) {
+            for (const road of roads) {
+                const c=road.col,r=road.row, center=gridToScreen(c+.5,r+.5), z=camera.zoom;
+                const edges=[{dx:0,dy:-1,a:[c,r],b:[c+1,r]},{dx:1,dy:0,a:[c+1,r],b:[c+1,r+1]},{dx:0,dy:1,a:[c+1,r+1],b:[c,r+1]},{dx:-1,dy:0,a:[c,r+1],b:[c,r]}];
+                drawTileDiamond(c,r,road.type==='paved'?'#d9d2bc':'#63736f',null);
+                for(const edge of edges){
+                    const neighbor=getRoadAt(c+edge.dx,r+edge.dy), a=gridToScreen(...edge.a),b=gridToScreen(...edge.b);
+                    if(!neighbor){ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.strokeStyle='#e9e3cd';ctx.lineWidth=5*z;ctx.stroke();ctx.strokeStyle='#a9b39c';ctx.lineWidth=.7*z;ctx.stroke();
+                        for(let j=1;j<5;j++){const t=j/5;ctx.beginPath();ctx.moveTo(a.x+(b.x-a.x)*t-1*z,a.y+(b.y-a.y)*t-1*z);ctx.lineTo(a.x+(b.x-a.x)*t+1*z,a.y+(b.y-a.y)*t+1*z);ctx.stroke();}
+                    }
+                    else if(road.type==='asphalt'&&neighbor.type==='asphalt'){
+                        const nx=(a.x+b.x)/2,ny=(a.y+b.y)/2;
+                        ctx.save();ctx.beginPath();ctx.moveTo(center.x,center.y);ctx.lineTo(nx,ny);ctx.setLineDash([3*z,6*z]);ctx.strokeStyle='#ded5b9';ctx.lineWidth=1*z;ctx.stroke();ctx.restore();
+                    }
+                }
+                if(road.type==='paved'){ctx.strokeStyle='#baac91';ctx.lineWidth=.5*z;for(let i=1;i<4;i++){const a=gridToScreen(c+i/4,r),b=gridToScreen(c+i/4,r+1);ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();const d=gridToScreen(c,r+i/4),e=gridToScreen(c+1,r+i/4);ctx.beginPath();ctx.moveTo(d.x,d.y);ctx.lineTo(e.x,e.y);ctx.stroke();}}
+            }
+            return;
+        }
 
         roads.forEach(road => {
             if (!isLandOwnedAt(road.col, road.row)) return;
@@ -696,6 +727,7 @@
 
     // Satın Alınabilir Genişleme Arazileri (Şık İpuçları)
     function drawLandExpansionMarkers() {
+        if (window.TycoonCareer?.active() && mode !== 'land') return;
         const ownedLands = getCityData().lands || [0];
 
         LAND_PARCELS.forEach(p => {
@@ -758,14 +790,18 @@
         const roads = (cityData.roads || []).filter(r => r.type === 'asphalt');
         if (roads.length === 0) {
             vehicles = [];
+            pedestrians = [];
             return;
         }
 
-        // Sakin ve dengeli araç sayısı (Yol ağına göre maksimum 2-4 araç)
-        const maxVehicles = Math.min(4, Math.max(1, Math.floor(roads.length / 8)));
+        const cityPulse = window.TycoonCareer?.cityPulse?.() || { matchDay: false, crowd: 0 };
+        // Maç gününde stadyuma gelen taraftarlar trafik ve servis yoğunluğunu artırır.
+        const maxVehicles = cityPulse.matchDay
+            ? Math.min(18, Math.max(6, Math.floor(roads.length / 2.5) + Math.floor(cityPulse.crowd / 260)))
+            : Math.min(4, Math.max(1, Math.floor(roads.length / 8)));
 
         // Yeni araç doğur (spawn) - Seyrek ve tatlı bir trafik
-        if (vehicles.length < maxVehicles && Math.random() < 0.02) {
+        if (vehicles.length < maxVehicles && Math.random() < (cityPulse.matchDay ? 0.11 : 0.02)) {
             // Başka bir aracın olmadığı boş bir yol seç
             const emptyRoads = roads.filter(r => !vehicles.some(v => v.col === r.col && v.row === r.row));
             if (emptyRoads.length > 0) {
@@ -775,7 +811,7 @@
                     const nextRoad = neighbors[Math.floor(Math.random() * neighbors.length)];
                     vehicles.push({
                         id: Math.random(),
-                        type: Math.random() < 0.35 ? 'bus' : 'vintage',
+                        type: Math.random() < (cityPulse.matchDay ? 0.42 : 0.24) ? 'bus' : 'vintage',
                         col: startRoad.col,
                         row: startRoad.row,
                         prevCol: startRoad.col,
@@ -783,7 +819,7 @@
                         targetCol: nextRoad.col,
                         targetRow: nextRoad.row,
                         progress: 0,
-                        speed: 0.007 + Math.random() * 0.004
+                        speed: (cityPulse.matchDay ? 0.009 : 0.007) + Math.random() * 0.004
                     });
                 }
             }
@@ -824,6 +860,25 @@
                 v.targetRow = nextTarget.row;
             }
         }
+
+        updatePedestrians(roads, cityPulse);
+    }
+
+    function updatePedestrians(roads, cityPulse) {
+        const maxPeople = cityPulse.matchDay ? Math.min(34, Math.max(12, Math.floor(roads.length * .9) + Math.floor(cityPulse.crowd / 180))) : Math.min(5, Math.floor(roads.length / 12));
+        if (!roads.length) { pedestrians = []; return; }
+        if (pedestrians.length < maxPeople && Math.random() < (cityPulse.matchDay ? .16 : .025)) {
+            const start = roads[Math.floor(Math.random() * roads.length)], options = getRoadNeighbors(start.col, start.row, roads);
+            if (options.length) pedestrians.push({ id: Math.random(), col: start.col, row: start.row, targetCol: options[0].col, targetRow: options[0].row, progress: Math.random(), speed: .0025 + Math.random() * .0022, variant: Math.floor(Math.random() * 4) });
+        }
+        for (let i = pedestrians.length - 1; i >= 0; i--) {
+            const p = pedestrians[i]; p.progress += p.speed;
+            if (p.progress < 1) continue;
+            p.col = p.targetCol; p.row = p.targetRow; p.progress = 0;
+            const options = getRoadNeighbors(p.col, p.row, roads).filter(n => !(n.col === p.col && n.row === p.row));
+            if (!options.length || (!cityPulse.matchDay && Math.random() < .07)) { pedestrians.splice(i, 1); continue; }
+            const next = options[Math.floor(Math.random() * options.length)]; p.targetCol = next.col; p.targetRow = next.row;
+        }
     }
 
     function getAsphaltNeighbors(col, row, roads) {
@@ -835,6 +890,10 @@
         ];
         return candidates.filter(c => roads.some(r => r.col === c.col && r.row === c.row));
     }
+    function getRoadNeighbors(col, row, roads) {
+        const candidates = [{ col: col + 1, row }, { col: col - 1, row }, { col, row: row + 1 }, { col, row: row - 1 }];
+        return candidates.filter(c => roads.some(r => r.col === c.col && r.row === c.row));
+    }
 
     function drawVehicle(v) {
         const curCol = v.col + (v.targetCol - v.col) * v.progress;
@@ -842,6 +901,24 @@
         const centerW = gridToWorld(curCol + 0.5, curRow + 0.5);
         const centerS = worldToScreen(centerW.x, centerW.y);
         const s = camera.zoom;
+        if (window.TycoonCareer?.active() && window.TycoonArchitecture?.vehicle) {
+            TycoonArchitecture.vehicle(ctx,centerS.x,centerS.y,s,v.type==='bus',v.targetCol!==v.col);
+            return;
+        }
+        if (window.TycoonCareer) {
+            ctx.save();
+            ctx.translate(centerS.x, centerS.y - 3 * s);
+            ctx.scale(s, s);
+            ctx.rotate(v.targetCol !== v.col ? Math.PI / 6 : -Math.PI / 6);
+            ctx.fillStyle = '#393d35';
+            ctx.fillRect(-9, 0, 18, 6);
+            ctx.fillStyle = v.type === 'bus' ? '#b5a475' : '#8c5142';
+            ctx.fillRect(-10, -5, 20, 8);
+            ctx.fillStyle = '#dddcc7';
+            ctx.fillRect(-5, -5, 10, 3);
+            ctx.restore();
+            return;
+        }
 
         const dCol = v.targetCol - v.col;
         const dRow = v.targetRow - v.row;
@@ -877,6 +954,12 @@
         }
         ctx.drawImage(img, -drawW / 2, -drawH / 2, drawW, drawH);
         ctx.restore();
+    }
+
+    function drawPedestrian(p) {
+        const col = p.col + (p.targetCol - p.col) * p.progress, row = p.row + (p.targetRow - p.row) * p.progress;
+        const w = gridToWorld(col + .5, row + .5), point = worldToScreen(w.x, w.y), s = camera.zoom;
+        if (window.TycoonArchitecture?.pedestrian) TycoonArchitecture.pedestrian(ctx, point.x, point.y + 1 * s, s * .72, p.variant);
     }
 
     // Binalar, Peyzaj ve Araçların Z-Order'a Göre Kusursuz Çizimi
@@ -917,6 +1000,10 @@
                 data: v
             });
         });
+        pedestrians.forEach(p => {
+            const col = p.col + (p.targetCol - p.col) * p.progress, row = p.row + (p.targetRow - p.row) * p.progress;
+            renderList.push({ kind: 'pedestrian', depth: col + row + .56, data: p });
+        });
 
         renderList.sort((a, b) => a.depth - b.depth);
 
@@ -927,6 +1014,8 @@
                 drawDecoration(item.data);
             } else if (item.kind === 'vehicle') {
                 drawVehicle(item.data);
+            } else if (item.kind === 'pedestrian') {
+                drawPedestrian(item.data);
             }
         });
     }
@@ -938,6 +1027,11 @@
         const cx = pos.x;
         const cy = pos.y + th / 2;
         const s = camera.zoom;
+
+        if (window.TycoonCareer?.active() && window.TycoonArchitecture) {
+            if (d.type !== 'flowers') TycoonArchitecture.environment(ctx, cx, cy, s * 1.1, d.type);
+            return;
+        }
 
         ctx.save();
 
@@ -1018,6 +1112,11 @@
         const centerS = worldToScreen(centerW.x, centerW.y);
         const footprintW = (gw + gh) * TILE_W / 2 * camera.zoom;
         const bottomCornerY = centerS.y + (gw + gh) * (TILE_H / 4) * camera.zoom;
+
+        if (window.TycoonArchitecture && window.TycoonCareer?.active()) {
+            TycoonArchitecture.draw(ctx, type, level, centerS.x, centerS.y, footprintW * 0.92, alpha, findBuildingById(buildingId));
+            return;
+        }
 
         ctx.save();
         ctx.globalAlpha = alpha;
@@ -1136,6 +1235,10 @@
     // 8. RENDER DÖNGÜSÜ
     // ============================================================
     function renderLoop() {
+        if (!canvas || !canvas.getClientRects().length) {
+            animFrameId = requestAnimationFrame(renderLoop);
+            return;
+        }
         const lerpFactor = 0.15;
         if (Math.abs(camera.x - targetCamera.x) > 0.1 || Math.abs(camera.y - targetCamera.y) > 0.1 || Math.abs(camera.zoom - targetCamera.zoom) > 0.001) {
             camera.x += (targetCamera.x - camera.x) * lerpFactor;
@@ -1397,6 +1500,11 @@
     function startPlacement(type) {
         const def = BUILDING_DEFS[type];
         if (!def) return;
+        if (window.TycoonCareer?.active()) {
+            const reason = TycoonCareer.buildRequirement(type);
+            if (reason) { showTycoonToast(reason, 'error'); return; }
+        }
+        cancelAction();
 
         if (findBuildingByType(type)) {
             if (typeof showTycoonToast === 'function') {
@@ -1471,6 +1579,10 @@
         const cityData = getCityData();
 
         if (mode === 'place') {
+            if (findBuildingByType(ghost.type) || !canPlace(ghost.type, ghost.col, ghost.row, ghost.rotation) || tycoonState.money < ghost.cost) {
+                showTycoonToast('Yerleşim veya bütçe değişti. Yeniden bir konum seçin.', 'error'); return;
+            }
+            if (window.TycoonCareer?.active()) { const reason = TycoonCareer.buildRequirement(ghost.type); if (reason) { showTycoonToast(reason, 'error'); return; } }
             if (ghost.cost > 0) tycoonState.money -= ghost.cost;
             const newBuilding = {
                 id: 'b_' + Date.now().toString(36) + Math.random().toString(36).substr(2, 4),
@@ -1481,9 +1593,10 @@
                 level: 1
             };
             cityData.placedBuildings.push(newBuilding);
+            if (window.TycoonCareer?.active()) TycoonCareer.onBuild(newBuilding);
             placeOnGrid(newBuilding.id, newBuilding.type, newBuilding.x, newBuilding.y, newBuilding.rotation);
             if (typeof showTycoonToast === 'function') {
-                showTycoonToast(`🏗️ ${TYCOON_CONFIG.buildings[ghost.type]?.name || ghost.type} başarıyla inşa edildi!`, 'success');
+                showTycoonToast(`🏗️ ${TYCOON_CONFIG.buildings[ghost.type]?.name || ghost.type} ${window.TycoonCareer?.active() ? 'inşaatı başladı. Bir hafta sonra açılacak.' : 'başarıyla inşa edildi!'}`, 'success');
             }
         } else if (mode === 'move') {
             const b = findBuildingById(movingBuildingId);
@@ -1539,6 +1652,7 @@
     }
 
     function upgradeBuilding(buildingId) {
+        if (window.TycoonCareer?.active()) { TycoonCareer.facility(buildingId); return; }
         const b = findBuildingById(buildingId);
         if (!b) return;
         const cfg = TYCOON_CONFIG.buildings[b.type];
@@ -1582,6 +1696,7 @@
     }
 
     function sellBuilding(buildingId) {
+        if (window.TycoonCareer?.active()) { TycoonCareer.facility(buildingId); return; }
         const b = findBuildingById(buildingId);
         if (!b) return;
         const cfg = TYCOON_CONFIG.buildings[b.type];
@@ -1647,6 +1762,7 @@
     // 11. NOSTALJİK GAZETE TEMALI MODALLAR & ÇEKMECELER
     // ============================================================
     function attachDrawerScroll(gridId) {
+        if (window.TycoonCareer) return;
         setTimeout(() => {
             const gridEl = document.getElementById(gridId);
             if (!gridEl) return;
@@ -1721,6 +1837,8 @@
         const panel = document.getElementById('city-build-panel');
         if (!panel) return;
 
+        cancelAction();
+
         mode = 'select';
         ghost = null;
         deselectBuilding();
@@ -1788,7 +1906,8 @@
 
             const alreadyBuilt = placed.some(b => b.type === type);
             const cost = def.purchaseCost || 0;
-            const canAfford = tycoonState.money >= cost;
+            const buildReason = window.TycoonCareer?.active() ? TycoonCareer.buildRequirement(type) : '';
+            const canAfford = tycoonState.money >= cost && !buildReason;
             const img = cfg.images[1] || '';
 
             let perkPill = "";
@@ -1808,10 +1927,12 @@
             if (type === "statue") perkPill = `<span class="build-perk-badge"><i class="fa-solid fa-crown"></i> +2 Moral & OVR</span>`;
             if (type === "fountain") perkPill = `<span class="build-perk-badge"><i class="fa-solid fa-water"></i> +20 € / sn</span>`;
 
+            if (window.TycoonCareer?.active()) perkPill = `<span class="build-perk-badge">${alreadyBuilt ? 'Kampüsünüzde mevcut' : buildReason || `İnşaat süresi: ${TycoonEngine.buildTime(type)} hafta`}</span>`;
+
             html += `
                 <div class="build-shop-card ${alreadyBuilt ? 'built' : ''} ${!alreadyBuilt && !canAfford ? 'disabled' : ''}">
                     <div class="build-card-img-wrap">
-                        <img src="${img}" alt="${cfg.name}" />
+                        ${window.TycoonArchitecture && window.TycoonCareer?.active() ? `<img src="${TycoonArchitecture.thumbnail(type)}" alt="${cfg.name}" />` : `<img src="${img}" alt="${cfg.name}" />`}
                         <span class="build-size-badge">${def.gridW}×${def.gridH} ALAN</span>
                     </div>
                     <div class="build-card-content">
@@ -1838,12 +1959,13 @@
         panel.innerHTML = html;
         panel.classList.remove('hidden');
         attachDrawerScroll('city-build-grid');
+        if (panel instanceof HTMLDialogElement && !panel.open) panel.showModal();
         updateToolbar();
     }
 
     function hideBuildPanel() {
         const panel = document.getElementById('city-build-panel');
-        if (panel) panel.classList.add('hidden');
+        if (panel) { panel.classList.add('hidden'); if (panel instanceof HTMLDialogElement && panel.open) panel.close(); }
     }
 
     function hideRoadBar() {
@@ -1852,6 +1974,7 @@
     }
 
     function showLandPanel() {
+        cancelAction();
         mode = 'land';
         ghost = null;
         deselectBuilding();
@@ -1919,14 +2042,16 @@
         panel.innerHTML = html;
         panel.classList.remove('hidden');
         attachDrawerScroll('city-land-grid');
+        if (panel instanceof HTMLDialogElement && !panel.open) panel.showModal();
     }
 
     function hideLandPanel() {
         const panel = document.getElementById('city-land-panel');
-        if (panel) panel.classList.add('hidden');
+        if (panel) { panel.classList.add('hidden'); if (panel instanceof HTMLDialogElement && panel.open) panel.close(); }
     }
 
     function showLandPurchaseConfirm(parcel) {
+        if (window.TycoonCareer?.active()) { TycoonCareer.confirmLand(parcel); return; }
         const canAfford = tycoonState.money >= parcel.cost;
         let popup = document.getElementById('city-land-confirm');
         if (!popup) {
@@ -1960,7 +2085,34 @@
         if (popup) popup.classList.add('hidden');
     }
 
+    function updateBuildingPopupPosition(buildingId = selectedBuildingId) {
+        const popup = document.getElementById('city-building-popup');
+        if (!popup || popup.classList.contains('hidden') || !buildingId) return;
+        const b = findBuildingById(buildingId);
+        if (!b) return;
+        const def = BUILDING_DEFS[b.type];
+        if (!def) return;
+
+        const gw = (b.rotation % 2 === 0) ? def.gridW : def.gridH;
+        const gh = (b.rotation % 2 === 0) ? def.gridH : def.gridW;
+        const centerW = gridToWorld(b.x + gw / 2, b.y + gh / 2);
+        const centerS = worldToScreen(centerW.x, centerW.y);
+
+        const cardWidth = 290;
+        let left = centerS.x - cardWidth / 2;
+        let top = centerS.y - 290;
+
+        if (left < 15) left = 15;
+        if (left + cardWidth > canvasW - 15) left = Math.max(15, canvasW - cardWidth - 15);
+        if (top < 70) top = Math.min(canvasH - 260, centerS.y + 30);
+        if (top < 15) top = 15;
+
+        popup.style.left = left + 'px';
+        popup.style.top = top + 'px';
+    }
+
     function showBuildingPopup(buildingId) {
+        if (window.TycoonCareer?.active()) { TycoonCareer.facility(buildingId); return; }
         const popup = document.getElementById('city-building-popup');
         if (!popup) return;
         const b = findBuildingById(buildingId);
@@ -1970,14 +2122,14 @@
         if (!cfg) return;
         const def = BUILDING_DEFS[b.type];
         const isMax = b.level >= cfg.maxLevel;
-        const nextCost = !isMax ? cfg.cost[b.level + 1] : 0;
+        const nextCost = !isMax ? (cfg.costs ? (cfg.costs[b.level] || 0) : 0) : 0;
         const req = (typeof getBuildingUpgradeRequirement === 'function') ? getBuildingUpgradeRequirement(b.level + 1) : { unlocked: true };
         const isLockedByTier = !isMax && !req.unlocked;
         const canAfford = !isMax && !isLockedByTier && tycoonState.money >= nextCost;
 
         let perkText = getPerkText(b.type, b.level);
         let nextPerkText = !isMax ? getPerkText(b.type, b.level + 1) : '';
-        const imgSrc = cfg.images[b.level] || cfg.images[1] || '';
+        const imgSrc = (cfg.images && (cfg.images[b.level] || cfg.images[1])) || '';
 
         popup.innerHTML = `
             <div class="bpopup-card-glass">
@@ -2037,13 +2189,7 @@
             </div>
         `;
 
-        const gw = (b.rotation % 2 === 0) ? def.gridW : def.gridH;
-        const gh = (b.rotation % 2 === 0) ? def.gridH : def.gridW;
-        const centerW = gridToWorld(b.x + gw / 2, b.y + gh / 2);
-        const centerS = worldToScreen(centerW.x, centerW.y);
-
-        popup.style.left = Math.min(canvasW - 290, Math.max(12, centerS.x - 140)) + 'px';
-        popup.style.top = Math.max(14, centerS.y - 300) + 'px';
+        updateBuildingPopupPosition(buildingId);
         popup.classList.remove('hidden');
     }
 
@@ -2138,6 +2284,7 @@
     }
 
     function syncBuildingLevels() {
+        if (window.TycoonCareer?.active()) { TycoonCareer.sync(); return; }
         tycoonState.buildings = {};
         (getCityData().placedBuildings || []).forEach(b => { tycoonState.buildings[b.type] = b.level; });
     }
@@ -2149,6 +2296,21 @@
 
     function migrateOldState() {
         const cityData = getCityData();
+        if (window.TycoonCareer?.active()) {
+            // Preserve legal placements, repair overlaps without deleting owned buildings.
+            initGrid();
+            for (const b of cityData.placedBuildings) {
+                if (!canPlace(b.type, b.x, b.y, b.rotation)) {
+                    let found = false;
+                    for (let row = 2; row < GRID_ROWS - 2 && !found; row++) for (let col = 2; col < GRID_COLS - 2 && !found; col++) {
+                        if (canPlace(b.type, col, row, b.rotation)) { b.x = col; b.y = row; found = true; }
+                    }
+                    if (!found) { for (const id of [1, 2, 3]) if (!cityData.lands.includes(id)) cityData.lands.push(id); for (let row = 2; row < GRID_ROWS - 2 && !found; row++) for (let col = 2; col < GRID_COLS - 2 && !found; col++) if (canPlace(b.type, col, row, b.rotation)) { b.x = col; b.y = row; found = true; } }
+                }
+                placeOnGrid(b.id, b.type, b.x, b.y, b.rotation);
+            }
+            cleanConflictingRoads(); syncBuildingLevels(); return;
+        }
 
         // Eski kenara yapışık veya taşan binaları güvenli orta alana çek
         if (cityData.placedBuildings && cityData.placedBuildings.length > 0) {
@@ -2202,7 +2364,7 @@
         const centerW = gridToWorld(parcel.col + parcel.w / 2, parcel.row + parcel.h / 2);
         targetCamera.x = -centerW.x;
         targetCamera.y = -centerW.y + 20;
-        targetCamera.zoom = 0.70;
+        targetCamera.zoom = window.TycoonCareer?.active() ? Math.min(1.05, Math.max(.45,canvasW / 1160)) : 0.70;
         camera.x = targetCamera.x;
         camera.y = targetCamera.y;
         camera.zoom = targetCamera.zoom;
@@ -2213,6 +2375,8 @@
     // 13. BAŞLATMA (LIFECYCLE)
     // ============================================================
     function init() {
+        if (initialized) { resize(); rebuildGrid(); requestRender(); return; }
+        if (window.TycoonCareer?.active()) TycoonCareer.configure(BUILDING_DEFS);
         canvas = document.getElementById('city-iso-canvas');
         if (!canvas) { console.error('CityBuilder: Canvas not found'); return; }
         ctx = canvas.getContext('2d');
@@ -2261,6 +2425,7 @@
     // ============================================================
     window.CityBuilder = {
         init, destroy, resize,
+        rebuild: function() { rebuildGrid(); generateDecorations(); requestRender(); },
         refresh: requestRender,
         isInitialized: function() { return initialized; },
 

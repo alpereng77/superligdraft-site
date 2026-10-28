@@ -1,0 +1,14 @@
+{
+    "roomCode": "J3VVPF",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "T",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790945879
+}

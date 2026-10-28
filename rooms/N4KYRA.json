@@ -1,0 +1,99 @@
+{
+    "roomCode": "N4KYRA",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "ahmetysiken",
+            "ready": true,
+            "rating": 80,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Harun Tekin",
+                    "position": "GK",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Filip Novak",
+                    "position": "DF",
+                    "market_value": "2.75 mil. \u20ac",
+                    "market_value_numeric": 2750000,
+                    "rating": 82
+                },
+                {
+                    "name": "St\u00e9phane Borbiconi",
+                    "position": "DF",
+                    "market_value": "2.75 mil. \u20ac",
+                    "market_value_numeric": 2750000,
+                    "rating": 81
+                },
+                {
+                    "name": "Stelios Kitsiou",
+                    "position": "DF",
+                    "market_value": "800 bin \u20ac",
+                    "market_value_numeric": 800000,
+                    "rating": 75
+                },
+                {
+                    "name": "Ali Turan",
+                    "position": "DF",
+                    "market_value": "1.60 mil. \u20ac",
+                    "market_value_numeric": 1600000,
+                    "rating": 76
+                },
+                {
+                    "name": "Fredrik Midtsj\u00f8",
+                    "position": "MF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 77
+                },
+                {
+                    "name": "Fernando Belluschi",
+                    "position": "MF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 84
+                },
+                {
+                    "name": "Okan Ko\u00e7",
+                    "position": "MF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Bertu\u011f Y\u0131ld\u0131r\u0131m",
+                    "position": "FW",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Adrian Benedyczak",
+                    "position": "FW",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Fatih Tekke",
+                    "position": "FW",
+                    "market_value": "7.60 mil. \u20ac",
+                    "market_value_numeric": 7600000,
+                    "rating": 91
+                }
+            ]
+        },
+        {
+            "username": "Alpin tasak kili",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789470393
+}

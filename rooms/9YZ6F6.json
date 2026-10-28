@@ -1,0 +1,14 @@
+{
+    "roomCode": "9YZ6F6",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Purno ba\u011fl\u0131mlisi",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789479197
+}

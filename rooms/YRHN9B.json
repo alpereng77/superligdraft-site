@@ -1,0 +1,99 @@
+{
+    "roomCode": "YRHN9B",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Rafo",
+            "ready": true,
+            "rating": 82,
+            "formation": "4-4-2",
+            "squad": [
+                {
+                    "name": "Ersin Destano\u011flu",
+                    "position": "GK",
+                    "market_value": "10.00 mil. \u20ac",
+                    "market_value_numeric": 10000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Fatih Aksoy",
+                    "position": "DF",
+                    "market_value": "3.20 mil. \u20ac",
+                    "market_value_numeric": 3200000,
+                    "rating": 79
+                },
+                {
+                    "name": "Rayyan Baniya",
+                    "position": "DF",
+                    "market_value": "2.70 mil. \u20ac",
+                    "market_value_numeric": 2700000,
+                    "rating": 77
+                },
+                {
+                    "name": "Abdelzaher El Saka",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Wederson",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Castro",
+                    "position": "MF",
+                    "market_value": "5.75 mil. \u20ac",
+                    "market_value_numeric": 5750000,
+                    "rating": 83
+                },
+                {
+                    "name": "Max Gradel",
+                    "position": "MF",
+                    "market_value": "3.60 mil. \u20ac",
+                    "market_value_numeric": 3600000,
+                    "rating": 82
+                },
+                {
+                    "name": "Tita",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 82
+                },
+                {
+                    "name": "\u0130rfan Can Kahveci",
+                    "position": "MF",
+                    "market_value": "11.00 mil. \u20ac",
+                    "market_value_numeric": 11000000,
+                    "rating": 90
+                },
+                {
+                    "name": "Bob\u00f4",
+                    "position": "FW",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Olarenwaju Kayode",
+                    "position": "FW",
+                    "market_value": "3.20 mil. \u20ac",
+                    "market_value_numeric": 3200000,
+                    "rating": 79
+                }
+            ]
+        },
+        {
+            "username": "Dadasl\u0131",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789670113
+}

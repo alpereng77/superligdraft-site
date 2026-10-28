@@ -1,0 +1,99 @@
+{
+    "roomCode": "4BE967",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Soksok",
+            "ready": true,
+            "rating": 81,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "Deniz Erta\u015f",
+                    "position": "GK",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 77
+                },
+                {
+                    "name": "\u015eenol Yava\u015f",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 76
+                },
+                {
+                    "name": "U\u011fur Demirok",
+                    "position": "DF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 79
+                },
+                {
+                    "name": "Petr Johana",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 76
+                },
+                {
+                    "name": "Larrys Mabiala",
+                    "position": "DF",
+                    "market_value": "3.20 mil. \u20ac",
+                    "market_value_numeric": 3200000,
+                    "rating": 79
+                },
+                {
+                    "name": "Erhan Albayrak",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 78
+                },
+                {
+                    "name": "Sezer \u00d6zt\u00fcrk",
+                    "position": "MF",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 77
+                },
+                {
+                    "name": "\u0130brahim Ak\u0131n",
+                    "position": "MF",
+                    "market_value": "2.60 mil. \u20ac",
+                    "market_value_numeric": 2600000,
+                    "rating": 81
+                },
+                {
+                    "name": "Josu\u00e9",
+                    "position": "MF",
+                    "market_value": "8.25 mil. \u20ac",
+                    "market_value_numeric": 8250000,
+                    "rating": 87
+                },
+                {
+                    "name": "Arda Turan",
+                    "position": "MF",
+                    "market_value": "15.00 mil. \u20ac",
+                    "market_value_numeric": 15000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Cenk Tosun",
+                    "position": "FW",
+                    "market_value": "23.00 mil. \u20ac",
+                    "market_value_numeric": 23000000,
+                    "rating": 93
+                }
+            ]
+        },
+        {
+            "username": "safask",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1792444908
+}

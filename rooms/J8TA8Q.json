@@ -1,0 +1,14 @@
+{
+    "roomCode": "J8TA8Q",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "\ud83c\uddec\ud83c\uddf7\ud83c\udff3\ufe0f\u200d\ud83c\udf08\ud83c\udff3\ufe0f\u200d\ud83c\udf08",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790969371
+}

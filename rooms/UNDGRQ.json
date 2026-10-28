@@ -1,0 +1,99 @@
+{
+    "roomCode": "UNDGRQ",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "yusuf",
+            "ready": true,
+            "rating": 77,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Tolgahan Acar",
+                    "position": "GK",
+                    "market_value": "200 bin \u20ac",
+                    "market_value_numeric": 200000,
+                    "rating": 66
+                },
+                {
+                    "name": "Matheus D\u00f3ria",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Rayyan Baniya",
+                    "position": "DF",
+                    "market_value": "2.70 mil. \u20ac",
+                    "market_value_numeric": 2700000,
+                    "rating": 77
+                },
+                {
+                    "name": "Roman Kratochv\u00edl",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 77
+                },
+                {
+                    "name": "Kenneth Omeruo",
+                    "position": "DF",
+                    "market_value": "1.75 mil. \u20ac",
+                    "market_value_numeric": 1750000,
+                    "rating": 78
+                },
+                {
+                    "name": "B\u00fclent Ertu\u011frul",
+                    "position": "MF",
+                    "market_value": "2.20 mil. \u20ac",
+                    "market_value_numeric": 2200000,
+                    "rating": 78
+                },
+                {
+                    "name": "Tita",
+                    "position": "MF",
+                    "market_value": "2.80 mil. \u20ac",
+                    "market_value_numeric": 2800000,
+                    "rating": 78
+                },
+                {
+                    "name": "Emre Akbaba",
+                    "position": "MF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 85
+                },
+                {
+                    "name": "Adem B\u00fcy\u00fck",
+                    "position": "FW",
+                    "market_value": "3.20 mil. \u20ac",
+                    "market_value_numeric": 3200000,
+                    "rating": 79
+                },
+                {
+                    "name": "Kenny Miller",
+                    "position": "FW",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 83
+                },
+                {
+                    "name": "Riad Bajic",
+                    "position": "FW",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 74
+                }
+            ]
+        },
+        {
+            "username": "Ns",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790032397
+}

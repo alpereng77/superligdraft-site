@@ -1,0 +1,99 @@
+{
+    "roomCode": "6SZY9K",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Minguizzi",
+            "ready": true,
+            "rating": 81,
+            "formation": "3-5-2",
+            "squad": [
+                {
+                    "name": "Do\u011fan Alemdar",
+                    "position": "GK",
+                    "market_value": "2.40 mil. \u20ac",
+                    "market_value_numeric": 2400000,
+                    "rating": 79
+                },
+                {
+                    "name": "Roman Kratochv\u00edl",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 76
+                },
+                {
+                    "name": "Godfrey Oboabona",
+                    "position": "DF",
+                    "market_value": "1.80 mil. \u20ac",
+                    "market_value_numeric": 1800000,
+                    "rating": 76
+                },
+                {
+                    "name": "Nejc Skubic",
+                    "position": "DF",
+                    "market_value": "1.60 mil. \u20ac",
+                    "market_value_numeric": 1600000,
+                    "rating": 79
+                },
+                {
+                    "name": "Zymer Bytyqi",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 80
+                },
+                {
+                    "name": "Gedson Fernandes",
+                    "position": "MF",
+                    "market_value": "6.50 mil. \u20ac",
+                    "market_value_numeric": 6500000,
+                    "rating": 85
+                },
+                {
+                    "name": "Gabriel Torje",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 79
+                },
+                {
+                    "name": "Murat Hac\u0131o\u011flu",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Rachid Ghezzal",
+                    "position": "MF",
+                    "market_value": "8.50 mil. \u20ac",
+                    "market_value_numeric": 8500000,
+                    "rating": 86
+                },
+                {
+                    "name": "Simon Banza",
+                    "position": "FW",
+                    "market_value": "14.00 mil. \u20ac",
+                    "market_value_numeric": 14000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Riad Bajic",
+                    "position": "FW",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 84
+                }
+            ]
+        },
+        {
+            "username": "Bjk",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1791128697
+}

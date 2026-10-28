@@ -1,0 +1,99 @@
+{
+    "roomCode": "JA37DU",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "ens",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Nenedehleyen",
+            "ready": true,
+            "rating": 80,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "Vjekoslav Tomic",
+                    "position": "GK",
+                    "market_value": "1.40 mil. \u20ac",
+                    "market_value_numeric": 1400000,
+                    "rating": 73
+                },
+                {
+                    "name": "Jimmy Dixon",
+                    "position": "DF",
+                    "market_value": "1.40 mil. \u20ac",
+                    "market_value_numeric": 1400000,
+                    "rating": 74
+                },
+                {
+                    "name": "Wallace",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 76
+                },
+                {
+                    "name": "Ousmane Viera",
+                    "position": "DF",
+                    "market_value": "2.20 mil. \u20ac",
+                    "market_value_numeric": 2200000,
+                    "rating": 76
+                },
+                {
+                    "name": "Abdurrahman Dereli",
+                    "position": "DF",
+                    "market_value": "2.20 mil. \u20ac",
+                    "market_value_numeric": 2200000,
+                    "rating": 77
+                },
+                {
+                    "name": "Volkan \u015een",
+                    "position": "MF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 84
+                },
+                {
+                    "name": "Nordin Amrabat",
+                    "position": "MF",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 84
+                },
+                {
+                    "name": "Kerem Akt\u00fcrko\u011flu",
+                    "position": "MF",
+                    "market_value": "16.50 mil. \u20ac",
+                    "market_value_numeric": 16500000,
+                    "rating": 92
+                },
+                {
+                    "name": "Nicol\u00f2 Zaniolo",
+                    "position": "MF",
+                    "market_value": "20.00 mil. \u20ac",
+                    "market_value_numeric": 20000000,
+                    "rating": 92
+                },
+                {
+                    "name": "Serhat Ak\u0131n",
+                    "position": "MF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Bertu\u011f Y\u0131ld\u0131r\u0131m",
+                    "position": "FW",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 80
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1790445958
+}

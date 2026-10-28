@@ -1,0 +1,99 @@
+{
+    "roomCode": "KYDNKK",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "ismail",
+            "ready": true,
+            "rating": 81,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Volkan Babacan",
+                    "position": "GK",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 86
+                },
+                {
+                    "name": "Ousmane Viera",
+                    "position": "DF",
+                    "market_value": "2.20 mil. \u20ac",
+                    "market_value_numeric": 2200000,
+                    "rating": 76
+                },
+                {
+                    "name": "Veysel Sar\u0131",
+                    "position": "DF",
+                    "market_value": "5.75 mil. \u20ac",
+                    "market_value_numeric": 5750000,
+                    "rating": 85
+                },
+                {
+                    "name": "Ayila Yussuf",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 76
+                },
+                {
+                    "name": "\u00c7a\u011flar Birinci",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Emrah Ba\u015fsan",
+                    "position": "MF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 77
+                },
+                {
+                    "name": "Anastasios Bakasetas",
+                    "position": "MF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 80
+                },
+                {
+                    "name": "Yusuf \u00d6zdemir",
+                    "position": "MF",
+                    "market_value": "2.60 mil. \u20ac",
+                    "market_value_numeric": 2600000,
+                    "rating": 77
+                },
+                {
+                    "name": "Jaj\u00e1",
+                    "position": "FW",
+                    "market_value": "6.50 mil. \u20ac",
+                    "market_value_numeric": 6500000,
+                    "rating": 84
+                },
+                {
+                    "name": "Moussa Sow",
+                    "position": "FW",
+                    "market_value": "14.00 mil. \u20ac",
+                    "market_value_numeric": 14000000,
+                    "rating": 89
+                },
+                {
+                    "name": "Isaac Kiese Thelin",
+                    "position": "FW",
+                    "market_value": "2.70 mil. \u20ac",
+                    "market_value_numeric": 2700000,
+                    "rating": 80
+                }
+            ]
+        },
+        {
+            "username": "Cikolatte",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789581188
+}

@@ -1,0 +1,99 @@
+{
+    "roomCode": "GQWENU",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Allahd\u00f6ven",
+            "ready": true,
+            "rating": 81,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Ersin Destano\u011flu",
+                    "position": "GK",
+                    "market_value": "10.00 mil. \u20ac",
+                    "market_value_numeric": 10000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Levent Mercan",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Majid Hosseini",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Abd\u00fclkerim Bardakc\u0131",
+                    "position": "DF",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 77
+                },
+                {
+                    "name": "Radoslav Batak",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 77
+                },
+                {
+                    "name": "Yann Karamoh",
+                    "position": "MF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Mert Hakan Yanda\u015f",
+                    "position": "MF",
+                    "market_value": "1.60 mil. \u20ac",
+                    "market_value_numeric": 1600000,
+                    "rating": 78
+                },
+                {
+                    "name": "Alexandru Cic\u00e2ld\u0103u",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Moussa Sow",
+                    "position": "FW",
+                    "market_value": "14.00 mil. \u20ac",
+                    "market_value_numeric": 14000000,
+                    "rating": 89
+                },
+                {
+                    "name": "Mehmet Y\u0131ld\u0131z",
+                    "position": "FW",
+                    "market_value": "4.20 mil. \u20ac",
+                    "market_value_numeric": 4200000,
+                    "rating": 82
+                },
+                {
+                    "name": "Antonio de Nigris",
+                    "position": "FW",
+                    "market_value": "2.40 mil. \u20ac",
+                    "market_value_numeric": 2400000,
+                    "rating": 80
+                }
+            ]
+        },
+        {
+            "username": "Egemen",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789912542
+}

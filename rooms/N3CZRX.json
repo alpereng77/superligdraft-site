@@ -1,0 +1,99 @@
+{
+    "roomCode": "N3CZRX",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Yahmut",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Stabil",
+            "ready": true,
+            "rating": 79,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Berke \u00d6zer",
+                    "position": "GK",
+                    "market_value": "1.20 mil. \u20ac",
+                    "market_value_numeric": 1200000,
+                    "rating": 73
+                },
+                {
+                    "name": "Jerome Opoku",
+                    "position": "DF",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Douglas",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 80
+                },
+                {
+                    "name": "G\u00fcray Vural",
+                    "position": "DF",
+                    "market_value": "3.75 mil. \u20ac",
+                    "market_value_numeric": 3750000,
+                    "rating": 79
+                },
+                {
+                    "name": "\u00d6mer Bayram",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 80
+                },
+                {
+                    "name": "Isaac Promise",
+                    "position": "MF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Pablo Batalla",
+                    "position": "MF",
+                    "market_value": "7.50 mil. \u20ac",
+                    "market_value_numeric": 7500000,
+                    "rating": 87
+                },
+                {
+                    "name": "Borja Sainz",
+                    "position": "MF",
+                    "market_value": "2.20 mil. \u20ac",
+                    "market_value_numeric": 2200000,
+                    "rating": 76
+                },
+                {
+                    "name": "Giovanni Sio",
+                    "position": "FW",
+                    "market_value": "1.40 mil. \u20ac",
+                    "market_value_numeric": 1400000,
+                    "rating": 78
+                },
+                {
+                    "name": "Beto",
+                    "position": "FW",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 75
+                },
+                {
+                    "name": "Olarenwaju Kayode",
+                    "position": "FW",
+                    "market_value": "2.40 mil. \u20ac",
+                    "market_value_numeric": 2400000,
+                    "rating": 81
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1789727634
+}

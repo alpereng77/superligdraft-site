@@ -1,0 +1,14 @@
+{
+    "roomCode": "HDCQAH",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "sex",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1791303717
+}

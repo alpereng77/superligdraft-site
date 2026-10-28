@@ -1,0 +1,99 @@
+{
+    "roomCode": "35ATGP",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "G\u00f6t",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Hasanefecck",
+            "ready": true,
+            "rating": 82,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Altay Bay\u0131nd\u0131r",
+                    "position": "GK",
+                    "market_value": "16.00 mil. \u20ac",
+                    "market_value_numeric": 16000000,
+                    "rating": 92
+                },
+                {
+                    "name": "\u00d6mer Ali \u015eahiner",
+                    "position": "DF",
+                    "market_value": "1.30 mil. \u20ac",
+                    "market_value_numeric": 1300000,
+                    "rating": 73
+                },
+                {
+                    "name": "Nejc Skubic",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Jayden Oosterwolde",
+                    "position": "DF",
+                    "market_value": "20.00 mil. \u20ac",
+                    "market_value_numeric": 20000000,
+                    "rating": 86
+                },
+                {
+                    "name": "Lamine Gassama",
+                    "position": "DF",
+                    "market_value": "1.00 mil. \u20ac",
+                    "market_value_numeric": 1000000,
+                    "rating": 76
+                },
+                {
+                    "name": "Mehmet Topuz",
+                    "position": "MF",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Ali Bilgin",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Kamil Grosicki",
+                    "position": "MF",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 82
+                },
+                {
+                    "name": "R\u00f4mulo",
+                    "position": "FW",
+                    "market_value": "11.00 mil. \u20ac",
+                    "market_value_numeric": 11000000,
+                    "rating": 86
+                },
+                {
+                    "name": "Mehmet Y\u0131ld\u0131z",
+                    "position": "FW",
+                    "market_value": "4.20 mil. \u20ac",
+                    "market_value_numeric": 4200000,
+                    "rating": 82
+                },
+                {
+                    "name": "Theofanis Gekas",
+                    "position": "FW",
+                    "market_value": "1.00 mil. \u20ac",
+                    "market_value_numeric": 1000000,
+                    "rating": 72
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1790354937
+}

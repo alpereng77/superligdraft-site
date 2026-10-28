@@ -1,0 +1,99 @@
+{
+    "roomCode": "HMJY7W",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "efevren",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "bugi",
+            "ready": true,
+            "rating": 83,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "Metin Akta\u015f",
+                    "position": "GK",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 76
+                },
+                {
+                    "name": "Diego \u00c2ngelo",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 77
+                },
+                {
+                    "name": "Diego Lugano",
+                    "position": "DF",
+                    "market_value": "10.50 mil. \u20ac",
+                    "market_value_numeric": 10500000,
+                    "rating": 90
+                },
+                {
+                    "name": "B\u00fcnyamin Balc\u0131",
+                    "position": "DF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Teenage Hadebe",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 77
+                },
+                {
+                    "name": "Yekta Kurtulu\u015f",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 80
+                },
+                {
+                    "name": "Fisayo Dele-Bashiru",
+                    "position": "MF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 77
+                },
+                {
+                    "name": "Aminu Umar",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Talisca",
+                    "position": "MF",
+                    "market_value": "13.00 mil. \u20ac",
+                    "market_value_numeric": 13000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Sercan Y\u0131ld\u0131r\u0131m",
+                    "position": "MF",
+                    "market_value": "6.50 mil. \u20ac",
+                    "market_value_numeric": 6500000,
+                    "rating": 85
+                },
+                {
+                    "name": "Nicolas Anelka",
+                    "position": "FW",
+                    "market_value": "9.00 mil. \u20ac",
+                    "market_value_numeric": 9000000,
+                    "rating": 92
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1792179562
+}

@@ -1,0 +1,20 @@
+{
+    "roomCode": "76UWNE",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "arda",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "kad\u0131k\u00f6y fc",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789639407
+}

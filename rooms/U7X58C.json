@@ -1,0 +1,14 @@
+{
+    "roomCode": "U7X58C",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Sikici",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789473271
+}

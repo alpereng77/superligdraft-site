@@ -1,0 +1,99 @@
+{
+    "roomCode": "GFTGHB",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "azy\u0131ld\u0131r\u0131maaaaai",
+            "ready": true,
+            "rating": 80,
+            "formation": "3-5-2",
+            "squad": [
+                {
+                    "name": "Renny Vega",
+                    "position": "GK",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "\u00d6mer Bayram",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 79
+                },
+                {
+                    "name": "Riechedly Bazoer",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Kau\u00ea",
+                    "position": "DF",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 78
+                },
+                {
+                    "name": "Castro",
+                    "position": "MF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 78
+                },
+                {
+                    "name": "Josu\u00e9",
+                    "position": "MF",
+                    "market_value": "8.25 mil. \u20ac",
+                    "market_value_numeric": 8250000,
+                    "rating": 87
+                },
+                {
+                    "name": "Altan Aksoy",
+                    "position": "MF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "\u00d6zer Hurmac\u0131",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Haris Hajradinovic",
+                    "position": "MF",
+                    "market_value": "2.70 mil. \u20ac",
+                    "market_value_numeric": 2700000,
+                    "rating": 78
+                },
+                {
+                    "name": "Gustave Bebbe",
+                    "position": "FW",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Mateja Ke\u017eman",
+                    "position": "FW",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 86
+                }
+            ]
+        },
+        {
+            "username": "Rovasatacekenapo",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790455727
+}

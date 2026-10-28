@@ -1,0 +1,99 @@
+{
+    "roomCode": "RFGLXX",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Emre",
+            "ready": true,
+            "rating": 81,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "U\u011furcan \u00c7ak\u0131r",
+                    "position": "GK",
+                    "market_value": "18.00 mil. \u20ac",
+                    "market_value_numeric": 18000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Serhat Aky\u00fcz",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 75
+                },
+                {
+                    "name": "Douglas",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 80
+                },
+                {
+                    "name": "Majid Hosseini",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Riechedly Bazoer",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Yann Karamoh",
+                    "position": "MF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Matt\u00e9o Guendouzi",
+                    "position": "MF",
+                    "market_value": "27.00 mil. \u20ac",
+                    "market_value_numeric": 27000000,
+                    "rating": 90
+                },
+                {
+                    "name": "Ayman Abdelaziz",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Fabian Ernst",
+                    "position": "MF",
+                    "market_value": "6.50 mil. \u20ac",
+                    "market_value_numeric": 6500000,
+                    "rating": 85
+                },
+                {
+                    "name": "\u0130lyas Kahraman",
+                    "position": "MF",
+                    "market_value": "1.35 mil. \u20ac",
+                    "market_value_numeric": 1350000,
+                    "rating": 75
+                },
+                {
+                    "name": "Umut Nayir",
+                    "position": "FW",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 74
+                }
+            ]
+        },
+        {
+            "username": "Delgadoo",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790536189
+}

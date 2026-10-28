@@ -1,0 +1,14 @@
+{
+    "roomCode": "PZEV9R",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "puo",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789477763
+}

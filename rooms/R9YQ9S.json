@@ -1,0 +1,99 @@
+{
+    "roomCode": "R9YQ9S",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "As\u0131m",
+            "ready": true,
+            "rating": 83,
+            "formation": "4-4-2",
+            "squad": [
+                {
+                    "name": "Volkan Babacan",
+                    "position": "GK",
+                    "market_value": "7.00 mil. \u20ac",
+                    "market_value_numeric": 7000000,
+                    "rating": 85
+                },
+                {
+                    "name": "Dany Nounkeu",
+                    "position": "DF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Hasan Yurt",
+                    "position": "DF",
+                    "market_value": "2.75 mil. \u20ac",
+                    "market_value_numeric": 2750000,
+                    "rating": 82
+                },
+                {
+                    "name": "Ferdi Kad\u0131o\u011flu",
+                    "position": "DF",
+                    "market_value": "21.00 mil. \u20ac",
+                    "market_value_numeric": 21000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Abd\u00fclkerim Bardakc\u0131",
+                    "position": "DF",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 77
+                },
+                {
+                    "name": "Gedson Fernandes",
+                    "position": "MF",
+                    "market_value": "12.00 mil. \u20ac",
+                    "market_value_numeric": 12000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Maicon Bolt",
+                    "position": "MF",
+                    "market_value": "2.75 mil. \u20ac",
+                    "market_value_numeric": 2750000,
+                    "rating": 82
+                },
+                {
+                    "name": "Matt\u00e9o Guendouzi",
+                    "position": "MF",
+                    "market_value": "27.00 mil. \u20ac",
+                    "market_value_numeric": 27000000,
+                    "rating": 90
+                },
+                {
+                    "name": "Campanharo",
+                    "position": "MF",
+                    "market_value": "1.40 mil. \u20ac",
+                    "market_value_numeric": 1400000,
+                    "rating": 75
+                },
+                {
+                    "name": "Adem B\u00fcy\u00fck",
+                    "position": "FW",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Sebasti\u00e1n Pinto",
+                    "position": "FW",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 79
+                }
+            ]
+        },
+        {
+            "username": "Yaser",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790605330
+}

@@ -1,0 +1,99 @@
+{
+    "roomCode": "9YA6JP",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "mesutc",
+            "ready": true,
+            "rating": 83,
+            "formation": "4-4-2",
+            "squad": [
+                {
+                    "name": "Harun Tekin",
+                    "position": "GK",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 83
+                },
+                {
+                    "name": "Diego \u00c2ngelo",
+                    "position": "DF",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 83
+                },
+                {
+                    "name": "Servet \u00c7etin",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Aykut Demir",
+                    "position": "DF",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 83
+                },
+                {
+                    "name": "Yasin \u00d6zcan",
+                    "position": "DF",
+                    "market_value": "7.50 mil. \u20ac",
+                    "market_value_numeric": 7500000,
+                    "rating": 83
+                },
+                {
+                    "name": "Alassane Ndao",
+                    "position": "MF",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 83
+                },
+                {
+                    "name": "Carlo Holse",
+                    "position": "MF",
+                    "market_value": "3.80 mil. \u20ac",
+                    "market_value_numeric": 3800000,
+                    "rating": 79
+                },
+                {
+                    "name": "Maicon Bolt",
+                    "position": "MF",
+                    "market_value": "2.75 mil. \u20ac",
+                    "market_value_numeric": 2750000,
+                    "rating": 82
+                },
+                {
+                    "name": "Josu\u00e9",
+                    "position": "MF",
+                    "market_value": "8.25 mil. \u20ac",
+                    "market_value_numeric": 8250000,
+                    "rating": 87
+                },
+                {
+                    "name": "Umut Bozok",
+                    "position": "FW",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Mehmet \u00c7ak\u0131r",
+                    "position": "FW",
+                    "market_value": "2.70 mil. \u20ac",
+                    "market_value_numeric": 2700000,
+                    "rating": 81
+                }
+            ]
+        },
+        {
+            "username": "scbertan",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1792162713
+}

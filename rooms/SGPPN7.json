@@ -1,0 +1,99 @@
+{
+    "roomCode": "SGPPN7",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "yigit",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Emir",
+            "ready": true,
+            "rating": 79,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Do\u011fan Alemdar",
+                    "position": "GK",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Milan Stepanov",
+                    "position": "DF",
+                    "market_value": "4.80 mil. \u20ac",
+                    "market_value_numeric": 4800000,
+                    "rating": 84
+                },
+                {
+                    "name": "Milan Stepanov",
+                    "position": "DF",
+                    "market_value": "4.80 mil. \u20ac",
+                    "market_value_numeric": 4800000,
+                    "rating": 84
+                },
+                {
+                    "name": "Roman Kratochv\u00edl",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Alexandru Epureanu",
+                    "position": "DF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 80
+                },
+                {
+                    "name": "\u0130brahim Ege",
+                    "position": "MF",
+                    "market_value": "1.10 mil. \u20ac",
+                    "market_value_numeric": 1100000,
+                    "rating": 73
+                },
+                {
+                    "name": "O\u011fuz Ayd\u0131n",
+                    "position": "MF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 74
+                },
+                {
+                    "name": "Filip Holosko",
+                    "position": "MF",
+                    "market_value": "1.75 mil. \u20ac",
+                    "market_value_numeric": 1750000,
+                    "rating": 74
+                },
+                {
+                    "name": "Burak Y\u0131lmaz",
+                    "position": "FW",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 80
+                },
+                {
+                    "name": "Krzysztof Piatek",
+                    "position": "FW",
+                    "market_value": "8.50 mil. \u20ac",
+                    "market_value_numeric": 8500000,
+                    "rating": 83
+                },
+                {
+                    "name": "Zafer Biryol",
+                    "position": "FW",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 81
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1790353658
+}

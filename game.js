@@ -280,9 +280,11 @@ function setupEventListeners() {
     document.getElementById("btn-tournament-action").addEventListener("click", handleTournamentAction);
 
     // Poster Modal Butonları
-    document.getElementById("btn-download-poster").addEventListener("click", downloadPoster);
-    document.getElementById("btn-share-poster").addEventListener("click", sharePoster);
-    document.getElementById("btn-close-poster").addEventListener("click", closePosterModal);
+    // Poster controls are optional in the current layout. Guard them so an
+    // omitted promotional panel cannot prevent the whole application from booting.
+    document.getElementById("btn-download-poster")?.addEventListener("click", downloadPoster);
+    document.getElementById("btn-share-poster")?.addEventListener("click", sharePoster);
+    document.getElementById("btn-close-poster")?.addEventListener("click", closePosterModal);
 
     // Audio & Click initialization
     document.addEventListener("click", () => {
@@ -1897,7 +1899,7 @@ function resetGameToDraft() {
 // ==================================================
 // MULTIPLAYER (AJAX POLLING) LOGIC
 // ==================================================
-let currentMultiplayerMode = 2; // 2 or 4
+const currentMultiplayerMode = 2;
 let myUsername = "";
 let currentRoomCode = "";
 let pollingInterval = null;
@@ -1959,8 +1961,7 @@ async function pollRoomState() {
                 document.getElementById("lobby-status-text").innerText = "Tüm oyuncular katıldı! Formasyon seçimi başlıyor...";
                 setTimeout(() => {
                     isTournamentMode = false;
-                    const modeLabel = currentMultiplayerMode === 2 ? '2 KİŞİLİK DRAFT' : '4 KİŞİLİK DRAFT';
-                    document.getElementById("mode-tag").innerHTML = `<i class="fa-solid fa-users"></i> ${modeLabel}`;
+                    document.getElementById("mode-tag").innerHTML = '<i class="fa-solid fa-users"></i> 2 KİŞİLİK DRAFT';
                     showScreen("screen-setup");
                     document.getElementById("btn-to-simulation").innerHTML = 'DRAFTI BİTİR VE LİGE GEÇ <i class="fa-solid fa-flag-checkered"></i>';
                 }, 2000);
@@ -1981,15 +1982,6 @@ function showLobby(roomCode, players, maxPlayers) {
     document.getElementById("lobby-room-code").innerText = roomCode;
     updateLobbyPlayers(players, maxPlayers);
     lastRoomStatus = "waiting";
-
-    const btnFillBots = document.getElementById("btn-fill-bots");
-    if (btnFillBots) {
-        if (players.length > 0 && players[0].username === myUsername && players.length < maxPlayers && maxPlayers === 4) {
-            btnFillBots.classList.remove("hidden");
-        } else {
-            btnFillBots.classList.add("hidden");
-        }
-    }
 
     startPolling();
     showScreen("screen-lobby");
@@ -2031,9 +2023,8 @@ function renderLeagueResults(results) {
     const championName = document.getElementById("league-champion-name");
     const trophyIcon = document.getElementById("league-trophy-icon");
 
-    if (currentMultiplayerMode === 2) {
-        if (standingsSection) standingsSection.style.display = "none";
-        if (matchesTitle) matchesTitle.innerText = "MAÇ SONUCU";
+    if (standingsSection) standingsSection.style.display = "none";
+    if (matchesTitle) matchesTitle.innerText = "MAÇ SONUCU";
 
         const match = results.matches[0];
         if (match) {
@@ -2051,13 +2042,6 @@ function renderLeagueResults(results) {
                 if (trophyIcon) trophyIcon.innerHTML = '<i class="fa-solid fa-handshake"></i>';
             }
         }
-    } else {
-        if (standingsSection) standingsSection.style.display = "block";
-        if (matchesTitle) matchesTitle.innerText = "MAÇ SONUÇLARI";
-        if (championTitle) championTitle.innerText = "ŞAMPİYON";
-        if (championName) championName.innerHTML = results.champion + ' <i class="fa-solid fa-medal" style="color:#ffd700; font-size:1.2rem; margin-left:5px;"></i>';
-        if (trophyIcon) trophyIcon.innerHTML = '<i class="fa-solid fa-trophy"></i>';
-    }
 
     // Tablo
     const tbody = document.getElementById("league-standings-body");
@@ -2087,7 +2071,7 @@ function renderLeagueResults(results) {
     const matchesList = document.getElementById("league-matches-list");
     matchesList.innerHTML = "";
 
-    const displayMatches = currentMultiplayerMode === 2 ? results.matches.slice(0, 1) : results.matches;
+    const displayMatches = results.matches.slice(0, 1);
 
     displayMatches.forEach(m => {
         if (!m || !m.home || !m.away) return;
@@ -2146,13 +2130,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.getElementById("btn-mode-multi-2").addEventListener("click", () => {
         document.getElementById("mode-tag").innerHTML = '<i class="fa-solid fa-user-group"></i> 2 KİŞİLİK DRAFT';
-        currentMultiplayerMode = 2;
-        setupMultiplayerScreen();
-    });
-
-    document.getElementById("btn-mode-multi-4").addEventListener("click", () => {
-        document.getElementById("mode-tag").innerHTML = '<i class="fa-solid fa-users"></i> 4 KİŞİLİK DRAFT';
-        currentMultiplayerMode = 4;
         setupMultiplayerScreen();
     });
 
@@ -2176,7 +2153,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function setupMultiplayerScreen() {
-        document.getElementById("mp-mode-title").innerText = `${currentMultiplayerMode} KİŞİLİK DRAFT`;
+        document.getElementById("mp-mode-title").innerText = '2 KİŞİLİK DRAFT';
         document.getElementById("mp-error-msg").classList.add("hidden");
         showScreen("screen-multiplayer-setup");
     }
@@ -2226,8 +2203,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if (res.success) {
             currentRoomCode = roomCode;
-            currentMultiplayerMode = res.data.room.maxPlayers;
-            showLobby(currentRoomCode, res.data.room.players, currentMultiplayerMode);
+            if (res.data.room.maxPlayers !== 2) {
+                alert('Bu oda artık desteklenmiyor. Yalnızca 2 kişilik derbi odaları açıktır.');
+                return;
+            }
+            showLobby(currentRoomCode, res.data.room.players, 2);
         } else {
             const errorMsg = document.getElementById("mp-error-msg");
             errorMsg.innerText = res.message;
@@ -2251,23 +2231,6 @@ document.addEventListener("DOMContentLoaded", () => {
             btn.innerHTML = '<i class="fa-solid fa-copy"></i> Kopyala';
         }, 2000);
     });
-
-    // Botlarla Tamamla Butonu (4'lü Lig için)
-    const btnFillBots = document.getElementById("btn-fill-bots");
-    if (btnFillBots) {
-        btnFillBots.addEventListener("click", async () => {
-            btnFillBots.disabled = true;
-            btnFillBots.innerText = "Botlar Ekleniyor...";
-            const res = await apiRequest("fill_ai_bots", { username: myUsername, roomCode: currentRoomCode });
-            btnFillBots.disabled = false;
-            btnFillBots.innerHTML = '<i class="fa-solid fa-robot"></i> BOTLARLA TAMAMLA VE BAŞLAT';
-            if (res.success) {
-                updateLobbyPlayers(res.data.room.players, res.data.room.maxPlayers);
-            } else {
-                alert("Bot eklenirken hata oluştu: " + res.message);
-            }
-        });
-    }
 
     // Yeni Oyun (Lig Sonuçlarından)
     document.getElementById("btn-league-new-game").addEventListener("click", () => {
@@ -2517,11 +2480,7 @@ function distributeMultiplayerEvents(match, room) {
 function startMultiplayerSimulation(room) {
     currentMpRoomData = room;
     renderMultiplayerInlineSquads(room);
-    if (currentMultiplayerMode === 2) {
-        simulateMP2(room);
-    } else {
-        simulateMP4(room);
-    }
+    simulateMP2(room);
 }
 
 // --------------------------------------------------
@@ -3194,7 +3153,7 @@ function generateMultiplayerPoster() {
 
     const isWinner = currentMpRoomData.leagueResults.champion === myUsername;
     const resultStatus = isWinner ? "ŞAMPİYON" : "LİG ANISI";
-    const resultSubtitle = currentMultiplayerMode === 2 ? "2 Kişilik Nostalji Derbisi" : "4 Kişilik Nostalji Ligi";
+    const resultSubtitle = "2 Kişilik Nostalji Derbisi";
 
     const now = new Date();
     const dateStr = now.toLocaleDateString("tr-TR", { day: "numeric", month: "long", year: "numeric" });
@@ -4212,6 +4171,3 @@ function renderMuseumAchievements() {
         `;
     });
 }
-
-
-

@@ -1,0 +1,20 @@
+{
+    "roomCode": "7WNGW8",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "\u0130brahim",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Baysal",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1792272641
+}

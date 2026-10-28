@@ -1,0 +1,99 @@
+{
+    "roomCode": "4VWHLL",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Purnobagimlisi",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Sexustas\u0131",
+            "ready": true,
+            "rating": 78,
+            "formation": "3-5-2",
+            "squad": [
+                {
+                    "name": "Serhat \u00d6zta\u015fdelen",
+                    "position": "GK",
+                    "market_value": "600 bin \u20ac",
+                    "market_value_numeric": 600000,
+                    "rating": 66
+                },
+                {
+                    "name": "Douglas",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 80
+                },
+                {
+                    "name": "\u00d6mer Ali \u015eahiner",
+                    "position": "DF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 80
+                },
+                {
+                    "name": "\u00d6mer Bayram",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 79
+                },
+                {
+                    "name": "Mehmet Topuz",
+                    "position": "MF",
+                    "market_value": "5.70 mil. \u20ac",
+                    "market_value_numeric": 5700000,
+                    "rating": 85
+                },
+                {
+                    "name": "Arbnor Muja",
+                    "position": "MF",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Do\u011fukan Sinik",
+                    "position": "MF",
+                    "market_value": "1.80 mil. \u20ac",
+                    "market_value_numeric": 1800000,
+                    "rating": 80
+                },
+                {
+                    "name": "Tita",
+                    "position": "MF",
+                    "market_value": "2.80 mil. \u20ac",
+                    "market_value_numeric": 2800000,
+                    "rating": 78
+                },
+                {
+                    "name": "Bartu\u011f Elmaz",
+                    "position": "MF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 73
+                },
+                {
+                    "name": "H\u00fcseyin Kartal",
+                    "position": "FW",
+                    "market_value": "2.20 mil. \u20ac",
+                    "market_value_numeric": 2200000,
+                    "rating": 78
+                },
+                {
+                    "name": "Taner G\u00fclleri",
+                    "position": "FW",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 78
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1789479630
+}

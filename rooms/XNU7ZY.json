@@ -1,0 +1,99 @@
+{
+    "roomCode": "XNU7ZY",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Grkm",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Taylan",
+            "ready": true,
+            "rating": 82,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "Stefan Senecky",
+                    "position": "GK",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Ersan G\u00fcl\u00fcm",
+                    "position": "DF",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Emrah Eren",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Beno\u00eet Poulain",
+                    "position": "DF",
+                    "market_value": "800 bin \u20ac",
+                    "market_value_numeric": 800000,
+                    "rating": 74
+                },
+                {
+                    "name": "Majid Hosseini",
+                    "position": "DF",
+                    "market_value": "1.30 mil. \u20ac",
+                    "market_value_numeric": 1300000,
+                    "rating": 73
+                },
+                {
+                    "name": "Gustavo Colman",
+                    "position": "MF",
+                    "market_value": "7.00 mil. \u20ac",
+                    "market_value_numeric": 7000000,
+                    "rating": 86
+                },
+                {
+                    "name": "Berat \u00d6zdemir",
+                    "position": "MF",
+                    "market_value": "1.80 mil. \u20ac",
+                    "market_value_numeric": 1800000,
+                    "rating": 80
+                },
+                {
+                    "name": "Neca",
+                    "position": "MF",
+                    "market_value": "2.60 mil. \u20ac",
+                    "market_value_numeric": 2600000,
+                    "rating": 80
+                },
+                {
+                    "name": "G\u00f6kdeniz Karadeniz",
+                    "position": "MF",
+                    "market_value": "7.50 mil. \u20ac",
+                    "market_value_numeric": 7500000,
+                    "rating": 90
+                },
+                {
+                    "name": "Bruma",
+                    "position": "MF",
+                    "market_value": "11.00 mil. \u20ac",
+                    "market_value_numeric": 11000000,
+                    "rating": 90
+                },
+                {
+                    "name": "Vedat Muriqi",
+                    "position": "FW",
+                    "market_value": "9.50 mil. \u20ac",
+                    "market_value_numeric": 9500000,
+                    "rating": 89
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1789772005
+}

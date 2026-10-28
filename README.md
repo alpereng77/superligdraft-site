@@ -32,7 +32,6 @@ Nostaljik retro gazete tasarımı ile modern FIFA FUT kart estetiğini harmanlay
 Süper Lig Nostalji Draft
  ├── 🏆 Klasik Turnuva Modu (Tek Oyunculu)
  ├── ⚔️ 2 Oyunculu Derbi (1v1 Canlı Multiplayer)
- ├── 🏅 4 Kişilik Draft Ligi (Lig Fikstürü & Puan Tablosu)
  ├── 🏙️ Kulüp Tycoon & Şehir Simülasyonu (İzometrik Canvas Engine)
  ├── 📦 FIFA FUT Tarzı 3D Paket Açılışı & Transfer Pazarı
  └── 🏛️ Kupa Müzesi & Retro Kadro Posteri Oluşturucu
@@ -50,11 +49,7 @@ Süper Lig Nostalji Draft
 - Karşılıklı canlı draft aşaması ve gerçek zamanlı senkronizasyon.
 - Poisson dağılımı temelli adil derbi simülasyonu ve beraberlikte seri penaltı atışları.
 
-### 3. 🏅 4 Kişilik Draft Ligi (Multiplayer Turnuva)
-- 4 arkadaşın aynı lobide buluşup eş zamanlı kadro kurabildiği özel lig modu.
-- Otomatik lig fikstürü, canlı maç simülasyonları, averaj ve güncel puan durumu tablosu.
-
-### 4. 🏙️ Kulüp Tycoon & İzometrik Şehir Simülasyonu (`city_builder.js`)
+### 3. 🏙️ Kulüp Tycoon & İzometrik Şehir Simülasyonu (`city_builder.js`)
 - **Özel 2D İzometrik Canvas Motoru**: Gerçekçi diorama zemin, katman derinlik sıralaması (*depth sorting*), dinamik gölgelendirmeler ve çim dokuları.
 - **Tesis İnşaatı**: Stadyum, Antrenman Kompleksi, Gençlik Akademisi, Scout & Yetenek Laboratuvarı, Kulüp Müzesi, Medya Kulesi, Sporcu Oteli, Bistro ve Heykeller.
 - **Altyapı & Peyzaj**: Asfalt bulvarlar, taş kaldırımlar, parsel genişletme arazileri.
@@ -100,7 +95,7 @@ draftsite/
 ├── super_lig_nostalji_data.json# Efsane futbolcular ve takım istatistikleri veri havuzu
 ├── tycoon_players.json         # Tycoon & paket açılış modu için genişletilmiş oyuncu veritabanı
 ├── tycoon_leaderboard.json     # Tycoon online liderlik tablosu kayıtları
-├── rooms/                      # Canlı multiplayer 1v1 ve 4'lü lig oda JSON verileri
+├── rooms/                      # Canlı multiplayer 1v1 oda JSON verileri
 ├── assets/                     # Sosyal medya görselleri (Open Graph, afişler)
 ├── icon-assets/                # Çeşitli arayüz ikonları ve rozetler
 ├── images/                     # Futbolcu kart görselleri ve kulüp logoları

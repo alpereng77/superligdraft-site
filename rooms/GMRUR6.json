@@ -1,0 +1,20 @@
+{
+    "roomCode": "GMRUR6",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "ram",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "sex",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790585927
+}

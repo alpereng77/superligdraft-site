@@ -1,0 +1,99 @@
+{
+    "roomCode": "PDH4BX",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "kero",
+            "ready": true,
+            "rating": 79,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Onur K\u0131vrak",
+                    "position": "GK",
+                    "market_value": "7.00 mil. \u20ac",
+                    "market_value_numeric": 7000000,
+                    "rating": 86
+                },
+                {
+                    "name": "Robin Yal\u00e7\u0131n",
+                    "position": "DF",
+                    "market_value": "1.30 mil. \u20ac",
+                    "market_value_numeric": 1300000,
+                    "rating": 74
+                },
+                {
+                    "name": "Ahmet \u00c7al\u0131k",
+                    "position": "DF",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 82
+                },
+                {
+                    "name": "\u00d6mer Bayram",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 79
+                },
+                {
+                    "name": "Yasin \u00d6zcan",
+                    "position": "DF",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Patrick Twumasi",
+                    "position": "MF",
+                    "market_value": "2.40 mil. \u20ac",
+                    "market_value_numeric": 2400000,
+                    "rating": 81
+                },
+                {
+                    "name": "Musa Ayd\u0131n",
+                    "position": "MF",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 76
+                },
+                {
+                    "name": "Franco C\u00e1ngele",
+                    "position": "MF",
+                    "market_value": "5.30 mil. \u20ac",
+                    "market_value_numeric": 5300000,
+                    "rating": 82
+                },
+                {
+                    "name": "Mustapha Yatabar\u00e9",
+                    "position": "FW",
+                    "market_value": "450 bin \u20ac",
+                    "market_value_numeric": 450000,
+                    "rating": 70
+                },
+                {
+                    "name": "Eren Derdiyok",
+                    "position": "FW",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 84
+                },
+                {
+                    "name": "Theofanis Gekas",
+                    "position": "FW",
+                    "market_value": "1.00 mil. \u20ac",
+                    "market_value_numeric": 1000000,
+                    "rating": 72
+                }
+            ]
+        },
+        {
+            "username": "yido",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789588273
+}

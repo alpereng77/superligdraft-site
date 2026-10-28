@@ -1,0 +1,99 @@
+{
+    "roomCode": "SY92L4",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "SA\u011fdaki oc",
+            "ready": true,
+            "rating": 82,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Metin Akta\u015f",
+                    "position": "GK",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 76
+                },
+                {
+                    "name": "Larrys Mabiala",
+                    "position": "DF",
+                    "market_value": "3.20 mil. \u20ac",
+                    "market_value_numeric": 3200000,
+                    "rating": 79
+                },
+                {
+                    "name": "Diego \u00c2ngelo",
+                    "position": "DF",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 83
+                },
+                {
+                    "name": "Emrah Eren",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Nihad Mujakic",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 77
+                },
+                {
+                    "name": "B\u00fclent Ertu\u011frul",
+                    "position": "MF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Bar\u0131\u015f Alper Y\u0131lmaz",
+                    "position": "MF",
+                    "market_value": "30.00 mil. \u20ac",
+                    "market_value_numeric": 30000000,
+                    "rating": 91
+                },
+                {
+                    "name": "Okan Ko\u00e7",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 78
+                },
+                {
+                    "name": "John Carew",
+                    "position": "FW",
+                    "market_value": "7.00 mil. \u20ac",
+                    "market_value_numeric": 7000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Cenk Tosun",
+                    "position": "FW",
+                    "market_value": "23.00 mil. \u20ac",
+                    "market_value_numeric": 23000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Mehmet Y\u0131ld\u0131z",
+                    "position": "FW",
+                    "market_value": "4.20 mil. \u20ac",
+                    "market_value_numeric": 4200000,
+                    "rating": 81
+                }
+            ]
+        },
+        {
+            "username": "YANIMDAK\u0130 ZEK\u0130",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790280929
+}

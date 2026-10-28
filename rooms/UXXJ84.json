@@ -1,0 +1,99 @@
+{
+    "roomCode": "UXXJ84",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "huso",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Peshesabialdim",
+            "ready": true,
+            "rating": 80,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Kenan Hasagic",
+                    "position": "GK",
+                    "market_value": "800 bin \u20ac",
+                    "market_value_numeric": 800000,
+                    "rating": 69
+                },
+                {
+                    "name": "Naz\u0131m Sangar\u00e9",
+                    "position": "DF",
+                    "market_value": "1.60 mil. \u20ac",
+                    "market_value_numeric": 1600000,
+                    "rating": 79
+                },
+                {
+                    "name": "Raymond Kalla",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 83
+                },
+                {
+                    "name": "Majid Hosseini",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 79
+                },
+                {
+                    "name": "\u00d6mer Ali \u015eahiner",
+                    "position": "DF",
+                    "market_value": "3.40 mil. \u20ac",
+                    "market_value_numeric": 3400000,
+                    "rating": 78
+                },
+                {
+                    "name": "Farouk Miya",
+                    "position": "MF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 80
+                },
+                {
+                    "name": "Engin Baytar",
+                    "position": "MF",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 78
+                },
+                {
+                    "name": "Edin Visca",
+                    "position": "MF",
+                    "market_value": "10.50 mil. \u20ac",
+                    "market_value_numeric": 10500000,
+                    "rating": 90
+                },
+                {
+                    "name": "Emmanuel Emenike",
+                    "position": "FW",
+                    "market_value": "2.70 mil. \u20ac",
+                    "market_value_numeric": 2700000,
+                    "rating": 78
+                },
+                {
+                    "name": "\u0130lhan Mans\u0131z",
+                    "position": "FW",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 83
+                },
+                {
+                    "name": "Taner G\u00fclleri",
+                    "position": "FW",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 78
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1791023360
+}

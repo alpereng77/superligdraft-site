@@ -1,0 +1,14 @@
+{
+    "roomCode": "ZRXREC",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "fenasikerim",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789470526
+}

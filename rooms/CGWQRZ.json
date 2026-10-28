@@ -1,0 +1,99 @@
+{
+    "roomCode": "CGWQRZ",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Emre",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "delgadoo",
+            "ready": true,
+            "rating": 77,
+            "formation": "3-5-2",
+            "squad": [
+                {
+                    "name": "Johannes Hopf",
+                    "position": "GK",
+                    "market_value": "800 bin \u20ac",
+                    "market_value_numeric": 800000,
+                    "rating": 68
+                },
+                {
+                    "name": "Majid Hosseini",
+                    "position": "DF",
+                    "market_value": "700 bin \u20ac",
+                    "market_value_numeric": 700000,
+                    "rating": 67
+                },
+                {
+                    "name": "Abd\u00fclkerim Bardakc\u0131",
+                    "position": "DF",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 77
+                },
+                {
+                    "name": "Jean-Armel Kana-Biyik",
+                    "position": "DF",
+                    "market_value": "1.30 mil. \u20ac",
+                    "market_value_numeric": 1300000,
+                    "rating": 77
+                },
+                {
+                    "name": "Guilherme",
+                    "position": "MF",
+                    "market_value": "3.20 mil. \u20ac",
+                    "market_value_numeric": 3200000,
+                    "rating": 83
+                },
+                {
+                    "name": "Bernard Mensah",
+                    "position": "MF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Soner Aydo\u011fdu",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Jonjo Shelvey",
+                    "position": "MF",
+                    "market_value": "2.60 mil. \u20ac",
+                    "market_value_numeric": 2600000,
+                    "rating": 78
+                },
+                {
+                    "name": "Arda Okan Kurtulan",
+                    "position": "MF",
+                    "market_value": "7.00 mil. \u20ac",
+                    "market_value_numeric": 7000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Moussa Sow",
+                    "position": "FW",
+                    "market_value": "14.00 mil. \u20ac",
+                    "market_value_numeric": 14000000,
+                    "rating": 89
+                },
+                {
+                    "name": "Sinan Kalo\u011flu",
+                    "position": "FW",
+                    "market_value": "400 bin \u20ac",
+                    "market_value_numeric": 400000,
+                    "rating": 66
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1790533127
+}

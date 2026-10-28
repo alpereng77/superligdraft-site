@@ -78,10 +78,10 @@
         },
         {
           "@type": "Question",
-          "name": "Arkadaşımla nasıl online 1v1 veya 4'lü lig oynayabilirim?",
+          "name": "Arkadaşımla nasıl online 1v1 oynayabilirim?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ana menüden 2 Oyunculu Derbi veya 4'lü Lig seçeneğine tıklayıp bir oda oluşturabilir, oluşturulan 6 haneli oda kodunu arkadaşlarınıza göndererek anında canlı multiplayer drafte katılabilirsiniz."
+            "text": "Ana menüden 2 Oyunculu Derbi seçeneğine tıklayıp bir oda oluşturabilir, oluşturulan 6 haneli oda kodunu arkadaşınıza göndererek anında canlı multiplayer drafte katılabilirsiniz."
           }
         }
       ]
@@ -159,22 +159,12 @@
                             <i class="fa-solid fa-chevron-right mode-card-arrow"></i>
                         </button>
 
-                        <button id="btn-mode-multi-4" class="btn-mode-card multi-4-card">
-                            <div class="mode-card-badge pv4-badge">4'LÜ LİG</div>
-                            <div class="mode-card-icon"><i class="fa-solid fa-users"></i></div>
-                            <div class="mode-card-info">
-                                <h3>4 KİŞİLİK DRAFT LİGİ</h3>
-                                <p>4 arkadaş lobi kurun. Kadroları çekin, lig usulü turnuvanın kralını seçin!</p>
-                            </div>
-                            <i class="fa-solid fa-chevron-right mode-card-arrow"></i>
-                        </button>
-
                         <button id="btn-mode-tycoon" class="btn-mode-card tycoon-card">
                             <div class="mode-card-badge single-badge" style="background: linear-gradient(135deg, #ff9f1c, #e71d36); color: white;"><i class="fa-solid fa-fire"></i> YENİ KARİYER</div>
                             <div class="mode-card-icon"><i class="fa-solid fa-city"></i></div>
                             <div class="mode-card-info">
-                                <h3>KULÜP TYCOON & AKADEMİ</h3>
-                                <p>İzometrik tesislerini kur, genç efsaneleri scout edip yetiştir ve online sıralamada yarış!</p>
+                                <h3>KARİYER</h3>
+                                <p>Kampüsünü kur, kadronu geliştir, maçları yönet ve kulübünü üst liglere taşı!</p>
                             </div>
                             <i class="fa-solid fa-chevron-right mode-card-arrow"></i>
                         </button>
@@ -235,8 +225,6 @@
                                 <li><strong>1v1 Derbi Modu:</strong> Arkadaşınızla aynı cihazda veya online canlı lobide
                                     derbi heyecanı yaşayın. Kadroları yarıştıran simülasyon motoru ile kazananı
                                     belirleyin.</li>
-                                <li><strong>4'lü Draft Ligi:</strong> 4 kişilik arkadaş grubuyla oda kodu üzerinden
-                                    lobide buluşun. Lig usulü maçlarla Süper Lig Nostalji şampiyonunu belirleyin.</li>
                                 <li><strong>Kupa Müzesi:</strong> Kazandığınız tüm şampiyonluk kupalarını ve kurduğunuz
                                     en yüksek reytingli efsane kadroları saklayın.</li>
                             </ul>
@@ -276,7 +264,7 @@
                             </details>
                             <details class="faq-item">
                                 <summary><strong>Oda kodu ile arkadaşımla nasıl oynarım?</strong></summary>
-                                <p>Ana menüden '2 Oyunculu Derbi' veya '4'lü Lig' modunu seçip 'Yeni Oda Oluştur'
+                                <p>Ana menüden '2 Oyunculu Derbi' modunu seçip 'Yeni Oda Oluştur'
                                     butonuna basın. Ekranınızda çıkan 6 haneli oda kodunu arkadaşınızla paylaşın.</p>
                             </details>
                             <details class="faq-item">
@@ -363,12 +351,6 @@
                         <div class="lobby-spinner">
                             <div class="spinner-dot"></div>
                         </div>
-                    </div>
-
-                    <div style="margin-top: 20px; text-align: center;">
-                        <button id="btn-fill-bots" class="btn btn-black btn-small hidden">
-                            <i class="fa-solid fa-robot"></i> BOTLARLA TAMAMLA VE DRAFTE BAŞLA
-                        </button>
                     </div>
 
                 </div>
@@ -1027,10 +1009,10 @@
                                 <div id="city-road-bar" class="city-road-bar hidden">
                                     <div class="road-bar-title"><i class="fa-solid fa-road text-gold"></i> Yol Tipi:</div>
                                     <button class="road-type-btn active" id="btn-road-asphalt" onclick="CityBuilder.setRoadType('asphalt')">
-                                        <i class="fa-solid fa-road"></i> Asfalt Bulvar (100 €)
+                                        <i class="fa-solid fa-road"></i> Asfalt Bulvar (150 €)
                                     </button>
                                     <button class="road-type-btn" id="btn-road-paved" onclick="CityBuilder.setRoadType('paved')">
-                                        <i class="fa-solid fa-shoe-prints"></i> Taş Kaldırım (50 €)
+                                        <i class="fa-solid fa-shoe-prints"></i> Taş Kaldırım (75 €)
                                     </button>
                                     <button class="road-type-btn eraser" id="btn-road-eraser" onclick="CityBuilder.setRoadType('eraser')">
                                         <i class="fa-solid fa-eraser"></i> Kazma / Yol Sil
@@ -1101,6 +1083,20 @@
                                     <div class="stat-detail">
                                         <span class="val" id="tycoon-hud-ovr">60</span>
                                         <span class="sub">İlk 11 OVR</span>
+                                    </div>
+                                </div>
+                                <div class="sidebar-stat-item condition-stat" title="Kondisyon maç oynadıkça düşer; sağlık, havuz ve otel tesisleriyle toparlanır.">
+                                    <i class="fa-solid fa-heart-pulse text-red"></i>
+                                    <div class="stat-detail">
+                                        <span class="val" id="tycoon-hud-condition">%100</span>
+                                        <span class="sub">Takım Kondisyonu</span>
+                                    </div>
+                                </div>
+                                <div class="sidebar-stat-item form-stat" title="Sonuçlara göre değişir ve maç gücünü etkiler.">
+                                    <i class="fa-solid fa-chart-line text-blue"></i>
+                                    <div class="stat-detail">
+                                        <span class="val" id="tycoon-hud-form">%50</span>
+                                        <span class="sub">Kulüp Formu</span>
                                     </div>
                                 </div>
                             </div>
@@ -1665,6 +1661,12 @@
     <script src="game.js"></script>
     <script src="tycoon.js"></script>
     <script src="city_builder.js"></script>
+    <script src="tycoon_engine.js"></script>
+    <script src="tycoon_simulation.js"></script>
+    <script src="tycoon_architecture.js"></script>
+    <script src="tycoon_match.js"></script>
+    <script src="tycoon_career.js"></script>
+    <link rel="stylesheet" href="tycoon_career.css">
 </body>
 
 </html>

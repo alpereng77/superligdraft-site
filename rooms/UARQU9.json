@@ -1,0 +1,99 @@
+{
+    "roomCode": "UARQU9",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Qarisma",
+            "ready": true,
+            "rating": 82,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Serkan K\u0131r\u0131nt\u0131l\u0131",
+                    "position": "GK",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Ferdi Kad\u0131o\u011flu",
+                    "position": "DF",
+                    "market_value": "17.00 mil. \u20ac",
+                    "market_value_numeric": 17000000,
+                    "rating": 91
+                },
+                {
+                    "name": "Milos Kosanovic",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Nuno Andr\u00e9 Coelho",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 76
+                },
+                {
+                    "name": "Teenage Hadebe",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 77
+                },
+                {
+                    "name": "Yann Karamoh",
+                    "position": "MF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Florent Hadergjonaj",
+                    "position": "MF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 84
+                },
+                {
+                    "name": "Samuel Johnson",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 85
+                },
+                {
+                    "name": "Ayoub El Kaabi",
+                    "position": "FW",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 83
+                },
+                {
+                    "name": "Simon Banza",
+                    "position": "FW",
+                    "market_value": "14.00 mil. \u20ac",
+                    "market_value_numeric": 14000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Bogdan Stancu",
+                    "position": "FW",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 81
+                }
+            ]
+        },
+        {
+            "username": "Kartal",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789916773
+}

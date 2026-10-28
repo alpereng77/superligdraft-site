@@ -1,0 +1,99 @@
+{
+    "roomCode": "7BSUKG",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "derin",
+            "ready": true,
+            "rating": 83,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Onur K\u0131vrak",
+                    "position": "GK",
+                    "market_value": "7.00 mil. \u20ac",
+                    "market_value_numeric": 7000000,
+                    "rating": 86
+                },
+                {
+                    "name": "Aziz Behich",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 78
+                },
+                {
+                    "name": "Emmanuel Agbadou",
+                    "position": "DF",
+                    "market_value": "16.00 mil. \u20ac",
+                    "market_value_numeric": 16000000,
+                    "rating": 85
+                },
+                {
+                    "name": "Marko Simic",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 78
+                },
+                {
+                    "name": "U\u011fur Demirok",
+                    "position": "DF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 78
+                },
+                {
+                    "name": "Kerem Akt\u00fcrko\u011flu",
+                    "position": "MF",
+                    "market_value": "16.50 mil. \u20ac",
+                    "market_value_numeric": 16500000,
+                    "rating": 92
+                },
+                {
+                    "name": "Alexandru Cic\u00e2ld\u0103u",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Tita",
+                    "position": "MF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "\u00d3scar Cardozo",
+                    "position": "FW",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Bob\u00f4",
+                    "position": "FW",
+                    "market_value": "9.50 mil. \u20ac",
+                    "market_value_numeric": 9500000,
+                    "rating": 88
+                },
+                {
+                    "name": "Bob\u00f4",
+                    "position": "FW",
+                    "market_value": "9.50 mil. \u20ac",
+                    "market_value_numeric": 9500000,
+                    "rating": 89
+                }
+            ]
+        },
+        {
+            "username": "e",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1791293127
+}

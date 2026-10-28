@@ -1,0 +1,99 @@
+{
+    "roomCode": "E5F7JD",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "delgadoooo",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Emre",
+            "ready": true,
+            "rating": 77,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "G\u00f6ktu\u011f Bak\u0131rba\u015f",
+                    "position": "GK",
+                    "market_value": "50 bin \u20ac",
+                    "market_value_numeric": 50000,
+                    "rating": 60
+                },
+                {
+                    "name": "Emre A\u015f\u0131k",
+                    "position": "DF",
+                    "market_value": "1.60 mil. \u20ac",
+                    "market_value_numeric": 1600000,
+                    "rating": 75
+                },
+                {
+                    "name": "Sergen Pi\u00e7inciol",
+                    "position": "DF",
+                    "market_value": "425 bin \u20ac",
+                    "market_value_numeric": 425000,
+                    "rating": 67
+                },
+                {
+                    "name": "Egemen Korkmaz",
+                    "position": "DF",
+                    "market_value": "2.80 mil. \u20ac",
+                    "market_value_numeric": 2800000,
+                    "rating": 81
+                },
+                {
+                    "name": "Martin Linnes",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 75
+                },
+                {
+                    "name": "Enis Bardhi",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Arda G\u00fcler",
+                    "position": "MF",
+                    "market_value": "15.00 mil. \u20ac",
+                    "market_value_numeric": 15000000,
+                    "rating": 89
+                },
+                {
+                    "name": "Pablo Batalla",
+                    "position": "MF",
+                    "market_value": "4.80 mil. \u20ac",
+                    "market_value_numeric": 4800000,
+                    "rating": 82
+                },
+                {
+                    "name": "Olarenwaju Kayode",
+                    "position": "FW",
+                    "market_value": "3.20 mil. \u20ac",
+                    "market_value_numeric": 3200000,
+                    "rating": 79
+                },
+                {
+                    "name": "Cenk Tosun",
+                    "position": "FW",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Marius Mouandilmadji",
+                    "position": "FW",
+                    "market_value": "7.00 mil. \u20ac",
+                    "market_value_numeric": 7000000,
+                    "rating": 81
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1790532122
+}

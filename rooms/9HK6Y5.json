@@ -1,0 +1,99 @@
+{
+    "roomCode": "9HK6Y5",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "sfwedsfwt",
+            "ready": true,
+            "rating": 84,
+            "formation": "5-3-2",
+            "squad": [
+                {
+                    "name": "Kenan Hasagic",
+                    "position": "GK",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Vitor Hugo",
+                    "position": "DF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 85
+                },
+                {
+                    "name": "Selim Ay",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Marc\u00e3o",
+                    "position": "DF",
+                    "market_value": "14.00 mil. \u20ac",
+                    "market_value_numeric": 14000000,
+                    "rating": 90
+                },
+                {
+                    "name": "\u00d6mer Ali \u015eahiner",
+                    "position": "DF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 80
+                },
+                {
+                    "name": "L\u00e9o Schwechlen",
+                    "position": "DF",
+                    "market_value": "900 bin \u20ac",
+                    "market_value_numeric": 900000,
+                    "rating": 74
+                },
+                {
+                    "name": "Edin Visca",
+                    "position": "MF",
+                    "market_value": "10.50 mil. \u20ac",
+                    "market_value_numeric": 10500000,
+                    "rating": 90
+                },
+                {
+                    "name": "Manuel Fernandes",
+                    "position": "MF",
+                    "market_value": "12.00 mil. \u20ac",
+                    "market_value_numeric": 12000000,
+                    "rating": 89
+                },
+                {
+                    "name": "Filip Holosko",
+                    "position": "MF",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Antonio de Nigris",
+                    "position": "FW",
+                    "market_value": "2.40 mil. \u20ac",
+                    "market_value_numeric": 2400000,
+                    "rating": 80
+                },
+                {
+                    "name": "Alexander S\u00f8rloth",
+                    "position": "FW",
+                    "market_value": "13.00 mil. \u20ac",
+                    "market_value_numeric": 13000000,
+                    "rating": 93
+                }
+            ]
+        },
+        {
+            "username": "doguporno",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790598378
+}

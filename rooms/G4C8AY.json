@@ -1,0 +1,99 @@
+{
+    "roomCode": "G4C8AY",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Bjkk",
+            "ready": true,
+            "rating": 81,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "Altay Bay\u0131nd\u0131r",
+                    "position": "GK",
+                    "market_value": "14.00 mil. \u20ac",
+                    "market_value_numeric": 14000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Aziz Behich",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 78
+                },
+                {
+                    "name": "\u00d6mer Bayram",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 80
+                },
+                {
+                    "name": "Safet Nadarevic",
+                    "position": "DF",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 77
+                },
+                {
+                    "name": "Ahmet \u00c7al\u0131k",
+                    "position": "DF",
+                    "market_value": "3.75 mil. \u20ac",
+                    "market_value_numeric": 3750000,
+                    "rating": 82
+                },
+                {
+                    "name": "Dia Saba",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 80
+                },
+                {
+                    "name": "\u0130brahim Yattara",
+                    "position": "MF",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 86
+                },
+                {
+                    "name": "B\u00fclent Ertu\u011frul",
+                    "position": "MF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Aatif Chahechouhe",
+                    "position": "MF",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Filip Holosko",
+                    "position": "MF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 86
+                },
+                {
+                    "name": "Murat B\u00f6l\u00fckba\u015f",
+                    "position": "FW",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 73
+                }
+            ]
+        },
+        {
+            "username": "Minguizzi",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1791200069
+}

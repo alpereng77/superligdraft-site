@@ -1,0 +1,14 @@
+{
+    "roomCode": "2WE4MR",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Emir",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790776362
+}

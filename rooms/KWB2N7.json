@@ -1,0 +1,99 @@
+{
+    "roomCode": "KWB2N7",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "N\u0130YAZ\u0130",
+            "ready": true,
+            "rating": 81,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Muhammed \u015eengezer",
+                    "position": "GK",
+                    "market_value": "600 bin \u20ac",
+                    "market_value_numeric": 600000,
+                    "rating": 69
+                },
+                {
+                    "name": "Joseph Boum",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 74
+                },
+                {
+                    "name": "Fatih Aksoy",
+                    "position": "DF",
+                    "market_value": "3.20 mil. \u20ac",
+                    "market_value_numeric": 3200000,
+                    "rating": 79
+                },
+                {
+                    "name": "Hayrettin Yerlikaya",
+                    "position": "DF",
+                    "market_value": "2.70 mil. \u20ac",
+                    "market_value_numeric": 2700000,
+                    "rating": 81
+                },
+                {
+                    "name": "Mustafa Eskihella\u00e7",
+                    "position": "DF",
+                    "market_value": "1.40 mil. \u20ac",
+                    "market_value_numeric": 1400000,
+                    "rating": 74
+                },
+                {
+                    "name": "Gedson Fernandes",
+                    "position": "MF",
+                    "market_value": "15.00 mil. \u20ac",
+                    "market_value_numeric": 15000000,
+                    "rating": 88
+                },
+                {
+                    "name": "Murat Ceylan",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 79
+                },
+                {
+                    "name": "G\u00f6khan T\u00f6re",
+                    "position": "MF",
+                    "market_value": "12.00 mil. \u20ac",
+                    "market_value_numeric": 12000000,
+                    "rating": 88
+                },
+                {
+                    "name": "Alexander S\u00f8rloth",
+                    "position": "FW",
+                    "market_value": "13.00 mil. \u20ac",
+                    "market_value_numeric": 13000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Vincent Janssen",
+                    "position": "FW",
+                    "market_value": "9.00 mil. \u20ac",
+                    "market_value_numeric": 9000000,
+                    "rating": 88
+                },
+                {
+                    "name": "Necati Ate\u015f",
+                    "position": "FW",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 80
+                }
+            ]
+        },
+        {
+            "username": "Zort",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789537286
+}

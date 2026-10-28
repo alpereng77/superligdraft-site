@@ -1,0 +1,99 @@
+{
+    "roomCode": "ZVRSN9",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "sexustas\u0131",
+            "ready": true,
+            "rating": 81,
+            "formation": "3-5-2",
+            "squad": [
+                {
+                    "name": "Metin Akta\u015f",
+                    "position": "GK",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 76
+                },
+                {
+                    "name": "Nihad Mujakic",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 77
+                },
+                {
+                    "name": "Hasan Yurt",
+                    "position": "DF",
+                    "market_value": "2.75 mil. \u20ac",
+                    "market_value_numeric": 2750000,
+                    "rating": 82
+                },
+                {
+                    "name": "Elyasa S\u00fcme",
+                    "position": "DF",
+                    "market_value": "1.80 mil. \u20ac",
+                    "market_value_numeric": 1800000,
+                    "rating": 77
+                },
+                {
+                    "name": "Andr\u00e9 Poko",
+                    "position": "MF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 75
+                },
+                {
+                    "name": "Djalma",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Arda Turan",
+                    "position": "MF",
+                    "market_value": "16.00 mil. \u20ac",
+                    "market_value_numeric": 16000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Bertrand Traor\u00e9",
+                    "position": "MF",
+                    "market_value": "12.00 mil. \u20ac",
+                    "market_value_numeric": 12000000,
+                    "rating": 88
+                },
+                {
+                    "name": "Gedson Fernandes",
+                    "position": "MF",
+                    "market_value": "18.00 mil. \u20ac",
+                    "market_value_numeric": 18000000,
+                    "rating": 88
+                },
+                {
+                    "name": "Jackson Muleka",
+                    "position": "FW",
+                    "market_value": "2.80 mil. \u20ac",
+                    "market_value_numeric": 2800000,
+                    "rating": 76
+                },
+                {
+                    "name": "Georgi Ivanov",
+                    "position": "FW",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 81
+                }
+            ]
+        },
+        {
+            "username": "\u0131oksfjkjsdfknwej",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790598915
+}

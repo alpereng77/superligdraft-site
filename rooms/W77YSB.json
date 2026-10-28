@@ -1,0 +1,99 @@
+{
+    "roomCode": "W77YSB",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "sikici",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "azizsiken",
+            "ready": true,
+            "rating": 80,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "\u00d6zden \u00d6ng\u00fcn",
+                    "position": "GK",
+                    "market_value": "400 bin \u20ac",
+                    "market_value_numeric": 400000,
+                    "rating": 67
+                },
+                {
+                    "name": "Jaroslaw Bieniuk",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 77
+                },
+                {
+                    "name": "Erman G\u00fcra\u00e7ar",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 76
+                },
+                {
+                    "name": "Adil Demirba\u011f",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 76
+                },
+                {
+                    "name": "Ondrej Celustka",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 77
+                },
+                {
+                    "name": "Filip Holosko",
+                    "position": "MF",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Amir Hadziahmetovic",
+                    "position": "MF",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Dia Saba",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Aleksandar Aleksandrov",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 82
+                },
+                {
+                    "name": "\u0130rfan Can Kahveci",
+                    "position": "MF",
+                    "market_value": "11.00 mil. \u20ac",
+                    "market_value_numeric": 11000000,
+                    "rating": 90
+                },
+                {
+                    "name": "Demba Ba",
+                    "position": "FW",
+                    "market_value": "12.00 mil. \u20ac",
+                    "market_value_numeric": 12000000,
+                    "rating": 88
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1790350030
+}

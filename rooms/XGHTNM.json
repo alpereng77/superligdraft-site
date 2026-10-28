@@ -1,0 +1,99 @@
+{
+    "roomCode": "XGHTNM",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "sexustas\u0131",
+            "ready": true,
+            "rating": 82,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Andr\u00e9 Onana",
+                    "position": "GK",
+                    "market_value": "10.00 mil. \u20ac",
+                    "market_value_numeric": 10000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Yasin \u00d6zcan",
+                    "position": "DF",
+                    "market_value": "7.50 mil. \u20ac",
+                    "market_value_numeric": 7500000,
+                    "rating": 83
+                },
+                {
+                    "name": "Giray Ka\u00e7ar",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 77
+                },
+                {
+                    "name": "Yal\u00e7\u0131n Ayhan",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Kau\u00ea",
+                    "position": "DF",
+                    "market_value": "2.70 mil. \u20ac",
+                    "market_value_numeric": 2700000,
+                    "rating": 81
+                },
+                {
+                    "name": "Senijad Ibricic",
+                    "position": "MF",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Recep Niyaz",
+                    "position": "MF",
+                    "market_value": "1.40 mil. \u20ac",
+                    "market_value_numeric": 1400000,
+                    "rating": 76
+                },
+                {
+                    "name": "Samuel Johnson",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 85
+                },
+                {
+                    "name": "Zafer Biryol",
+                    "position": "FW",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 85
+                },
+                {
+                    "name": "Moussa Sow",
+                    "position": "FW",
+                    "market_value": "12.00 mil. \u20ac",
+                    "market_value_numeric": 12000000,
+                    "rating": 88
+                },
+                {
+                    "name": "G\u00f6khan \u00dcnal",
+                    "position": "FW",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 83
+                }
+            ]
+        },
+        {
+            "username": "p\u0131p\u0131",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790061008
+}

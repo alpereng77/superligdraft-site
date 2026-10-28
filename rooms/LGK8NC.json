@@ -1,0 +1,99 @@
+{
+    "roomCode": "LGK8NC",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Sikici",
+            "ready": true,
+            "rating": 79,
+            "formation": "4-4-2",
+            "squad": [
+                {
+                    "name": "David Jensen",
+                    "position": "GK",
+                    "market_value": "200 bin \u20ac",
+                    "market_value_numeric": 200000,
+                    "rating": 64
+                },
+                {
+                    "name": "Gbenga Arokoyo",
+                    "position": "DF",
+                    "market_value": "1.80 mil. \u20ac",
+                    "market_value_numeric": 1800000,
+                    "rating": 73
+                },
+                {
+                    "name": "Hasan Yurt",
+                    "position": "DF",
+                    "market_value": "2.75 mil. \u20ac",
+                    "market_value_numeric": 2750000,
+                    "rating": 82
+                },
+                {
+                    "name": "F\u00e1bio Bilica",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 76
+                },
+                {
+                    "name": "Syam Ben Youssef",
+                    "position": "DF",
+                    "market_value": "725 bin \u20ac",
+                    "market_value_numeric": 725000,
+                    "rating": 74
+                },
+                {
+                    "name": "Hasan \u015ea\u015f",
+                    "position": "MF",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 86
+                },
+                {
+                    "name": "Castro",
+                    "position": "MF",
+                    "market_value": "5.75 mil. \u20ac",
+                    "market_value_numeric": 5750000,
+                    "rating": 83
+                },
+                {
+                    "name": "Ogenyi Onazi",
+                    "position": "MF",
+                    "market_value": "1.60 mil. \u20ac",
+                    "market_value_numeric": 1600000,
+                    "rating": 79
+                },
+                {
+                    "name": "Maestro",
+                    "position": "MF",
+                    "market_value": "7.00 mil. \u20ac",
+                    "market_value_numeric": 7000000,
+                    "rating": 81
+                },
+                {
+                    "name": "\u0130lhan Mans\u0131z",
+                    "position": "FW",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 83
+                },
+                {
+                    "name": "Fabio Borini",
+                    "position": "FW",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 83
+                }
+            ]
+        },
+        {
+            "username": "ersen",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789473488
+}

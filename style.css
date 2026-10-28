@@ -2686,7 +2686,6 @@ body {
 
 .single-badge { background-color: var(--color-primary); }
 .pv1-badge { background-color: var(--color-accent); }
-.pv4-badge { background-color: #3f51b5; }
 
 /* Left Stripes & Hover Effects */
 .classic-card {
@@ -2703,15 +2702,6 @@ body {
 }
 .multi-2-card:hover {
     background-color: #ffebee !important;
-    transform: translate(-2px, -2px);
-    box-shadow: 6px 6px 0px var(--color-border);
-}
-
-.multi-4-card {
-    border-left: 10px solid #3f51b5 !important;
-}
-.multi-4-card:hover {
-    background-color: #e8eaf6 !important;
     transform: translate(-2px, -2px);
     box-shadow: 6px 6px 0px var(--color-border);
 }
@@ -7795,5 +7785,4 @@ img.badge-3d-icon,
     font-size: 0.78rem;
     font-weight: 800;
 }
-
 

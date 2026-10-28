@@ -1,0 +1,14 @@
+{
+    "roomCode": "2FWR9L",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "arda",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789639385
+}

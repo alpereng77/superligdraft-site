@@ -1,0 +1,99 @@
+{
+    "roomCode": "5632W8",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Emre",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "delgadooo",
+            "ready": true,
+            "rating": 81,
+            "formation": "3-5-2",
+            "squad": [
+                {
+                    "name": "U\u011furcan \u00c7ak\u0131r",
+                    "position": "GK",
+                    "market_value": "19.00 mil. \u20ac",
+                    "market_value_numeric": 19000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Tolga Do\u011fantez",
+                    "position": "DF",
+                    "market_value": "1.80 mil. \u20ac",
+                    "market_value_numeric": 1800000,
+                    "rating": 74
+                },
+                {
+                    "name": "Joseph Boum",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 74
+                },
+                {
+                    "name": "Aziz Behich",
+                    "position": "DF",
+                    "market_value": "2.75 mil. \u20ac",
+                    "market_value_numeric": 2750000,
+                    "rating": 81
+                },
+                {
+                    "name": "Isaac Promise",
+                    "position": "MF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Samuel Johnson",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 85
+                },
+                {
+                    "name": "Okay Yoku\u015flu",
+                    "position": "MF",
+                    "market_value": "7.50 mil. \u20ac",
+                    "market_value_numeric": 7500000,
+                    "rating": 87
+                },
+                {
+                    "name": "Ozan Tufan",
+                    "position": "MF",
+                    "market_value": "7.50 mil. \u20ac",
+                    "market_value_numeric": 7500000,
+                    "rating": 86
+                },
+                {
+                    "name": "Olcan Ad\u0131n",
+                    "position": "MF",
+                    "market_value": "850 bin \u20ac",
+                    "market_value_numeric": 850000,
+                    "rating": 73
+                },
+                {
+                    "name": "Hakan \u015e\u00fck\u00fcr",
+                    "position": "FW",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 83
+                },
+                {
+                    "name": "Jab\u00e1",
+                    "position": "FW",
+                    "market_value": "2.75 mil. \u20ac",
+                    "market_value_numeric": 2750000,
+                    "rating": 81
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1790532877
+}

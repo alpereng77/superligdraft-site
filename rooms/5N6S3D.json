@@ -1,0 +1,99 @@
+{
+    "roomCode": "5N6S3D",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "BOSS",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "asdadsad",
+            "ready": true,
+            "rating": 80,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "Renny Vega",
+                    "position": "GK",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Fatih Kurucuk",
+                    "position": "DF",
+                    "market_value": "1.80 mil. \u20ac",
+                    "market_value_numeric": 1800000,
+                    "rating": 76
+                },
+                {
+                    "name": "Nejc Skubic",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Kau\u00ea",
+                    "position": "DF",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 78
+                },
+                {
+                    "name": "Lumor Agbenyenu",
+                    "position": "DF",
+                    "market_value": "1.40 mil. \u20ac",
+                    "market_value_numeric": 1400000,
+                    "rating": 77
+                },
+                {
+                    "name": "Florent Hadergjonaj",
+                    "position": "MF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 84
+                },
+                {
+                    "name": "Sandro",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 79
+                },
+                {
+                    "name": "Maestro",
+                    "position": "MF",
+                    "market_value": "7.00 mil. \u20ac",
+                    "market_value_numeric": 7000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Arbnor Muja",
+                    "position": "MF",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Gabriel Torje",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 79
+                },
+                {
+                    "name": "Mehmet \u00c7ak\u0131r",
+                    "position": "FW",
+                    "market_value": "2.70 mil. \u20ac",
+                    "market_value_numeric": 2700000,
+                    "rating": 81
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1790334835
+}

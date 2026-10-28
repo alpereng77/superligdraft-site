@@ -1,0 +1,99 @@
+{
+    "roomCode": "67F4YP",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "24ERZ\u0130NCANSPOR",
+            "ready": true,
+            "rating": 81,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Fernando Muslera",
+                    "position": "GK",
+                    "market_value": "17.00 mil. \u20ac",
+                    "market_value_numeric": 17000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Diego \u00c2ngelo",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 78
+                },
+                {
+                    "name": "Calegari",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 76
+                },
+                {
+                    "name": "B\u00fcnyamin Balc\u0131",
+                    "position": "DF",
+                    "market_value": "2.20 mil. \u20ac",
+                    "market_value_numeric": 2200000,
+                    "rating": 77
+                },
+                {
+                    "name": "Majid Hosseini",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Deniz T\u00fcr\u00fc\u00e7",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 83
+                },
+                {
+                    "name": "Enis Bardhi",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 78
+                },
+                {
+                    "name": "\u0130brahim Ak\u0131n",
+                    "position": "MF",
+                    "market_value": "2.60 mil. \u20ac",
+                    "market_value_numeric": 2600000,
+                    "rating": 81
+                },
+                {
+                    "name": "Jo\u00e3o Figueiredo",
+                    "position": "FW",
+                    "market_value": "2.80 mil. \u20ac",
+                    "market_value_numeric": 2800000,
+                    "rating": 78
+                },
+                {
+                    "name": "Youssef En-Nesyri",
+                    "position": "FW",
+                    "market_value": "24.00 mil. \u20ac",
+                    "market_value_numeric": 24000000,
+                    "rating": 91
+                },
+                {
+                    "name": "Landry Dimata",
+                    "position": "FW",
+                    "market_value": "1.80 mil. \u20ac",
+                    "market_value_numeric": 1800000,
+                    "rating": 76
+                }
+            ]
+        },
+        {
+            "username": "cem",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1792493467
+}

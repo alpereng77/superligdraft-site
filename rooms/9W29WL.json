@@ -1,0 +1,99 @@
+{
+    "roomCode": "9W29WL",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Daadasl\u0131",
+            "ready": true,
+            "rating": 82,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Mert G\u00fcnok",
+                    "position": "GK",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 84
+                },
+                {
+                    "name": "Juanfran Moreno",
+                    "position": "DF",
+                    "market_value": "1.40 mil. \u20ac",
+                    "market_value_numeric": 1400000,
+                    "rating": 78
+                },
+                {
+                    "name": "Ivan",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 78
+                },
+                {
+                    "name": "Egemen Korkmaz",
+                    "position": "DF",
+                    "market_value": "2.25 mil. \u20ac",
+                    "market_value_numeric": 2250000,
+                    "rating": 78
+                },
+                {
+                    "name": "Marko Simic",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Amir Hadziahmetovic",
+                    "position": "MF",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 84
+                },
+                {
+                    "name": "Nicol\u00f2 Zaniolo",
+                    "position": "MF",
+                    "market_value": "20.00 mil. \u20ac",
+                    "market_value_numeric": 20000000,
+                    "rating": 92
+                },
+                {
+                    "name": "Mehmet Nas",
+                    "position": "MF",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 78
+                },
+                {
+                    "name": "Umut Bulut",
+                    "position": "FW",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 83
+                },
+                {
+                    "name": "Pierre Web\u00f3",
+                    "position": "FW",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Milan Baros",
+                    "position": "FW",
+                    "market_value": "9.50 mil. \u20ac",
+                    "market_value_numeric": 9500000,
+                    "rating": 88
+                }
+            ]
+        },
+        {
+            "username": "Rafo",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789669895
+}

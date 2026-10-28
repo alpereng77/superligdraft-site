@@ -1,0 +1,99 @@
+{
+    "roomCode": "U6BH7V",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "nevzattt",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "dogusex",
+            "ready": true,
+            "rating": 83,
+            "formation": "3-5-2",
+            "squad": [
+                {
+                    "name": "Berke \u00d6zer",
+                    "position": "GK",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 81
+                },
+                {
+                    "name": "U\u011fur Kavuk",
+                    "position": "DF",
+                    "market_value": "1.20 mil. \u20ac",
+                    "market_value_numeric": 1200000,
+                    "rating": 75
+                },
+                {
+                    "name": "Simon Kjaer",
+                    "position": "DF",
+                    "market_value": "11.00 mil. \u20ac",
+                    "market_value_numeric": 11000000,
+                    "rating": 88
+                },
+                {
+                    "name": "Rigobert Song",
+                    "position": "DF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 85
+                },
+                {
+                    "name": "Valon Ethemi",
+                    "position": "MF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 75
+                },
+                {
+                    "name": "Fernando Belluschi",
+                    "position": "MF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 84
+                },
+                {
+                    "name": "Ricardo Quaresma",
+                    "position": "MF",
+                    "market_value": "13.00 mil. \u20ac",
+                    "market_value_numeric": 13000000,
+                    "rating": 92
+                },
+                {
+                    "name": "Giuliano",
+                    "position": "MF",
+                    "market_value": "12.00 mil. \u20ac",
+                    "market_value_numeric": 12000000,
+                    "rating": 89
+                },
+                {
+                    "name": "Farouk Miya",
+                    "position": "MF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 80
+                },
+                {
+                    "name": "Paul Onuachu",
+                    "position": "FW",
+                    "market_value": "13.00 mil. \u20ac",
+                    "market_value_numeric": 13000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Mustafa Pektemek",
+                    "position": "FW",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 79
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1790598517
+}

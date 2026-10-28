@@ -228,6 +228,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $maxPlayers = intval($input['maxPlayers'] ?? 2);
         
         if (empty($username)) respond(false, null, 'Kullanıcı adı gerekli.');
+        if ($maxPlayers !== 2) respond(false, null, 'Yalnızca 2 kişilik derbi odaları destekleniyor.');
         
         $roomCode = generateRoomCode();
         $room = [
@@ -256,6 +257,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         
         $room = readRoom($roomCode);
         if (!$room) respond(false, null, 'Oda bulunamadı.');
+        if (($room['maxPlayers'] ?? 0) !== 2) respond(false, null, 'Bu oda artık desteklenmiyor.');
         if ($room['status'] !== 'waiting') respond(false, null, 'Bu oda oyuna başlamış.');
         if (count($room['players']) >= $room['maxPlayers']) respond(false, null, 'Bu oda dolu.');
         
@@ -278,54 +280,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         writeRoom($roomCode, $room);
         respond(true, ['room' => $room]);
 
-    } elseif ($action === 'fill_ai_bots') {
-        $roomCode = strtoupper($input['roomCode'] ?? '');
-        $username = $input['username'] ?? '';
-        
-        $room = readRoom($roomCode);
-        if (!$room) respond(false, null, 'Oda bulunamadı.');
-        if ($room['status'] !== 'waiting') respond(false, null, 'Bu oda bekleme durumunda değil.');
-        
-        if ($room['players'][0]['username'] !== $username) {
-            respond(false, null, 'Sadece oda kurucusu bot ekleyebilir.');
-        }
-        
-        $aiNames = [
-            'Efsane FB (2007-08)',
-            'Efsane GS (2000)',
-            'Efsane BJK (2016-17)',
-            'Efsane TS (2021-22)'
-        ];
-        
-        $needed = $room['maxPlayers'] - count($room['players']);
-        $aiFormations = ['4-3-3', '4-2-3-1', '3-5-2', '4-4-2'];
-        
-        for ($i = 0; $i < $needed; $i++) {
-            $aiName = $aiNames[$i % count($aiNames)];
-            foreach ($room['players'] as $p) {
-                if ($p['username'] === $aiName) {
-                    $aiName .= ' (AI)';
-                    break;
-                }
-            }
-            $randOvr = rand(78, 86);
-            $room['players'][] = [
-                'username' => $aiName,
-                'ready' => true,
-                'rating' => $randOvr,
-                'formation' => $aiFormations[$i % count($aiFormations)],
-                'isBot' => true
-            ];
-        }
-        
-        if (count($room['players']) >= $room['maxPlayers']) {
-            $room['status'] = 'drafting';
-        }
-        
-        $room['lastActivity'] = time();
-        writeRoom($roomCode, $room);
-        respond(true, ['room' => $room]);
-        
     } elseif ($action === 'set_ready') {
         $username = $input['username'] ?? '';
         $roomCode = strtoupper($input['roomCode'] ?? '');

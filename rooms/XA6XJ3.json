@@ -1,0 +1,99 @@
+{
+    "roomCode": "XA6XJ3",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "kero",
+            "ready": true,
+            "rating": 79,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Silviu Lung Jr.",
+                    "position": "GK",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "\u00dcmit Akda\u011f",
+                    "position": "DF",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Mehmet Ye\u015fil",
+                    "position": "DF",
+                    "market_value": "750 bin \u20ac",
+                    "market_value_numeric": 750000,
+                    "rating": 70
+                },
+                {
+                    "name": "Ryan Donk",
+                    "position": "DF",
+                    "market_value": "4.20 mil. \u20ac",
+                    "market_value_numeric": 4200000,
+                    "rating": 82
+                },
+                {
+                    "name": "Larrys Mabiala",
+                    "position": "DF",
+                    "market_value": "2.75 mil. \u20ac",
+                    "market_value_numeric": 2750000,
+                    "rating": 77
+                },
+                {
+                    "name": "Jeremain Lens",
+                    "position": "MF",
+                    "market_value": "11.00 mil. \u20ac",
+                    "market_value_numeric": 11000000,
+                    "rating": 89
+                },
+                {
+                    "name": "Engin Baytar",
+                    "position": "MF",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 78
+                },
+                {
+                    "name": "Ryan Babel",
+                    "position": "MF",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Welliton",
+                    "position": "FW",
+                    "market_value": "2.60 mil. \u20ac",
+                    "market_value_numeric": 2600000,
+                    "rating": 77
+                },
+                {
+                    "name": "Emmanuel Emenike",
+                    "position": "FW",
+                    "market_value": "2.70 mil. \u20ac",
+                    "market_value_numeric": 2700000,
+                    "rating": 78
+                },
+                {
+                    "name": "Yevgen Seleznyov",
+                    "position": "FW",
+                    "market_value": "1.80 mil. \u20ac",
+                    "market_value_numeric": 1800000,
+                    "rating": 76
+                }
+            ]
+        },
+        {
+            "username": "yido",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789588476
+}

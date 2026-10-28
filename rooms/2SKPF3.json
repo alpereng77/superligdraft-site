@@ -1,0 +1,20 @@
+{
+    "roomCode": "2SKPF3",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Eymen",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "mira\u00e7",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1792000001
+}

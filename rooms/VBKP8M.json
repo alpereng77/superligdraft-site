@@ -1,0 +1,20 @@
+{
+    "roomCode": "VBKP8M",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Emirhan",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Kerem",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789932522
+}

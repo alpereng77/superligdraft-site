@@ -1,0 +1,99 @@
+{
+    "roomCode": "96VJ6J",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "DELGADOOO",
+            "ready": true,
+            "rating": 78,
+            "formation": "3-5-2",
+            "squad": [
+                {
+                    "name": "Fernando Muslera",
+                    "position": "GK",
+                    "market_value": "16.00 mil. \u20ac",
+                    "market_value_numeric": 16000000,
+                    "rating": 91
+                },
+                {
+                    "name": "\u00d6zg\u00fcr \u00c7ek",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 76
+                },
+                {
+                    "name": "Arda K\u0131z\u0131lda\u011f",
+                    "position": "DF",
+                    "market_value": "1.30 mil. \u20ac",
+                    "market_value_numeric": 1300000,
+                    "rating": 75
+                },
+                {
+                    "name": "Luiz Henrique",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 76
+                },
+                {
+                    "name": "Orkan \u00c7\u0131nar",
+                    "position": "MF",
+                    "market_value": "1.00 mil. \u20ac",
+                    "market_value_numeric": 1000000,
+                    "rating": 74
+                },
+                {
+                    "name": "Mehmet Topuz",
+                    "position": "MF",
+                    "market_value": "1.25 mil. \u20ac",
+                    "market_value_numeric": 1250000,
+                    "rating": 74
+                },
+                {
+                    "name": "Fabian Ernst",
+                    "position": "MF",
+                    "market_value": "7.00 mil. \u20ac",
+                    "market_value_numeric": 7000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Gustavo Colman",
+                    "position": "MF",
+                    "market_value": "6.50 mil. \u20ac",
+                    "market_value_numeric": 6500000,
+                    "rating": 85
+                },
+                {
+                    "name": "Hakan Bayraktar",
+                    "position": "MF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 76
+                },
+                {
+                    "name": "Yevgen Seleznyov",
+                    "position": "FW",
+                    "market_value": "750 bin \u20ac",
+                    "market_value_numeric": 750000,
+                    "rating": 72
+                },
+                {
+                    "name": "Pr\u00e9juce Nakoulma",
+                    "position": "FW",
+                    "market_value": "2.30 mil. \u20ac",
+                    "market_value_numeric": 2300000,
+                    "rating": 76
+                }
+            ]
+        },
+        {
+            "username": "Emre",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790532409
+}

@@ -339,6 +339,9 @@ let tycoonState = {
     formation: "4-4-2",
     money: 4500,
     fans: 150,
+    // Kulübün haftalık maç ritmi. 100 kondisyon ideal, form 0-100 arası tutulur.
+    teamCondition: 100,
+    clubForm: 50,
     lastSaveTime: Date.now(),
     buildings: {
         stadium: 1
@@ -367,6 +370,7 @@ let tycoonState = {
 };
 
 let tycoonTickerInterval = null;
+let tycoonSaveInterval = null;
 
 // ==========================================
 // 2. DATA LOADING & INITIALIZATION
@@ -460,6 +464,14 @@ function loadTycoonData() {
         if (raw) {
             const parsed = JSON.parse(raw);
             tycoonState = Object.assign({}, tycoonState, parsed);
+            // Eski kayıtları yeni kariyer katmanına güvenle taşır.
+            tycoonState.buildings = Object.assign({}, { stadium: 1 }, parsed.buildings || {});
+            tycoonState.league = Object.assign({}, tycoonState.league, parsed.league || {});
+            tycoonState.stats = Object.assign({}, tycoonState.stats, parsed.stats || {});
+            tycoonState.teamCondition = Math.max(0, Math.min(100, Number(parsed.teamCondition ?? 100)));
+            tycoonState.clubForm = Math.max(0, Math.min(100, Number(parsed.clubForm ?? 50)));
+            tycoonState.lineup = Array.isArray(parsed.lineup) ? parsed.lineup : [];
+            tycoonState.bench = Array.isArray(parsed.bench) ? parsed.bench : [];
         }
     } catch (e) {
         console.error("Tycoon save yüklenemedi:", e);
@@ -520,16 +532,37 @@ function checkOfflineIncome() {
 
 function startTycoonTicker() {
     if (tycoonTickerInterval) clearInterval(tycoonTickerInterval);
+    if (tycoonSaveInterval) clearInterval(tycoonSaveInterval);
     tycoonTickerInterval = setInterval(() => {
         const perSec = getTotalPassivePerSec();
         tycoonState.money += perSec;
         tycoonState.stats.totalEarned += perSec;
+        recoverTeamCondition();
         updateTycoonHUD(false);
     }, 1000);
 
-    setInterval(() => {
+    tycoonSaveInterval = setInterval(() => {
         saveTycoonData();
     }, 10000);
+}
+
+function getRecoveryPerMinute() {
+    const b = tycoonState.buildings || {};
+    const medical = (TYCOON_CONFIG.buildings.medical.recovery[b.medical || 0] || 0) / 10;
+    const pool = (TYCOON_CONFIG.buildings.pool.recoveryBonus[b.pool || 0] || 0) / 15;
+    const hotel = (TYCOON_CONFIG.buildings.hotel.staminaBonus[b.hotel || 0] || 0) / 10;
+    return 0.25 + medical + pool + hotel;
+}
+
+function recoverTeamCondition() {
+    // Bu değer saniyede küçük artar; tesisler dinlenme süresini anlamlı biçimde kısaltır.
+    tycoonState.teamCondition = Math.min(100, tycoonState.teamCondition + getRecoveryPerMinute() / 60);
+}
+
+function getMatchReadiness() {
+    const conditionPenalty = Math.round(Math.max(0, 80 - tycoonState.teamCondition) / 16);
+    const formBonus = Math.round((tycoonState.clubForm - 50) / 12);
+    return { conditionPenalty, formBonus, effective: formBonus - conditionPenalty };
 }
 
 // ==========================================
@@ -1980,9 +2013,9 @@ function checkAcademyYouthDiscovery() {
         academyTier: academyLvl
     };
 
-    tycoonState.squad.push(youthPlayer);
     if (!tycoonState.bench) tycoonState.bench = [];
     tycoonState.bench.push(youthPlayer);
+    updateQuestProgress('youth', 1);
     saveTycoonData();
     updateTycoonHUD();
 
@@ -2030,7 +2063,8 @@ function playTycoonLeagueMatch() {
     const poolLvl = b.pool || 0;
     const poolBoost = (TYCOON_CONFIG.buildings.pool && TYCOON_CONFIG.buildings.pool.recoveryBonus[poolLvl]) ? Math.round(TYCOON_CONFIG.buildings.pool.recoveryBonus[poolLvl] / 15) : 0;
 
-    const totalMatchOvr = myBaseOvr + homeBonus + medicalBoost + statueBoost + trackBoost + poolBoost;
+    const readiness = getMatchReadiness();
+    const totalMatchOvr = myBaseOvr + homeBonus + medicalBoost + statueBoost + trackBoost + poolBoost + readiness.effective;
     const oppOvr = currentLeague.avgOpponentOvr + (Math.floor(Math.random() * 5) - 2);
 
     // Maç Günü Hasılatı (Stadyum bilet + Bistro yeme içme + Sponsorluk)
@@ -2070,7 +2104,9 @@ function playTycoonLeagueMatch() {
             stadium: homeBonus,
             statue: statueBoost,
             track: trackBoost,
-            medical: medicalBoost
+            medical: medicalBoost,
+            form: readiness.formBonus,
+            condition: -readiness.conditionPenalty
         },
         onComplete: function() {
             l.played++;
@@ -2088,15 +2124,24 @@ function playTycoonLeagueMatch() {
                 tycoonState.fans += Math.floor(Math.random() * 35) + 20;
                 resultMsg = `🎉 GALİBİYET! (${myGoals} - ${oppGoals}) +3 Puan | Toplam Hasılat: +${formatCurrency(totalMatchdayRevenue)}`;
                 updateQuestProgress('win', 1);
+                tycoonState.clubForm = Math.min(100, tycoonState.clubForm + 7);
             } else if (myGoals === oppGoals) {
                 l.drawn++;
                 l.points += 1;
                 tycoonState.fans += Math.floor(Math.random() * 12) + 5;
                 resultMsg = `🤝 BERABERLİK! (${myGoals} - ${oppGoals}) +1 Puan | Toplam Hasılat: +${formatCurrency(totalMatchdayRevenue)}`;
+                tycoonState.clubForm = Math.min(100, tycoonState.clubForm + 1);
             } else {
                 l.lost++;
                 resultMsg = `💔 MAĞLUBİYET! (${myGoals} - ${oppGoals}) | Toplam Hasılat: +${formatCurrency(totalMatchdayRevenue)}`;
+                tycoonState.clubForm = Math.max(0, tycoonState.clubForm - 6);
             }
+
+            // Maç yorgunluğu tesislerle azaltılır. Düşük kondisyon maç gücünü etkiler.
+            const hotelLvl = b.hotel || 0;
+            const fatigueShield = Math.round(((TYCOON_CONFIG.buildings.medical.recovery[medicalLvl] || 0) + (TYCOON_CONFIG.buildings.pool.recoveryBonus[poolLvl] || 0) + (TYCOON_CONFIG.buildings.hotel.staminaBonus[hotelLvl] || 0)) / 12);
+            const fatigue = Math.max(4, 15 - fatigueShield);
+            tycoonState.teamCondition = Math.max(0, tycoonState.teamCondition - fatigue);
 
             updateQuestProgress('goals', myGoals);
             if (oppGoals === 0) updateQuestProgress('clean_sheet', 1);
@@ -2252,8 +2297,7 @@ function updateTycoonHUD(full = true) {
     const elLeague = document.getElementById("tycoon-hud-league");
     const elClubTitle = document.getElementById("tycoon-club-name-title");
 
-    const shopLvl = (tycoonState.buildings && tycoonState.buildings.fanshop) || 1;
-    const perSec = (TYCOON_CONFIG.buildings.fanshop && TYCOON_CONFIG.buildings.fanshop.passive[shopLvl]) || 10;
+    const perSec = getTotalPassivePerSec();
     const teamOvr = calculateSquadOverall();
 
     if (elMoney) elMoney.textContent = formatCurrency(tycoonState.money);
@@ -2267,6 +2311,11 @@ function updateTycoonHUD(full = true) {
 
     const elFormation = document.getElementById("select-tycoon-formation");
     if (elFormation) elFormation.value = tycoonState.formation || "4-4-2";
+
+    const elCondition = document.getElementById("tycoon-hud-condition");
+    const elForm = document.getElementById("tycoon-hud-form");
+    if (elCondition) elCondition.textContent = `%${Math.round(tycoonState.teamCondition)}`;
+    if (elForm) elForm.textContent = `%${Math.round(tycoonState.clubForm)}`;
 }
 
 function calculateSquadOverall() {
@@ -3183,4 +3232,3 @@ function renderMuseumView() {
         `;
     }).join('');
 }
-

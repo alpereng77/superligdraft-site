@@ -1,0 +1,20 @@
+{
+    "roomCode": "88G7SE",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "umutcan",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "ege",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1792280765
+}

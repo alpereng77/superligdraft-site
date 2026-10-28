@@ -1,0 +1,99 @@
+{
+    "roomCode": "Q83VVH",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Huso",
+            "ready": true,
+            "rating": 80,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Silviu Lung Jr.",
+                    "position": "GK",
+                    "market_value": "800 bin \u20ac",
+                    "market_value_numeric": 800000,
+                    "rating": 74
+                },
+                {
+                    "name": "Mustafa Eskihella\u00e7",
+                    "position": "DF",
+                    "market_value": "2.40 mil. \u20ac",
+                    "market_value_numeric": 2400000,
+                    "rating": 77
+                },
+                {
+                    "name": "Diego Lugano",
+                    "position": "DF",
+                    "market_value": "12.50 mil. \u20ac",
+                    "market_value_numeric": 12500000,
+                    "rating": 91
+                },
+                {
+                    "name": "Majid Hosseini",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Mustafa Eskihella\u00e7",
+                    "position": "DF",
+                    "market_value": "2.40 mil. \u20ac",
+                    "market_value_numeric": 2400000,
+                    "rating": 77
+                },
+                {
+                    "name": "Giani Kiri\u021b\u0103",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Fernando Belluschi",
+                    "position": "MF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 84
+                },
+                {
+                    "name": "Farouk Miya",
+                    "position": "MF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 80
+                },
+                {
+                    "name": "Ersen Martin",
+                    "position": "FW",
+                    "market_value": "650 bin \u20ac",
+                    "market_value_numeric": 650000,
+                    "rating": 69
+                },
+                {
+                    "name": "Haji Wright",
+                    "position": "FW",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 83
+                },
+                {
+                    "name": "Antonio de Nigris",
+                    "position": "FW",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 82
+                }
+            ]
+        },
+        {
+            "username": "Yasin",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1791026536
+}

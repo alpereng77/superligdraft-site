@@ -1,0 +1,14 @@
+{
+    "roomCode": "2234S5",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "BlackMamba",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789543356
+}

@@ -1,0 +1,99 @@
+{
+    "roomCode": "HQX9NU",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Arda",
+            "ready": true,
+            "rating": 82,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "Onur K\u0131vrak",
+                    "position": "GK",
+                    "market_value": "7.00 mil. \u20ac",
+                    "market_value_numeric": 7000000,
+                    "rating": 86
+                },
+                {
+                    "name": "Alper Ak\u0131c\u0131",
+                    "position": "DF",
+                    "market_value": "1.55 mil. \u20ac",
+                    "market_value_numeric": 1550000,
+                    "rating": 73
+                },
+                {
+                    "name": "Diego \u00c2ngelo",
+                    "position": "DF",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Milos Kosanovic",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Pape Diakhat\u00e9",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Florent Hadergjonaj",
+                    "position": "MF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 83
+                },
+                {
+                    "name": "Senijad Ibricic",
+                    "position": "MF",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Kerem Akt\u00fcrko\u011flu",
+                    "position": "MF",
+                    "market_value": "16.50 mil. \u20ac",
+                    "market_value_numeric": 16500000,
+                    "rating": 92
+                },
+                {
+                    "name": "Emrah Ba\u015fsan",
+                    "position": "MF",
+                    "market_value": "4.60 mil. \u20ac",
+                    "market_value_numeric": 4600000,
+                    "rating": 81
+                },
+                {
+                    "name": "Tamer Tuna",
+                    "position": "MF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Mehmet Y\u0131ld\u0131z",
+                    "position": "FW",
+                    "market_value": "4.20 mil. \u20ac",
+                    "market_value_numeric": 4200000,
+                    "rating": 81
+                }
+            ]
+        },
+        {
+            "username": "KADIK\u00d6Y FC",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789639718
+}

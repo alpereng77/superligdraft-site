@@ -1,0 +1,99 @@
+{
+    "roomCode": "EGKS7Z",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "11",
+            "ready": true,
+            "rating": 80,
+            "formation": "4-4-2",
+            "squad": [
+                {
+                    "name": "Volkan Babacan",
+                    "position": "GK",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 82
+                },
+                {
+                    "name": "U\u011fur \u00c7ift\u00e7i",
+                    "position": "DF",
+                    "market_value": "1.75 mil. \u20ac",
+                    "market_value_numeric": 1750000,
+                    "rating": 78
+                },
+                {
+                    "name": "Arseniy Batagov",
+                    "position": "DF",
+                    "market_value": "11.00 mil. \u20ac",
+                    "market_value_numeric": 11000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Jakub Navratil",
+                    "position": "DF",
+                    "market_value": "2.20 mil. \u20ac",
+                    "market_value_numeric": 2200000,
+                    "rating": 76
+                },
+                {
+                    "name": "Joe Worrall",
+                    "position": "DF",
+                    "market_value": "7.50 mil. \u20ac",
+                    "market_value_numeric": 7500000,
+                    "rating": 83
+                },
+                {
+                    "name": "Lukas Zelenka",
+                    "position": "MF",
+                    "market_value": "2.80 mil. \u20ac",
+                    "market_value_numeric": 2800000,
+                    "rating": 82
+                },
+                {
+                    "name": "Guilherme",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Lukas Zelenka",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Andr\u00e9 Poko",
+                    "position": "MF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 75
+                },
+                {
+                    "name": "Bob\u00f4",
+                    "position": "FW",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Antonio de Nigris",
+                    "position": "FW",
+                    "market_value": "2.40 mil. \u20ac",
+                    "market_value_numeric": 2400000,
+                    "rating": 80
+                }
+            ]
+        },
+        {
+            "username": "2",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789954614
+}

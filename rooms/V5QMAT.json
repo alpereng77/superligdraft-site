@@ -1,0 +1,99 @@
+{
+    "roomCode": "V5QMAT",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "H\u0130RADES",
+            "ready": true,
+            "rating": 81,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "Tolga Zengin",
+                    "position": "GK",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 78
+                },
+                {
+                    "name": "Larrys Mabiala",
+                    "position": "DF",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 74
+                },
+                {
+                    "name": "Rick van Drongelen",
+                    "position": "DF",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Musa B\u00fcy\u00fck",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 78
+                },
+                {
+                    "name": "Razundara Tjikuzu",
+                    "position": "DF",
+                    "market_value": "850 bin \u20ac",
+                    "market_value_numeric": 850000,
+                    "rating": 73
+                },
+                {
+                    "name": "Ogenyi Onazi",
+                    "position": "MF",
+                    "market_value": "1.60 mil. \u20ac",
+                    "market_value_numeric": 1600000,
+                    "rating": 79
+                },
+                {
+                    "name": "Marcel Mbayo",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 79
+                },
+                {
+                    "name": "Pablo Mouche",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Steven Nzonzi",
+                    "position": "MF",
+                    "market_value": "11.00 mil. \u20ac",
+                    "market_value_numeric": 11000000,
+                    "rating": 91
+                },
+                {
+                    "name": "G\u00f6kdeniz Karadeniz",
+                    "position": "MF",
+                    "market_value": "7.30 mil. \u20ac",
+                    "market_value_numeric": 7300000,
+                    "rating": 89
+                },
+                {
+                    "name": "Moussa Sow",
+                    "position": "FW",
+                    "market_value": "14.00 mil. \u20ac",
+                    "market_value_numeric": 14000000,
+                    "rating": 89
+                }
+            ]
+        },
+        {
+            "username": "Nurimo",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789546243
+}

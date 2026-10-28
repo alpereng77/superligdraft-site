@@ -1,0 +1,99 @@
+{
+    "roomCode": "EP9WUQ",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "rrezzak",
+            "ready": true,
+            "rating": 82,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "Ricardo Velho",
+                    "position": "GK",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 76
+                },
+                {
+                    "name": "\u00d6mer Bayram",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 79
+                },
+                {
+                    "name": "Yasin \u00d6zcan",
+                    "position": "DF",
+                    "market_value": "7.50 mil. \u20ac",
+                    "market_value_numeric": 7500000,
+                    "rating": 83
+                },
+                {
+                    "name": "Servet \u00c7etin",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Aykut Demir",
+                    "position": "DF",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 83
+                },
+                {
+                    "name": "Mounir Chouiar",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Isaac Promise",
+                    "position": "MF",
+                    "market_value": "3.60 mil. \u20ac",
+                    "market_value_numeric": 3600000,
+                    "rating": 80
+                },
+                {
+                    "name": "Randall Azofeifa",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Wesley Sneijder",
+                    "position": "MF",
+                    "market_value": "13.50 mil. \u20ac",
+                    "market_value_numeric": 13500000,
+                    "rating": 88
+                },
+                {
+                    "name": "Castro",
+                    "position": "MF",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Mauro Icardi",
+                    "position": "FW",
+                    "market_value": "19.00 mil. \u20ac",
+                    "market_value_numeric": 19000000,
+                    "rating": 92
+                }
+            ]
+        },
+        {
+            "username": "Can",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1792362820
+}

@@ -1,0 +1,99 @@
+{
+    "roomCode": "293HPZ",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Yigit",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "hasan",
+            "ready": true,
+            "rating": 78,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Berke \u00d6zer",
+                    "position": "GK",
+                    "market_value": "1.20 mil. \u20ac",
+                    "market_value_numeric": 1200000,
+                    "rating": 73
+                },
+                {
+                    "name": "Alex Telles",
+                    "position": "DF",
+                    "market_value": "8.50 mil. \u20ac",
+                    "market_value_numeric": 8500000,
+                    "rating": 87
+                },
+                {
+                    "name": "Erdin\u00e7 Yavuz",
+                    "position": "DF",
+                    "market_value": "2.60 mil. \u20ac",
+                    "market_value_numeric": 2600000,
+                    "rating": 81
+                },
+                {
+                    "name": "Razundara Tjikuzu",
+                    "position": "DF",
+                    "market_value": "850 bin \u20ac",
+                    "market_value_numeric": 850000,
+                    "rating": 73
+                },
+                {
+                    "name": "Rick van Drongelen",
+                    "position": "DF",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Franco Tongya",
+                    "position": "MF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 74
+                },
+                {
+                    "name": "Alexandru Maxim",
+                    "position": "MF",
+                    "market_value": "3.30 mil. \u20ac",
+                    "market_value_numeric": 3300000,
+                    "rating": 81
+                },
+                {
+                    "name": "Jakub Kaluzinski",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 78
+                },
+                {
+                    "name": "Ricardo Gomes",
+                    "position": "FW",
+                    "market_value": "1.60 mil. \u20ac",
+                    "market_value_numeric": 1600000,
+                    "rating": 76
+                },
+                {
+                    "name": "Sinan Kalo\u011flu",
+                    "position": "FW",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 79
+                },
+                {
+                    "name": "Antonio de Nigris",
+                    "position": "FW",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 82
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1789631780
+}

@@ -1,0 +1,20 @@
+{
+    "roomCode": "JK8HAJ",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "\u015eakalak",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Yunus",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1792329938
+}

@@ -1,0 +1,99 @@
+{
+    "roomCode": "Q7TF4T",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "TORRES",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "ismayil",
+            "ready": true,
+            "rating": 82,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "U\u011furcan \u00c7ak\u0131r",
+                    "position": "GK",
+                    "market_value": "19.00 mil. \u20ac",
+                    "market_value_numeric": 19000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Kau\u00ea",
+                    "position": "DF",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 78
+                },
+                {
+                    "name": "Chidozie Awaziem",
+                    "position": "DF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 83
+                },
+                {
+                    "name": "Jacques Faty",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 75
+                },
+                {
+                    "name": "G\u00f6khan Zan",
+                    "position": "DF",
+                    "market_value": "5.80 mil. \u20ac",
+                    "market_value_numeric": 5800000,
+                    "rating": 86
+                },
+                {
+                    "name": "Ahmed Kutucu",
+                    "position": "MF",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Neca",
+                    "position": "MF",
+                    "market_value": "2.60 mil. \u20ac",
+                    "market_value_numeric": 2600000,
+                    "rating": 80
+                },
+                {
+                    "name": "John Chibuike",
+                    "position": "MF",
+                    "market_value": "3.60 mil. \u20ac",
+                    "market_value_numeric": 3600000,
+                    "rating": 79
+                },
+                {
+                    "name": "Necati Ate\u015f",
+                    "position": "FW",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 84
+                },
+                {
+                    "name": "Burak Y\u0131lmaz",
+                    "position": "FW",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 80
+                },
+                {
+                    "name": "Mame Thiam",
+                    "position": "FW",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 80
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1792131560
+}

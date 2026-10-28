@@ -1,0 +1,99 @@
+{
+    "roomCode": "CQ2PL4",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "sakaka",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "nevobaba",
+            "ready": true,
+            "rating": 82,
+            "formation": "4-4-2",
+            "squad": [
+                {
+                    "name": "Volkan Babacan",
+                    "position": "GK",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 86
+                },
+                {
+                    "name": "Radoslav Batak",
+                    "position": "DF",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 77
+                },
+                {
+                    "name": "\u00d6mer Bayram",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 79
+                },
+                {
+                    "name": "Emrah Eren",
+                    "position": "DF",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 76
+                },
+                {
+                    "name": "Emrah Eren",
+                    "position": "DF",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 76
+                },
+                {
+                    "name": "Nordin Amrabat",
+                    "position": "MF",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 84
+                },
+                {
+                    "name": "Amir Hadziahmetovic",
+                    "position": "MF",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 84
+                },
+                {
+                    "name": "Fisayo Dele-Bashiru",
+                    "position": "MF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 77
+                },
+                {
+                    "name": "Miralem Pjani\u0107",
+                    "position": "MF",
+                    "market_value": "9.50 mil. \u20ac",
+                    "market_value_numeric": 9500000,
+                    "rating": 87
+                },
+                {
+                    "name": "Nicolas Anelka",
+                    "position": "FW",
+                    "market_value": "12.50 mil. \u20ac",
+                    "market_value_numeric": 12500000,
+                    "rating": 93
+                },
+                {
+                    "name": "Mbaye Diagne",
+                    "position": "FW",
+                    "market_value": "9.00 mil. \u20ac",
+                    "market_value_numeric": 9000000,
+                    "rating": 87
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1789472091
+}

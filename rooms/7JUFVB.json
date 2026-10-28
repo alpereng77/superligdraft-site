@@ -1,0 +1,99 @@
+{
+    "roomCode": "7JUFVB",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "h gch f",
+            "ready": true,
+            "rating": 80,
+            "formation": "3-5-2",
+            "squad": [
+                {
+                    "name": "Kenan Hasagic",
+                    "position": "GK",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Ahmet \u00c7al\u0131k",
+                    "position": "DF",
+                    "market_value": "3.80 mil. \u20ac",
+                    "market_value_numeric": 3800000,
+                    "rating": 80
+                },
+                {
+                    "name": "Hasan Yurt",
+                    "position": "DF",
+                    "market_value": "2.75 mil. \u20ac",
+                    "market_value_numeric": 2750000,
+                    "rating": 82
+                },
+                {
+                    "name": "Joseph Boum",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 74
+                },
+                {
+                    "name": "Abdou Traor\u00e9",
+                    "position": "MF",
+                    "market_value": "3.20 mil. \u20ac",
+                    "market_value_numeric": 3200000,
+                    "rating": 78
+                },
+                {
+                    "name": "Dia Saba",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Deniz T\u00fcr\u00fc\u00e7",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 83
+                },
+                {
+                    "name": "Christian Cueva",
+                    "position": "MF",
+                    "market_value": "2.70 mil. \u20ac",
+                    "market_value_numeric": 2700000,
+                    "rating": 80
+                },
+                {
+                    "name": "Erman K\u0131l\u0131\u00e7",
+                    "position": "MF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Vedat Muriqi",
+                    "position": "FW",
+                    "market_value": "9.50 mil. \u20ac",
+                    "market_value_numeric": 9500000,
+                    "rating": 89
+                },
+                {
+                    "name": "L\u00e9onard Kweuke",
+                    "position": "FW",
+                    "market_value": "3.25 mil. \u20ac",
+                    "market_value_numeric": 3250000,
+                    "rating": 78
+                }
+            ]
+        },
+        {
+            "username": "ramo",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789472426
+}

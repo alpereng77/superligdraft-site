@@ -1,0 +1,99 @@
+{
+    "roomCode": "EAMGHM",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "ANAL",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "sex",
+            "ready": true,
+            "rating": 80,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Luis Mart\u00ednez",
+                    "position": "GK",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 79
+                },
+                {
+                    "name": "Samet Akaydin",
+                    "position": "DF",
+                    "market_value": "4.20 mil. \u20ac",
+                    "market_value_numeric": 4200000,
+                    "rating": 81
+                },
+                {
+                    "name": "Fernando Varela",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 75
+                },
+                {
+                    "name": "U\u011fur Demirok",
+                    "position": "DF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 78
+                },
+                {
+                    "name": "B\u00fcnyamin Balc\u0131",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 80
+                },
+                {
+                    "name": "Deni Milosevic",
+                    "position": "MF",
+                    "market_value": "1.80 mil. \u20ac",
+                    "market_value_numeric": 1800000,
+                    "rating": 80
+                },
+                {
+                    "name": "Ismail Aissati",
+                    "position": "MF",
+                    "market_value": "3.80 mil. \u20ac",
+                    "market_value_numeric": 3800000,
+                    "rating": 80
+                },
+                {
+                    "name": "Emre Akbaba",
+                    "position": "MF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 85
+                },
+                {
+                    "name": "Bogdan Stancu",
+                    "position": "FW",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Michy Batshuayi",
+                    "position": "FW",
+                    "market_value": "8.50 mil. \u20ac",
+                    "market_value_numeric": 8500000,
+                    "rating": 84
+                },
+                {
+                    "name": "Necati Ate\u015f",
+                    "position": "FW",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 80
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1791303834
+}

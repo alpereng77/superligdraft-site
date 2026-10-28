@@ -1,0 +1,14 @@
+{
+    "roomCode": "9QMYRX",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "irey",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789935896
+}

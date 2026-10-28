@@ -1,0 +1,99 @@
+{
+    "roomCode": "N2HXDG",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "sex",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "ANALCI",
+            "ready": true,
+            "rating": 83,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Do\u011fan Alemdar",
+                    "position": "GK",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Aaron Appindangoy\u00e9",
+                    "position": "DF",
+                    "market_value": "1.20 mil. \u20ac",
+                    "market_value_numeric": 1200000,
+                    "rating": 77
+                },
+                {
+                    "name": "St\u00e9phane Borbiconi",
+                    "position": "DF",
+                    "market_value": "2.75 mil. \u20ac",
+                    "market_value_numeric": 2750000,
+                    "rating": 81
+                },
+                {
+                    "name": "Serdar Aziz",
+                    "position": "DF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 83
+                },
+                {
+                    "name": "Tayyip Talha Sanu\u00e7",
+                    "position": "DF",
+                    "market_value": "2.80 mil. \u20ac",
+                    "market_value_numeric": 2800000,
+                    "rating": 78
+                },
+                {
+                    "name": "Trezeguet",
+                    "position": "MF",
+                    "market_value": "10.00 mil. \u20ac",
+                    "market_value_numeric": 10000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Emre K\u0131l\u0131n\u00e7",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Josu\u00e9",
+                    "position": "MF",
+                    "market_value": "8.25 mil. \u20ac",
+                    "market_value_numeric": 8250000,
+                    "rating": 87
+                },
+                {
+                    "name": "Mame Thiam",
+                    "position": "FW",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 80
+                },
+                {
+                    "name": "Cyle Larin",
+                    "position": "FW",
+                    "market_value": "11.00 mil. \u20ac",
+                    "market_value_numeric": 11000000,
+                    "rating": 89
+                },
+                {
+                    "name": "Victor Osimhen",
+                    "position": "FW",
+                    "market_value": "75.00 mil. \u20ac",
+                    "market_value_numeric": 75000000,
+                    "rating": 93
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1791303642
+}

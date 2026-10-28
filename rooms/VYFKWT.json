@@ -1,0 +1,14 @@
+{
+    "roomCode": "VYFKWT",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "azizdomaltan",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790350105
+}

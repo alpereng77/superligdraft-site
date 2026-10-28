@@ -1,0 +1,20 @@
+{
+    "roomCode": "GRPYE9",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "ramo",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "pornobag\u0131ml\u0131s\u0131",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790585206
+}

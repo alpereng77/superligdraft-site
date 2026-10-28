@@ -1,0 +1,99 @@
+{
+    "roomCode": "6T3U66",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Yunus",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "\u015eakalak",
+            "ready": true,
+            "rating": 82,
+            "formation": "4-4-2",
+            "squad": [
+                {
+                    "name": "U\u011furcan \u00c7ak\u0131r",
+                    "position": "GK",
+                    "market_value": "18.00 mil. \u20ac",
+                    "market_value_numeric": 18000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Filip Daems",
+                    "position": "DF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Manuel da Costa",
+                    "position": "DF",
+                    "market_value": "3.75 mil. \u20ac",
+                    "market_value_numeric": 3750000,
+                    "rating": 80
+                },
+                {
+                    "name": "Eren Albayrak",
+                    "position": "DF",
+                    "market_value": "2.80 mil. \u20ac",
+                    "market_value_numeric": 2800000,
+                    "rating": 77
+                },
+                {
+                    "name": "Nihad Mujakic",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 77
+                },
+                {
+                    "name": "Manuel Fernandes",
+                    "position": "MF",
+                    "market_value": "14.00 mil. \u20ac",
+                    "market_value_numeric": 14000000,
+                    "rating": 90
+                },
+                {
+                    "name": "Loret Sadiku",
+                    "position": "MF",
+                    "market_value": "2.40 mil. \u20ac",
+                    "market_value_numeric": 2400000,
+                    "rating": 76
+                },
+                {
+                    "name": "Olcan Ad\u0131n",
+                    "position": "MF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 83
+                },
+                {
+                    "name": "Volkan \u015een",
+                    "position": "MF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 84
+                },
+                {
+                    "name": "Gerson Rodrigues",
+                    "position": "FW",
+                    "market_value": "1.40 mil. \u20ac",
+                    "market_value_numeric": 1400000,
+                    "rating": 78
+                },
+                {
+                    "name": "Ayoub El Kaabi",
+                    "position": "FW",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 83
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1792329745
+}

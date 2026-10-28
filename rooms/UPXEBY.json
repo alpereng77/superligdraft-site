@@ -1,0 +1,99 @@
+{
+    "roomCode": "UPXEBY",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Nenedehleyen",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "edip\u00e7akan",
+            "ready": true,
+            "rating": 82,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "Onur K\u0131vrak",
+                    "position": "GK",
+                    "market_value": "7.00 mil. \u20ac",
+                    "market_value_numeric": 7000000,
+                    "rating": 86
+                },
+                {
+                    "name": "B\u00fcnyamin Balc\u0131",
+                    "position": "DF",
+                    "market_value": "2.20 mil. \u20ac",
+                    "market_value_numeric": 2200000,
+                    "rating": 77
+                },
+                {
+                    "name": "Yassine Meriah",
+                    "position": "DF",
+                    "market_value": "2.40 mil. \u20ac",
+                    "market_value_numeric": 2400000,
+                    "rating": 81
+                },
+                {
+                    "name": "Hayrettin Yerlikaya",
+                    "position": "DF",
+                    "market_value": "2.70 mil. \u20ac",
+                    "market_value_numeric": 2700000,
+                    "rating": 81
+                },
+                {
+                    "name": "Orhan \u015eam",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Yusuf Sar\u0131",
+                    "position": "MF",
+                    "market_value": "3.80 mil. \u20ac",
+                    "market_value_numeric": 3800000,
+                    "rating": 79
+                },
+                {
+                    "name": "Ceyhun Eri\u015f",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 83
+                },
+                {
+                    "name": "Amir Hadziahmetovic",
+                    "position": "MF",
+                    "market_value": "7.50 mil. \u20ac",
+                    "market_value_numeric": 7500000,
+                    "rating": 85
+                },
+                {
+                    "name": "Giuliano",
+                    "position": "MF",
+                    "market_value": "14.00 mil. \u20ac",
+                    "market_value_numeric": 14000000,
+                    "rating": 91
+                },
+                {
+                    "name": "Yusuf Sar\u0131",
+                    "position": "MF",
+                    "market_value": "3.80 mil. \u20ac",
+                    "market_value_numeric": 3800000,
+                    "rating": 79
+                },
+                {
+                    "name": "Burak Y\u0131lmaz",
+                    "position": "FW",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1790446192
+}

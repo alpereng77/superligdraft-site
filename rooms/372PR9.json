@@ -1,0 +1,99 @@
+{
+    "roomCode": "372PR9",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "KAPTAN",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "ENES",
+            "ready": true,
+            "rating": 80,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Scott Carson",
+                    "position": "GK",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Jayden Oosterwolde",
+                    "position": "DF",
+                    "market_value": "20.00 mil. \u20ac",
+                    "market_value_numeric": 20000000,
+                    "rating": 86
+                },
+                {
+                    "name": "Onur Bulut",
+                    "position": "DF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 79
+                },
+                {
+                    "name": "Fatih Akyel",
+                    "position": "DF",
+                    "market_value": "1.00 mil. \u20ac",
+                    "market_value_numeric": 1000000,
+                    "rating": 71
+                },
+                {
+                    "name": "J\u00falio C\u00e9sar",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 78
+                },
+                {
+                    "name": "\u0130brahim Ak\u0131n",
+                    "position": "MF",
+                    "market_value": "2.10 mil. \u20ac",
+                    "market_value_numeric": 2100000,
+                    "rating": 79
+                },
+                {
+                    "name": "Ryan Babel",
+                    "position": "MF",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 82
+                },
+                {
+                    "name": "\u0130rfan Can Kahveci",
+                    "position": "MF",
+                    "market_value": "11.00 mil. \u20ac",
+                    "market_value_numeric": 11000000,
+                    "rating": 90
+                },
+                {
+                    "name": "Souleymane Doukara",
+                    "position": "FW",
+                    "market_value": "2.25 mil. \u20ac",
+                    "market_value_numeric": 2250000,
+                    "rating": 81
+                },
+                {
+                    "name": "Burak Y\u0131lmaz",
+                    "position": "FW",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Bob\u00f4",
+                    "position": "FW",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 80
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1791965196
+}

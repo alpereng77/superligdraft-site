@@ -1,0 +1,14 @@
+{
+    "roomCode": "JF9NV8",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Gift Orban",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789932540
+}

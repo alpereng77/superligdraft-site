@@ -1,0 +1,99 @@
+{
+    "roomCode": "FRAHU6",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "rrezzak",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Erzak",
+            "ready": true,
+            "rating": 80,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "Zdravko Zdravkov",
+                    "position": "GK",
+                    "market_value": "1.25 mil. \u20ac",
+                    "market_value_numeric": 1250000,
+                    "rating": 70
+                },
+                {
+                    "name": "Ferdi Kad\u0131o\u011flu",
+                    "position": "DF",
+                    "market_value": "25.00 mil. \u20ac",
+                    "market_value_numeric": 25000000,
+                    "rating": 92
+                },
+                {
+                    "name": "Orhan \u015eam",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Rigobert Song",
+                    "position": "DF",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 85
+                },
+                {
+                    "name": "Jacques Faty",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 75
+                },
+                {
+                    "name": "Kartal Y\u0131lmaz",
+                    "position": "MF",
+                    "market_value": "2.60 mil. \u20ac",
+                    "market_value_numeric": 2600000,
+                    "rating": 77
+                },
+                {
+                    "name": "Mehmet Ekici",
+                    "position": "MF",
+                    "market_value": "7.50 mil. \u20ac",
+                    "market_value_numeric": 7500000,
+                    "rating": 86
+                },
+                {
+                    "name": "Valon Ethemi",
+                    "position": "MF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 76
+                },
+                {
+                    "name": "Dia Saba",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Emmanuel Culio",
+                    "position": "MF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Aboubakar Kamara",
+                    "position": "FW",
+                    "market_value": "2.75 mil. \u20ac",
+                    "market_value_numeric": 2750000,
+                    "rating": 82
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1792352465
+}

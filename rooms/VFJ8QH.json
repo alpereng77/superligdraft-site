@@ -1,0 +1,99 @@
+{
+    "roomCode": "VFJ8QH",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "nurimo",
+            "ready": true,
+            "rating": 81,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "G\u00fcnay G\u00fcven\u00e7",
+                    "position": "GK",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 77
+                },
+                {
+                    "name": "\u00d6mer Ali \u015eahiner",
+                    "position": "DF",
+                    "market_value": "1.30 mil. \u20ac",
+                    "market_value_numeric": 1300000,
+                    "rating": 73
+                },
+                {
+                    "name": "Guy-Marcelin Kilama",
+                    "position": "DF",
+                    "market_value": "1.40 mil. \u20ac",
+                    "market_value_numeric": 1400000,
+                    "rating": 74
+                },
+                {
+                    "name": "Matheus D\u00f3ria",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Gustavo Victoria",
+                    "position": "DF",
+                    "market_value": "850 bin \u20ac",
+                    "market_value_numeric": 850000,
+                    "rating": 71
+                },
+                {
+                    "name": "Adem Ljajic",
+                    "position": "MF",
+                    "market_value": "9.00 mil. \u20ac",
+                    "market_value_numeric": 9000000,
+                    "rating": 88
+                },
+                {
+                    "name": "Ra\u00fal Meireles",
+                    "position": "MF",
+                    "market_value": "10.00 mil. \u20ac",
+                    "market_value_numeric": 10000000,
+                    "rating": 88
+                },
+                {
+                    "name": "Alex",
+                    "position": "MF",
+                    "market_value": "11.00 mil. \u20ac",
+                    "market_value_numeric": 11000000,
+                    "rating": 91
+                },
+                {
+                    "name": "Talisca",
+                    "position": "MF",
+                    "market_value": "13.00 mil. \u20ac",
+                    "market_value_numeric": 13000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Lukas Zelenka",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Krzysztof Piatek",
+                    "position": "FW",
+                    "market_value": "8.50 mil. \u20ac",
+                    "market_value_numeric": 8500000,
+                    "rating": 83
+                }
+            ]
+        },
+        {
+            "username": "H\u0130RADESS",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789546414
+}

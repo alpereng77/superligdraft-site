@@ -1,0 +1,99 @@
+{
+    "roomCode": "5EEVKT",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "NUR\u0130",
+            "ready": true,
+            "rating": 82,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "Fernando Muslera",
+                    "position": "GK",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 86
+                },
+                {
+                    "name": "Erg\u00fcn Teber",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Douglas",
+                    "position": "DF",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Dario Melnjak",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Bekir \u0130rteg\u00fcn",
+                    "position": "DF",
+                    "market_value": "1.30 mil. \u20ac",
+                    "market_value_numeric": 1300000,
+                    "rating": 75
+                },
+                {
+                    "name": "Kl\u00e9berson",
+                    "position": "MF",
+                    "market_value": "6.35 mil. \u20ac",
+                    "market_value_numeric": 6350000,
+                    "rating": 87
+                },
+                {
+                    "name": "Abdou Traor\u00e9",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 79
+                },
+                {
+                    "name": "Henry Onyekuru",
+                    "position": "MF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Amir Hadziahmetovic",
+                    "position": "MF",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Rachid Ghezzal",
+                    "position": "MF",
+                    "market_value": "12.00 mil. \u20ac",
+                    "market_value_numeric": 12000000,
+                    "rating": 91
+                },
+                {
+                    "name": "Kalu Uche",
+                    "position": "FW",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 82
+                }
+            ]
+        },
+        {
+            "username": "hirades",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789541600
+}

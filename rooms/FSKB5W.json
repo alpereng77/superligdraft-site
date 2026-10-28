@@ -1,0 +1,99 @@
+{
+    "roomCode": "FSKB5W",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "kero",
+            "ready": true,
+            "rating": 83,
+            "formation": "4-4-2",
+            "squad": [
+                {
+                    "name": "Andreas Isaksson",
+                    "position": "GK",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Ferdi Kad\u0131o\u011flu",
+                    "position": "DF",
+                    "market_value": "25.00 mil. \u20ac",
+                    "market_value_numeric": 25000000,
+                    "rating": 92
+                },
+                {
+                    "name": "Veysel Sar\u0131",
+                    "position": "DF",
+                    "market_value": "5.75 mil. \u20ac",
+                    "market_value_numeric": 5750000,
+                    "rating": 85
+                },
+                {
+                    "name": "Majid Hosseini",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Selim Ay",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Lukas Zelenka",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Kl\u00e9berson",
+                    "position": "MF",
+                    "market_value": "6.35 mil. \u20ac",
+                    "market_value_numeric": 6350000,
+                    "rating": 87
+                },
+                {
+                    "name": "Talisca",
+                    "position": "MF",
+                    "market_value": "13.00 mil. \u20ac",
+                    "market_value_numeric": 13000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Mehmet Topuz",
+                    "position": "MF",
+                    "market_value": "5.70 mil. \u20ac",
+                    "market_value_numeric": 5700000,
+                    "rating": 85
+                },
+                {
+                    "name": "Vioresin Sinani",
+                    "position": "FW",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 78
+                },
+                {
+                    "name": "Batuhan Karadeniz",
+                    "position": "FW",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                }
+            ]
+        },
+        {
+            "username": "Emir",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790289450
+}

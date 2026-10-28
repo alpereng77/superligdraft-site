@@ -1,0 +1,14 @@
+{
+    "roomCode": "T28DTD",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "\u0130smail",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789581073
+}

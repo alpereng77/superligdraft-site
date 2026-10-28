@@ -1,0 +1,99 @@
+{
+    "roomCode": "3K4ZS4",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Hiko",
+            "ready": true,
+            "rating": 83,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Berke \u00d6zer",
+                    "position": "GK",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Tomas Sivok",
+                    "position": "DF",
+                    "market_value": "7.80 mil. \u20ac",
+                    "market_value_numeric": 7800000,
+                    "rating": 86
+                },
+                {
+                    "name": "Rick van Drongelen",
+                    "position": "DF",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Serhat Aky\u00fcz",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 75
+                },
+                {
+                    "name": "Jure Balkovec",
+                    "position": "DF",
+                    "market_value": "2.30 mil. \u20ac",
+                    "market_value_numeric": 2300000,
+                    "rating": 77
+                },
+                {
+                    "name": "Manuel Fernandes",
+                    "position": "MF",
+                    "market_value": "14.00 mil. \u20ac",
+                    "market_value_numeric": 14000000,
+                    "rating": 90
+                },
+                {
+                    "name": "Ali Bilgin",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Yusuf Sar\u0131",
+                    "position": "MF",
+                    "market_value": "3.80 mil. \u20ac",
+                    "market_value_numeric": 3800000,
+                    "rating": 79
+                },
+                {
+                    "name": "R\u00f4mulo",
+                    "position": "FW",
+                    "market_value": "11.00 mil. \u20ac",
+                    "market_value_numeric": 11000000,
+                    "rating": 86
+                },
+                {
+                    "name": "Milan Baros",
+                    "position": "FW",
+                    "market_value": "9.50 mil. \u20ac",
+                    "market_value_numeric": 9500000,
+                    "rating": 88
+                },
+                {
+                    "name": "Burak Y\u0131lmaz",
+                    "position": "FW",
+                    "market_value": "18.00 mil. \u20ac",
+                    "market_value_numeric": 18000000,
+                    "rating": 93
+                }
+            ]
+        },
+        {
+            "username": "G\u00fcrso",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1791664011
+}

@@ -1,0 +1,99 @@
+{
+    "roomCode": "DCHF5W",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Yunus",
+            "ready": true,
+            "rating": 80,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "\u00d6zden \u00d6ng\u00fcn",
+                    "position": "GK",
+                    "market_value": "1.25 mil. \u20ac",
+                    "market_value_numeric": 1250000,
+                    "rating": 70
+                },
+                {
+                    "name": "Matheus D\u00f3ria",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Ousmane Viera",
+                    "position": "DF",
+                    "market_value": "1.00 mil. \u20ac",
+                    "market_value_numeric": 1000000,
+                    "rating": 73
+                },
+                {
+                    "name": "Adem Arous",
+                    "position": "DF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 77
+                },
+                {
+                    "name": "\u00d6mer Ali \u015eahiner",
+                    "position": "DF",
+                    "market_value": "3.40 mil. \u20ac",
+                    "market_value_numeric": 3400000,
+                    "rating": 78
+                },
+                {
+                    "name": "Sebastian Szymanski",
+                    "position": "MF",
+                    "market_value": "19.00 mil. \u20ac",
+                    "market_value_numeric": 19000000,
+                    "rating": 92
+                },
+                {
+                    "name": "Sertan Vardar",
+                    "position": "MF",
+                    "market_value": "1.00 mil. \u20ac",
+                    "market_value_numeric": 1000000,
+                    "rating": 72
+                },
+                {
+                    "name": "J\u00e9r\u00f4me Rothen",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Mat\u00edas Delgado",
+                    "position": "MF",
+                    "market_value": "7.00 mil. \u20ac",
+                    "market_value_numeric": 7000000,
+                    "rating": 88
+                },
+                {
+                    "name": "Franco C\u00e1ngele",
+                    "position": "MF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 84
+                },
+                {
+                    "name": "Riad Bajic",
+                    "position": "FW",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 86
+                }
+            ]
+        },
+        {
+            "username": "\u015eakalak",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1792329914
+}

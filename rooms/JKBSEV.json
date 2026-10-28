@@ -1,0 +1,99 @@
+{
+    "roomCode": "JKBSEV",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Soner",
+            "ready": true,
+            "rating": 80,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Berke \u00d6zer",
+                    "position": "GK",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Aziz Behich",
+                    "position": "DF",
+                    "market_value": "2.75 mil. \u20ac",
+                    "market_value_numeric": 2750000,
+                    "rating": 81
+                },
+                {
+                    "name": "Serdar Aziz",
+                    "position": "DF",
+                    "market_value": "3.80 mil. \u20ac",
+                    "market_value_numeric": 3800000,
+                    "rating": 80
+                },
+                {
+                    "name": "Abdurrahman Dereli",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 79
+                },
+                {
+                    "name": "Bekir \u0130rteg\u00fcn",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 77
+                },
+                {
+                    "name": "Tamer Tuna",
+                    "position": "MF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Josu\u00e9",
+                    "position": "MF",
+                    "market_value": "8.25 mil. \u20ac",
+                    "market_value_numeric": 8250000,
+                    "rating": 87
+                },
+                {
+                    "name": "Recep Niyaz",
+                    "position": "MF",
+                    "market_value": "1.40 mil. \u20ac",
+                    "market_value_numeric": 1400000,
+                    "rating": 76
+                },
+                {
+                    "name": "Adis Jahovic",
+                    "position": "FW",
+                    "market_value": "1.00 mil. \u20ac",
+                    "market_value_numeric": 1000000,
+                    "rating": 76
+                },
+                {
+                    "name": "Pierre Web\u00f3",
+                    "position": "FW",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Riad Bajic",
+                    "position": "FW",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 86
+                }
+            ]
+        },
+        {
+            "username": "Antonio Tun\u00e7er",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790349133
+}

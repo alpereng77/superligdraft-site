@@ -1,0 +1,14 @@
+{
+    "roomCode": "VRF4JZ",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "al",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1792157629
+}

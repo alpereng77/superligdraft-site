@@ -1,0 +1,20 @@
+{
+    "roomCode": "NNEWWN",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "yjy7ujj\u0131",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "dxffgdt",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789472674
+}

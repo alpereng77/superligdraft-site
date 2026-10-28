@@ -1,0 +1,99 @@
+{
+    "roomCode": "9DJV37",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "SAYKS",
+            "ready": true,
+            "rating": 80,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Silviu Lung Jr.",
+                    "position": "GK",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "U\u011fur \u00c7ift\u00e7i",
+                    "position": "DF",
+                    "market_value": "1.30 mil. \u20ac",
+                    "market_value_numeric": 1300000,
+                    "rating": 74
+                },
+                {
+                    "name": "J\u00falio C\u00e9sar",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Larrys Mabiala",
+                    "position": "DF",
+                    "market_value": "3.20 mil. \u20ac",
+                    "market_value_numeric": 3200000,
+                    "rating": 79
+                },
+                {
+                    "name": "Razundara Tjikuzu",
+                    "position": "DF",
+                    "market_value": "2.40 mil. \u20ac",
+                    "market_value_numeric": 2400000,
+                    "rating": 79
+                },
+                {
+                    "name": "Yekta Kurtulu\u015f",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 80
+                },
+                {
+                    "name": "Anastasios Bakasetas",
+                    "position": "MF",
+                    "market_value": "7.00 mil. \u20ac",
+                    "market_value_numeric": 7000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Ali Bilgin",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Aboubakar Kamara",
+                    "position": "FW",
+                    "market_value": "2.75 mil. \u20ac",
+                    "market_value_numeric": 2750000,
+                    "rating": 82
+                },
+                {
+                    "name": "Muris Mesanovic",
+                    "position": "FW",
+                    "market_value": "900 bin \u20ac",
+                    "market_value_numeric": 900000,
+                    "rating": 75
+                },
+                {
+                    "name": "Khouma Babacar",
+                    "position": "FW",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 85
+                }
+            ]
+        },
+        {
+            "username": "SAKSOCU",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790279099
+}

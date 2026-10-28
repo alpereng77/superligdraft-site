@@ -1,0 +1,14 @@
+{
+    "roomCode": "RMLZXX",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "bugi",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1792179444
+}

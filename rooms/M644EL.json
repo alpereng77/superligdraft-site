@@ -1,0 +1,99 @@
+{
+    "roomCode": "M644EL",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "yigit",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "Emir",
+            "ready": true,
+            "rating": 83,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "Kristoffer Nordfeldt",
+                    "position": "GK",
+                    "market_value": "800 bin \u20ac",
+                    "market_value_numeric": 800000,
+                    "rating": 75
+                },
+                {
+                    "name": "Domagoj Vida",
+                    "position": "DF",
+                    "market_value": "7.00 mil. \u20ac",
+                    "market_value_numeric": 7000000,
+                    "rating": 86
+                },
+                {
+                    "name": "\u00d6mer Ali \u015eahiner",
+                    "position": "DF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 83
+                },
+                {
+                    "name": "Ahmet \u00c7al\u0131k",
+                    "position": "DF",
+                    "market_value": "3.80 mil. \u20ac",
+                    "market_value_numeric": 3800000,
+                    "rating": 80
+                },
+                {
+                    "name": "Tarkan Serbest",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 78
+                },
+                {
+                    "name": "Samuel Johnson",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Emre Bel\u00f6zo\u011flu",
+                    "position": "MF",
+                    "market_value": "10.50 mil. \u20ac",
+                    "market_value_numeric": 10500000,
+                    "rating": 91
+                },
+                {
+                    "name": "Yekta Kurtulu\u015f",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 80
+                },
+                {
+                    "name": "Mehmet Ekici",
+                    "position": "MF",
+                    "market_value": "7.50 mil. \u20ac",
+                    "market_value_numeric": 7500000,
+                    "rating": 85
+                },
+                {
+                    "name": "Josu\u00e9",
+                    "position": "MF",
+                    "market_value": "8.25 mil. \u20ac",
+                    "market_value_numeric": 8250000,
+                    "rating": 87
+                },
+                {
+                    "name": "Fernand\u00e3o",
+                    "position": "FW",
+                    "market_value": "6.50 mil. \u20ac",
+                    "market_value_numeric": 6500000,
+                    "rating": 84
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1790354119
+}

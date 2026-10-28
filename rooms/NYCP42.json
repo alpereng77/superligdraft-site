@@ -1,0 +1,99 @@
+{
+    "roomCode": "NYCP42",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "billy",
+            "ready": true,
+            "rating": 81,
+            "formation": "4-4-2",
+            "squad": [
+                {
+                    "name": "Ruud Boffin",
+                    "position": "GK",
+                    "market_value": "3.75 mil. \u20ac",
+                    "market_value_numeric": 3750000,
+                    "rating": 80
+                },
+                {
+                    "name": "Alper Ak\u0131c\u0131",
+                    "position": "DF",
+                    "market_value": "1.55 mil. \u20ac",
+                    "market_value_numeric": 1550000,
+                    "rating": 73
+                },
+                {
+                    "name": "\u00d6mer Bayram",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 79
+                },
+                {
+                    "name": "Semih Kaya",
+                    "position": "DF",
+                    "market_value": "7.00 mil. \u20ac",
+                    "market_value_numeric": 7000000,
+                    "rating": 86
+                },
+                {
+                    "name": "Yal\u00e7\u0131n Ayhan",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 76
+                },
+                {
+                    "name": "Soner Aydo\u011fdu",
+                    "position": "MF",
+                    "market_value": "1.40 mil. \u20ac",
+                    "market_value_numeric": 1400000,
+                    "rating": 78
+                },
+                {
+                    "name": "Abdou Traor\u00e9",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Kazeem Olaigbe",
+                    "position": "MF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 77
+                },
+                {
+                    "name": "Hasan \u015ea\u015f",
+                    "position": "MF",
+                    "market_value": "7.00 mil. \u20ac",
+                    "market_value_numeric": 7000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Mbaye Diagne",
+                    "position": "FW",
+                    "market_value": "9.00 mil. \u20ac",
+                    "market_value_numeric": 9000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Bob\u00f4",
+                    "position": "FW",
+                    "market_value": "9.50 mil. \u20ac",
+                    "market_value_numeric": 9500000,
+                    "rating": 89
+                }
+            ]
+        },
+        {
+            "username": "as\u0131m",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790580766
+}

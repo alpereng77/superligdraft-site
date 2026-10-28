@@ -1,0 +1,20 @@
+{
+    "roomCode": "H4P954",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "YTHYT",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "hvkjkv",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789472909
+}

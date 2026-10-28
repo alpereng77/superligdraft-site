@@ -1,0 +1,14 @@
+{
+    "roomCode": "G9HU79",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Kerem",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790491279
+}

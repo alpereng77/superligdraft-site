@@ -1,0 +1,99 @@
+{
+    "roomCode": "UTEG2C",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "\u00d6mer",
+            "ready": true,
+            "rating": 80,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "\u0130rfan Can E\u011fribayat",
+                    "position": "GK",
+                    "market_value": "3.30 mil. \u20ac",
+                    "market_value_numeric": 3300000,
+                    "rating": 81
+                },
+                {
+                    "name": "Jan Rajnoch",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 76
+                },
+                {
+                    "name": "Nejc Skubic",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Jerome Opoku",
+                    "position": "DF",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Pierre-Yves Polomat",
+                    "position": "DF",
+                    "market_value": "900 bin \u20ac",
+                    "market_value_numeric": 900000,
+                    "rating": 75
+                },
+                {
+                    "name": "Ceyhun Eri\u015f",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 83
+                },
+                {
+                    "name": "Aleksandar Aleksandrov",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Olcan Ad\u0131n",
+                    "position": "MF",
+                    "market_value": "9.00 mil. \u20ac",
+                    "market_value_numeric": 9000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Bruno Petkovic",
+                    "position": "FW",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 72
+                },
+                {
+                    "name": "Hyeon-gyu Oh",
+                    "position": "FW",
+                    "market_value": "15.00 mil. \u20ac",
+                    "market_value_numeric": 15000000,
+                    "rating": 85
+                },
+                {
+                    "name": "Necati Ate\u015f",
+                    "position": "FW",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 80
+                }
+            ]
+        },
+        {
+            "username": "hakanbolulu",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1792259696
+}

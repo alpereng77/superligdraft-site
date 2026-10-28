@@ -1,0 +1,99 @@
+{
+    "roomCode": "SRL7BY",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "HHAAAMMSS\u0130\u0130\u0130",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "gybtf\u00f6r5tjbkty",
+            "ready": true,
+            "rating": 83,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Scott Carson",
+                    "position": "GK",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Ali Turan",
+                    "position": "DF",
+                    "market_value": "2.20 mil. \u20ac",
+                    "market_value_numeric": 2200000,
+                    "rating": 79
+                },
+                {
+                    "name": "Youcef Atal",
+                    "position": "DF",
+                    "market_value": "4.30 mil. \u20ac",
+                    "market_value_numeric": 4300000,
+                    "rating": 82
+                },
+                {
+                    "name": "Diego Lugano",
+                    "position": "DF",
+                    "market_value": "7.50 mil. \u20ac",
+                    "market_value_numeric": 7500000,
+                    "rating": 88
+                },
+                {
+                    "name": "Wederson",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Talisca",
+                    "position": "MF",
+                    "market_value": "13.00 mil. \u20ac",
+                    "market_value_numeric": 13000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Isaac Promise",
+                    "position": "MF",
+                    "market_value": "3.60 mil. \u20ac",
+                    "market_value_numeric": 3600000,
+                    "rating": 80
+                },
+                {
+                    "name": "Manuel Fernandes",
+                    "position": "MF",
+                    "market_value": "12.00 mil. \u20ac",
+                    "market_value_numeric": 12000000,
+                    "rating": 89
+                },
+                {
+                    "name": "Antonio de Nigris",
+                    "position": "FW",
+                    "market_value": "2.40 mil. \u20ac",
+                    "market_value_numeric": 2400000,
+                    "rating": 80
+                },
+                {
+                    "name": "Umut Bulut",
+                    "position": "FW",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 83
+                },
+                {
+                    "name": "Halil Dervi\u015fo\u011flu",
+                    "position": "FW",
+                    "market_value": "1.00 mil. \u20ac",
+                    "market_value_numeric": 1000000,
+                    "rating": 73
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1790757952
+}

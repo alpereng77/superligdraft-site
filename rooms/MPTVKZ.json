@@ -1,0 +1,14 @@
+{
+    "roomCode": "MPTVKZ",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "or",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790685414
+}

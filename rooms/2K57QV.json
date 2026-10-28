@@ -1,0 +1,99 @@
+{
+    "roomCode": "2K57QV",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "cagribaba",
+            "ready": true,
+            "rating": 82,
+            "formation": "4-4-2",
+            "squad": [
+                {
+                    "name": "Berke \u00d6zer",
+                    "position": "GK",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Mustafa Eskihella\u00e7",
+                    "position": "DF",
+                    "market_value": "2.40 mil. \u20ac",
+                    "market_value_numeric": 2400000,
+                    "rating": 77
+                },
+                {
+                    "name": "Ahmet \u00c7al\u0131k",
+                    "position": "DF",
+                    "market_value": "3.75 mil. \u20ac",
+                    "market_value_numeric": 3750000,
+                    "rating": 82
+                },
+                {
+                    "name": "Wallace",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 76
+                },
+                {
+                    "name": "Orhan \u015eam",
+                    "position": "DF",
+                    "market_value": "2.70 mil. \u20ac",
+                    "market_value_numeric": 2700000,
+                    "rating": 78
+                },
+                {
+                    "name": "Abd\u00fclkadir \u00d6m\u00fcr",
+                    "position": "MF",
+                    "market_value": "15.00 mil. \u20ac",
+                    "market_value_numeric": 15000000,
+                    "rating": 92
+                },
+                {
+                    "name": "Wesley Sneijder",
+                    "position": "MF",
+                    "market_value": "6.50 mil. \u20ac",
+                    "market_value_numeric": 6500000,
+                    "rating": 87
+                },
+                {
+                    "name": "Emre Toraman",
+                    "position": "MF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 75
+                },
+                {
+                    "name": "Ermin Zec",
+                    "position": "MF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Ali Sowe",
+                    "position": "FW",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Mauro Icardi",
+                    "position": "FW",
+                    "market_value": "19.00 mil. \u20ac",
+                    "market_value_numeric": 19000000,
+                    "rating": 92
+                }
+            ]
+        },
+        {
+            "username": "efer",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790585029
+}

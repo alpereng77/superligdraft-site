@@ -1,0 +1,14 @@
+{
+    "roomCode": "78SE5H",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Nb",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1792573074
+}

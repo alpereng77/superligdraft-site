@@ -1,0 +1,99 @@
+{
+    "roomCode": "EYJK8H",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Amyiyicisi14",
+            "ready": true,
+            "rating": 83,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "G\u00f6khan Akkan",
+                    "position": "GK",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 81
+                },
+                {
+                    "name": "G\u00fcray Vural",
+                    "position": "DF",
+                    "market_value": "3.75 mil. \u20ac",
+                    "market_value_numeric": 3750000,
+                    "rating": 79
+                },
+                {
+                    "name": "Merih Demiral",
+                    "position": "DF",
+                    "market_value": "15.00 mil. \u20ac",
+                    "market_value_numeric": 15000000,
+                    "rating": 93
+                },
+                {
+                    "name": "\u00d6mer Bayram",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Ousmane Viera",
+                    "position": "DF",
+                    "market_value": "2.20 mil. \u20ac",
+                    "market_value_numeric": 2200000,
+                    "rating": 76
+                },
+                {
+                    "name": "\u0130brahim Ak\u0131n",
+                    "position": "MF",
+                    "market_value": "2.10 mil. \u20ac",
+                    "market_value_numeric": 2100000,
+                    "rating": 79
+                },
+                {
+                    "name": "Trezeguet",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 83
+                },
+                {
+                    "name": "Alex",
+                    "position": "MF",
+                    "market_value": "9.90 mil. \u20ac",
+                    "market_value_numeric": 9900000,
+                    "rating": 93
+                },
+                {
+                    "name": "Junior Fernandes",
+                    "position": "FW",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Pierre Web\u00f3",
+                    "position": "FW",
+                    "market_value": "4.70 mil. \u20ac",
+                    "market_value_numeric": 4700000,
+                    "rating": 82
+                },
+                {
+                    "name": "G\u00f6khan \u00dcnal",
+                    "position": "FW",
+                    "market_value": "4.20 mil. \u20ac",
+                    "market_value_numeric": 4200000,
+                    "rating": 83
+                }
+            ]
+        },
+        {
+            "username": "2. Abdulahmit",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790969064
+}

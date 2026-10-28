@@ -1,0 +1,99 @@
+{
+    "roomCode": "NXHWPS",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "12345",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "R",
+            "ready": true,
+            "rating": 81,
+            "formation": "3-5-2",
+            "squad": [
+                {
+                    "name": "Altay Bay\u0131nd\u0131r",
+                    "position": "GK",
+                    "market_value": "600 bin \u20ac",
+                    "market_value_numeric": 600000,
+                    "rating": 72
+                },
+                {
+                    "name": "Fatih Aksoy",
+                    "position": "DF",
+                    "market_value": "3.20 mil. \u20ac",
+                    "market_value_numeric": 3200000,
+                    "rating": 79
+                },
+                {
+                    "name": "Marc\u00e3o",
+                    "position": "DF",
+                    "market_value": "14.00 mil. \u20ac",
+                    "market_value_numeric": 14000000,
+                    "rating": 90
+                },
+                {
+                    "name": "Jayden Oosterwolde",
+                    "position": "DF",
+                    "market_value": "20.00 mil. \u20ac",
+                    "market_value_numeric": 20000000,
+                    "rating": 86
+                },
+                {
+                    "name": "Wesley Sneijder",
+                    "position": "MF",
+                    "market_value": "17.00 mil. \u20ac",
+                    "market_value_numeric": 17000000,
+                    "rating": 92
+                },
+                {
+                    "name": "Musa Ayd\u0131n",
+                    "position": "MF",
+                    "market_value": "1.70 mil. \u20ac",
+                    "market_value_numeric": 1700000,
+                    "rating": 76
+                },
+                {
+                    "name": "Ali Bilgin",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Rodrigo Tello",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 80
+                },
+                {
+                    "name": "John Chibuike",
+                    "position": "MF",
+                    "market_value": "3.60 mil. \u20ac",
+                    "market_value_numeric": 3600000,
+                    "rating": 79
+                },
+                {
+                    "name": "Fabio Borini",
+                    "position": "FW",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 83
+                },
+                {
+                    "name": "Murat S\u00f6zkesen",
+                    "position": "FW",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 79
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1789759768
+}

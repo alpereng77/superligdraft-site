@@ -1,0 +1,14 @@
+{
+    "roomCode": "AQ2HCZ",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "ismail",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789580808
+}

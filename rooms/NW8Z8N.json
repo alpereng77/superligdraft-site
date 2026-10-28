@@ -1,0 +1,99 @@
+{
+    "roomCode": "NW8Z8N",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "\u0130REY",
+            "ready": true,
+            "rating": 81,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Mamadou Samassa",
+                    "position": "GK",
+                    "market_value": "2.40 mil. \u20ac",
+                    "market_value_numeric": 2400000,
+                    "rating": 81
+                },
+                {
+                    "name": "Emirhan Top\u00e7u",
+                    "position": "DF",
+                    "market_value": "4.30 mil. \u20ac",
+                    "market_value_numeric": 4300000,
+                    "rating": 82
+                },
+                {
+                    "name": "G\u00fcray Vural",
+                    "position": "DF",
+                    "market_value": "3.75 mil. \u20ac",
+                    "market_value_numeric": 3750000,
+                    "rating": 79
+                },
+                {
+                    "name": "Fredrik Risp",
+                    "position": "DF",
+                    "market_value": "1.80 mil. \u20ac",
+                    "market_value_numeric": 1800000,
+                    "rating": 77
+                },
+                {
+                    "name": "Dario Melnjak",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Lukas Zelenka",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Wesley Sneijder",
+                    "position": "MF",
+                    "market_value": "6.50 mil. \u20ac",
+                    "market_value_numeric": 6500000,
+                    "rating": 87
+                },
+                {
+                    "name": "Soner Aydo\u011fdu",
+                    "position": "MF",
+                    "market_value": "1.40 mil. \u20ac",
+                    "market_value_numeric": 1400000,
+                    "rating": 78
+                },
+                {
+                    "name": "Adem B\u00fcy\u00fck",
+                    "position": "FW",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Nicolas Anelka",
+                    "position": "FW",
+                    "market_value": "9.00 mil. \u20ac",
+                    "market_value_numeric": 9000000,
+                    "rating": 92
+                },
+                {
+                    "name": "Pini Balili",
+                    "position": "FW",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                }
+            ]
+        },
+        {
+            "username": "eren",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789936094
+}

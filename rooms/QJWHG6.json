@@ -1,0 +1,99 @@
+{
+    "roomCode": "QJWHG6",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "dogukaan kankan",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "nevzat",
+            "ready": true,
+            "rating": 81,
+            "formation": "4-4-2",
+            "squad": [
+                {
+                    "name": "Altay Bay\u0131nd\u0131r",
+                    "position": "GK",
+                    "market_value": "16.00 mil. \u20ac",
+                    "market_value_numeric": 16000000,
+                    "rating": 92
+                },
+                {
+                    "name": "Bubacarr Sanneh",
+                    "position": "DF",
+                    "market_value": "1.40 mil. \u20ac",
+                    "market_value_numeric": 1400000,
+                    "rating": 78
+                },
+                {
+                    "name": "Nejc Skubic",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Hasan Yurt",
+                    "position": "DF",
+                    "market_value": "2.75 mil. \u20ac",
+                    "market_value_numeric": 2750000,
+                    "rating": 82
+                },
+                {
+                    "name": "Alin To\u0219ca",
+                    "position": "DF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Marek Sapara",
+                    "position": "MF",
+                    "market_value": "3.80 mil. \u20ac",
+                    "market_value_numeric": 3800000,
+                    "rating": 81
+                },
+                {
+                    "name": "Ebrima Colley",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Ahmet \u0130lhan \u00d6zek",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Guilherme",
+                    "position": "MF",
+                    "market_value": "3.20 mil. \u20ac",
+                    "market_value_numeric": 3200000,
+                    "rating": 83
+                },
+                {
+                    "name": "Souleymane Doukara",
+                    "position": "FW",
+                    "market_value": "2.25 mil. \u20ac",
+                    "market_value_numeric": 2250000,
+                    "rating": 81
+                },
+                {
+                    "name": "Okan Y\u0131lmaz",
+                    "position": "FW",
+                    "market_value": "2.75 mil. \u20ac",
+                    "market_value_numeric": 2750000,
+                    "rating": 82
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1790589910
+}

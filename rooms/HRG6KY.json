@@ -1,0 +1,14 @@
+{
+    "roomCode": "HRG6KY",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "VYFKWT",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790350128
+}

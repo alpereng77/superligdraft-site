@@ -1,0 +1,99 @@
+{
+    "roomCode": "ZM5QYJ",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "R",
+            "ready": true,
+            "rating": 80,
+            "formation": "4-4-2",
+            "squad": [
+                {
+                    "name": "Harun Tekin",
+                    "position": "GK",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 81
+                },
+                {
+                    "name": "B\u00fcnyamin Balc\u0131",
+                    "position": "DF",
+                    "market_value": "3.40 mil. \u20ac",
+                    "market_value_numeric": 3400000,
+                    "rating": 81
+                },
+                {
+                    "name": "Valeric\u0103 G\u0103man",
+                    "position": "DF",
+                    "market_value": "750 bin \u20ac",
+                    "market_value_numeric": 750000,
+                    "rating": 72
+                },
+                {
+                    "name": "Musa B\u00fcy\u00fck",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 78
+                },
+                {
+                    "name": "U\u011fur \u00c7ift\u00e7i",
+                    "position": "DF",
+                    "market_value": "1.75 mil. \u20ac",
+                    "market_value_numeric": 1750000,
+                    "rating": 78
+                },
+                {
+                    "name": "Filip Holosko",
+                    "position": "MF",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Nani",
+                    "position": "MF",
+                    "market_value": "16.00 mil. \u20ac",
+                    "market_value_numeric": 16000000,
+                    "rating": 93
+                },
+                {
+                    "name": "Lukas Zelenka",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Kartal Y\u0131lmaz",
+                    "position": "MF",
+                    "market_value": "2.60 mil. \u20ac",
+                    "market_value_numeric": 2600000,
+                    "rating": 77
+                },
+                {
+                    "name": "Stanislav Sestak",
+                    "position": "FW",
+                    "market_value": "3.80 mil. \u20ac",
+                    "market_value_numeric": 3800000,
+                    "rating": 81
+                },
+                {
+                    "name": "Artem Kravets",
+                    "position": "FW",
+                    "market_value": "750 bin \u20ac",
+                    "market_value_numeric": 750000,
+                    "rating": 73
+                }
+            ]
+        },
+        {
+            "username": "Rafail osturah",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789670402
+}

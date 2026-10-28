@@ -1,0 +1,14 @@
+{
+    "roomCode": "NAWNBV",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "samuel",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789501963
+}

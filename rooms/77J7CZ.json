@@ -1,0 +1,99 @@
+{
+    "roomCode": "77J7CZ",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "orhamc\u0131k",
+            "ready": true,
+            "rating": 81,
+            "formation": "3-5-2",
+            "squad": [
+                {
+                    "name": "Okan Kocuk",
+                    "position": "GK",
+                    "market_value": "2.20 mil. \u20ac",
+                    "market_value_numeric": 2200000,
+                    "rating": 76
+                },
+                {
+                    "name": "Youssouf Ndayishimiye",
+                    "position": "DF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Ryan Donk",
+                    "position": "DF",
+                    "market_value": "4.20 mil. \u20ac",
+                    "market_value_numeric": 4200000,
+                    "rating": 82
+                },
+                {
+                    "name": "Rick van Drongelen",
+                    "position": "DF",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Patrick Twumasi",
+                    "position": "MF",
+                    "market_value": "2.40 mil. \u20ac",
+                    "market_value_numeric": 2400000,
+                    "rating": 81
+                },
+                {
+                    "name": "Trezeguet",
+                    "position": "MF",
+                    "market_value": "10.00 mil. \u20ac",
+                    "market_value_numeric": 10000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Jamiro Monteiro",
+                    "position": "MF",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 77
+                },
+                {
+                    "name": "U\u011fur Y\u0131ld\u0131r\u0131m",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Mehmet Topuz",
+                    "position": "MF",
+                    "market_value": "5.70 mil. \u20ac",
+                    "market_value_numeric": 5700000,
+                    "rating": 85
+                },
+                {
+                    "name": "Mbaye Diagne",
+                    "position": "FW",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Aaron Boupendza",
+                    "position": "FW",
+                    "market_value": "8.50 mil. \u20ac",
+                    "market_value_numeric": 8500000,
+                    "rating": 88
+                }
+            ]
+        },
+        {
+            "username": "cr7",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1792647474
+}

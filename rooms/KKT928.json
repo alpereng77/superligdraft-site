@@ -1,0 +1,20 @@
+{
+    "roomCode": "KKT928",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "ramo",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "pozisyon",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790586114
+}

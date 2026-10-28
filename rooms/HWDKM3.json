@@ -1,0 +1,99 @@
+{
+    "roomCode": "HWDKM3",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "\ud83c\uddec\ud83c\uddf7",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "2. ABDULHAM\u0130T",
+            "ready": true,
+            "rating": 77,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "Kenan Hasagic",
+                    "position": "GK",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Mithat Pala",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 76
+                },
+                {
+                    "name": "Joseph Boum",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 74
+                },
+                {
+                    "name": "Hayrettin Yerlikaya",
+                    "position": "DF",
+                    "market_value": "2.70 mil. \u20ac",
+                    "market_value_numeric": 2700000,
+                    "rating": 81
+                },
+                {
+                    "name": "Volkan Bekiro\u011flu",
+                    "position": "DF",
+                    "market_value": "1.10 mil. \u20ac",
+                    "market_value_numeric": 1100000,
+                    "rating": 73
+                },
+                {
+                    "name": "Fredy",
+                    "position": "MF",
+                    "market_value": "275 bin \u20ac",
+                    "market_value_numeric": 275000,
+                    "rating": 65
+                },
+                {
+                    "name": "Hakan Arslan",
+                    "position": "MF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 74
+                },
+                {
+                    "name": "Emrah Ba\u015fsan",
+                    "position": "MF",
+                    "market_value": "4.60 mil. \u20ac",
+                    "market_value_numeric": 4600000,
+                    "rating": 81
+                },
+                {
+                    "name": "Ayman Abdelaziz",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Deniz T\u00fcr\u00fc\u00e7",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 82
+                },
+                {
+                    "name": "\u0130brahim \u015eahin",
+                    "position": "FW",
+                    "market_value": "1.20 mil. \u20ac",
+                    "market_value_numeric": 1200000,
+                    "rating": 75
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1790969286
+}

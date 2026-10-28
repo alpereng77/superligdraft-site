@@ -1,0 +1,99 @@
+{
+    "roomCode": "CDA347",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Yunus",
+            "ready": true,
+            "rating": 84,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Do\u011fan Alemdar",
+                    "position": "GK",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Petr Johana",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 76
+                },
+                {
+                    "name": "B\u00fcnyamin Balc\u0131",
+                    "position": "DF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Egemen Korkmaz",
+                    "position": "DF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 83
+                },
+                {
+                    "name": "Majid Hosseini",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 79
+                },
+                {
+                    "name": "Kerem Akt\u00fcrko\u011flu",
+                    "position": "MF",
+                    "market_value": "16.50 mil. \u20ac",
+                    "market_value_numeric": 16500000,
+                    "rating": 92
+                },
+                {
+                    "name": "Marcelinho Para\u00edba",
+                    "position": "MF",
+                    "market_value": "7.00 mil. \u20ac",
+                    "market_value_numeric": 7000000,
+                    "rating": 88
+                },
+                {
+                    "name": "Filip Holosko",
+                    "position": "MF",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Pierre Web\u00f3",
+                    "position": "FW",
+                    "market_value": "4.70 mil. \u20ac",
+                    "market_value_numeric": 4700000,
+                    "rating": 82
+                },
+                {
+                    "name": "Milan Baros",
+                    "position": "FW",
+                    "market_value": "9.50 mil. \u20ac",
+                    "market_value_numeric": 9500000,
+                    "rating": 88
+                },
+                {
+                    "name": "Burak Y\u0131lmaz",
+                    "position": "FW",
+                    "market_value": "12.00 mil. \u20ac",
+                    "market_value_numeric": 12000000,
+                    "rating": 90
+                }
+            ]
+        },
+        {
+            "username": "ahmetinyo",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790257038
+}

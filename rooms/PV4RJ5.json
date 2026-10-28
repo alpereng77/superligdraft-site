@@ -1,0 +1,99 @@
+{
+    "roomCode": "PV4RJ5",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "k\u00fcrtDOMALTAN",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "bugrababa",
+            "ready": true,
+            "rating": 82,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Volkan Demirel",
+                    "position": "GK",
+                    "market_value": "7.00 mil. \u20ac",
+                    "market_value_numeric": 7000000,
+                    "rating": 86
+                },
+                {
+                    "name": "Mustafa Eskihella\u00e7",
+                    "position": "DF",
+                    "market_value": "2.40 mil. \u20ac",
+                    "market_value_numeric": 2400000,
+                    "rating": 77
+                },
+                {
+                    "name": "Domagoj Vida",
+                    "position": "DF",
+                    "market_value": "6.50 mil. \u20ac",
+                    "market_value_numeric": 6500000,
+                    "rating": 86
+                },
+                {
+                    "name": "Rigobert Song",
+                    "position": "DF",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 85
+                },
+                {
+                    "name": "Tayyip Talha Sanu\u00e7",
+                    "position": "DF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 72
+                },
+                {
+                    "name": "Emre Akbaba",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Dia Saba",
+                    "position": "MF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Arda Turan",
+                    "position": "MF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 84
+                },
+                {
+                    "name": "Rey Manaj",
+                    "position": "FW",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Radamel Falcao",
+                    "position": "FW",
+                    "market_value": "4.80 mil. \u20ac",
+                    "market_value_numeric": 4800000,
+                    "rating": 84
+                },
+                {
+                    "name": "Moussa Sow",
+                    "position": "FW",
+                    "market_value": "13.00 mil. \u20ac",
+                    "market_value_numeric": 13000000,
+                    "rating": 91
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1792662356
+}

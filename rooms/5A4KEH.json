@@ -1,0 +1,99 @@
+{
+    "roomCode": "5A4KEH",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "wow",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "bjk 1903",
+            "ready": true,
+            "rating": 82,
+            "formation": "4-2-3-1",
+            "squad": [
+                {
+                    "name": "G\u00f6khan De\u011firmenci",
+                    "position": "GK",
+                    "market_value": "1.40 mil. \u20ac",
+                    "market_value_numeric": 1400000,
+                    "rating": 73
+                },
+                {
+                    "name": "Taha Alt\u0131karde\u015f",
+                    "position": "DF",
+                    "market_value": "5.50 mil. \u20ac",
+                    "market_value_numeric": 5500000,
+                    "rating": 81
+                },
+                {
+                    "name": "Abdelzaher El Saka",
+                    "position": "DF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 82
+                },
+                {
+                    "name": "Domagoj Vida",
+                    "position": "DF",
+                    "market_value": "6.50 mil. \u20ac",
+                    "market_value_numeric": 6500000,
+                    "rating": 86
+                },
+                {
+                    "name": "L\u00e9o Dubois",
+                    "position": "DF",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Mehmet Topuz",
+                    "position": "MF",
+                    "market_value": "6.00 mil. \u20ac",
+                    "market_value_numeric": 6000000,
+                    "rating": 87
+                },
+                {
+                    "name": "Doka Madureira",
+                    "position": "MF",
+                    "market_value": "5.00 mil. \u20ac",
+                    "market_value_numeric": 5000000,
+                    "rating": 83
+                },
+                {
+                    "name": "John Chibuike",
+                    "position": "MF",
+                    "market_value": "3.60 mil. \u20ac",
+                    "market_value_numeric": 3600000,
+                    "rating": 79
+                },
+                {
+                    "name": "Sandro Mendon\u00e7a",
+                    "position": "MF",
+                    "market_value": "1.50 mil. \u20ac",
+                    "market_value_numeric": 1500000,
+                    "rating": 77
+                },
+                {
+                    "name": "Yusuf Yaz\u0131c\u0131",
+                    "position": "MF",
+                    "market_value": "12.00 mil. \u20ac",
+                    "market_value_numeric": 12000000,
+                    "rating": 90
+                },
+                {
+                    "name": "Eren Derdiyok",
+                    "position": "FW",
+                    "market_value": "4.60 mil. \u20ac",
+                    "market_value_numeric": 4600000,
+                    "rating": 81
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1790893727
+}

@@ -1,0 +1,99 @@
+{
+    "roomCode": "W5C39H",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "3mo",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        },
+        {
+            "username": "emirkayali",
+            "ready": true,
+            "rating": 79,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "G\u00fcnay G\u00fcven\u00e7",
+                    "position": "GK",
+                    "market_value": "2.00 mil. \u20ac",
+                    "market_value_numeric": 2000000,
+                    "rating": 78
+                },
+                {
+                    "name": "Serdar Aziz",
+                    "position": "DF",
+                    "market_value": "3.80 mil. \u20ac",
+                    "market_value_numeric": 3800000,
+                    "rating": 80
+                },
+                {
+                    "name": "Fatih Aksoy",
+                    "position": "DF",
+                    "market_value": "3.20 mil. \u20ac",
+                    "market_value_numeric": 3200000,
+                    "rating": 79
+                },
+                {
+                    "name": "\u00d6mer Ali \u015eahiner",
+                    "position": "DF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 80
+                },
+                {
+                    "name": "Dario Melnjak",
+                    "position": "DF",
+                    "market_value": "2.20 mil. \u20ac",
+                    "market_value_numeric": 2200000,
+                    "rating": 80
+                },
+                {
+                    "name": "Tita",
+                    "position": "MF",
+                    "market_value": "1.80 mil. \u20ac",
+                    "market_value_numeric": 1800000,
+                    "rating": 78
+                },
+                {
+                    "name": "Giani Kiri\u021b\u0103",
+                    "position": "MF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 80
+                },
+                {
+                    "name": "Murat Ceylan",
+                    "position": "MF",
+                    "market_value": "2.20 mil. \u20ac",
+                    "market_value_numeric": 2200000,
+                    "rating": 76
+                },
+                {
+                    "name": "Denis Dr\u0103gu\u0219",
+                    "position": "FW",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Juan",
+                    "position": "FW",
+                    "market_value": "12.00 mil. \u20ac",
+                    "market_value_numeric": 12000000,
+                    "rating": 83
+                },
+                {
+                    "name": "Ricardo Gomes",
+                    "position": "FW",
+                    "market_value": "1.60 mil. \u20ac",
+                    "market_value_numeric": 1600000,
+                    "rating": 76
+                }
+            ]
+        }
+    ],
+    "lastActivity": 1792415393
+}

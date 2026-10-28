@@ -1,0 +1,14 @@
+{
+    "roomCode": "8LTUBD",
+    "maxPlayers": 2,
+    "status": "waiting",
+    "players": [
+        {
+            "username": "Mehemey",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1789834304
+}

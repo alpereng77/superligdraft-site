@@ -1,0 +1,99 @@
+{
+    "roomCode": "B4BQNN",
+    "maxPlayers": 2,
+    "status": "drafting",
+    "players": [
+        {
+            "username": "Yi\u011fit \u00f6zk\u00f6k",
+            "ready": true,
+            "rating": 83,
+            "formation": "4-3-3",
+            "squad": [
+                {
+                    "name": "Onur K\u0131vrak",
+                    "position": "GK",
+                    "market_value": "7.00 mil. \u20ac",
+                    "market_value_numeric": 7000000,
+                    "rating": 86
+                },
+                {
+                    "name": "Chidozie Awaziem",
+                    "position": "DF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 81
+                },
+                {
+                    "name": "Adil Demirba\u011f",
+                    "position": "DF",
+                    "market_value": "2.30 mil. \u20ac",
+                    "market_value_numeric": 2300000,
+                    "rating": 76
+                },
+                {
+                    "name": "Kamil Zayatte",
+                    "position": "DF",
+                    "market_value": "2.50 mil. \u20ac",
+                    "market_value_numeric": 2500000,
+                    "rating": 78
+                },
+                {
+                    "name": "Youssouf Ndayishimiye",
+                    "position": "DF",
+                    "market_value": "4.00 mil. \u20ac",
+                    "market_value_numeric": 4000000,
+                    "rating": 81
+                },
+                {
+                    "name": "G\u00f6kdeniz Karadeniz",
+                    "position": "MF",
+                    "market_value": "7.50 mil. \u20ac",
+                    "market_value_numeric": 7500000,
+                    "rating": 90
+                },
+                {
+                    "name": "Rodrigo Tello",
+                    "position": "MF",
+                    "market_value": "3.00 mil. \u20ac",
+                    "market_value_numeric": 3000000,
+                    "rating": 80
+                },
+                {
+                    "name": "Franco C\u00e1ngele",
+                    "position": "MF",
+                    "market_value": "5.30 mil. \u20ac",
+                    "market_value_numeric": 5300000,
+                    "rating": 82
+                },
+                {
+                    "name": "Pierre Web\u00f3",
+                    "position": "FW",
+                    "market_value": "4.50 mil. \u20ac",
+                    "market_value_numeric": 4500000,
+                    "rating": 82
+                },
+                {
+                    "name": "Zafer Biryol",
+                    "position": "FW",
+                    "market_value": "3.50 mil. \u20ac",
+                    "market_value_numeric": 3500000,
+                    "rating": 85
+                },
+                {
+                    "name": "Victor Osimhen",
+                    "position": "FW",
+                    "market_value": "75.00 mil. \u20ac",
+                    "market_value_numeric": 75000000,
+                    "rating": 93
+                }
+            ]
+        },
+        {
+            "username": "yan\u0131mdakimal",
+            "ready": false,
+            "rating": 0,
+            "formation": null
+        }
+    ],
+    "lastActivity": 1790280572
+}
