@@ -7,3 +7,9 @@ ehthumbs.db
 Thumbs.db
 ./rooms/*
 ./images
+*.zip
+mobil/node_modules/
+mobil/ios/Pods/
+mobil/android/.gradle/
+mobil/android/app/build/
+mobil/ios/build/
