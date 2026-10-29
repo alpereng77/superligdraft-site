@@ -29,6 +29,34 @@ interface SimEvent {
   scorer?: string;
 }
 
+const POS_ORDER: Record<string, number> = {
+  GK: 1,
+  KL: 1,
+  DF: 2,
+  MF: 3,
+  OS: 3,
+  FW: 4,
+  FV: 4,
+};
+
+const formatPos = (pos: string) => {
+  if (pos === 'GK') return 'KL';
+  if (pos === 'MF') return 'OS';
+  if (pos === 'FW') return 'FV';
+  return pos || 'OS';
+};
+
+const sortSquad = (squad: any[]) => {
+  if (!Array.isArray(squad)) return [];
+  return [...squad].sort((a, b) => {
+    if (!a || !b) return 0;
+    const ordA = POS_ORDER[a.position] || 99;
+    const ordB = POS_ORDER[b.position] || 99;
+    if (ordA !== ordB) return ordA - ordB;
+    return (b.rating || 0) - (a.rating || 0);
+  });
+};
+
 export const SimulationScreen: React.FC<SimulationScreenProps> = ({
   navigation,
   route,
@@ -62,63 +90,91 @@ export const SimulationScreen: React.FC<SimulationScreenProps> = ({
     }
   }, []);
 
-  // 1. MULTIPLAYER SIMULATION (Driven deterministically by live server result)
+  // =========================================================================
+  // 1. MULTIPLAYER SIMULATION (Synchronized with Web: 1500ms per 2 Game Minutes)
+  // =========================================================================
   const runMultiplayerSimulation = (match: DerbyMatch) => {
     const serverEvents = match.events || [];
-    const plannedEvents: SimEvent[] = [
-      {
-        minute: 0,
-        text: 'Büyük derbi için takımlar sahaya çıkıyor. Hakem düdüğünü çaldı ve maç başladı!',
-        type: 'start',
-        team: 'neutral',
-      },
-    ];
-
-    serverEvents.forEach(e => {
-      let eventType: SimEvent['type'] = 'foul';
-      if (e.type === 'goal') eventType = 'goal';
-      else if (e.type === 'miss') eventType = 'save';
-      else if (e.type === 'phase') eventType = 'phase';
-
-      plannedEvents.push({
-        minute: e.minute,
-        text: e.text,
-        type: eventType,
-        team: e.team === 'home' ? 'home' : e.team === 'away' ? 'away' : 'neutral',
-        scorer: e.name,
-      });
-    });
-
-    // Final whistle
     const maxMin = match.hasExtraTime ? 120 : 90;
-    plannedEvents.push({
-      minute: maxMin,
-      text: match.hasPenalties
-        ? `120 dakika sonunda eşitlik bozulmadı (${match.homeScore} - ${match.awayScore})! Penaltılarla galip belirlendi.`
-        : `Düdük çalıyor! Karşılaşma sona erdi (${match.homeScore} - ${match.awayScore}).`,
-      type: 'end',
-      team: 'neutral',
-    });
 
-    plannedEvents.sort((a, b) => a.minute - b.minute);
+    // Initial Start Event
+    const initialEvent: SimEvent = {
+      minute: 0,
+      text: 'Büyük derbi için takımlar sahaya çıkıyor. Hakem düdüğünü çaldı ve maç başladı!',
+      type: 'start',
+      team: 'neutral',
+    };
+    setEvents([initialEvent]);
 
     let min = 0;
+    let isVarReviewing = false;
+
+    // Web runs at 1500ms per 2 game minutes
     const interval = setInterval(() => {
-      min += 3;
+      if (isVarReviewing) return;
+
+      min += 2;
+      if (min > maxMin) min = maxMin;
+      setCurrentMinute(min);
+
+      // Find events that happen in this 2-minute window (min - 2 < ev.minute <= min)
+      const eventsNow = serverEvents.filter(
+        e => e.minute > min - 2 && e.minute <= min,
+      );
+
+      eventsNow.forEach(e => {
+        let evType: SimEvent['type'] = 'foul';
+        if (e.type === 'goal') evType = 'goal';
+        else if (e.type === 'miss') evType = 'save';
+        else if (e.type === 'phase') evType = 'phase';
+
+        const newEv: SimEvent = {
+          minute: e.minute,
+          text: e.text,
+          type: evType,
+          team: e.team === 'home' ? 'home' : e.team === 'away' ? 'away' : 'neutral',
+          scorer: e.name,
+        };
+
+        // Score updates
+        if (typeof e.homeScore === 'number') setHomeScore(e.homeScore);
+        if (typeof e.awayScore === 'number') setAwayScore(e.awayScore);
+
+        // Prepend new events so newest is on top (exact web behavior)
+        setEvents(prev => [newEv, ...prev]);
+
+        // If VAR Review triggered, pause ticker for 2.5s just like web
+        if (e.triggerVarConfirm || e.type === 'var-cancelled') {
+          isVarReviewing = true;
+          setTimeout(() => {
+            isVarReviewing = false;
+          }, 2500);
+        }
+      });
+
+      // Match Completion
       if (min >= maxMin) {
-        min = maxMin;
         clearInterval(interval);
         setCurrentMinute(maxMin);
-        setIsFinished(true);
-
-        const hGoals = plannedEvents.filter(e => e.type === 'goal' && e.team === 'home');
-        const aGoals = plannedEvents.filter(e => e.type === 'goal' && e.team === 'away');
-
         setHomeScore(match.homeScore);
         setAwayScore(match.awayScore);
-        setHomeScorers(hGoals.map(e => `${e.text.split('!')[1]?.split(' ')[1] || match.home} (${e.minute}')`));
-        setAwayScorers(aGoals.map(e => `${e.text.split('!')[1]?.split(' ')[1] || match.away} (${e.minute}')`));
-        setEvents(plannedEvents);
+        setIsFinished(true);
+
+        const endText = match.hasPenalties
+          ? `120 dakika sonunda eşitlik bozulmadı (${match.homeScore} - ${match.awayScore})! Penaltılarla kazanan belirlendi.`
+          : match.hasExtraTime
+          ? `120 dakikalık uzatma devresi sona erdi (${match.homeScore} - ${match.awayScore}).`
+          : `Karşılaşmada 90 dakika sona erdi (${match.homeScore} - ${match.awayScore}).`;
+
+        setEvents(prev => [
+          { minute: maxMin, text: endText, type: 'end', team: 'neutral' },
+          ...prev,
+        ]);
+
+        const hGoals = serverEvents.filter(e => e.type === 'goal' && e.team === 'home');
+        const aGoals = serverEvents.filter(e => e.type === 'goal' && e.team === 'away');
+        setHomeScorers(hGoals.map(e => `${e.name || match.home} (${e.minute}')`));
+        setAwayScorers(aGoals.map(e => `${e.name || match.away} (${e.minute}')`));
 
         const matchResult: MatchResult = {
           homeTeam: { name: match.home, rating: match.homeRating },
@@ -126,11 +182,11 @@ export const SimulationScreen: React.FC<SimulationScreenProps> = ({
           homeScore: match.homeScore,
           awayScore: match.awayScore,
           events: [],
-          timeline: plannedEvents.map(e => ({
+          timeline: serverEvents.map(e => ({
             minute: e.minute,
             type: e.type === 'goal' ? 'goal' : 'normal',
             team: e.team === 'home' ? 'home' : 'away',
-            player: e.scorer || 'Futbolcu',
+            player: e.name || 'Futbolcu',
             description: e.text,
           })),
           homeRating: match.homeRating,
@@ -146,21 +202,13 @@ export const SimulationScreen: React.FC<SimulationScreenProps> = ({
 
         setFullMatchResult(matchResult);
         saveMatchToMuseum(matchResult);
-        return;
       }
-
-      setCurrentMinute(min);
-      const eventsUntil = plannedEvents.filter(e => e.minute <= min);
-      const hCount = eventsUntil.filter(e => e.type === 'goal' && e.team === 'home').length;
-      const aCount = eventsUntil.filter(e => e.type === 'goal' && e.team === 'away').length;
-
-      setHomeScore(hCount);
-      setAwayScore(aCount);
-      setEvents(eventsUntil);
-    }, 450);
+    }, 1500);
   };
 
-  // 2. CLASSIC SINGLEPLAYER SIMULATION
+  // =========================================================================
+  // 2. CLASSIC SINGLEPLAYER SIMULATION (1500ms cadence)
+  // =========================================================================
   const runClassicMatchSimulation = () => {
     const homeDiff = ((homeTeam.rating || 78) - (awayTeam.rating || 74)) / 10;
     const finalHomeGoals = Math.max(0, Math.round(1.3 + homeDiff * 0.5 + (Math.random() * 2 - 1)));
@@ -171,7 +219,6 @@ export const SimulationScreen: React.FC<SimulationScreenProps> = ({
 
     const plannedEvents: SimEvent[] = [
       { minute: 0, text: 'Maçın başlama vuruşu yapıldı. İki takıma da başarılar dileriz!', type: 'start', team: 'neutral' },
-      { minute: 1, text: 'Hakem düdüğünü çalıyor ve tarihi maç başlıyor!', type: 'start', team: 'neutral' },
     ];
 
     for (let i = 0; i < finalHomeGoals; i++) {
@@ -202,30 +249,45 @@ export const SimulationScreen: React.FC<SimulationScreenProps> = ({
     plannedEvents.push({ minute: 36, text: `Kaleci son anda parmaklarının ucuyla kornere çeliyor!`, type: 'save', team: 'away' });
     plannedEvents.push({ minute: 57, text: `${awayTeam.name} tehlikeli geldi ancak savunma kritik hamleyle topu uzaklaştırdı.`, type: 'foul', team: 'neutral' });
     plannedEvents.push({ minute: 74, text: `Ceza sahası karıştı, hakem devam kararı veriyor.`, type: 'foul', team: 'neutral' });
-    plannedEvents.push({ minute: 90, text: 'Düdük çalıyor! Karşılaşma sona erdi.', type: 'end', team: 'neutral' });
 
     plannedEvents.sort((a, b) => a.minute - b.minute);
 
     let min = 0;
+    setEvents([plannedEvents[0]]);
+
     const interval = setInterval(() => {
-      min += 3;
+      min += 2;
+      if (min > 90) min = 90;
+      setCurrentMinute(min);
+
+      const eventsNow = plannedEvents.filter(
+        e => e.minute > min - 2 && e.minute <= min,
+      );
+
+      eventsNow.forEach(e => {
+        setEvents(prev => [e, ...prev]);
+      });
+
+      const eventsUntil = plannedEvents.filter(e => e.minute <= min);
+      const hCount = eventsUntil.filter(e => e.type === 'goal' && e.team === 'home').length;
+      const aCount = eventsUntil.filter(e => e.type === 'goal' && e.team === 'away').length;
+
+      setHomeScore(hCount);
+      setAwayScore(aCount);
+
       if (min >= 90) {
-        min = 90;
         clearInterval(interval);
-        setCurrentMinute(90);
         setIsFinished(true);
+
+        setEvents(prev => [
+          { minute: 90, text: 'Düdük çalıyor! Karşılaşma sona erdi.', type: 'end', team: 'neutral' },
+          ...prev,
+        ]);
 
         const hGoals = plannedEvents.filter(e => e.type === 'goal' && e.team === 'home');
         const aGoals = plannedEvents.filter(e => e.type === 'goal' && e.team === 'away');
-
-        const hScorers = hGoals.map(e => `${e.scorer} (${e.minute}')`);
-        const aScorers = aGoals.map(e => `${e.scorer} (${e.minute}')`);
-
-        setHomeScore(hGoals.length);
-        setAwayScore(aGoals.length);
-        setHomeScorers(hScorers);
-        setAwayScorers(aScorers);
-        setEvents(plannedEvents);
+        setHomeScorers(hGoals.map(e => `${e.scorer} (${e.minute}')`));
+        setAwayScorers(aGoals.map(e => `${e.scorer} (${e.minute}')`));
 
         const matchResult: MatchResult = {
           homeTeam: { name: homeTeam.name, rating: homeTeam.rating },
@@ -253,18 +315,8 @@ export const SimulationScreen: React.FC<SimulationScreenProps> = ({
 
         setFullMatchResult(matchResult);
         saveMatchToMuseum(matchResult);
-        return;
       }
-
-      setCurrentMinute(min);
-      const eventsUntil = plannedEvents.filter(e => e.minute <= min);
-      const hCount = eventsUntil.filter(e => e.type === 'goal' && e.team === 'home').length;
-      const aCount = eventsUntil.filter(e => e.type === 'goal' && e.team === 'away').length;
-
-      setHomeScore(hCount);
-      setAwayScore(aCount);
-      setEvents(eventsUntil);
-    }, 450);
+    }, 1500);
   };
 
   const saveMatchToMuseum = async (result: MatchResult) => {
@@ -314,16 +366,22 @@ export const SimulationScreen: React.FC<SimulationScreenProps> = ({
     });
   };
 
-  // Extract both players' squads for multiplayer display
+  // Players Squads
   const player1 = roomData?.players?.[0];
   const player2 = roomData?.players?.[1];
+
+  const sortedSquad1 = sortSquad(player1?.squad || []);
+  const sortedSquad2 = sortSquad(player2?.squad || []);
+
+  const homeInitial = (homeTeam.name || 'S').charAt(0).toUpperCase();
+  const awayInitial = (awayTeam.name || 'R').charAt(0).toUpperCase();
 
   return (
     <SafeAreaView style={styles.safeArea}>
       <StatusBar barStyle="dark-content" />
       <RetroHeader
-        title={isMultiplayer ? 'CANLI DERBİ' : 'MAÇ SİMÜLASYONU'}
-        subtitle={isMultiplayer ? '1V1 CANLI DERBİ MAÇI' : roundName.toUpperCase()}
+        title={isMultiplayer ? 'SÜPER LİG DRAFT' : 'MAÇ SİMÜLASYONU'}
+        subtitle={isMultiplayer ? '2 KİŞİLİK DRAFT' : roundName.toUpperCase()}
         showBack
         onBack={() => {
           if (isMultiplayer) {
@@ -339,12 +397,12 @@ export const SimulationScreen: React.FC<SimulationScreenProps> = ({
         contentContainerStyle={styles.scrollContent}
         showsVerticalScrollIndicator={false}
       >
-        {/* RETRO SCOREBOARD */}
+        {/* RETRO SCOREBOARD (Matching Web Layout) */}
         <View style={styles.scoreboardCard}>
           {/* Left Team */}
           <View style={styles.teamCol}>
-            <View style={styles.badgeS}>
-              <Text style={styles.badgeSText}>S</Text>
+            <View style={styles.badgeHome}>
+              <Text style={styles.badgeHomeText}>{homeInitial}</Text>
             </View>
             <View style={styles.teamInfo}>
               <Text style={styles.teamName} numberOfLines={1}>
@@ -365,10 +423,10 @@ export const SimulationScreen: React.FC<SimulationScreenProps> = ({
             </View>
           </View>
 
-          {/* Right Team (Opponent) */}
+          {/* Right Team */}
           <View style={[styles.teamCol, styles.teamColRight]}>
-            <View style={styles.badgeR}>
-              <Text style={styles.badgeRText}>R</Text>
+            <View style={styles.badgeAway}>
+              <Text style={styles.badgeAwayText}>{awayInitial}</Text>
             </View>
             <View style={[styles.teamInfo, styles.teamInfoRight]}>
               <Text style={styles.teamName} numberOfLines={1}>
@@ -390,7 +448,7 @@ export const SimulationScreen: React.FC<SimulationScreenProps> = ({
         </View>
 
         {/* =========================================================
-            MULTIPLAYER FINISHED BANNER
+            MULTIPLAYER FINISHED BANNER (Displayed after match ends)
             ========================================================= */}
         {isFinished && isMultiplayer && (
           <View style={styles.derbyResultCard}>
@@ -520,51 +578,7 @@ export const SimulationScreen: React.FC<SimulationScreenProps> = ({
           </View>
         )}
 
-        {/* =========================================================
-            MULTIPLAYER INLINE SQUADS (KADROLAR)
-            ========================================================= */}
-        {isMultiplayer && isFinished && (
-          <View style={styles.squadsContainer}>
-            <Text style={styles.squadsHeader}>KADROLAR</Text>
-            <View style={styles.squadsRow}>
-              {/* Home Squad */}
-              <View style={styles.squadColumn}>
-                <Text style={styles.squadTeamHeader} numberOfLines={1}>
-                  {player1?.username || homeTeam.name} ({player1?.formation || '4-4-2'})
-                </Text>
-                <Text style={styles.squadOvr}>GÜÇ: {player1?.rating || homeTeam.rating}</Text>
-                <View style={styles.squadList}>
-                  {(player1?.squad || []).map((p: any, i: number) => (
-                    <View key={i} style={styles.squadItem}>
-                      <Text style={styles.squadPos}>{p.position || 'OS'}</Text>
-                      <Text style={styles.squadName} numberOfLines={1}>{p.name}</Text>
-                      <Text style={styles.squadRating}>{p.rating}</Text>
-                    </View>
-                  ))}
-                </View>
-              </View>
-
-              {/* Away Squad */}
-              <View style={styles.squadColumn}>
-                <Text style={styles.squadTeamHeader} numberOfLines={1}>
-                  {player2?.username || awayTeam.name} ({player2?.formation || '4-4-2'})
-                </Text>
-                <Text style={styles.squadOvr}>GÜÇ: {player2?.rating || awayTeam.rating}</Text>
-                <View style={styles.squadList}>
-                  {(player2?.squad || []).map((p: any, i: number) => (
-                    <View key={i} style={styles.squadItem}>
-                      <Text style={styles.squadPos}>{p.position || 'OS'}</Text>
-                      <Text style={styles.squadName} numberOfLines={1}>{p.name}</Text>
-                      <Text style={styles.squadRating}>{p.rating}</Text>
-                    </View>
-                  ))}
-                </View>
-              </View>
-            </View>
-          </View>
-        )}
-
-        {/* CANLI ANLATIM PANEL */}
+        {/* CANLI ANLATIM PANEL (Newest at Top like Web) */}
         <View style={styles.commentaryCard}>
           <View style={styles.commentaryHeader}>
             <Text style={styles.commentaryTitle}>CANLI ANLATIM</Text>
@@ -584,6 +598,49 @@ export const SimulationScreen: React.FC<SimulationScreenProps> = ({
             ))}
           </View>
         </View>
+
+        {/* =========================================================
+            MULTIPLAYER INLINE SQUADS (KADROLAR)
+            Visible both during live match and after finish (Matching Web Screenshot!)
+            ========================================================= */}
+        {isMultiplayer && (
+          <View style={styles.squadsContainer}>
+            <Text style={styles.squadsHeader}>KADROLAR</Text>
+            <View style={styles.squadsRow}>
+              {/* Home Squad */}
+              <View style={styles.squadColumn}>
+                <Text style={styles.squadTeamHeader} numberOfLines={1}>
+                  {player1?.username || homeTeam.name} ({player1?.formation || '4-4-2'}) - GÜÇ: {player1?.rating || homeTeam.rating}
+                </Text>
+                <View style={styles.squadList}>
+                  {sortedSquad1.map((p: any, i: number) => (
+                    <View key={i} style={styles.squadItem}>
+                      <Text style={styles.squadPos}>{formatPos(p.position)}</Text>
+                      <Text style={styles.squadName} numberOfLines={1}>{p.name}</Text>
+                      <Text style={styles.squadRating}>{p.rating}</Text>
+                    </View>
+                  ))}
+                </View>
+              </View>
+
+              {/* Away Squad */}
+              <View style={styles.squadColumn}>
+                <Text style={styles.squadTeamHeader} numberOfLines={1}>
+                  {player2?.username || awayTeam.name} ({player2?.formation || '4-4-2'}) - GÜÇ: {player2?.rating || awayTeam.rating}
+                </Text>
+                <View style={styles.squadList}>
+                  {sortedSquad2.map((p: any, i: number) => (
+                    <View key={i} style={styles.squadItem}>
+                      <Text style={styles.squadPos}>{formatPos(p.position)}</Text>
+                      <Text style={styles.squadName} numberOfLines={1}>{p.name}</Text>
+                      <Text style={styles.squadRating}>{p.rating}</Text>
+                    </View>
+                  ))}
+                </View>
+              </View>
+            </View>
+          </View>
+        )}
       </ScrollView>
 
       {/* Retro Match Poster Modal */}
@@ -630,30 +687,30 @@ const styles = StyleSheet.create({
   teamColRight: {
     flexDirection: 'row-reverse',
   },
-  badgeS: {
-    width: 36,
-    height: 36,
+  badgeHome: {
+    width: 38,
+    height: 38,
     backgroundColor: '#1a1a1a',
     alignItems: 'center',
     justifyContent: 'center',
   },
-  badgeSText: {
+  badgeHomeText: {
     color: '#ffffff',
-    fontSize: 18,
+    fontSize: 20,
     fontWeight: '900',
   },
-  badgeR: {
-    width: 36,
-    height: 36,
+  badgeAway: {
+    width: 38,
+    height: 38,
     backgroundColor: '#ffffff',
     borderWidth: 2,
     borderColor: '#1a1a1a',
     alignItems: 'center',
     justifyContent: 'center',
   },
-  badgeRText: {
+  badgeAwayText: {
     color: '#1a1a1a',
-    fontSize: 18,
+    fontSize: 20,
     fontWeight: '900',
   },
   teamInfo: {
@@ -889,14 +946,19 @@ const styles = StyleSheet.create({
     borderColor: '#1a1a1a',
     borderRadius: 2,
     padding: 16,
+    shadowColor: '#1a1a1a',
+    shadowOffset: { width: 4, height: 4 },
+    shadowOpacity: 1,
+    shadowRadius: 0,
+    elevation: 4,
   },
   squadsHeader: {
-    fontSize: 14,
+    fontSize: 15,
     fontWeight: '900',
     color: '#1a1a1a',
     letterSpacing: 1,
-    marginBottom: 10,
-    textAlign: 'center',
+    marginBottom: 14,
+    textAlign: 'left',
   },
   squadsRow: {
     flexDirection: 'row',
@@ -904,52 +966,43 @@ const styles = StyleSheet.create({
   },
   squadColumn: {
     flex: 1,
-    backgroundColor: '#fdfbf7',
-    borderWidth: 1.5,
-    borderColor: '#e0d8cc',
-    borderRadius: 2,
-    padding: 10,
   },
   squadTeamHeader: {
     fontSize: 12,
     fontWeight: '900',
-    color: '#1a1a1a',
-  },
-  squadOvr: {
-    fontSize: 10,
-    fontWeight: '700',
-    color: '#666666',
-    marginBottom: 8,
+    color: '#3b9966',
+    marginBottom: 10,
+    lineHeight: 16,
   },
   squadList: {
-    gap: 4,
+    gap: 6,
   },
   squadItem: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#ffffff',
-    borderWidth: 1,
-    borderColor: '#eee',
-    paddingVertical: 3,
-    paddingHorizontal: 6,
-    gap: 4,
+    borderBottomWidth: 1,
+    borderColor: '#f0ede6',
+    borderStyle: 'dashed',
+    paddingBottom: 4,
+    gap: 6,
   },
   squadPos: {
-    fontSize: 9,
+    fontSize: 11,
     fontWeight: '900',
     color: '#e05638',
-    width: 18,
+    width: 22,
   },
   squadName: {
     flex: 1,
-    fontSize: 10,
+    fontSize: 11,
     fontWeight: '700',
     color: '#1a1a1a',
   },
   squadRating: {
-    fontSize: 10,
+    fontSize: 11,
     fontWeight: '900',
     color: '#1a1a1a',
+    textAlign: 'right',
   },
   commentaryCard: {
     backgroundColor: '#ffffff',
