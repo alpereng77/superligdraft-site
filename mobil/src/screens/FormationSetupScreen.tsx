@@ -29,11 +29,15 @@ export const FormationSetupScreen: React.FC<FormationSetupScreenProps> = ({
 }) => {
   const [selectedFormation, setSelectedFormation] = useState<string>('4-4-2');
   const mode = route.params?.mode || 'tournament';
+  const roomCode = route.params?.roomCode;
+  const username = route.params?.username;
 
   const handleStartDraft = () => {
     navigation.navigate('Draft', {
       formation: selectedFormation,
       mode,
+      roomCode,
+      username,
     });
   };
 

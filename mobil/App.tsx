@@ -13,19 +13,39 @@ import { TournamentScreen } from './src/screens/TournamentScreen';
 import { MultiplayerScreen } from './src/screens/MultiplayerScreen';
 import { MuseumScreen } from './src/screens/MuseumScreen';
 import { AboutScreen } from './src/screens/AboutScreen';
+import { TycoonScreen } from './src/screens/TycoonScreen';
 import { Colors } from './src/theme/colors';
 
 export type RootStackParamList = {
   Splash: undefined;
   MainMenu: undefined;
-  FormationSetup: { mode?: string } | undefined;
-  Draft: { formation?: string; mode?: string; match?: any } | undefined;
-  Simulation: {
-    homeTeam: any;
-    awayTeam: any;
-    roundName?: string;
-    roundIndex?: number;
-  };
+  FormationSetup:
+    | { mode?: string; roomCode?: string; username?: string }
+    | undefined;
+  Draft:
+    | {
+        formation?: string;
+        mode?: string;
+        roomCode?: string;
+        username?: string;
+        match?: any;
+      }
+    | undefined;
+  Simulation:
+    | {
+        homeTeam?: any;
+        awayTeam?: any;
+        roundName?: string;
+        roundIndex?: number;
+        mode?: string;
+        roomCode?: string;
+        username?: string;
+        roomData?: any;
+        match?: any;
+        standings?: any;
+        champion?: any;
+      }
+    | undefined;
   Tournament:
     | {
         userSquad?: any;
@@ -36,9 +56,16 @@ export type RootStackParamList = {
         completedResult?: any;
       }
     | undefined;
-  Multiplayer: undefined;
+  Multiplayer:
+    | {
+        roomCode?: string;
+        username?: string;
+        inWaitingState?: boolean;
+      }
+    | undefined;
   Museum: undefined;
   About: undefined;
+  Tycoon: undefined;
 };
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -65,6 +92,7 @@ function App(): React.JSX.Element {
           <Stack.Screen name="Multiplayer" component={MultiplayerScreen} />
           <Stack.Screen name="Museum" component={MuseumScreen} />
           <Stack.Screen name="About" component={AboutScreen} />
+          <Stack.Screen name="Tycoon" component={TycoonScreen} />
         </Stack.Navigator>
       </NavigationContainer>
     </SafeAreaProvider>

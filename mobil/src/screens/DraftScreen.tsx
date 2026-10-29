@@ -16,6 +16,7 @@ import { RetroHeader } from '../components/RetroHeader';
 import {
   fetchNostaljiDatabase,
   rollRandomTeam,
+  setPlayerReady,
   NostaljiDatabase,
   NostaljiPlayer,
 } from '../services/api';
@@ -33,9 +34,12 @@ interface DraftScreenProps {
 export const DraftScreen: React.FC<DraftScreenProps> = ({ navigation, route }) => {
   const formationCode = route.params?.formation || '4-4-2';
   const mode = route.params?.mode || 'tournament';
+  const roomCode = route.params?.roomCode;
+  const username = route.params?.username;
 
   const [database, setDatabase] = useState<NostaljiDatabase | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
+  const [submittingSquad, setSubmittingSquad] = useState<boolean>(false);
 
   // Rolled team state
   const [rolledTeam, setRolledTeam] = useState<{
@@ -204,26 +208,69 @@ export const DraftScreen: React.FC<DraftScreenProps> = ({ navigation, route }) =
     ? Math.round(dfGk.reduce((acc, p) => acc + (p.rating || 75), 0) / dfGk.length)
     : teamOvr;
 
-  const handleStartTournament = () => {
+  const handleFinishDraft = async () => {
     if (!isComplete) {
       Alert.alert('Kadro Eksik', '11 oyuncuyu da seçmeden turnuvaya başlayamazsınız.');
       return;
     }
 
-    navigation.navigate('Tournament', {
-      userSquad: draftedPlayers,
-      teamOvr,
-      teamAtk,
-      teamDef,
-      formation: formationCode,
-    });
+    if (mode === 'multiplayer') {
+      if (!roomCode || !username) {
+        Alert.alert('Hata', 'Oda veya kullanıcı bilgisi bulunamadı.');
+        return;
+      }
+      setSubmittingSquad(true);
+      const res = await setPlayerReady(username, roomCode, teamOvr, formationCode, draftedPlayers);
+      setSubmittingSquad(false);
+
+      if (res.success && res.room) {
+        if (res.room.status === 'finished' && res.room.leagueResults?.matches?.length) {
+          // Both players finished! Server simulated the derby
+          const match = res.room.leagueResults.matches[0];
+          navigation.navigate('Simulation', {
+            mode: 'multiplayer',
+            roomCode,
+            username,
+            roomData: res.room,
+            match,
+            standings: res.room.leagueResults.standings,
+            champion: res.room.leagueResults.champion,
+            homeTeam: {
+              name: match.home,
+              rating: match.homeRating,
+            },
+            awayTeam: {
+              name: match.away,
+              rating: match.awayRating,
+            },
+          });
+        } else {
+          // Waiting for the opponent to finish drafting
+          navigation.navigate('Multiplayer', {
+            roomCode,
+            username,
+            inWaitingState: true,
+          });
+        }
+      } else {
+        Alert.alert('Hata', res.message || 'Kadro kaydedilirken bir hata oluştu.');
+      }
+    } else {
+      navigation.navigate('Tournament', {
+        userSquad: draftedPlayers,
+        teamOvr,
+        teamAtk,
+        teamDef,
+        formation: formationCode,
+      });
+    }
   };
 
   return (
     <SafeAreaView style={styles.safeArea}>
       <StatusBar barStyle="dark-content" />
       <RetroHeader
-        title="DRAFT ODASI"
+        title={mode === 'multiplayer' ? '2 KİŞİLİK DRAFT' : 'DRAFT ODASI'}
         subtitle={`FORMASYON: ${formationCode}`}
         showBack
         onBack={() => navigation.goBack()}
@@ -239,8 +286,9 @@ export const DraftScreen: React.FC<DraftScreenProps> = ({ navigation, route }) =
           <View style={[styles.panelCard, styles.completeCard]}>
             <Text style={styles.completeTitle}>🏆 KADRO TAMAMLANDI!</Text>
             <Text style={styles.completeDesc}>
-              11 efsanevi oyuncu başarıyla sahaya yerleştirildi. Artık Türkiye Kupası
-              son 16 eleme turuna hazırsın!
+              {mode === 'multiplayer'
+                ? '11 efsanevi oyuncu kadronuza yerleştirildi. Şimdi kadroyu onaylayıp canlı derbi maçına geçin!'
+                : '11 efsanevi oyuncu başarıyla sahaya yerleştirildi. Artık Türkiye Kupası son 16 eleme turuna hazırsın!'}
             </Text>
 
             <View style={styles.completeStatsRow}>
@@ -260,12 +308,19 @@ export const DraftScreen: React.FC<DraftScreenProps> = ({ navigation, route }) =
 
             <TouchableOpacity
               activeOpacity={0.8}
-              onPress={handleStartTournament}
+              onPress={handleFinishDraft}
+              disabled={submittingSquad}
               style={styles.actionTournamentBtn}
             >
-              <Text style={styles.actionTournamentText}>
-                TURNUVAYI BAŞLAT ➔
-              </Text>
+              {submittingSquad ? (
+                <ActivityIndicator color="#ffffff" size="small" />
+              ) : (
+                <Text style={styles.actionTournamentText}>
+                  {mode === 'multiplayer'
+                    ? 'DRAFTI BİTİR VE LİGE GEÇ 🏁'
+                    : 'TURNUVAYI BAŞLAT ➔'}
+                </Text>
+              )}
             </TouchableOpacity>
           </View>
         ) : (

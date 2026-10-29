@@ -45,7 +45,7 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({ navigation }) => {
   };
 
   const handleClearHistory = () => {
-    Alert.alert('Arşivi Temizle', 'Tüm maç posterleri silinsin mi?', [
+    Alert.alert('Arşivi Temizle', 'Tüm maç posterleri ve müze geçmişi silinsin mi?', [
       { text: 'Vazgeç', style: 'cancel' },
       {
         text: 'Evet, Sil',
@@ -58,12 +58,33 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({ navigation }) => {
     ]);
   };
 
+  // Career Statistics Calculated Deterministically
+  const totalPlayed = savedPosters.length;
+  const wonCount = savedPosters.filter(p => p.result.winner === 'home').length;
+  const drawCount = savedPosters.filter(
+    p => p.result.winner === 'draw' || p.result.homeScore === p.result.awayScore,
+  ).length;
+  const lostCount = totalPlayed - wonCount - drawCount;
+  const totalGoalsFor = savedPosters.reduce(
+    (acc, p) => acc + (p.result.homeScore || 0),
+    0,
+  );
+  const totalGoalsAgainst = savedPosters.reduce(
+    (acc, p) => acc + (p.result.awayScore || 0),
+    0,
+  );
+  const maxOvr =
+    savedPosters.length > 0
+      ? Math.max(...savedPosters.map(p => p.result.homeRating || 75))
+      : 0;
+  const trophyCount = Math.floor(wonCount / 2);
+
   return (
     <SafeAreaView style={styles.safeArea}>
       <StatusBar barStyle="dark-content" />
       <RetroHeader
-        title="MÜZE & ARŞİV"
-        subtitle="MAÇ POSTERLERİ VE KUPALAR"
+        title="KUPA MÜZESİ"
+        subtitle="İSTATİSTİKLER VE MAÇ POSTERLERİ"
         showBack
         onBack={() => navigation.goBack()}
         rightAction={
@@ -87,14 +108,71 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({ navigation }) => {
             <View style={styles.trophySlot}>
               <Text style={styles.trophyIcon}>🏆</Text>
               <Text style={styles.trophyName}>Türkiye Kupası</Text>
+              <Text style={styles.trophyCountText}>x{trophyCount}</Text>
             </View>
             <View style={styles.trophySlot}>
               <Text style={styles.trophyIcon}>⭐</Text>
               <Text style={styles.trophyName}>Süper Kupa</Text>
+              <Text style={styles.trophyCountText}>x{Math.floor(trophyCount / 2)}</Text>
             </View>
             <View style={styles.trophySlot}>
               <Text style={styles.trophyIcon}>👑</Text>
               <Text style={styles.trophyName}>Derbi Şampiyonu</Text>
+              <Text style={styles.trophyCountText}>x{wonCount}</Text>
+            </View>
+          </View>
+        </View>
+
+        {/* 5 CAREER STATS CARDS (Matching Web Version) */}
+        <View style={styles.statsGrid}>
+          {/* 1. Trophies */}
+          <View style={[styles.statCard, Shadows.brutalSm]}>
+            <Text style={styles.statIcon}>🏆</Text>
+            <View style={styles.statContent}>
+              <Text style={styles.statValue}>{trophyCount}</Text>
+              <Text style={styles.statLabel}>Kazanılan Kupa</Text>
+            </View>
+          </View>
+
+          {/* 2. Matches Played */}
+          <View style={[styles.statCard, Shadows.brutalSm]}>
+            <Text style={styles.statIcon}>🎮</Text>
+            <View style={styles.statContent}>
+              <Text style={styles.statValue}>{totalPlayed}</Text>
+              <Text style={styles.statLabel}>Oynanan Maç</Text>
+            </View>
+          </View>
+
+          {/* 3. Results (G / B / M) */}
+          <View style={[styles.statCard, Shadows.brutalSm]}>
+            <Text style={styles.statIcon}>📊</Text>
+            <View style={styles.statContent}>
+              <Text style={styles.statValue}>
+                {wonCount}G {drawCount}B {lostCount}M
+              </Text>
+              <Text style={styles.statLabel}>Sonuçlar</Text>
+            </View>
+          </View>
+
+          {/* 4. Goals (Atılan / Yenilen) */}
+          <View style={[styles.statCard, Shadows.brutalSm]}>
+            <Text style={styles.statIcon}>⚽</Text>
+            <View style={styles.statContent}>
+              <Text style={styles.statValue}>
+                {totalGoalsFor} / {totalGoalsAgainst}
+              </Text>
+              <Text style={styles.statLabel}>Atılan / Yenilen</Text>
+            </View>
+          </View>
+
+          {/* 5. Max OVR */}
+          <View style={[styles.statCard, Shadows.brutalSm]}>
+            <Text style={styles.statIcon}>📈</Text>
+            <View style={styles.statContent}>
+              <Text style={styles.statValue}>
+                {maxOvr > 0 ? maxOvr : '--'}
+              </Text>
+              <Text style={styles.statLabel}>En Yüksek OVR</Text>
             </View>
           </View>
         </View>
@@ -108,7 +186,7 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({ navigation }) => {
               <Text style={styles.emptyIcon}>📜</Text>
               <Text style={styles.emptyTitle}>Henüz Maç Posteri Yok</Text>
               <Text style={styles.emptyDesc}>
-                Oynadığın hızlı maçlar ve kupa finallerinin posterleri otomatik olarak bu arşive kaydedilir.
+                Oynadığın hızlı maçlar, derbiler ve kupa finallerinin nostalji posterleri otomatik olarak bu arşive kaydedilir.
               </Text>
             </View>
           ) : (
@@ -172,7 +250,7 @@ const styles = StyleSheet.create({
   },
   trophyCabinet: {
     backgroundColor: Colors.cardBg,
-    borderRadius: 8,
+    borderRadius: 2,
     borderWidth: 2,
     borderColor: Colors.borderDark,
     padding: 14,
@@ -191,30 +269,72 @@ const styles = StyleSheet.create({
   },
   trophySlot: {
     alignItems: 'center',
-    gap: 4,
+    gap: 2,
   },
   trophyIcon: {
-    fontSize: 32,
+    fontSize: 28,
   },
   trophyName: {
     fontSize: 10,
     fontWeight: '800',
-    color: Colors.textMuted,
+    color: '#666666',
+    marginTop: 2,
+  },
+  trophyCountText: {
+    fontSize: 11,
+    fontWeight: '900',
+    color: '#3b9966',
+  },
+  statsGrid: {
+    gap: 10,
+    marginBottom: 20,
+  },
+  statCard: {
+    backgroundColor: '#ffffff',
+    borderWidth: 2,
+    borderColor: '#1a1a1a',
+    borderRadius: 2,
+    padding: 12,
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 12,
+  },
+  statIcon: {
+    fontSize: 26,
+    width: 36,
+    textAlign: 'center',
+  },
+  statContent: {
+    flex: 1,
+  },
+  statValue: {
+    fontSize: 18,
+    fontWeight: '900',
+    color: '#3b9966',
+  },
+  statLabel: {
+    fontSize: 11,
+    fontWeight: '800',
+    color: '#666666',
+    textTransform: 'uppercase',
+    marginTop: 1,
   },
   postersSection: {
-    gap: 10,
+    marginTop: 6,
   },
   sectionHeader: {
     fontSize: 12,
     fontWeight: '900',
     color: Colors.inkBlack,
     letterSpacing: 0.5,
+    marginBottom: 10,
+    textTransform: 'uppercase',
   },
   emptyBox: {
-    backgroundColor: Colors.cardBg,
-    borderRadius: 8,
+    backgroundColor: '#ffffff',
     borderWidth: 2,
-    borderColor: Colors.borderDark,
+    borderColor: '#1a1a1a',
+    borderRadius: 2,
     padding: 24,
     alignItems: 'center',
   },
@@ -223,77 +343,79 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   emptyTitle: {
-    fontSize: 14,
+    fontSize: 15,
     fontWeight: '900',
-    color: Colors.inkBlack,
-    marginBottom: 4,
+    color: '#1a1a1a',
+    marginBottom: 6,
   },
   emptyDesc: {
     fontSize: 12,
-    color: Colors.textMuted,
+    fontWeight: '600',
+    color: '#666666',
     textAlign: 'center',
     lineHeight: 18,
   },
   posterCard: {
-    backgroundColor: Colors.cardBg,
-    borderRadius: 8,
+    backgroundColor: '#ffffff',
     borderWidth: 2,
-    borderColor: Colors.borderDark,
+    borderColor: '#1a1a1a',
+    borderRadius: 2,
     padding: 12,
+    marginBottom: 10,
   },
   posterMeta: {
     flexDirection: 'row',
     justifyContent: 'space-between',
+    borderBottomWidth: 1,
+    borderColor: '#eee',
+    paddingBottom: 6,
     marginBottom: 8,
   },
   posterDate: {
     fontSize: 10,
     fontWeight: '800',
-    color: Colors.textMuted,
+    color: '#888888',
   },
   posterMvp: {
     fontSize: 10,
     fontWeight: '800',
-    color: Colors.accentGold,
+    color: '#3b9966',
   },
   posterMatchRow: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    paddingVertical: 6,
+    marginVertical: 4,
   },
   posterTeam: {
     flex: 1,
-    fontSize: 13,
+    fontSize: 12,
     fontWeight: '900',
-    color: Colors.inkBlack,
-    textAlign: 'center',
+    color: '#1a1a1a',
   },
   posterScoreBox: {
-    backgroundColor: Colors.creamDark,
+    backgroundColor: '#fff2cc',
+    borderWidth: 1.5,
+    borderColor: '#1a1a1a',
     paddingHorizontal: 10,
     paddingVertical: 4,
-    borderRadius: 4,
-    borderWidth: 1.5,
-    borderColor: Colors.borderDark,
     marginHorizontal: 8,
   },
   posterScore: {
-    fontSize: 16,
+    fontSize: 13,
     fontWeight: '900',
-    color: Colors.accentRed,
+    color: '#1a1a1a',
   },
   posterFooter: {
-    borderTopWidth: 1,
-    borderTopColor: Colors.cardBorder,
-    paddingTop: 8,
     marginTop: 8,
+    borderTopWidth: 1,
+    borderColor: '#eee',
+    paddingTop: 6,
     alignItems: 'center',
   },
   viewPosterText: {
     fontSize: 11,
     fontWeight: '900',
-    color: Colors.accentBlue,
-    letterSpacing: 0.5,
+    color: '#1a1a1a',
   },
 });

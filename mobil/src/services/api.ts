@@ -49,25 +49,70 @@ export interface RoomPlayer {
   ready: boolean;
   rating: number;
   formation: string | null;
-  squad?: Player[];
+  squad?: any[];
+}
+
+export interface MatchEvent {
+  minute: number;
+  team: 'home' | 'away';
+  type: 'goal' | 'miss' | 'var-cancelled' | 'phase';
+  text: string;
+  name?: string;
+  triggerVarConfirm?: boolean;
+  cancelText?: string;
+  homeScore?: number;
+  awayScore?: number;
+}
+
+export interface DerbyMatch {
+  round: number;
+  home: string;
+  homeRating: number;
+  away: string;
+  awayRating: number;
+  regularHomeScore: number;
+  regularAwayScore: number;
+  extraHomeScore: number;
+  extraAwayScore: number;
+  homeScore: number;
+  awayScore: number;
+  hasExtraTime: boolean;
+  hasPenalties: boolean;
+  penaltyResults: any | null;
+  winner: 'home' | 'away';
+  events: MatchEvent[];
+}
+
+export interface StandingItem {
+  username: string;
+  formation: string;
+  rating: number;
+  played: number;
+  won: number;
+  drawn: number;
+  lost: number;
+  goalsFor: number;
+  goalsAgainst: number;
+  points: number;
 }
 
 export interface RoomData {
   roomCode: string;
   maxPlayers: number;
-  status: 'waiting' | 'drafting' | 'simulating' | 'finished';
+  status: 'waiting' | 'drafting' | 'finished';
   players: RoomPlayer[];
   lastActivity: number;
-  leagueResults?: any;
+  leagueResults?: {
+    standings: StandingItem[];
+    matches: DerbyMatch[];
+    champion: string;
+  };
 }
 
-export interface MultiplayerRoom {
-  room_code: string;
-  host_name: string;
-  guest_name?: string;
-  host_ready: boolean;
-  guest_ready: boolean;
-  status: 'waiting' | 'drafting' | 'playing' | 'finished';
+export interface ApiResponse<T = any> {
+  success: boolean;
+  data?: T;
+  message?: string;
 }
 
 let cachedDatabase: NostaljiDatabase | null = null;
@@ -176,107 +221,146 @@ export const fetchTycoonPlayers = async (): Promise<Player[]> => {
   return fetchNostaljiDataset();
 };
 
-export const createRoom = async (hostName: string): Promise<MultiplayerRoom> => {
+/**
+ * Creates a real 2-player derby room on the live Laravel server.
+ */
+export const createRoom = async (
+  username: string,
+): Promise<{ success: boolean; roomCode?: string; room?: RoomData; message?: string }> => {
   try {
     const res = await fetch(`${API_BASE_URL}/rooms/create`, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-      body: JSON.stringify({ username: hostName, maxPlayers: 2 }),
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+      body: JSON.stringify({ username: username.trim(), maxPlayers: 2 }),
     });
-    const data = await res.json();
-    if (data && data.success && data.room) {
+    const json = await res.json();
+    if (json.success && json.data) {
       return {
-        room_code: data.room.roomCode,
-        host_name: hostName,
-        host_ready: false,
-        guest_ready: false,
-        status: 'waiting',
+        success: true,
+        roomCode: json.data.roomCode || json.data.room?.roomCode,
+        room: json.data.room,
       };
     }
+    return {
+      success: false,
+      message: json.message || 'Oda oluşturulamadı.',
+    };
   } catch (err) {
     console.warn('createRoom api error:', err);
+    return {
+      success: false,
+      message: 'Canlı sunucuya bağlanılamadı. İnternet bağlantınızı kontrol edin.',
+    };
   }
-
-  const randomCode = 'TR' + Math.floor(1000 + Math.random() * 9000);
-  return {
-    room_code: randomCode,
-    host_name: hostName,
-    host_ready: false,
-    guest_ready: false,
-    status: 'waiting',
-  };
 };
 
-export const joinRoom = async (roomCode: string, guestName: string): Promise<MultiplayerRoom> => {
+/**
+ * Joins an existing room by 6-character room code on the live Laravel server.
+ */
+export const joinRoom = async (
+  roomCode: string,
+  username: string,
+): Promise<{ success: boolean; room?: RoomData; message?: string }> => {
   try {
+    const cleanCode = roomCode.trim().toUpperCase();
     const res = await fetch(`${API_BASE_URL}/rooms/join`, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-      body: JSON.stringify({ roomCode, username: guestName }),
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+      body: JSON.stringify({
+        roomCode: cleanCode,
+        username: username.trim(),
+      }),
     });
-    const data = await res.json();
-    if (data && data.success && data.room) {
+    const json = await res.json();
+    if (json.success && json.data?.room) {
       return {
-        room_code: roomCode,
-        host_name: data.room.players?.[0]?.username || 'Ev Sahibi',
-        guest_name: guestName,
-        host_ready: data.room.players?.[0]?.ready || false,
-        guest_ready: false,
-        status: data.room.status || 'waiting',
+        success: true,
+        room: json.data.room,
       };
     }
+    return {
+      success: false,
+      message: json.message || 'Odaya katılım sağlanamadı.',
+    };
   } catch (err) {
     console.warn('joinRoom api error:', err);
+    return {
+      success: false,
+      message: 'Canlı sunucuya bağlanılamadı.',
+    };
   }
-
-  return {
-    room_code: roomCode,
-    host_name: 'Ev Sahibi',
-    guest_name: guestName,
-    host_ready: true,
-    guest_ready: false,
-    status: 'waiting',
-  };
 };
 
-export const getRoomState = async (roomCode: string): Promise<MultiplayerRoom | null> => {
+/**
+ * Polls the current room state from the live Laravel server.
+ */
+export const getRoomState = async (roomCode: string): Promise<RoomData | null> => {
   try {
-    const res = await fetch(`${API_BASE_URL}/rooms/state?roomCode=${encodeURIComponent(roomCode)}`, {
+    const cleanCode = roomCode.trim().toUpperCase();
+    const res = await fetch(`${API_BASE_URL}/rooms/state?roomCode=${encodeURIComponent(cleanCode)}`, {
       headers: { Accept: 'application/json' },
     });
-    const data = await res.json();
-    if (data && data.success && data.room) {
-      const r = data.room;
-      return {
-        room_code: r.roomCode,
-        host_name: r.players?.[0]?.username || 'Ev Sahibi',
-        guest_name: r.players?.[1]?.username,
-        host_ready: !!r.players?.[0]?.ready,
-        guest_ready: !!r.players?.[1]?.ready,
-        status: r.status,
-      };
+    const json = await res.json();
+    if (json.success && json.data?.room) {
+      return json.data.room;
     }
   } catch {
-    // quiet
+    // quiet polling error
   }
   return null;
 };
 
+/**
+ * Submits the completed draft squad to the live Laravel server.
+ * When both players have called this endpoint, the server executes simulateLeague()
+ * and transitions status to 'finished', returning the full match events and score.
+ */
 export const setPlayerReady = async (
+  username: string,
   roomCode: string,
-  role: 'host' | 'guest',
-  ready: boolean,
-): Promise<boolean> => {
+  rating: number,
+  formation: string,
+  squad: any[],
+): Promise<{ success: boolean; room?: RoomData; message?: string }> => {
   try {
+    const cleanCode = roomCode.trim().toUpperCase();
     const res = await fetch(`${API_BASE_URL}/rooms/ready`, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-      body: JSON.stringify({ roomCode, ready, role }),
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+      body: JSON.stringify({
+        username: username.trim(),
+        roomCode: cleanCode,
+        rating: Math.round(rating),
+        formation,
+        squad,
+      }),
     });
-    const data = await res.json();
-    return !!data?.success;
-  } catch {
-    return false;
+    const json = await res.json();
+    if (json.success && json.data?.room) {
+      return {
+        success: true,
+        room: json.data.room,
+      };
+    }
+    return {
+      success: false,
+      message: json.message || 'Kadro sunucuya gönderilemedi.',
+    };
+  } catch (err) {
+    console.warn('setPlayerReady api error:', err);
+    return {
+      success: false,
+      message: 'Sunucuya bağlanılamadı.',
+    };
   }
 };
 
@@ -287,4 +371,5 @@ export const ApiService = {
   createRoom,
   joinRoom,
   getRoomState,
+  setPlayerReady,
 };
