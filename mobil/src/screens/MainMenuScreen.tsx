@@ -19,7 +19,12 @@ export const MainMenuScreen: React.FC<MainMenuScreenProps> = ({
   navigation,
 }) => {
   const insets = useSafeAreaInsets();
-  const topPadding = Math.max(insets.top, Platform.OS === 'android' ? 24 : 12);
+  // On Android, SafeAreaView does not apply status bar inset, so we add Android status bar height.
+  // On iOS, SafeAreaView already applies insets.top, so we only need a small margin.
+  const topPadding =
+    Platform.OS === 'android'
+      ? Math.max(StatusBar.currentHeight || 0, insets.top, 24) + 6
+      : 10;
   const bottomPadding = Math.max(insets.bottom, 16);
 
   return (
@@ -29,7 +34,7 @@ export const MainMenuScreen: React.FC<MainMenuScreenProps> = ({
       <ScrollView
         contentContainerStyle={[
           styles.scrollContent,
-          { paddingTop: topPadding + 6, paddingBottom: bottomPadding + 14 },
+          { paddingTop: topPadding, paddingBottom: bottomPadding + 14 },
         ]}
         showsVerticalScrollIndicator={false}
       >
@@ -172,7 +177,6 @@ const styles = StyleSheet.create({
   },
   scrollContent: {
     flexGrow: 1,
-    justifyContent: 'center',
     paddingHorizontal: 16,
   },
   menuContainer: {

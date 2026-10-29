@@ -31,8 +31,12 @@ export const RetroHeader: React.FC<RetroHeaderProps> = ({
   rightAction,
 }) => {
   const insets = useSafeAreaInsets();
-  // Safe top padding ensuring header never overlaps camera cutout or status bar
-  const headerPaddingTop = Math.max(insets.top, Platform.OS === 'android' ? 24 : 12);
+  // On iOS, all screens are wrapped in SafeAreaView which already offsets insets.top.
+  // On Android, SafeAreaView does not add top padding, so we preserve the Android status bar height.
+  const headerPaddingTop =
+    Platform.OS === 'android'
+      ? Math.max(StatusBar.currentHeight || 0, insets.top, 24)
+      : 4;
 
   React.useEffect(() => {
     if (Platform.OS === 'android') {

@@ -50,7 +50,12 @@ export const SplashScreen: React.FC<SplashScreenProps> = ({ navigation }) => {
   }, []);
 
   return (
-    <View style={[styles.container, { paddingTop: insets.top, paddingBottom: insets.bottom }]}>
+    <View
+      style={[
+        styles.container,
+        { paddingTop: insets.top, paddingBottom: insets.bottom },
+      ]}
+    >
       <StatusBar barStyle="dark-content" />
 
       <View style={styles.card}>
@@ -61,7 +66,7 @@ export const SplashScreen: React.FC<SplashScreenProps> = ({ navigation }) => {
         </View>
 
         <Image
-          source={require('../assets/draft.png')}
+          source={require('../assets/draftsplash.png')}
           style={styles.logo}
           resizeMode="contain"
         />
@@ -80,7 +85,9 @@ export const SplashScreen: React.FC<SplashScreenProps> = ({ navigation }) => {
         <View style={styles.loaderBox}>
           <ActivityIndicator size="small" color="#3b9966" />
           <Text style={styles.loadingText}>YÜKLENİYOR...</Text>
-          <Text style={styles.loadingSub}>Nostaljik Veri Tabanı Hazırlanıyor</Text>
+          <Text style={styles.loadingSub}>
+            Nostaljik Veri Tabanı Hazırlanıyor
+          </Text>
         </View>
 
         <View style={styles.footerRow}>
@@ -137,8 +144,8 @@ const styles = StyleSheet.create({
     letterSpacing: 1.5,
   },
   logo: {
-    width: 140,
-    height: 52,
+    width: 200,
+    height: 100,
     marginBottom: 10,
     marginTop: 8,
   },

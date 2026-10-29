@@ -103,8 +103,8 @@ const styles = StyleSheet.create({
   },
   scrollContent: {
     padding: 16,
-    justifyContent: 'center',
-    minHeight: '85%',
+    paddingTop: 10,
+    paddingBottom: 36,
   },
   cardContainer: {
     backgroundColor: '#ffffff',
