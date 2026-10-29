@@ -448,79 +448,6 @@ export const SimulationScreen: React.FC<SimulationScreenProps> = ({
         </View>
 
         {/* =========================================================
-            MULTIPLAYER FINISHED BANNER (Displayed after match ends)
-            ========================================================= */}
-        {isFinished && isMultiplayer && (
-          <View style={styles.derbyResultCard}>
-            <Text style={styles.wonTitle}>
-              {userWon
-                ? 'DERBİYİ KAZANDINIZ! 🏆'
-                : isDraw
-                ? 'DOSTLUK KAZANDI! 🤝'
-                : 'DERBİYİ RAKİP KAZANDI! ⚔️'}
-            </Text>
-            <Text style={styles.wonSubtitle}>
-              {userWon
-                ? 'Tebrikler! Arkadaşınıza karşı unutulmaz bir derbi zaferi elde ettiniz.'
-                : isDraw
-                ? 'Nefes kesen maç sonucunda derbi eşitlikle tamamlandı.'
-                : 'Rakibiniz bu kez daha üstün oynadı. Bir sonraki maçta rövanşı alabilirsiniz!'}
-            </Text>
-
-            <View style={styles.derbyActionsRow}>
-              {/* PRIMARY: MAÇ SONUÇLARINI GÖR (Image 1 Screen) */}
-              <TouchableOpacity
-                activeOpacity={0.8}
-                onPress={() =>
-                  navigation.navigate('LeagueResults', {
-                    roomData,
-                    match: serverMatch,
-                    username: currentUsername,
-                    userSquad: player1?.username === currentUsername ? sortedSquad1 : sortedSquad2,
-                    userFormation: (player1?.username === currentUsername ? player1 : player2)?.formation || '4-4-2',
-                  })
-                }
-                style={styles.resultsActionBtn}
-              >
-                <Text style={styles.resultsActionBtnText}>
-                  🏆 MAÇ SONUCUNU GÖR ➔
-                </Text>
-              </TouchableOpacity>
-
-              <TouchableOpacity
-                activeOpacity={0.8}
-                onPress={() => setPosterVisible(true)}
-                style={styles.posterActionBtn}
-              >
-                <Text style={styles.posterActionBtnText}>
-                  📷 ANI POSTERİ OLUŞTUR
-                </Text>
-              </TouchableOpacity>
-
-              <TouchableOpacity
-                activeOpacity={0.8}
-                onPress={handleShareDerbyWhatsApp}
-                style={styles.derbyWaBtn}
-              >
-                <Text style={styles.derbyWaBtnText}>
-                  💬 WhatsApp ile Sonucu Paylaş
-                </Text>
-              </TouchableOpacity>
-
-              <TouchableOpacity
-                activeOpacity={0.8}
-                onPress={() => navigation.navigate('MainMenu')}
-                style={styles.derbyHomeBtn}
-              >
-                <Text style={styles.derbyHomeBtnText}>
-                  🏠 Ana Menüye Dön
-                </Text>
-              </TouchableOpacity>
-            </View>
-          </View>
-        )}
-
-        {/* =========================================================
             CLASSIC SINGLEPLAYER FINISHED BANNERS
             ========================================================= */}
         {isFinished && !isMultiplayer && !userWon && (
@@ -616,6 +543,32 @@ export const SimulationScreen: React.FC<SimulationScreenProps> = ({
               </View>
             ))}
           </View>
+
+          {/* Matches Web btn-mp-sim-2-skip: SONUÇLARA GİT / SONUÇLARI GÖSTER */}
+          {isFinished && isMultiplayer && (
+            <TouchableOpacity
+              activeOpacity={0.8}
+              onPress={() =>
+                navigation.navigate('LeagueResults', {
+                  roomData,
+                  match: serverMatch,
+                  username: currentUsername,
+                  userSquad:
+                    player1?.username === currentUsername
+                      ? sortedSquad1
+                      : sortedSquad2,
+                  userFormation:
+                    (player1?.username === currentUsername ? player1 : player2)
+                      ?.formation || '4-4-2',
+                })
+              }
+              style={styles.goToResultsBtn}
+            >
+              <Text style={styles.goToResultsBtnText}>
+                SONUÇLARI GÖSTER ➔
+              </Text>
+            </TouchableOpacity>
+          )}
         </View>
 
         {/* =========================================================
@@ -1105,5 +1058,26 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     color: '#1a1a1a',
     lineHeight: 16,
+  },
+  goToResultsBtn: {
+    backgroundColor: '#1a1a1a',
+    borderWidth: 2,
+    borderColor: '#1a1a1a',
+    borderRadius: 2,
+    paddingVertical: 14,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: 18,
+    shadowColor: '#1a1a1a',
+    shadowOffset: { width: 3, height: 3 },
+    shadowOpacity: 1,
+    shadowRadius: 0,
+    elevation: 3,
+  },
+  goToResultsBtnText: {
+    color: '#ffffff',
+    fontSize: 14,
+    fontWeight: '900',
+    letterSpacing: 0.5,
   },
 });
