@@ -468,13 +468,32 @@ export const SimulationScreen: React.FC<SimulationScreenProps> = ({
             </Text>
 
             <View style={styles.derbyActionsRow}>
+              {/* PRIMARY: MAÇ SONUÇLARINI GÖR (Image 1 Screen) */}
+              <TouchableOpacity
+                activeOpacity={0.8}
+                onPress={() =>
+                  navigation.navigate('LeagueResults', {
+                    roomData,
+                    match: serverMatch,
+                    username: currentUsername,
+                    userSquad: player1?.username === currentUsername ? sortedSquad1 : sortedSquad2,
+                    userFormation: (player1?.username === currentUsername ? player1 : player2)?.formation || '4-4-2',
+                  })
+                }
+                style={styles.resultsActionBtn}
+              >
+                <Text style={styles.resultsActionBtnText}>
+                  🏆 MAÇ SONUCUNU GÖR ➔
+                </Text>
+              </TouchableOpacity>
+
               <TouchableOpacity
                 activeOpacity={0.8}
                 onPress={() => setPosterVisible(true)}
                 style={styles.posterActionBtn}
               >
                 <Text style={styles.posterActionBtnText}>
-                  📜 DERBİ POSTERİNİ GÖR / PAYLAŞ
+                  📷 ANI POSTERİ OLUŞTUR
                 </Text>
               </TouchableOpacity>
 
@@ -646,6 +665,11 @@ export const SimulationScreen: React.FC<SimulationScreenProps> = ({
       {/* Retro Match Poster Modal */}
       <PosterModal
         visible={posterVisible}
+        roomData={roomData}
+        match={serverMatch}
+        userSquad={player1?.username === currentUsername ? sortedSquad1 : sortedSquad2}
+        userFormation={(player1?.username === currentUsername ? player1 : player2)?.formation || '4-4-2'}
+        username={currentUsername}
         matchResult={fullMatchResult}
         onClose={() => setPosterVisible(false)}
       />
@@ -791,6 +815,24 @@ const styles = StyleSheet.create({
   derbyActionsRow: {
     marginTop: 14,
     gap: 10,
+  },
+  resultsActionBtn: {
+    backgroundColor: '#3b9966',
+    borderWidth: 2,
+    borderColor: '#1a1a1a',
+    paddingVertical: 14,
+    alignItems: 'center',
+    shadowColor: '#1a1a1a',
+    shadowOffset: { width: 3, height: 3 },
+    shadowOpacity: 1,
+    shadowRadius: 0,
+    elevation: 3,
+  },
+  resultsActionBtnText: {
+    color: '#ffffff',
+    fontSize: 14,
+    fontWeight: '900',
+    letterSpacing: 0.5,
   },
   derbyWaBtn: {
     backgroundColor: '#25D366',

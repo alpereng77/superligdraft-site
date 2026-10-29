@@ -11,6 +11,7 @@ import { DraftScreen } from './src/screens/DraftScreen';
 import { SimulationScreen } from './src/screens/SimulationScreen';
 import { TournamentScreen } from './src/screens/TournamentScreen';
 import { MultiplayerScreen } from './src/screens/MultiplayerScreen';
+import { LeagueResultsScreen } from './src/screens/LeagueResultsScreen';
 import { MuseumScreen } from './src/screens/MuseumScreen';
 import { AboutScreen } from './src/screens/AboutScreen';
 import { TycoonScreen } from './src/screens/TycoonScreen';
@@ -63,6 +64,15 @@ export type RootStackParamList = {
         inWaitingState?: boolean;
       }
     | undefined;
+  LeagueResults:
+    | {
+        roomData?: any;
+        match?: any;
+        username?: string;
+        userSquad?: any;
+        userFormation?: string;
+      }
+    | undefined;
   Museum: undefined;
   About: undefined;
   Tycoon: undefined;
@@ -90,6 +100,7 @@ function App(): React.JSX.Element {
           <Stack.Screen name="Simulation" component={SimulationScreen} />
           <Stack.Screen name="Tournament" component={TournamentScreen} />
           <Stack.Screen name="Multiplayer" component={MultiplayerScreen} />
+          <Stack.Screen name="LeagueResults" component={LeagueResultsScreen} />
           <Stack.Screen name="Museum" component={MuseumScreen} />
           <Stack.Screen name="About" component={AboutScreen} />
           <Stack.Screen name="Tycoon" component={TycoonScreen} />
