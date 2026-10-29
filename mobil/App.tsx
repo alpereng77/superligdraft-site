@@ -91,6 +91,7 @@ function App(): React.JSX.Element {
             headerShown: false,
             animation: 'fade',
             contentStyle: { backgroundColor: Colors.cream },
+            statusBarStyle: 'dark',
           }}
         >
           <Stack.Screen name="Splash" component={SplashScreen} />
