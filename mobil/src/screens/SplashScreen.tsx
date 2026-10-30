@@ -31,7 +31,7 @@ export const SplashScreen: React.FC<SplashScreenProps> = ({ navigation }) => {
         if (isMounted) {
           setTimeout(() => {
             navigation.replace('MainMenu');
-          }, 800);
+          }, 1200);
         }
       }
     };
@@ -86,12 +86,12 @@ export const SplashScreen: React.FC<SplashScreenProps> = ({ navigation }) => {
           <ActivityIndicator size="small" color="#3b9966" />
           <Text style={styles.loadingText}>YÜKLENİYOR...</Text>
           <Text style={styles.loadingSub}>
-            Nostaljik Veri Tabanı Hazırlanıyor
+            Oyuncular ve saha hazırlanıyor.. .
           </Text>
         </View>
 
         <View style={styles.footerRow}>
-          <Text style={styles.footerMono}>SERİ No: #SL-2004-2026</Text>
+          <Text style={styles.footerMono}>www.superligdraft.site</Text>
         </View>
       </View>
     </View>

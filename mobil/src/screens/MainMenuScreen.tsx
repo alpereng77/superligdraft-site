@@ -19,8 +19,6 @@ export const MainMenuScreen: React.FC<MainMenuScreenProps> = ({
   navigation,
 }) => {
   const insets = useSafeAreaInsets();
-  // On Android, SafeAreaView does not apply status bar inset, so we add Android status bar height.
-  // On iOS, SafeAreaView already applies insets.top, so we only need a small margin.
   const topPadding =
     Platform.OS === 'android'
       ? Math.max(StatusBar.currentHeight || 0, insets.top, 24) + 6
@@ -38,16 +36,12 @@ export const MainMenuScreen: React.FC<MainMenuScreenProps> = ({
         ]}
         showsVerticalScrollIndicator={false}
       >
-        {/* Main Brutalist Retro Container */}
         <View style={styles.menuContainer}>
-          {/* Top-Right "2000'LER" Ribbon Badge */}
           <View style={styles.ribbonWrapper}>
             <View style={styles.ribbonBadge}>
               <Text style={styles.ribbonText}>2000'LER</Text>
             </View>
           </View>
-
-          {/* Logo & Headline Area */}
           <View style={styles.logoArea}>
             <Text style={styles.mainTitle}>SÜPER LİG DRAFT</Text>
             <View style={styles.doubleDivider}>
@@ -58,10 +52,7 @@ export const MainMenuScreen: React.FC<MainMenuScreenProps> = ({
               TÜRK FUTBOL TARİHİNİN EFSANE KADROLARINI YENİDEN KUR VE YARIŞTIR!
             </Text>
           </View>
-
-          {/* Modes List */}
           <View style={styles.modesList}>
-            {/* 1. Klasik Mod (Turnuva) */}
             <TouchableOpacity
               activeOpacity={0.8}
               onPress={() => navigation.navigate('FormationSetup')}
@@ -87,8 +78,6 @@ export const MainMenuScreen: React.FC<MainMenuScreenProps> = ({
                 <Text style={styles.arrowIcon}>›</Text>
               </View>
             </TouchableOpacity>
-
-            {/* 2. 2 Oyunculu Derbi */}
             <TouchableOpacity
               activeOpacity={0.8}
               onPress={() => navigation.navigate('Multiplayer')}
@@ -110,12 +99,9 @@ export const MainMenuScreen: React.FC<MainMenuScreenProps> = ({
                     heyecanını yaşayın.
                   </Text>
                 </View>
-
                 <Text style={styles.arrowIcon}>›</Text>
               </View>
             </TouchableOpacity>
-
-            {/* 3. Kupa Müzesi & İstatistikler */}
             <TouchableOpacity
               activeOpacity={0.8}
               onPress={() => navigation.navigate('Museum')}
@@ -139,22 +125,14 @@ export const MainMenuScreen: React.FC<MainMenuScreenProps> = ({
                     istatistiklerini incele.
                   </Text>
                 </View>
-
                 <Text style={styles.arrowIcon}>›</Text>
               </View>
             </TouchableOpacity>
           </View>
-
-          {/* Retro Menu Footer */}
           <View style={styles.menuFooter}>
-            <Text style={styles.footerMono}>SERİ No: #SL-2004-2026</Text>
-            <Text style={styles.footerMono}>
-              * Developer By AlperenGundogdu
-            </Text>
+            <Text style={styles.footerMono}>www.superligdraft.site</Text>
           </View>
         </View>
-
-        {/* Rehber & Detaylar Button (Screenshot 4) */}
         <View style={styles.rehberBtnContainer}>
           <TouchableOpacity
             activeOpacity={0.85}
@@ -220,7 +198,8 @@ const styles = StyleSheet.create({
     marginBottom: 24,
   },
   mainTitle: {
-    fontSize: 34,
+    fontSize: 30,
+    maxWidth: '80%',
     fontWeight: '900',
     color: '#1a1a1a',
     letterSpacing: 2,
@@ -237,14 +216,14 @@ const styles = StyleSheet.create({
     backgroundColor: '#1a1a1a',
   },
   subtitle: {
-    fontSize: 10,
+    fontSize: 12,
     fontWeight: '700',
     color: '#666666',
     letterSpacing: 0.8,
     textAlign: 'center',
-    lineHeight: 15,
+    lineHeight: 10,
     fontFamily: 'Courier',
-    marginTop: 4,
+    marginTop: 2,
   },
   modesList: {
     gap: 16,
@@ -329,7 +308,7 @@ const styles = StyleSheet.create({
   },
   menuFooter: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
+    justifyContent: 'center',
     borderTopWidth: 1.5,
     borderTopColor: '#1a1a1a',
     borderStyle: 'dashed',
@@ -337,7 +316,7 @@ const styles = StyleSheet.create({
     marginTop: 22,
   },
   footerMono: {
-    fontSize: 9,
+    fontSize: 12,
     fontWeight: '700',
     color: '#666666',
     fontFamily: 'Courier',
